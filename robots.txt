@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /migration/
+Disallow: /scripts/
+Sitemap: https://broadstreet.net/sitemap.xml

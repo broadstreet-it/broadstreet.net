@@ -1,0 +1,502 @@
+[
+  {
+    "route": "/",
+    "file": "index.html",
+    "source": "https://broadstreet.net/"
+  },
+  {
+    "route": "/downloads",
+    "file": "downloads/index.html",
+    "source": "https://broadstreet.net/downloads"
+  },
+  {
+    "route": "/web-success-signup",
+    "file": "web-success-signup/index.html",
+    "source": "https://broadstreet.net/web-success-signup"
+  },
+  {
+    "route": "/web-success-videos",
+    "file": "web-success-videos/index.html",
+    "source": "https://broadstreet.net/web-success-videos"
+  },
+  {
+    "route": "/portfolio",
+    "file": "portfolio/index.html",
+    "source": "https://broadstreet.net/portfolio"
+  },
+  {
+    "route": "/about-broadstreet-consulting-camden-scs-trusted-digital-marketing-partner",
+    "file": "about-broadstreet-consulting-camden-scs-trusted-digital-marketing-partner/index.html",
+    "source": "https://broadstreet.net/about-broadstreet-consulting-camden-scs-trusted-digital-marketing-partner"
+  },
+  {
+    "route": "/staff",
+    "file": "staff/index.html",
+    "source": "https://broadstreet.net/staff"
+  },
+  {
+    "route": "/services",
+    "file": "services/index.html",
+    "source": "https://broadstreet.net/services"
+  },
+  {
+    "route": "/blogs",
+    "file": "blogs/index.html",
+    "source": "https://broadstreet.net/blogs"
+  },
+  {
+    "route": "/contact",
+    "file": "contact/index.html",
+    "source": "https://broadstreet.net/contact"
+  },
+  {
+    "route": "/camden-sc",
+    "file": "camden-sc/index.html",
+    "source": "https://broadstreet.net/camden-sc"
+  },
+  {
+    "route": "/lancaster-sc",
+    "file": "lancaster-sc/index.html",
+    "source": "https://broadstreet.net/lancaster-sc"
+  },
+  {
+    "route": "/what-our-clients-are-saying",
+    "file": "what-our-clients-are-saying/index.html",
+    "source": "https://broadstreet.net/what-our-clients-are-saying"
+  },
+  {
+    "route": "/be-number-1-on-google",
+    "file": "be-number-1-on-google/index.html",
+    "source": "https://broadstreet.net/be-number-1-on-google"
+  },
+  {
+    "route": "/stay-connected-your-customers",
+    "file": "stay-connected-your-customers/index.html",
+    "source": "https://broadstreet.net/stay-connected-your-customers"
+  },
+  {
+    "route": "/sell-your-products-online",
+    "file": "sell-your-products-online/index.html",
+    "source": "https://broadstreet.net/sell-your-products-online"
+  },
+  {
+    "route": "/reach-your-next-generation-customers-online-marketing",
+    "file": "reach-your-next-generation-customers-online-marketing/index.html",
+    "source": "https://broadstreet.net/reach-your-next-generation-customers-online-marketing"
+  },
+  {
+    "route": "/dominate-local-markets-online",
+    "file": "dominate-local-markets-online/index.html",
+    "source": "https://broadstreet.net/dominate-local-markets-online"
+  },
+  {
+    "route": "/kershaw-county-council-aging-testimonial",
+    "file": "kershaw-county-council-aging-testimonial/index.html",
+    "source": "https://broadstreet.net/kershaw-county-council-aging-testimonial"
+  },
+  {
+    "route": "/fj-rabon-testimonial",
+    "file": "fj-rabon-testimonial/index.html",
+    "source": "https://broadstreet.net/fj-rabon-testimonial"
+  },
+  {
+    "route": "/wings-international-adventures",
+    "file": "wings-international-adventures/index.html",
+    "source": "https://broadstreet.net/wings-international-adventures"
+  },
+  {
+    "route": "/powers-gregory-staying-connected-customers",
+    "file": "powers-gregory-staying-connected-customers/index.html",
+    "source": "https://broadstreet.net/powers-gregory-staying-connected-customers"
+  },
+  {
+    "route": "/als-upstairs-online-visibility-capability",
+    "file": "als-upstairs-online-visibility-capability/index.html",
+    "source": "https://broadstreet.net/als-upstairs-online-visibility-capability"
+  },
+  {
+    "route": "/busbee-truck-parts-worldwide-reach",
+    "file": "busbee-truck-parts-worldwide-reach/index.html",
+    "source": "https://broadstreet.net/busbee-truck-parts-worldwide-reach"
+  },
+  {
+    "route": "/cotdoc-increasing-sales",
+    "file": "cotdoc-increasing-sales/index.html",
+    "source": "https://broadstreet.net/cotdoc-increasing-sales"
+  },
+  {
+    "route": "/services/mobile-friendly-website-design-development",
+    "file": "services/mobile-friendly-website-design-development/index.html",
+    "source": "https://broadstreet.net/services/mobile-friendly-website-design-development"
+  },
+  {
+    "route": "/services/ecommerce-website-development",
+    "file": "services/ecommerce-website-development/index.html",
+    "source": "https://broadstreet.net/services/ecommerce-website-development"
+  },
+  {
+    "route": "/services/search-engine-optimization-seo",
+    "file": "services/search-engine-optimization-seo/index.html",
+    "source": "https://broadstreet.net/services/search-engine-optimization-seo"
+  },
+  {
+    "route": "/adwords-consultant-services",
+    "file": "adwords-consultant-services/index.html",
+    "source": "https://broadstreet.net/adwords-consultant-services"
+  },
+  {
+    "route": "/services/google-adwords-ppc-search-engine-marketing-consulting",
+    "file": "services/google-adwords-ppc-search-engine-marketing-consulting/index.html",
+    "source": "https://broadstreet.net/services/google-adwords-ppc-search-engine-marketing-consulting"
+  },
+  {
+    "route": "/services/social-media-marketing",
+    "file": "services/social-media-marketing/index.html",
+    "source": "https://broadstreet.net/services/social-media-marketing"
+  },
+  {
+    "route": "/services/email-marketing",
+    "file": "services/email-marketing/index.html",
+    "source": "https://broadstreet.net/services/email-marketing"
+  },
+  {
+    "route": "/portfolio/glens-import-services-llc",
+    "file": "portfolio/glens-import-services-llc/index.html",
+    "source": "https://broadstreet.net/portfolio/glens-import-services-llc"
+  },
+  {
+    "route": "/portfolio/carolina-scoop-crew",
+    "file": "portfolio/carolina-scoop-crew/index.html",
+    "source": "https://broadstreet.net/portfolio/carolina-scoop-crew"
+  },
+  {
+    "route": "/portfolio/palmetto-glass",
+    "file": "portfolio/palmetto-glass/index.html",
+    "source": "https://broadstreet.net/portfolio/palmetto-glass"
+  },
+  {
+    "route": "/portfolio/nature-teacher-preserve",
+    "file": "portfolio/nature-teacher-preserve/index.html",
+    "source": "https://broadstreet.net/portfolio/nature-teacher-preserve"
+  },
+  {
+    "route": "/portfolio/commercial-dock-and-door-systems",
+    "file": "portfolio/commercial-dock-and-door-systems/index.html",
+    "source": "https://broadstreet.net/portfolio/commercial-dock-and-door-systems"
+  },
+  {
+    "route": "/portfolio/town-elgin",
+    "file": "portfolio/town-elgin/index.html",
+    "source": "https://broadstreet.net/portfolio/town-elgin"
+  },
+  {
+    "route": "/portfolio/powers-gregory-heating-cooling-hvac",
+    "file": "portfolio/powers-gregory-heating-cooling-hvac/index.html",
+    "source": "https://broadstreet.net/portfolio/powers-gregory-heating-cooling-hvac"
+  },
+  {
+    "route": "/portfolio/signs-unlimited-sc",
+    "file": "portfolio/signs-unlimited-sc/index.html",
+    "source": "https://broadstreet.net/portfolio/signs-unlimited-sc"
+  },
+  {
+    "route": "/portfolio/backcountry-beyond",
+    "file": "portfolio/backcountry-beyond/index.html",
+    "source": "https://broadstreet.net/portfolio/backcountry-beyond"
+  },
+  {
+    "route": "/portfolio/torres-law-firm",
+    "file": "portfolio/torres-law-firm/index.html",
+    "source": "https://broadstreet.net/portfolio/torres-law-firm"
+  },
+  {
+    "route": "/portfolio/thompson-rental-services",
+    "file": "portfolio/thompson-rental-services/index.html",
+    "source": "https://broadstreet.net/portfolio/thompson-rental-services"
+  },
+  {
+    "route": "/portfolio/fairfield-county-chamber",
+    "file": "portfolio/fairfield-county-chamber/index.html",
+    "source": "https://broadstreet.net/portfolio/fairfield-county-chamber"
+  },
+  {
+    "route": "/portfolio/big-red-barn-retreat",
+    "file": "portfolio/big-red-barn-retreat/index.html",
+    "source": "https://broadstreet.net/portfolio/big-red-barn-retreat"
+  },
+  {
+    "route": "/portfolio/rock-bottom-pond",
+    "file": "portfolio/rock-bottom-pond/index.html",
+    "source": "https://broadstreet.net/portfolio/rock-bottom-pond"
+  },
+  {
+    "route": "/portfolio/handy-man-purpose-llc",
+    "file": "portfolio/handy-man-purpose-llc/index.html",
+    "source": "https://broadstreet.net/portfolio/handy-man-purpose-llc"
+  },
+  {
+    "route": "/portfolio/browns-oil-lube",
+    "file": "portfolio/browns-oil-lube/index.html",
+    "source": "https://broadstreet.net/portfolio/browns-oil-lube"
+  },
+  {
+    "route": "/portfolio/stars-campus-solutions",
+    "file": "portfolio/stars-campus-solutions/index.html",
+    "source": "https://broadstreet.net/portfolio/stars-campus-solutions"
+  },
+  {
+    "route": "/portfolio/air-restoration-heating-cooling",
+    "file": "portfolio/air-restoration-heating-cooling/index.html",
+    "source": "https://broadstreet.net/portfolio/air-restoration-heating-cooling"
+  },
+  {
+    "route": "/portfolio/busbee-truck-parts",
+    "file": "portfolio/busbee-truck-parts/index.html",
+    "source": "https://broadstreet.net/portfolio/busbee-truck-parts"
+  },
+  {
+    "route": "/portfolio/laureledu",
+    "file": "portfolio/laureledu/index.html",
+    "source": "https://broadstreet.net/portfolio/laureledu"
+  },
+  {
+    "route": "/portfolio/cotdoc",
+    "file": "portfolio/cotdoc/index.html",
+    "source": "https://broadstreet.net/portfolio/cotdoc"
+  },
+  {
+    "route": "/portfolio/tyler-brothers",
+    "file": "portfolio/tyler-brothers/index.html",
+    "source": "https://broadstreet.net/portfolio/tyler-brothers"
+  },
+  {
+    "route": "/portfolio/kb-cores",
+    "file": "portfolio/kb-cores/index.html",
+    "source": "https://broadstreet.net/portfolio/kb-cores"
+  },
+  {
+    "route": "/portfolio/river-valley-recycling",
+    "file": "portfolio/river-valley-recycling/index.html",
+    "source": "https://broadstreet.net/portfolio/river-valley-recycling"
+  },
+  {
+    "route": "/portfolio/als-upstairs-italian-2013",
+    "file": "portfolio/als-upstairs-italian-2013/index.html",
+    "source": "https://broadstreet.net/portfolio/als-upstairs-italian-2013"
+  },
+  {
+    "route": "/portfolio/d-t-steel-inc",
+    "file": "portfolio/d-t-steel-inc/index.html",
+    "source": "https://broadstreet.net/portfolio/d-t-steel-inc"
+  },
+  {
+    "route": "/portfolio/hannaty-custom-powder-coating",
+    "file": "portfolio/hannaty-custom-powder-coating/index.html",
+    "source": "https://broadstreet.net/portfolio/hannaty-custom-powder-coating"
+  },
+  {
+    "route": "/portfolio/all-around-tampa-pressure-washing",
+    "file": "portfolio/all-around-tampa-pressure-washing/index.html",
+    "source": "https://broadstreet.net/portfolio/all-around-tampa-pressure-washing"
+  },
+  {
+    "route": "/portfolio/brazell-exterminating-home-repair",
+    "file": "portfolio/brazell-exterminating-home-repair/index.html",
+    "source": "https://broadstreet.net/portfolio/brazell-exterminating-home-repair"
+  },
+  {
+    "route": "/portfolio/banyan-bay-trading-company",
+    "file": "portfolio/banyan-bay-trading-company/index.html",
+    "source": "https://broadstreet.net/portfolio/banyan-bay-trading-company"
+  },
+  {
+    "route": "/blog/ai-alone-isnt-marketing-strategy",
+    "file": "blog/ai-alone-isnt-marketing-strategy/index.html",
+    "source": "https://broadstreet.net/blog/ai-alone-isnt-marketing-strategy"
+  },
+  {
+    "route": "/blog/why-your-business-isnt-showing-google-and-how-fix-it",
+    "file": "blog/why-your-business-isnt-showing-google-and-how-fix-it/index.html",
+    "source": "https://broadstreet.net/blog/why-your-business-isnt-showing-google-and-how-fix-it"
+  },
+  {
+    "route": "/blog/what-we-love-about-small-towns-and-why-we-never-left",
+    "file": "blog/what-we-love-about-small-towns-and-why-we-never-left/index.html",
+    "source": "https://broadstreet.net/blog/what-we-love-about-small-towns-and-why-we-never-left"
+  },
+  {
+    "route": "/lead-generation-services",
+    "file": "lead-generation-services/index.html",
+    "source": "https://broadstreet.net/lead-generation-services"
+  },
+  {
+    "route": "/open-source-development-services",
+    "file": "open-source-development-services/index.html",
+    "source": "https://broadstreet.net/open-source-development-services"
+  },
+  {
+    "route": "/broadstreet-consulting-google-partners-google-adwords-certified",
+    "file": "broadstreet-consulting-google-partners-google-adwords-certified/index.html",
+    "source": "https://broadstreet.net/broadstreet-consulting-google-partners-google-adwords-certified"
+  },
+  {
+    "route": "/services/local-online-marketing",
+    "file": "services/local-online-marketing/index.html",
+    "source": "https://broadstreet.net/services/local-online-marketing"
+  },
+  {
+    "route": "/services/content-management-development",
+    "file": "services/content-management-development/index.html",
+    "source": "https://broadstreet.net/services/content-management-development"
+  },
+  {
+    "route": "/services/web-mobile-app-development",
+    "file": "services/web-mobile-app-development/index.html",
+    "source": "https://broadstreet.net/services/web-mobile-app-development"
+  },
+  {
+    "route": "/services/digital-marketing-strategy-and-support",
+    "file": "services/digital-marketing-strategy-and-support/index.html",
+    "source": "https://broadstreet.net/services/digital-marketing-strategy-and-support"
+  },
+  {
+    "route": "/web-success",
+    "file": "web-success/index.html",
+    "source": "https://broadstreet.net/web-success"
+  },
+  {
+    "route": "/portfolio/page/2",
+    "file": "portfolio/page/2/index.html",
+    "source": "https://broadstreet.net/portfolio?page=1"
+  },
+  {
+    "route": "/tom-sliker",
+    "file": "tom-sliker/index.html",
+    "source": "https://broadstreet.net/tom-sliker"
+  },
+  {
+    "route": "/tom-sliker-technical-expert-digital-marketing-social-media-google-seo-search-marketing",
+    "file": "tom-sliker-technical-expert-digital-marketing-social-media-google-seo-search-marketing/index.html",
+    "source": "https://broadstreet.net/tom-sliker-technical-expert-digital-marketing-social-media-google-seo-search-marketing"
+  },
+  {
+    "route": "/buster",
+    "file": "buster/index.html",
+    "source": "https://broadstreet.net/buster"
+  },
+  {
+    "route": "/tiffany-massey",
+    "file": "tiffany-massey/index.html",
+    "source": "https://broadstreet.net/tiffany-massey"
+  },
+  {
+    "route": "/danielle-wolsleben",
+    "file": "danielle-wolsleben/index.html",
+    "source": "https://broadstreet.net/danielle-wolsleben"
+  },
+  {
+    "route": "/john-jackson",
+    "file": "john-jackson/index.html",
+    "source": "https://broadstreet.net/john-jackson"
+  },
+  {
+    "route": "/mary-souto",
+    "file": "mary-souto/index.html",
+    "source": "https://broadstreet.net/mary-souto"
+  },
+  {
+    "route": "/nyia-langley",
+    "file": "nyia-langley/index.html",
+    "source": "https://broadstreet.net/nyia-langley"
+  },
+  {
+    "route": "/services/secure-hosting-technical-support",
+    "file": "services/secure-hosting-technical-support/index.html",
+    "source": "https://broadstreet.net/services/secure-hosting-technical-support"
+  },
+  {
+    "route": "/services/logo-design",
+    "file": "services/logo-design/index.html",
+    "source": "https://broadstreet.net/services/logo-design"
+  },
+  {
+    "route": "/services/video-production",
+    "file": "services/video-production/index.html",
+    "source": "https://broadstreet.net/services/video-production"
+  },
+  {
+    "route": "/blog/storefront-online-store-guide-ecommerce-camden-and-columbia-sc-retailers",
+    "file": "blog/storefront-online-store-guide-ecommerce-camden-and-columbia-sc-retailers/index.html",
+    "source": "https://broadstreet.net/blog/storefront-online-store-guide-ecommerce-camden-and-columbia-sc-retailers"
+  },
+  {
+    "route": "/blog/google-ads-vs-seo-which-right-your-sumter-or-camden-sc-business",
+    "file": "blog/google-ads-vs-seo-which-right-your-sumter-or-camden-sc-business/index.html",
+    "source": "https://broadstreet.net/blog/google-ads-vs-seo-which-right-your-sumter-or-camden-sc-business"
+  },
+  {
+    "route": "/blog/local-seo-101-how-columbia-and-camden-sc-businesses-can-rank-higher-google",
+    "file": "blog/local-seo-101-how-columbia-and-camden-sc-businesses-can-rank-higher-google/index.html",
+    "source": "https://broadstreet.net/blog/local-seo-101-how-columbia-and-camden-sc-businesses-can-rank-higher-google"
+  },
+  {
+    "route": "/blog/why-your-camden-sc-small-business-needs-mobile-friendly-website-2026",
+    "file": "blog/why-your-camden-sc-small-business-needs-mobile-friendly-website-2026/index.html",
+    "source": "https://broadstreet.net/blog/why-your-camden-sc-small-business-needs-mobile-friendly-website-2026"
+  },
+  {
+    "route": "/blog/being-google-guide-series-part-1",
+    "file": "blog/being-google-guide-series-part-1/index.html",
+    "source": "https://broadstreet.net/blog/being-google-guide-series-part-1"
+  },
+  {
+    "route": "/blog/your-website-ugly-christmas-sweater",
+    "file": "blog/your-website-ugly-christmas-sweater/index.html",
+    "source": "https://broadstreet.net/blog/your-website-ugly-christmas-sweater"
+  },
+  {
+    "route": "/blog/celebrating-world-computer-literacy-day-december-2",
+    "file": "blog/celebrating-world-computer-literacy-day-december-2/index.html",
+    "source": "https://broadstreet.net/blog/celebrating-world-computer-literacy-day-december-2"
+  },
+  {
+    "route": "/blogs/page/2",
+    "file": "blogs/page/2/index.html",
+    "source": "https://broadstreet.net/blogs?page=1"
+  },
+  {
+    "route": "/measured-results",
+    "file": "measured-results/index.html",
+    "source": "https://broadstreet.net/measured-results"
+  },
+  {
+    "route": "/blog/3-great-simple-ways-increase-your-online-presence",
+    "file": "blog/3-great-simple-ways-increase-your-online-presence/index.html",
+    "source": "https://broadstreet.net/blog/3-great-simple-ways-increase-your-online-presence"
+  },
+  {
+    "route": "/blog/5-key-steps-getting-your-home-business-found-online",
+    "file": "blog/5-key-steps-getting-your-home-business-found-online/index.html",
+    "source": "https://broadstreet.net/blog/5-key-steps-getting-your-home-business-found-online"
+  },
+  {
+    "route": "/blog/5-tips-succeeding-google-adwords",
+    "file": "blog/5-tips-succeeding-google-adwords/index.html",
+    "source": "https://broadstreet.net/blog/5-tips-succeeding-google-adwords"
+  },
+  {
+    "route": "/blog/using-google-street-view-and-360-spherical-camera-showcase-your-small-business",
+    "file": "blog/using-google-street-view-and-360-spherical-camera-showcase-your-small-business/index.html",
+    "source": "https://broadstreet.net/blog/using-google-street-view-and-360-spherical-camera-showcase-your-small-business"
+  },
+  {
+    "route": "/book-now",
+    "file": "book-now/index.html",
+    "source": "https://broadstreet.net/book-now"
+  },
+  {
+    "route": "/blog/nyia",
+    "file": "blog/nyia/index.html",
+    "source": "https://broadstreet.net/blog/nyia"
+  }
+]

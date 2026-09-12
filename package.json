@@ -1,0 +1,1 @@
+{"name":"broadstreet-static-website","private":true,"version":"1.0.0","description":"Broadstreet.net static HTML website and Drupal migration inventory","scripts":{"start":"node serve.cjs","check":"node scripts/check.cjs"},"engines":{"node":">=18"}}
