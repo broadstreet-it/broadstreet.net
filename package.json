@@ -1,1 +1,28 @@
-{"name":"broadstreet-static-website","private":true,"version":"1.0.0","description":"Broadstreet.net static HTML website and Drupal migration inventory","scripts":{"start":"node serve.cjs","check":"node scripts/check.cjs"},"engines":{"node":">=18"}}
+{
+  "name": "broadstreet-net",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "react-router dev",
+    "build": "react-router build && node scripts/postbuild.mjs",
+    "preview": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy",
+    "typecheck": "react-router typegen",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "@react-router/node": "^7.18.4",
+    "isbot": "^5.2.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router": "^7.18.4"
+  },
+  "devDependencies": {
+    "@react-router/dev": "^7.18.4",
+    "vite": "^7.1.0",
+    "wrangler": "^4.40.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

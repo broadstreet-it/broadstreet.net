@@ -1,32 +1,76 @@
-# Broadstreet.net — first design preview
+# broadstreet.net
 
-This is a local, static HTML design draft. It is not the completed Drupal migration and has not been published.
+The Broadstreet website as a React app: **React 19 + React Router 7 (framework mode) + Vite**, deployed to **Cloudflare Workers (static assets)** from GitHub.
 
-## Preview
+Every page is **prerendered to static HTML at build time** (titles, descriptions, canonicals, Open Graph and JSON-LD all present in the HTML for Google), then hydrates into a React app so navigation between pages is instant.
 
-Run `node serve.cjs` from this folder, then visit http://127.0.0.1:4173. Node.js 18 or newer is required only for the local preview server. The website itself uses HTML, CSS, and JavaScript without a framework or build dependency. Run `node scripts/check.cjs` to check the core preview pages.
+## Local development
 
-Start feedback with the homepage, services, portfolio, and a service detail page. Most supporting pages currently retain the original content within the new shared design. They still need editorial and layout review.
+Requires Node.js 20+.
 
-## Current scope
+```bash
+npm install
+npm run dev        # http://localhost:5173 with hot reload
+npm run build      # prerender all pages to build/client
+npm run check      # verify headings, metadata, JSON-LD and local links in the build
+npm run preview    # build, then serve with Wrangler exactly as Cloudflare will (redirects, 404s, headers)
+```
 
-- First design direction: Broadstreet blue, larger type, simplified navigation, prominent client projects and consultation links.
-- Initial batch of 100 static pages. Additional captured blog and archive content is saved in the task workspace for the next migration batch.
-- Per-page titles, descriptions, canonicals, basic organization/service/article/breadcrumb structured data, sitemap, and search.
-- The existing external contact form is embedded. No test inquiry has been submitted. Its production behavior must be verified before launch.
-- Some original images and downloads still reference the current site. See `migration/asset-review.csv`; these must be localized before replacing Drupal.
+## Project layout
 
-## Migration files — provisional, not launch ready
+```
+app/
+  root.jsx              HTML shell, <head>, site layout (header / CTA / footer), error boundary
+  routes.js             One line per page: URL -> page module
+  site.css              Site styles
+  components/           Header (mobile menu), Footer + CallToAction
+  lib/seo.js            seo() helper: meta tags + shared Organization/WebSite JSON-LD
+  pages/                One component per page, mirroring the URL
+    home.jsx            /
+    contact.jsx         /contact/
+    services/logo-design.jsx   /services/logo-design/
+    search.jsx          /search/ (client-side search over public/search-index.json)
+    not-found.jsx       404 page (catch-all route)
+public/                 Copied as-is to the site root
+  assets/media/         Images and downloads
+  _redirects            301s for legacy Drupal URLs (Cloudflare format)
+  _headers              Security + cache headers
+  sitemap.xml, robots.txt, favicon.ico, search-index.json
+worker/index.js         Tiny Worker for the two ?page=1 legacy redirects (_redirects can't match query strings)
+wrangler.jsonc          Cloudflare config
+scripts/                postbuild (creates 404.html) and check
+migration/              Drupal migration inventory and notes (not deployed)
+```
 
-- `migration/url-inventory.csv`: initial captured URL mapping.
-- `migration/pages-not-retained-at-original-url.csv`: aliases, pagination, and unresolved URLs from that batch.
-- `migration/301-redirects.csv`: proposed 301 mappings.
-- `migration/deferred-pages.csv`: additional captured or discovered URLs intentionally deferred from this first design preview; these are not deleted-page decisions.
-- `migration/seo-metadata.csv`: titles and descriptions for review.
-- `.htaccess`: Apache configuration draft. The preview server also exercises the draft redirect map. Your production host must support and install equivalent rules; HTML files alone cannot issue HTTP 301s.
+### Editing content
 
-This inventory is incomplete because archive migration was intentionally paused for design feedback. Do not use it as the final launch redirect list. Before launch, reconcile the remaining crawl, Drupal URL aliases and node paths, existing redirects, Search Console URLs, and server logs; verify every old URL and redirect destination against the production host. Do not redirect all unknown URLs to the homepage.
+- **Change a page:** edit its file in `app/pages/` — it's plain JSX. Use `<Link to="/path/">` for internal links.
+- **Change SEO for a page:** edit the `seo({...})` call at the top of that page file.
+- **Add a page:** create `app/pages/my-page.jsx` (copy an existing one), add `route("my-page", "pages/my-page.jsx")` to `app/routes.js`, and add the URL to `public/sitemap.xml` and (optionally) `public/search-index.json`.
+- **Header / footer / CTA:** `app/components/`.
+- **Redirects:** `public/_redirects` (`/old-path /new-path/ 301`).
 
-The homepage uses the requested 20+ years positioning. The original homepage says founded in 2010, while the original Camden page says over 20 years. Confirm the precise business history before launch. Historic articles retain their original claims and dates and need a separate editorial review.
+URLs keep their trailing slash (`/services/`), matching the canonicals; Cloudflare redirects `/services` → `/services/` automatically.
 
-SEO references: [Google title guidance](https://developers.google.com/search/docs/appearance/title-link), [meta descriptions](https://developers.google.com/search/docs/appearance/snippet), and [AI search features](https://developers.google.com/search/docs/appearance/ai-features). Google’s ordinary SEO guidance also applies to its AI search experiences; markup does not guarantee rankings or AI citations.
+## Deploying to Cloudflare from GitHub
+
+1. Push this repo to GitHub.
+2. In the Cloudflare dashboard: **Workers & Pages → Create → Import a repository**, and pick the repo.
+3. Use these build settings:
+   - **Build command:** `npm run build`
+   - **Deploy command:** `npx wrangler deploy`
+   - Root directory: `/` (leave default)
+4. Deploy. Every push to `main` redeploys; other branches get preview URLs.
+5. Add your domain under the Worker's **Settings → Domains & Routes** (`broadstreet.net` and `www.broadstreet.net`).
+
+The Worker name comes from `wrangler.jsonc` (`broadstreet-net`) and must match the name you give the project in Cloudflare.
+
+## Before launch
+
+Carried over from the migration notes (see `migration/`):
+
+- Some local links point to pages not migrated yet (old blog posts, tag pages, `/drupal/`, etc.). `npm run check` lists them. Migrate those pages or add redirects in `public/_redirects`.
+- Some images/downloads still reference the old site — see `migration/asset-review.csv`.
+- The redirect list is provisional — reconcile against Search Console, Drupal aliases and server logs before switching DNS.
+- The contact form is an embedded LeadConnector form; submit a test inquiry on the live domain.
+- Confirm the "20+ years" business-history claim.

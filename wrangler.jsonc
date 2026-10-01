@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "broadstreet-net",
+  "compatibility_date": "2026-09-01",
+  // Tiny Worker that only handles legacy query-string redirects (?page=1);
+  // everything else is served straight from the static assets.
+  "main": "worker/index.js",
+  "assets": {
+    "directory": "./build/client",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/portfolio", "/portfolio/", "/blogs", "/blogs/"]
+  },
+  "observability": { "enabled": true }
+}
