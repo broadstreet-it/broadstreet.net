@@ -8,6 +8,9 @@
   // Build the site before every deploy, so `wrangler deploy` works even if
   // Cloudflare's "Build command" setting is left empty.
   "build": { "command": "npm run build" },
+  // Serve the site on dev.broadstreet.net. Because the broadstreet.net zone is in
+  // the same Cloudflare account, deploy creates the DNS record and SSL cert.
+  "routes": [{ "pattern": "dev.broadstreet.net", "custom_domain": true }],
   "assets": {
     "directory": "./build/client",
     "binding": "ASSETS",
