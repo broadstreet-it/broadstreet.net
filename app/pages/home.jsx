@@ -33,7 +33,7 @@ export default function Home() {
               <br />
               Your next chapter.
               <br />
-              <em>Let’s build it.</em>
+              <em>Let’s build it now.</em>
             </h1>
             <p className="lead">
               Websites, search, and digital marketing that help the right people find you—and give
