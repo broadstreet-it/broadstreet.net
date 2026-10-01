@@ -5,6 +5,9 @@
   // Tiny Worker that only handles legacy query-string redirects (?page=1);
   // everything else is served straight from the static assets.
   "main": "worker/index.js",
+  // Build the site before every deploy, so `wrangler deploy` works even if
+  // Cloudflare's "Build command" setting is left empty.
+  "build": { "command": "npm run build" },
   "assets": {
     "directory": "./build/client",
     "binding": "ASSETS",
