@@ -4,3 +4,7 @@
 
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
+
+# Keep the dev site out of search results (canonicals already point to broadstreet.net).
+https://dev.broadstreet.net/*
+  X-Robots-Tag: noindex
