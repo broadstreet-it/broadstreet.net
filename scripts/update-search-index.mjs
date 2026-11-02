@@ -17,7 +17,7 @@ const added = [
   { href: "/services/get-found/", title: "Get Found: SEO, Google Business Profile & Google Ads", description: "Local SEO, Google Business Profile and Google Ads management for Carolina businesses.", text: "SEO search engine optimization Google Business Profile Google Ads ranking reports local search maps" },
   { href: "/services/websites/", title: "Websites", description: "Fast, mobile-friendly website design and online stores.", text: "website design eCommerce online store Drupal development inventory accounting integration mobile-friendly" },
   { href: "/services/stay-connected/", title: "Stay Connected: social media & email", description: "Social media marketing, email marketing, video and social ads.", text: "social media Facebook Instagram LinkedIn email marketing video content social advertising" },
-  { href: "/services/grow/", title: "Grow: monthly support & lead generation", description: "Monthly support plans, lead generation, strategy reviews and training.", text: "monthly support plans updates training strategy reviews free redesigns lead generation" },
+  { href: "/services/grow/", title: "Grow: monthly support & lead generation", description: "Monthly support plans, lead generation, strategy reviews and training.", text: "monthly support plans updates training strategy reviews monthly reports lead generation" },
   { href: "/services/bridges-crm/", title: "Bridges CRM", description: "One inbox, automatic follow-up, booking and review requests.", text: "CRM customer relationship management leads pipeline inbox texting follow-up missed call text back booking reminders reviews" },
   ...areas.map(([slug, name]) => ({
     href: `/web-design-${slug}/`,

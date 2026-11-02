@@ -34,7 +34,7 @@ const page = {
     ["Mobile first", "Built for phones"],
     ["Built to convert", "More calls and emails"],
     ["SEO ready", "Set up to rank on Google"],
-    ["Free redesigns", "With a monthly plan"],
+    ["Local support", "Updates when you need them"],
   ],
   blocksLabel: "What we build",
   blocksTitle: <>Four ways we <span className="c-red">build your business</span> online</>,
@@ -50,7 +50,7 @@ const page = {
     ["Free review", "We look at your current site, your goals and what your customers need to find."],
     ["Design", "You see your new site take shape and tell us what to change."],
     ["Build & launch", "We build, test on phones and computers, and launch with tracking in place."],
-    ["Support", "Monthly updates, training and free redesigns keep your site fresh."],
+    ["Support", "Monthly updates and training keep your site fresh."],
   ],
   proof: {
     label: "Client story · Busbee Truck Parts",

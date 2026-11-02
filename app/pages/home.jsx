@@ -87,7 +87,6 @@ export default function Home() {
           <ServiceGroups />
           <div className="all-svc">
             <Link className="button btn-yellow" to="/services/">See all services</Link>
-            <span>Including app development, the Bridges CRM and free Web Success videos and guides.</span>
           </div>
         </div>
       </section>
@@ -135,12 +134,9 @@ export default function Home() {
               <span className="more">Read the story →</span>
             </Link>
           </div>
-          <p className="client-names" aria-label="Some of our clients">
-            <span>Town of Elgin</span><span>Palmetto Glass</span><span>Torres Law Firm</span>
-            <span>Laurel Business Institute</span><span>Tyler Brothers</span>
-            <span>River Valley Recycling</span><span>Signs Unlimited SC</span><span>D &amp; T Steel</span>
-            <span>KB Cores</span>
-          </p>
+          <div className="all-svc">
+            <Link className="button btn-yellow" to="/portfolio/">View our portfolio</Link>
+          </div>
         </div>
       </section>
 

@@ -5,11 +5,11 @@ import { RELATED } from "../../components/ui";
 const PATH = "/services/grow/";
 const TITLE = "Monthly Website Support & Lead Generation | Broadstreet.net";
 const DESCRIPTION =
-  "Monthly website support plans with design and content updates, training, strategy reviews and free redesigns, plus lead generation for Carolina businesses.";
+  "Monthly website support plans with design and content updates, training and strategy reviews, plus lead generation for Carolina businesses.";
 
 const FAQ = [
   { q: "What counts as an update?", a: "Text and photo changes, new pages, specials, staff changes and design tweaks. If you’re not sure, just send it and we’ll let you know." },
-  { q: "Do redesigns really come free?", a: "Yes. Free redesigns and upgrades are part of our monthly plans, so your site doesn’t fall behind." },
+  { q: "How do I send a change?", a: "Call, text or email us. We’ll take care of it and let you know when it’s done." },
   { q: "Can I get support for a site you didn’t build?", a: "Often, yes. We’ll take a look during your free consultation and tell you plainly what’s possible." },
 ];
 
@@ -27,18 +27,18 @@ const page = {
   accent: "var(--g-green)",
   label: "Grow · Support, leads & training",
   title: <>A team in your corner, <span className="c-green">every month</span></>,
-  lede: "Your website and marketing need regular care. Our monthly plans cover updates, training and strategy reviews, and include free redesigns and upgrades as your business grows.",
+  lede: "Your website and marketing need regular care. Our monthly plans cover updates, training and strategy reviews, so your website and marketing keep up as your business grows.",
   actions: undefined,
   jump: [["support", "Monthly support"], ["leads", "Lead generation"], ["training", "Strategy & training"], ["faq", "Questions"]],
   facts: [
     ["Updates", "Design and content changes"],
     ["Training", "For you and your staff"],
     ["Strategy reviews", "Scheduled check-ins"],
-    ["Free redesigns", "Included with your plan"],
+    ["Monthly reports", "See what’s working"],
   ],
   blocksTitle: <>Three ways we <span className="c-green">keep you growing</span></>,
   blocks: [
-    { id: "support", color: "var(--g-green)", label: "Monthly support plans", title: "Never worry about your website again", text: "Send us a change and we’ll make it. Our plans cover design and content updates, training, scheduled strategy reviews, and free redesigns and upgrades when it’s time for something new.", listTitle: "Every plan includes", items: ["Design and content updates", "Training for you and your staff", "Scheduled strategy reviews", "Free redesigns and upgrades", "A local team that answers the phone"], link: { to: "/services/digital-marketing-strategy-and-support/", text: "More about ongoing support" } },
+    { id: "support", color: "var(--g-green)", label: "Monthly support plans", title: "Never worry about your website again", text: "Send us a change and we’ll make it. Our plans cover design and content updates, training and scheduled strategy reviews.", listTitle: "Every plan includes", items: ["Design and content updates", "Training for you and your staff", "Scheduled strategy reviews", "A local team that answers the phone"], link: { to: "/services/digital-marketing-strategy-and-support/", text: "More about ongoing support" } },
     { id: "leads", color: "var(--g-blue)", label: "Lead generation", title: "More calls, forms and walk-ins", text: "We combine your website, Google and social media into one plan aimed at a single goal: more people contacting your business, and knowing where each one came from.", items: ["Call and form tracking", "Landing pages for your offers", "Follow-up by email", "Monthly lead reports"], link: { to: "/lead-generation-services/", text: "More about lead generation" } },
     { id: "training", color: "var(--gold)", label: "Strategy reviews & training", title: "Know what’s working", text: "We sit down with you on a regular schedule to look at the numbers, talk about what’s working and plan what’s next, in plain English.", items: ["Regular strategy meetings", "Reports on traffic, rankings and leads", "Hands-on training for your team"] },
   ],

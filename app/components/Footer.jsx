@@ -1,10 +1,9 @@
 import { Link } from "react-router";
-import { GoogleWord, LogoMark } from "./Header";
 
 export function CallToAction() {
   return (
     <section className="cta-band" aria-label="Contact us">
-      <div className="wrap cta">
+      <div className="wrap cta solo">
         <div>
           <h2>
             Let’s get your <span className="c-yellow">phone ringing</span>
@@ -22,17 +21,6 @@ export function CallToAction() {
             </a>
           </div>
         </div>
-        <ul>
-          <li>
-            <b>Camden, SC</b>537 E DeKalb St, Camden, SC 29020
-          </li>
-          <li>
-            <b>Lancaster, SC</b>Serving Lancaster County businesses
-          </li>
-          <li>
-            <b>Carolinas &amp; beyond</b>In person or by phone and video
-          </li>
-        </ul>
       </div>
     </section>
   );
@@ -47,13 +35,14 @@ export default function Footer() {
           <div className="footer-grid">
             <div>
               <Link className="brand" to="/" aria-label="Broadstreet.net home">
-                <LogoMark light />
-                <span className="brand-text">
-                  <b>Broadstreet.net</b>
-                  <small>
-                    Your Local <GoogleWord /> Partner
-                  </small>
-                </span>
+                <img
+                  className="brand-logo"
+                  src="/assets/media/broadstreet-logo-white.webp"
+                  alt="Broadstreet.net — Your Local Google Partner"
+                  width="2000"
+                  height="335"
+                  loading="lazy"
+                />
               </Link>
               <address>
                 <span>Broadstreet Consulting, LLC</span>
