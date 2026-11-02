@@ -169,10 +169,8 @@ export default function ServicesEcommerceWebsiteDevelopment() {
                           <p>
                             See an example of our e-Commerce work:{" "}
                             <b>
-                              <Link to="/portfolio/backcountry-beyond/">
-                                {
-                                  "Check out our client Backcountry & Beyond and their completely custom online store using Drupal"
-                                }
+                              <Link to="/cotdoc-increasing-sales/">
+                                See how CotDoc increased sales with its online store
                               </Link>
                             </b>
                           </p>

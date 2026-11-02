@@ -58,7 +58,43 @@ export default function SiteMap() {
               <Link to="/downloads/">Downloads</Link>
             </li>
             <li>
-              <Link to="/web-success-signup/">Request a Web Success Webinar or Live Seminar</Link>
+              <Link to="/services/get-found/">Get Found: SEO, Google Business Profile &amp; Google Ads</Link>
+            </li>
+            <li>
+              <Link to="/services/websites/">Websites</Link>
+            </li>
+            <li>
+              <Link to="/services/stay-connected/">Stay Connected: social media &amp; email</Link>
+            </li>
+            <li>
+              <Link to="/services/grow/">Grow: monthly support &amp; lead generation</Link>
+            </li>
+            <li>
+              <Link to="/services/bridges-crm/">Bridges CRM</Link>
+            </li>
+            <li>
+              <Link to="/web-design-columbia-sc/">Web design in Columbia, SC</Link>
+            </li>
+            <li>
+              <Link to="/web-design-lexington-sc/">Web design in Lexington, SC</Link>
+            </li>
+            <li>
+              <Link to="/web-design-sumter-sc/">Web design in Sumter, SC</Link>
+            </li>
+            <li>
+              <Link to="/web-design-florence-sc/">Web design in Florence, SC</Link>
+            </li>
+            <li>
+              <Link to="/web-design-darlington-sc/">Web design in Darlington, SC</Link>
+            </li>
+            <li>
+              <Link to="/web-design-aiken-sc/">Web design in Aiken, SC</Link>
+            </li>
+            <li>
+              <Link to="/web-design-myrtle-beach-sc/">Web design in Myrtle Beach, SC</Link>
+            </li>
+            <li>
+              <Link to="/web-design-charlotte-nc/">Web design in Charlotte, NC</Link>
             </li>
             <li>
               <Link to="/web-success-videos/">Web Success Videos</Link>
@@ -202,16 +238,10 @@ export default function SiteMap() {
               <Link to="/portfolio/signs-unlimited-sc/">Signs Unlimited SC</Link>
             </li>
             <li>
-              <Link to="/portfolio/backcountry-beyond/">{"Backcountry & Beyond"}</Link>
-            </li>
-            <li>
               <Link to="/portfolio/torres-law-firm/">Torres Law Firm</Link>
             </li>
             <li>
               <Link to="/portfolio/thompson-rental-services/">Thompson Rental Services</Link>
-            </li>
-            <li>
-              <Link to="/portfolio/fairfield-county-chamber/">Fairfield County Chamber</Link>
             </li>
             <li>
               <Link to="/portfolio/big-red-barn-retreat/">The Big Red Barn Retreat</Link>
@@ -320,7 +350,7 @@ export default function SiteMap() {
               </Link>
             </li>
             <li>
-              <Link to="/web-success/">Web Success</Link>
+              <Link to="/services/#web-success">Web Success</Link>
             </li>
             <li>
               <Link to="/tom-sliker/">Tom Sliker</Link>

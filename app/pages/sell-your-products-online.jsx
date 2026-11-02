@@ -168,10 +168,8 @@ export default function SellYourProductsOnline() {
                             <p>
                               <b>
                                 Related:{" "}
-                                <Link to="/portfolio/backcountry-beyond/">
-                                  {
-                                    "Check out our client Backcountry & Beyond and their completely custom online store using Drupal"
-                                  }
+                                <Link to="/cotdoc-increasing-sales/">
+                                  See how CotDoc increased sales with its online store
                                 </Link>
                               </b>
                             </p>
