@@ -104,6 +104,7 @@ export default [
   route("tom-sliker-technical-expert-digital-marketing-social-media-google-seo-search-marketing", "pages/tom-sliker-technical-expert-digital-marketing-social-media-google-seo-search-marketing.jsx"),
   route("tom-sliker", "pages/tom-sliker.jsx"),
   route("web-success-videos", "pages/web-success-videos.jsx"),
+  route("web-success", "pages/web-success.jsx"),
   route("what-our-clients-are-saying", "pages/what-our-clients-are-saying.jsx"),
   route("wings-international-adventures", "pages/wings-international-adventures.jsx"),
   route("*", "pages/not-found.jsx"),

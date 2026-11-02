@@ -29,7 +29,7 @@ const page = {
   label: "Get Found · SEO, Google Business Profile & Google Ads",
   title: <>Be the business locals <span className="c-yellow">find first</span></>,
   lede: "When someone nearby searches for what you do, you should be at the top. We get you there with SEO, a strong Google Business Profile and Google Ads managed by our certified team.",
-  jump: [["seo", "SEO"], ["gbp", "Google Business Profile"], ["ads", "Google Ads"], ["reports", "Ranking reports"], ["faq", "Questions"]],
+  cards: true,
   facts: [
     ["Certified Google Partner", "Google Ads experts on staff"],
     ["15+ years", "Ranking local businesses"],

@@ -34,7 +34,9 @@ export function PageHero({ crumbs = [], label, title, lede, actions, jump }) {
         )}
         {jump && (
           <nav className="jump" aria-label="On this page">
-            {jump.map(([id, text]) => <a key={id} href={`#${id}`}>{text}</a>)}
+            {jump.map(([id, text]) =>
+              id.startsWith("/") ? <Link key={id} to={id}>{text}</Link> : <a key={id} href={`#${id}`}>{text}</a>,
+            )}
           </nav>
         )}
       </div>

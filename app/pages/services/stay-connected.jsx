@@ -28,7 +28,7 @@ const page = {
   label: "Stay Connected · Social media, email & video",
   title: <>Stay in front of <span className="c-yellow">your customers</span></>,
   lede: "Most customers don’t buy the first time they find you. Social media, email and video keep your business on their mind until they’re ready, and bring them back after.",
-  jump: [["social", "Social media"], ["email", "Email marketing"], ["video", "Video & content"], ["ads", "Social ads"], ["faq", "Questions"]],
+  cards: true,
   facts: [
     ["Facebook", "Pages, posts and ads"],
     ["Instagram", "Posts and stories"],

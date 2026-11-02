@@ -72,7 +72,7 @@
 /node/259 /services/content-management-development/ 301
 /node/255 /services/web-mobile-app-development/ 301
 /node/256 /services/digital-marketing-strategy-and-support/ 301
-/node/290 /services/#web-success 301
+/node/290 /web-success/ 301
 /node/219 /tom-sliker/ 301
 /node/389 /tom-sliker-technical-expert-digital-marketing-social-media-google-seo-search-marketing/ 301
 /node/468 /buster/ 301
@@ -102,9 +102,7 @@
 /portfolio/backcountry-beyond/ /portfolio/ 301
 /portfolio/fairfield-county-chamber /portfolio/ 301
 /portfolio/fairfield-county-chamber/ /portfolio/ 301
-/web-success /services/#web-success 301
-/web-success/ /services/#web-success 301
-/web-success-signup /services/#web-success 301
-/web-success-signup/ /services/#web-success 301
+/web-success-signup /web-success/ 301
+/web-success-signup/ /web-success/ 301
 /services/local-online-marketing /services/google-business-profile/ 301
 /services/local-online-marketing/ /services/google-business-profile/ 301

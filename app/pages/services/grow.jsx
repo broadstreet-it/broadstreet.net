@@ -29,7 +29,7 @@ const page = {
   title: <>A team in your corner, <span className="c-green">every month</span></>,
   lede: "Your website and marketing need regular care. Our monthly plans cover updates, training and strategy reviews, so your website and marketing keep up as your business grows.",
   actions: undefined,
-  jump: [["support", "Monthly support"], ["leads", "Lead generation"], ["training", "Strategy & training"], ["faq", "Questions"]],
+  cards: true,
   facts: [
     ["Updates", "Design and content changes"],
     ["Training", "For you and your staff"],

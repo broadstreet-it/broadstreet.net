@@ -10,15 +10,52 @@ export const NAV = [
   { to: "/contact/", label: "Contact" },
 ];
 
-// Items in the Services dropdown. The "Services" link itself goes to the landing page.
+// The Services dropdown: every service links to its own page, grouped under headings.
+// The "Services" link itself goes to the landing page.
 export const SERVICE_MENU = [
-  { to: "/services/get-found/", label: "Get Found", text: "SEO, Google Business Profile & Google Ads", c: "var(--g-blue)" },
-  { to: "/services/websites/", label: "Websites", text: "Website design & online stores", c: "var(--g-red)" },
-  { to: "/services/stay-connected/", label: "Stay Connected", text: "Social media, email & video", c: "var(--g-yellow)" },
-  { to: "/services/grow/", label: "Grow", text: "Monthly support & lead generation", c: "var(--g-green)" },
-  { to: "/services/web-mobile-app-development/", label: "App Development", text: "Mobile apps, web apps & portals", c: "var(--g-blue)", isNew: true },
-  { to: "/services/bridges-crm/", label: "Bridges CRM", text: "One inbox & automatic follow-up", c: "var(--g-red)", isNew: true },
-  { to: "/services/#web-success", label: "Web Success", text: "Free videos & guides, no sign-up", c: "var(--g-green)" },
+  {
+    title: "Get Found", to: "/services/get-found/", c: "var(--g-blue)",
+    items: [
+      ["Search engine optimization", "/services/search-engine-optimization-seo/"],
+      ["Google Business Profile", "/services/google-business-profile/"],
+      ["Google Ads management", "/services/google-adwords-ppc-search-engine-marketing-consulting/"],
+      ["Ranking & results reports", "/services/reporting/"],
+    ],
+  },
+  {
+    title: "Websites", to: "/services/websites/", c: "var(--g-red)",
+    items: [
+      ["Website design", "/services/mobile-friendly-website-design-development/"],
+      ["Online stores", "/services/ecommerce-website-development/"],
+      ["Drupal development", "/open-source-development-services/"],
+      ["Inventory & accounting", "/services/inventory-accounting-integration/"],
+    ],
+  },
+  {
+    title: "Stay Connected", to: "/services/stay-connected/", c: "var(--gold)",
+    items: [
+      ["Social media marketing", "/services/social-media-marketing/"],
+      ["Email marketing", "/services/email-marketing/"],
+      ["Video & content", "/services/video-production/"],
+      ["Social advertising", "/services/social-advertising/"],
+    ],
+  },
+  {
+    title: "Grow", to: "/services/grow/", c: "var(--g-green)",
+    items: [
+      ["Monthly support plans", "/services/digital-marketing-strategy-and-support/"],
+      ["Lead generation", "/lead-generation-services/"],
+      ["Strategy reviews & training", "/services/strategy-training/"],
+    ],
+  },
+  {
+    title: "More", c: "var(--g-yellow)",
+    items: [
+      ["App development", "/services/web-mobile-app-development/", true],
+      ["Bridges CRM", "/services/bridges-crm/", true],
+      ["Web Success (free)", "/web-success/"],
+    ],
+  },
 ];
 
 function ServicesDropdown() {
@@ -65,19 +102,23 @@ function ServicesDropdown() {
         <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" strokeWidth="2" fill="none" /></svg>
       </button>
       <div className="nav-dd-panel" id="services-menu">
-        <ul>
-          {SERVICE_MENU.map((s) => (
-            <li key={s.to}>
-              <Link to={s.to} style={{ "--c": s.c }}>
-                <b>
-                  {s.label}
-                  {s.isNew && <span className="new">New</span>}
-                </b>
-                <span>{s.text}</span>
-              </Link>
-            </li>
+        <div className="nav-dd-cols">
+          {SERVICE_MENU.map((g) => (
+            <div className="nav-dd-col" key={g.title} style={{ "--c": g.c }}>
+              {g.to ? <Link className="nav-dd-head" to={g.to}>{g.title}</Link> : <span className="nav-dd-head">{g.title}</span>}
+              <ul>
+                {g.items.map(([label, to, isNew]) => (
+                  <li key={to}>
+                    <Link to={to}>
+                      {label}
+                      {isNew && <span className="new">New</span>}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           ))}
-        </ul>
+        </div>
         <Link className="nav-dd-all" to="/services/">View all services →</Link>
       </div>
     </div>
@@ -178,10 +219,13 @@ export default function Header() {
             <details className="mobile-services">
               <summary>Services</summary>
               <Link to="/services/">All services</Link>
-              {SERVICE_MENU.map((s) => (
-                <Link key={s.to} to={s.to} style={{ "--c": s.c }}>
-                  {s.label}
-                </Link>
+              {SERVICE_MENU.map((g) => (
+                <div className="mobile-group" key={g.title} style={{ "--c": g.c }}>
+                  <span className="mobile-group-head">{g.title}</span>
+                  {g.items.map(([label, to]) => (
+                    <Link key={to} to={to}>{label}</Link>
+                  ))}
+                </div>
               ))}
             </details>
             {NAV.slice(1).map((item) => (

@@ -1,8 +1,27 @@
+import { Link } from "react-router";
 import { Blocks, Facts, Faq, PageHero, Proof, Related, SectionHead, Steps } from "./ui";
 
+/** One white card per service in a group; each opens that service's own page. */
+function ServiceCards({ items }) {
+  return (
+    <div className="svc-grid svc-grid-2">
+      {items.map((b) => (
+        <article className="svc" key={b.id} style={{ "--c": b.color }}>
+          <span className="label" style={{ "--lc": b.color, margin: 0 }}>{b.label}</span>
+          <h3><Link to={b.link.to}>{b.title}</Link></h3>
+          <p>{b.text}</p>
+          <ul>{b.items.slice(0, 4).map((i) => <li key={i}>{i}</li>)}</ul>
+          <Link className="more" to={b.link.to} aria-label={`Learn more about ${b.label}`}>Learn more →</Link>
+        </article>
+      ))}
+    </div>
+  );
+}
+
 /**
- * Layout shared by the service pages: hero, color facts, detail blocks, steps,
- * proof, FAQ and related services. `children` renders after the facts strip.
+ * Layout shared by the service pages: hero, color facts, services (as cards linking to their
+ * own pages when page.cards is set, otherwise feature blocks), steps, proof, FAQ and related.
+ * `children` renders after the facts strip.
  */
 export default function ServicePage({ page, children }) {
   return (
@@ -20,7 +39,7 @@ export default function ServicePage({ page, children }) {
       <section className="section">
         <div className="wrap">
           <SectionHead label={page.blocksLabel || "What we do"} title={page.blocksTitle} />
-          <Blocks items={page.blocks} note={page.blocksNote} />
+          {page.cards ? <ServiceCards items={page.blocks} /> : <Blocks items={page.blocks} note={page.blocksNote} />}
         </div>
       </section>
       <section className="section alt">

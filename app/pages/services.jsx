@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { pageSeo, serviceNode } from "../lib/seo";
 import { Icon, PageHero, SectionHead, ServiceGroups } from "../components/ui";
+import WebSuccessBand from "../components/WebSuccess";
 
 const TITLE = "Services | Web Design, SEO, Apps & CRM | Broadstreet.net";
 const DESCRIPTION =
@@ -32,8 +33,10 @@ export default function Services() {
         lede="Websites, Google, social media, custom apps and a CRM that follows up for you. Hire us for one service or let us run the whole plan, all with one local team."
         actions={false}
         jump={[
-          ["get-found", "Get Found"], ["websites", "Websites"], ["stay-connected", "Stay Connected"], ["grow", "Grow"],
-          ["apps", "App Development"], ["bridges", "Bridges CRM"], ["web-success", "Web Success"],
+          ["/services/get-found/", "Get Found"], ["/services/websites/", "Websites"],
+          ["/services/stay-connected/", "Stay Connected"], ["/services/grow/", "Grow"],
+          ["/services/web-mobile-app-development/", "App Development"], ["/services/bridges-crm/", "Bridges CRM"],
+          ["/web-success/", "Web Success"],
         ]}
       />
 
@@ -88,49 +91,7 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="section ws-band" id="web-success">
-        <div className="wrap">
-          <div className="ws-top">
-            <div>
-              <span className="free-tag">
-                <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7" stroke="currentColor" strokeWidth="3.4" fill="none" /></svg>
-                Free · No sign-up
-              </span>
-              <span className="label">Web Success</span>
-              <h2>Learn how to win online</h2>
-            </div>
-            <p>Web Success is the framework we use with every client. Watch the videos and download the guides any time. No forms, no email required.</p>
-          </div>
-          <div className="strategies">
-            {[
-              ["Website", "Turn visitors into calls"], ["eCommerce", "Sell around the clock"], ["Content", "Answer what customers ask"],
-              ["Social media", "Stay top of mind"], ["Email", "Bring customers back"], ["Search", "Get found on Google"],
-            ].map(([b, s]) => (
-              <div className="strategy" key={b}><b>{b}</b><span>{s}</span></div>
-            ))}
-          </div>
-          <div className="ws-body">
-            <div className="ws-card">
-              <h3>The 9 Essentials video series</h3>
-              <ol>
-                <li>Increasing online sales</li><li>Your website and your storefront</li><li>How Google works</li>
-                <li>SEO and SEM basics</li><li>Social media marketing</li><li>Email marketing</li>
-                <li>Bing, Yahoo &amp; Google Local</li><li>Buying ads that pay off</li><li>Measuring success</li>
-              </ol>
-              <div className="actions">
-                <Link className="button btn-green" to="/web-success-videos/">▶ Watch the series</Link>
-              </div>
-            </div>
-            <div className="ws-card">
-              <h3>Free guides</h3>
-              <p>Downloadable worksheets and guides that walk you through each part of the Web Success framework. Open them right away, no sign-up.</p>
-              <div className="actions">
-                <Link className="button btn-outline-dark" to="/downloads/">Browse the guides</Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <WebSuccessBand more />
 
       <section className="section">
         <div className="wrap">

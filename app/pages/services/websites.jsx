@@ -29,7 +29,7 @@ const page = {
   label: "Websites · Design, online stores & development",
   title: <>Websites that make <span className="c-yellow">the phone ring</span></>,
   lede: "Simple, fast, mobile-friendly websites built to turn visitors into calls and emails. When you’re ready to sell online, we build full online stores that connect to your inventory and accounting.",
-  jump: [["design", "Website design"], ["stores", "Online stores"], ["drupal", "Drupal development"], ["integration", "Inventory & accounting"], ["faq", "Questions"]],
+  cards: true,
   facts: [
     ["Mobile first", "Built for phones"],
     ["Built to convert", "More calls and emails"],

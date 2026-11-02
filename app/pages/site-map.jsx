@@ -362,7 +362,7 @@ export default function SiteMap() {
               </Link>
             </li>
             <li>
-              <Link to="/services/#web-success">Web Success</Link>
+              <Link to="/web-success/">Web Success</Link>
             </li>
             <li>
               <Link to="/tom-sliker/">Tom Sliker</Link>

@@ -61,7 +61,7 @@ export default function Footer() {
                 <li><Link to="/services/grow/">Grow</Link></li>
                 <li><Link to="/services/web-mobile-app-development/">App Development</Link></li>
                 <li><Link to="/services/bridges-crm/">Bridges CRM</Link></li>
-                <li><Link to="/services/#web-success">Web Success</Link></li>
+                <li><Link to="/web-success/">Web Success</Link></li>
               </ul>
             </div>
             <div>
