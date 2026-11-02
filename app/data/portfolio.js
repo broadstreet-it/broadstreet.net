@@ -258,9 +258,9 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Glen's Import Services LLC: website design, online presence, and a partnership built around the client’s business.",
     "url": "https://glensimportservice.com/",
     "image": {
-      "src": "/assets/media/be3a932eef5a08a9.png",
-      "width": 1366,
-      "height": 2147
+      "src": "/assets/media/glens-import-service.webp",
+      "width": 588,
+      "height": 2000
     },
     "services": [
       [

@@ -28,8 +28,13 @@ export const caseStudyMeta = (slug) => {
 
 /** A site screenshot inside a browser-style frame. Tall screenshots scroll on hover. */
 export function BrowserShot({ p, size = "large", eager = false }) {
+  // Keep small screenshots near their real width so they don't get blown up and blurry.
+  const narrow = size === "large" && p.image.width && p.image.width < 1000;
   return (
-    <figure className={`browser browser-${size}`}>
+    <figure
+      className={`browser browser-${size}`}
+      style={narrow ? { maxWidth: Math.round(p.image.width * 1.25), marginInline: "auto" } : undefined}
+    >
       <div className="browser-bar" aria-hidden="true">
         <i></i><i></i><i></i>
         <span>{domainOf(p.url) || p.name}</span>
