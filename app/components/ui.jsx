@@ -171,7 +171,7 @@ export function Proof({ quote, cite, label, color, side }) {
 
 export const REVIEWS = [
   { q: "When I text or email they respond almost immediately.", who: "Benji Glover", biz: "Thompson Rental Services", c: "var(--g-blue)" },
-  { q: "We're acquiring new customers every week. Sales growth is strong.", who: "Larry Parker", biz: "CotDoc", c: "var(--g-red)" },
+  { q: "Five stars! Friendly and creative, and very helpful.", who: "Chardukian Patteson", biz: "Broadstreet client", c: "var(--g-red)" },
   { q: "We're over 100 years old, and our customers keep getting younger.", who: "Al Tyler", biz: "Tyler Brothers", c: "var(--g-yellow)", dark: true },
   { q: "They are great to work with and very knowledgeable about improving business exposure!", who: "Mindy Melinda", biz: "Home & Land Pros LLC", c: "#1E8E3E" },
   { q: "We are more than impressed with his ongoing assistance to keep us up to date.", who: "RWS", biz: "Powers & Gregory", c: "var(--blue)" },

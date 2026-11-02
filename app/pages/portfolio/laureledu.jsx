@@ -54,25 +54,13 @@ export default function PortfolioLaureledu() {
                                 AdWords in 2015, they have invested triple the budget they started
                                 with and are getting five times the conversions while increasing
                                 their CTR from .89% to 4.75%. We've developed custom{" "}
-                                <a
-                                  href="http://www.busbeetruckparts.com/isuzu-cabs-landing"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  landing pages
-                                </a>
+                                landing pages
                                 , created custom display ads, and targeted four separate locations
                                 for four separate schools.{" "}
                               </p>
                               <p>
                                 Laurel has also invested pretty heavily in social media marketing on{" "}
-                                <a
-                                  href="https://www.facebook.com/BusbeeTruckParts"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  Facebook
-                                </a>
+                                Facebook
                                 {
                                   ". For a fraction of his AdWords budget, he has been able to run ads on Instagram & Facebook, which has drastically increased his conversion rate in Google AdWords. We maintain and manage their Facebook ad accounts for four schools, reaching more potential students, and building brand awareness. Once a user has visited the website, we then use AdWords remarketing to show ads to these prospective students continuously. We've created an online marketing strategy that Laurel has found to be worth investing in, and we are looking forward to seeing their online presence continue to improve and grow."
                                 }

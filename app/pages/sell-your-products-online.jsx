@@ -168,9 +168,7 @@ export default function SellYourProductsOnline() {
                             <p>
                               <b>
                                 Related:{" "}
-                                <Link to="/cotdoc-increasing-sales/">
-                                  See how CotDoc increased sales with its online store
-                                </Link>
+                                <Link to="/portfolio/">See examples of our work</Link>
                               </b>
                             </p>
                             <h2>

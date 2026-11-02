@@ -131,42 +131,9 @@ export default function BeNumber1OnGoogle() {
                               world.{" "}
                             </p>
                             <p>
-                              Below are two examples of clients who have had success in this area.
-                              First is CotDoc, who dominates their narrow market both in organic
-                              search results for dozens of search terms. Here's an example:{" "}
+                              See how we’ve helped other businesses grow in{" "}
+                              <Link to="/portfolio/">our portfolio</Link>.
                             </p>
-                            <p>
-                              <img
-                                className="adaptive media-element file-media-adaptive adaptive"
-                                alt="How to be #1 on Google Search Results"
-                                title="How to be #1 on Google Search Results"
-                                src="https://broadstreet.net/sites/broadstreet.net/files/styles/adaptive/public/cotdoc-search_0.png?itok=Guvl7HuD"
-                                loading="lazy"
-                                decoding="async"
-                                width="1116"
-                                height="794"
-                              />
-                            </p>
-                            <p>
-                              Here's another -{" "}
-                              <Link to="/busbee-truck-parts-worldwide-reach/">Busbee Truck Parts</Link> -
-                              that has reached a worldwide market selling parts for a specific set
-                              of trucks. They dominate this niche both in organic search results AND
-                              paid search.{" "}
-                            </p>
-                            <p>
-                              <img
-                                className="media-element file-media-adaptive adaptive"
-                                alt="Busbee Truck Parts is #1 on Google"
-                                title="Busbee Truck Parts is #1 on Google"
-                                src="/assets/media/b7756a40954d9bb2.png"
-                                loading="lazy"
-                                decoding="async"
-                                width="783"
-                                height="846"
-                              />
-                            </p>
-                            <ul></ul>
                             <p>
                               <Link className="custombutton" to="/contact/">
                                 Schedule A Free Consultation

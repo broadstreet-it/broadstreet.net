@@ -197,30 +197,6 @@ export default function WhatOurClientsAreSaying() {
                             <hr />
                             <h3>
                               <strong>
-                                "The website is critical to our operation. It's a must to have a
-                                good website with good people who support it."
-                              </strong>
-                            </h3>
-                            <p>
-                              "I can't thank Tom and his team enough for the phenomenal increase in
-                              sales we've experienced. We've gone from a two-man body shop to an
-                              international business that employs 25 people."
-                            </p>
-                            <p>
-                              <em>- Doug Busbee, Busbee Truck Parts</em>
-                            </p>
-                            <hr />
-                            <h3>
-                              <strong>
-                                "We're aquiring new customers every week. Sales growth is strong."
-                              </strong>
-                            </h3>
-                            <p>
-                              <em>- Larry Parker, CotDoc</em>
-                            </p>
-                            <hr />
-                            <h3>
-                              <strong>
                                 "We're over 100 years old, and our customers keep getting younger."
                               </strong>
                             </h3>

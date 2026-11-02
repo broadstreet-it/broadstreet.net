@@ -180,12 +180,6 @@ export default function BlogStorefrontOnlineStoreGuideEcommerceCamdenAndColumbia
                           </p>
                           <p>For others, they become the primary source of growth.</p>
                           <p>
-                            A great local example is Busbee Truck Parts, one of our long-time
-                            clients. What began as a small, two-person body shop grew into an
-                            internationally recognized business by embracing eCommerce and making
-                            its products available to customers far beyond South Carolina.
-                          </p>
-                          <p>
                             While every business won't ship products worldwide, every retailer has
                             the opportunity to reach more customers than their storefront alone
                             could ever serve.

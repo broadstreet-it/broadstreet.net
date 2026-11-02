@@ -178,19 +178,6 @@ export default function SiteMap() {
               </Link>
             </li>
             <li>
-              <Link to="/als-upstairs-online-visibility-capability/">
-                {"Al's Upstairs: Online Visibility & Capability"}
-              </Link>
-            </li>
-            <li>
-              <Link to="/busbee-truck-parts-worldwide-reach/">
-                Busbee Truck Parts: Worldwide Reach
-              </Link>
-            </li>
-            <li>
-              <Link to="/cotdoc-increasing-sales/">CotDoc: Increasing Sales</Link>
-            </li>
-            <li>
               <Link to="/services/mobile-friendly-website-design-development/">
                 A website that works for your business.
               </Link>

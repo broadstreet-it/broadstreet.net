@@ -99,20 +99,20 @@ export default function Home() {
             title={<>Real results for <span className="c-red">Carolina businesses</span></>}
           />
           <div className="cases">
-            <Link className="case big" to="/busbee-truck-parts-worldwide-reach/" style={{ "--cc": "var(--blue)" }}>
-              <small>Busbee Truck Parts · Worldwide reach</small>
-              <h3>From a two-man body shop to 25 employees worldwide</h3>
+            <Link className="case big" to="/portfolio/laureledu/" style={{ "--cc": "var(--blue)" }}>
+              <small>Laurel Technical Institute · Google Ads &amp; SEO</small>
+              <h3>Five times the conversions from Google Ads</h3>
               <blockquote>
-                “I can’t thank Tom and his team enough for the phenomenal increase in sales we’ve
-                experienced.”
+                “Being in the top 3 in our search categories was paramount for the success of our
+                school.”
               </blockquote>
-              <cite>Doug Busbee</cite>
+              <cite>Doug Decker</cite>
               <span className="more">Read the story →</span>
             </Link>
-            <Link className="case" to="/cotdoc-increasing-sales/" style={{ "--cc": "var(--g-red)" }}>
-              <small>CotDoc</small>
-              <h3>Increasing sales</h3>
-              <p>How a stronger online store grew sales.</p>
+            <Link className="case" to="/portfolio/tyler-brothers/" style={{ "--cc": "var(--g-red)" }}>
+              <small>Tyler Brothers</small>
+              <h3>100 years and counting</h3>
+              <p>“We’re over 100 years old, and our customers keep getting younger.”</p>
               <span className="more">Read the story →</span>
             </Link>
             <Link className="case" to="/powers-gregory-staying-connected-customers/" style={{ "--cc": "#1E8E3E" }}>
@@ -121,10 +121,10 @@ export default function Home() {
               <p>Keeping an HVAC company in touch with its customers.</p>
               <span className="more">Read the story →</span>
             </Link>
-            <Link className="case outline" to="/als-upstairs-online-visibility-capability/">
-              <small>Al’s Upstairs</small>
-              <h3>Online visibility</h3>
-              <p>Better online visibility for a local restaurant.</p>
+            <Link className="case outline" to="/kershaw-county-council-aging-testimonial/">
+              <small>Kershaw County Council on Aging</small>
+              <h3>Serving the community</h3>
+              <p>Helping a local nonprofit reach the people it serves.</p>
               <span className="more">Read the story →</span>
             </Link>
             <Link className="case dark" to="/wings-international-adventures/" style={{ "--cc": "var(--g-yellow)" }}>

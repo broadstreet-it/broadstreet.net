@@ -39,13 +39,7 @@ export default function PortfolioThompsonRentalServices() {
                               {
                                 "We now manage search & display Google AdWords campaigns for Thompson Rental Services, developing custom "
                               }
-                              <a
-                                href="http://www.busbeetruckparts.com/isuzu-cabs-landing"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                landing pages
-                              </a>
+                              landing pages
                               {
                                 ", creating custom graphics, and defining specific audiences using geo-targeting, remarketing, targeted keywords & more. We focus on "
                               }
