@@ -158,7 +158,7 @@ export default function PortfolioTylerBrothers() {
                             </p>
                             <ol>
                               <li>
-                                <Link to="/services/local-online-marketing/">
+                                <Link to="/services/google-business-profile/">
                                   Showing Up Locally
                                 </Link>
                               </li>

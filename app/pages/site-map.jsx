@@ -73,6 +73,18 @@ export default function SiteMap() {
               <Link to="/services/bridges-crm/">Bridges CRM</Link>
             </li>
             <li>
+              <Link to="/services/reporting/">Ranking &amp; results reports</Link>
+            </li>
+            <li>
+              <Link to="/services/inventory-accounting-integration/">Inventory &amp; accounting integration</Link>
+            </li>
+            <li>
+              <Link to="/services/social-advertising/">Social advertising</Link>
+            </li>
+            <li>
+              <Link to="/services/strategy-training/">Strategy reviews &amp; training</Link>
+            </li>
+            <li>
               <Link to="/web-design-columbia-sc/">Web design in Columbia, SC</Link>
             </li>
             <li>
@@ -332,7 +344,7 @@ export default function SiteMap() {
               </Link>
             </li>
             <li>
-              <Link to="/services/local-online-marketing/">Be found in your local market.</Link>
+              <Link to="/services/google-business-profile/">Be found in your local market.</Link>
             </li>
             <li>
               <Link to="/services/content-management-development/">

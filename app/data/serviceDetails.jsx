@@ -1,0 +1,263 @@
+// Content for the individual service pages (one per item in the four service groups).
+// app/routes.js maps each path below to pages/service-detail.jsx.
+// Paths that existed on the old site keep their URLs so search rankings carry over.
+
+export const GROUP_INFO = {
+  "get-found": { name: "Get Found", to: "/services/get-found/", accent: "var(--g-blue)" },
+  websites: { name: "Websites", to: "/services/websites/", accent: "var(--g-red)" },
+  "stay-connected": { name: "Stay Connected", to: "/services/stay-connected/", accent: "var(--g-yellow)" },
+  grow: { name: "Grow", to: "/services/grow/", accent: "var(--g-green)" },
+};
+
+const DRAFT = "Draft copy. Confirm the details match what the team offers before launch.";
+
+export const SERVICE_DETAILS = {
+  // ---------- Get Found ----------
+  "/services/search-engine-optimization-seo/": {
+    group: "get-found",
+    name: "Search engine optimization",
+    title: "SEO Services in Camden, SC | Broadstreet.net",
+    description: "Local SEO for Carolina businesses: keyword research, on-page fixes, local pages and ongoing optimization from a certified Google Partner team.",
+    h1: <>Rank higher on Google, <span className="c-yellow">without paying per click</span></>,
+    lede: "SEO is ongoing work, not a one-time setup. We keep improving your website so Google understands what you do and where you do it, and more of the right people find you.",
+    facts: [["Local focus", "Your town and your trade"], ["Ongoing", "Improved every month"], ["Google, Bing & Yahoo", "Rankings tracked on all three"], ["Plain English", "Reports you can read"]],
+    included: ["Keyword research for your town and trade", "Competitor analysis", "On-page fixes: titles, headings, speed and mobile", "Local service and location pages", "Content that answers what customers search", "Monthly ranking reports"],
+    why: [["More of the right traffic", "People searching for what you do are ready to call or buy."], ["No cost per click", "Organic rankings keep working after the work is done."], ["Builds over time", "Every improvement adds to the last, month after month."]],
+    steps: [["Audit", "We look at your site, your rankings and your competitors."], ["Plan", "We pick the search terms worth winning."], ["Improve", "We fix pages, add content and strengthen your local presence."], ["Report", "Monthly reports show where you’re moving up."]],
+    faq: [
+      { q: "How long does SEO take?", a: "SEO builds over time. You’ll see progress in your monthly reports, and we’ll set realistic expectations for your market during your free review." },
+      { q: "Do I need SEO if I run Google Ads?", a: "Ads bring visitors right away while you pay for each click. SEO builds rankings you don’t pay per click for. Most local businesses do best with both." },
+      { q: "Will I have to write content?", a: "No. We write it with you, using what you know about your customers and your work." },
+    ],
+  },
+  "/services/google-business-profile/": {
+    group: "get-found",
+    name: "Google Business Profile",
+    title: "Google Business Profile Management | Broadstreet.net",
+    description: "Show up in Google Maps and the local results. Broadstreet.net sets up, cleans up and manages Google Business Profiles for Carolina businesses.",
+    h1: <>Show up on the map <span className="c-yellow">when locals search</span></>,
+    lede: "Your Google Business Profile is often the first thing people see: your hours, photos, reviews and a button to call. We set it up right and keep it active so you show up when people search nearby.",
+    facts: [["Google Maps", "Show up in the map results"], ["Reviews", "Get and answer them"], ["Posts & photos", "Keep your profile active"], ["Bing & Apple Maps", "Listings to match"]],
+    included: ["Profile setup, verification and cleanup", "Categories, services and hours kept current", "Photos and regular posts", "Help getting and answering reviews", "Bing and Apple Maps listings to match", "Tracking of calls and direction requests"],
+    why: [["First impressions", "Many customers decide from your profile before they ever visit your website."], ["Calls in one tap", "Searchers can call, get directions or visit your site right from Google."], ["Trust from reviews", "Recent, answered reviews help people choose you."]],
+    steps: [["Check", "We review your profile and fix anything missing or wrong."], ["Complete", "We fill in services, photos and details Google rewards."], ["Keep active", "Regular posts and updates keep your profile fresh."], ["Report", "We show you calls, clicks and direction requests."]],
+    faq: [
+      { q: "I already have a profile. Can you take it over?", a: "Yes. We’ll help you give us access and clean up what’s there." },
+      { q: "Can you remove bad reviews?", a: "Google decides what stays up, but we can help you respond well and report reviews that break Google’s rules." },
+    ],
+  },
+  "/services/google-adwords-ppc-search-engine-marketing-consulting/": {
+    group: "get-found",
+    name: "Google Ads management",
+    title: "Google Ads Management in Camden, SC | Broadstreet.net",
+    description: "Google Ads campaigns fully managed by a certified Google Ads consultant, adjusted daily based on tracked results. Broadstreet.net, Camden, SC.",
+    h1: <>Get to the top of Google <span className="c-yellow">today</span></>,
+    lede: "Our pay-per-click campaigns are fully managed by a certified Google Ads consultant. We track every result and adjust your campaigns daily, so your budget goes to the searches that bring in customers.",
+    facts: [["Certified", "Google Ads consultant"], ["Daily", "Bids and budgets adjusted"], ["Tracked", "Calls and form leads"], ["Your budget", "No wasted clicks"]],
+    included: ["Campaign setup and keyword targeting", "Ad writing", "Landing pages that turn clicks into calls", "Call and form tracking", "Daily bid and budget adjustments", "Clear monthly results"],
+    why: [["Results right away", "Your ads can show at the top of Google as soon as they’re live."], ["You set the budget", "Spend what makes sense and adjust any time."], ["Every lead tracked", "You see which searches bring in calls and forms."]],
+    steps: [["Goals & budget", "We learn what you sell and what a new customer is worth."], ["Build", "We set up keywords, ads and tracking."], ["Launch", "Your ads go live where your customers search."], ["Adjust daily", "We tune bids and keywords based on real results."]],
+    faq: [
+      { q: "How much should I spend on Google Ads?", a: "It depends on your market and goals. We’ll recommend a starting budget during your free consultation and adjust as results come in." },
+      { q: "Do I pay Google or you?", a: "Ad spend goes to Google. Management of your campaigns is separate, and we’ll explain both up front." },
+    ],
+  },
+  "/services/reporting/": {
+    group: "get-found",
+    alsoGroup: "grow",
+    name: "Ranking & results reports",
+    title: "Ranking Reports & Marketing Results | Broadstreet.net",
+    description: "Monthly reports on your Google, Bing and Yahoo rankings, website traffic, calls and leads, explained in plain English by Broadstreet.net.",
+    h1: <>See exactly <span className="c-yellow">what’s working</span></>,
+    lede: "We track the search terms that matter for your business on Google, Bing and Yahoo, along with your traffic, calls and leads. Every month you get a clear report and a plan for what’s next.",
+    facts: [["Rankings", "Google, Bing & Yahoo"], ["Traffic", "Visitors and where they came from"], ["Leads", "Calls and form fills"], ["Plain English", "No jargon"]],
+    included: ["Rankings for your key search terms", "Google, Bing and Yahoo tracking", "Website traffic and top pages", "Call and form lead tracking", "What we did this month and what’s next", "Time to review it together"],
+    why: [["Know your return", "See which marketing brings in customers."], ["Spot problems early", "Drops in rankings or traffic get caught quickly."], ["Make better decisions", "Spend more where it works and less where it doesn’t."]],
+    steps: [["Set up tracking", "We connect your site, Google and phone tracking."], ["Pick your terms", "We choose the searches that matter most to you."], ["Report monthly", "You get a clear summary every month."], ["Review together", "We talk through results and next steps."]],
+    faq: [
+      { q: "Do I get reports if I only have a website with you?", a: "Reporting is included with our search and marketing plans. Ask us what fits your setup." },
+      { q: "Can I see my numbers any time?", a: "Yes. We can give you access to your analytics as well as your monthly report." },
+    ],
+  },
+
+  // ---------- Websites ----------
+  "/services/mobile-friendly-website-design-development/": {
+    group: "websites",
+    name: "Website design",
+    title: "Website Design in Camden, SC | Broadstreet.net",
+    description: "Fast, mobile-friendly website design for Carolina small businesses, built to turn visitors into calls and emails. Broadstreet.net, Camden, SC.",
+    h1: <>A website that <span className="c-yellow">works as hard as you do</span></>,
+    lede: "Most visitors decide in seconds whether to call you. We build clean, fast, mobile-friendly sites that make it easy: clear services, your phone number in reach and a simple way to get in touch.",
+    facts: [["Mobile first", "Built for phones"], ["Fast", "Quick to load"], ["SEO ready", "Set up to rank on Google"], ["Easy to update", "We train you"]],
+    included: ["Custom design using your brand", "Mobile-friendly on every screen", "Click-to-call and contact forms", "Search-friendly pages and titles", "Google Analytics and lead tracking", "Training so you can make simple updates"],
+    why: [["More calls and emails", "Every page is built to turn visitors into customers."], ["Looks right everywhere", "Phones, tablets and computers."], ["Found on Google", "Clean structure and content help you rank."]],
+    steps: [["Free review", "We look at your current site and what customers need to find."], ["Design", "You see your new site take shape and tell us what to change."], ["Build & launch", "We build, test on every screen and launch."], ["Support", "Monthly updates and training keep it fresh."]],
+    faq: [
+      { q: "Will my website work on phones?", a: "Yes. Every site we build is mobile-friendly, and we design for phones first." },
+      { q: "Can I update it myself?", a: "Yes. We train you to make simple changes, and our support plans cover the rest." },
+      { q: "Can you redo my current website?", a: "Yes. We’ll keep what’s working and fix what isn’t." },
+    ],
+  },
+  "/services/ecommerce-website-development/": {
+    group: "websites",
+    name: "Online stores",
+    title: "eCommerce & Online Store Development | Broadstreet.net",
+    description: "Online stores for Carolina businesses: secure checkout, shipping, inventory and accounting connections. Built and supported by Broadstreet.net.",
+    h1: <>Sell <span className="c-yellow">around the clock</span></>,
+    lede: "We build full online stores that take payments, track inventory and handle shipping, so your shop stays open after you lock the front door.",
+    facts: [["Secure checkout", "Cards and online payments"], ["Shipping & tax", "Set up for you"], ["Inventory", "Connected to your systems"], ["Found on Google", "Product pages built to rank"]],
+    included: ["Product catalog and secure checkout", "Shipping and tax setup", "Order emails for you and your customers", "Inventory and accounting connections", "Product pages built to show up on Google", "Training for your team"],
+    why: [["Reach beyond your town", "Customers can buy from anywhere."], ["Sell while you sleep", "Orders come in around the clock."], ["Less double entry", "Stock and sales stay in sync."]],
+    steps: [["Plan", "We map out your products, shipping and payments."], ["Design", "You approve the look of your store."], ["Build & load", "We build the store and add your products."], ["Launch & grow", "We launch and help you market it."]],
+    faq: [
+      { q: "Can my store connect to my inventory system?", a: "Often, yes. We’ll look at the systems you use and connect them where we can." },
+      { q: "Can I add and edit products myself?", a: "Yes. We train your team to update products and content." },
+    ],
+  },
+  "/open-source-development-services/": {
+    group: "websites",
+    name: "Drupal development",
+    title: "Drupal Development in South Carolina | Broadstreet.net",
+    description: "Drupal websites and custom features for larger sites. Open-source development, security updates and hosting from Broadstreet.net in Camden, SC.",
+    h1: <>Room to grow <span className="c-yellow">with Drupal</span></>,
+    lede: "For larger sites and custom features, we build on Drupal, a proven open-source platform. You own your site, and it can grow with your business.",
+    facts: [["Open source", "No license fees"], ["You own it", "Your site, your content"], ["Custom features", "Built for how you work"], ["Kept secure", "Updates and backups"]],
+    included: ["Custom features and content types", "Member areas and online forms", "Integrations with other systems", "Security updates and upgrades", "Hosting and backups", "Ongoing support"],
+    why: [["Handles big sites", "Lots of pages, users and content types."], ["Flexible", "Custom features without starting over."], ["Long-lasting", "A platform with a large community behind it."]],
+    steps: [["Discover", "We learn what your site needs to do."], ["Plan", "We map out content, features and integrations."], ["Build", "We develop and test your site."], ["Maintain", "Security updates and support keep it running."]],
+    faq: [
+      { q: "Do I need Drupal?", a: "Not always. Many small businesses do great with a simpler site. We’ll recommend what fits." },
+      { q: "Can you take over an existing Drupal site?", a: "Often, yes. We’ll review it and tell you plainly what it needs." },
+    ],
+  },
+  "/services/inventory-accounting-integration/": {
+    group: "websites",
+    name: "Inventory & accounting integration",
+    title: "Inventory & Accounting Integration | Broadstreet.net",
+    description: "Connect your online store to your inventory and accounting systems so stock and sales stay in sync. Broadstreet.net, Camden, SC.",
+    h1: <>One system, <span className="c-yellow">not three</span></>,
+    lede: "We connect your website and online store to the inventory and accounting systems you already use, so stock levels and sales stay in sync without retyping.",
+    facts: [["Stock in sync", "Store and shop match"], ["Sales recorded", "Flow into accounting"], ["Less typing", "Fewer manual updates"], ["Fewer errors", "One source of truth"]],
+    included: ["Review of the systems you use today", "Inventory sync between your store and shop", "Orders and sales flowing into accounting", "Testing with real orders", "Training for your team", "Support when systems change"],
+    why: [["Save hours", "Stop entering the same order twice."], ["Avoid overselling", "Online stock matches what’s on the shelf."], ["Cleaner books", "Sales land where your accountant expects them."]],
+    steps: [["Review", "We look at your store, inventory and accounting tools."], ["Plan", "We decide what syncs and how often."], ["Connect", "We set up and test the connections."], ["Support", "We keep things running as your tools change."]],
+    faq: [
+      { q: "Which systems can you connect?", a: "It depends on what you use. Tell us your tools during your free consultation and we’ll tell you what’s possible." },
+    ],
+  },
+
+  // ---------- Stay Connected ----------
+  "/services/social-media-marketing/": {
+    group: "stay-connected",
+    name: "Social media marketing",
+    title: "Social Media Marketing in Camden, SC | Broadstreet.net",
+    description: "Social media management on Facebook, Instagram, LinkedIn and X for Carolina businesses. Posts, graphics and results from Broadstreet.net.",
+    h1: <>Active accounts, <span className="c-yellow">without the time drain</span></>,
+    lede: "We build and maintain your accounts on Facebook, Instagram, LinkedIn and X, posting regularly so customers see a business that’s open, active and worth choosing.",
+    facts: [["Facebook", "Pages and posts"], ["Instagram", "Posts and stories"], ["LinkedIn & X", "For B2B businesses"], ["Done for you", "Written and designed"]],
+    included: ["Account setup and profile cleanup", "A posting calendar for your business", "Graphics and captions written for you", "Replies to comments and messages, if you want", "Monthly results you can understand"],
+    why: [["Stay top of mind", "Customers see you between visits."], ["Show you’re open", "An active page builds trust."], ["Send people to your site", "Posts drive visits, calls and sales."]],
+    steps: [["Review", "We look at your accounts and your competitors."], ["Plan", "You get a simple calendar of posts."], ["Create", "We write, design and schedule posts for your approval."], ["Report", "Monthly results show what’s working."]],
+    faq: [
+      { q: "Which networks should I be on?", a: "Most local businesses do best on Facebook and Instagram. We’ll recommend where your time goes furthest." },
+      { q: "Do I have to come up with posts?", a: "No. We plan, write and design them. You can send photos any time." },
+    ],
+  },
+  "/services/email-marketing/": {
+    group: "stay-connected",
+    name: "Email marketing",
+    title: "Email Marketing for Small Businesses | Broadstreet.net",
+    description: "Email list management and targeted campaigns that bring customers back. Templates, writing and reporting from Broadstreet.net in Camden, SC.",
+    h1: <>Your best customers, <span className="c-yellow">one click away</span></>,
+    lede: "We manage your email list and send targeted messages, like specials, reminders and news, to the people most likely to buy again.",
+    facts: [["Your list", "Built and managed"], ["Branded", "Templates that match your site"], ["Written for you", "Campaigns that get read"], ["Tracked", "Opens and clicks"]],
+    included: ["List setup, cleanup and sign-up forms", "Branded email templates", "Campaigns written and scheduled", "Segments for different customers", "Open and click reporting"],
+    why: [["Bring customers back", "Repeat customers are easier to win than new ones."], ["You own the list", "No algorithm decides who sees it."], ["Low cost", "Reach hundreds of customers at once."]],
+    steps: [["Set up", "We organize your list and build templates."], ["Plan", "We map out a simple email calendar."], ["Send", "We write and send campaigns for your approval."], ["Report", "You see opens, clicks and results."]],
+    faq: [
+      { q: "I don’t have an email list. Where do I start?", a: "We’ll help you collect emails from your website, store and social media the right way." },
+      { q: "How often should I send?", a: "Often enough to stay in mind without wearing people out. We’ll recommend a schedule for your business." },
+    ],
+  },
+  "/services/video-production/": {
+    group: "stay-connected",
+    name: "Video & content creation",
+    title: "Video & Content Creation | Broadstreet.net",
+    description: "Short videos, photos and helpful articles that show customers who you are and give Google more to show. Broadstreet.net, Camden, SC.",
+    h1: <>Show customers <span className="c-yellow">who you are</span></>,
+    lede: "Short videos, photos and helpful articles give customers a reason to choose you, and give Google more to show when they search.",
+    facts: [["Video", "Short clips for social and web"], ["Photos", "Your team and your work"], ["Articles", "Answers to customer questions"], ["Search-friendly", "Content Google can find"]],
+    included: ["Short videos for social media and your website", "Photos of your team, location and work", "Blog posts that answer customer questions", "Service and location page content", "Content planned around what customers search"],
+    why: [["Build trust", "People like to see who they’re hiring."], ["Rank for more searches", "Helpful content helps you show up on Google."], ["Feed your social media", "One video can become many posts."]],
+    steps: [["Plan", "We choose topics and shots that matter to your customers."], ["Create", "We film, photograph and write."], ["Publish", "Content goes on your site and social accounts."], ["Measure", "We see what gets watched and read."]],
+    faq: [
+      { q: "Do you film on location?", a: "Yes, we can come to you. Tell us about your business and we’ll plan the shoot." },
+    ],
+  },
+  "/services/social-advertising/": {
+    group: "stay-connected",
+    name: "Social advertising",
+    title: "Facebook & Instagram Ads Management | Broadstreet.net",
+    description: "Facebook and Instagram ads targeted to people in your area who match your best customers. Ad design, targeting and reporting from Broadstreet.net.",
+    h1: <>Reach the right people <span className="c-yellow">nearby</span></>,
+    lede: "Ads on Facebook and Instagram put your offer in front of people in your area who match your best customers, even if they’ve never heard of you.",
+    facts: [["Facebook", "Ads in the feed"], ["Instagram", "Ads in posts and stories"], ["Targeted", "By area and interest"], ["Tracked", "Clicks, calls and leads"]],
+    included: ["Audience targeting by area and interest", "Ad design and copy", "Retargeting people who visited your site", "Budget management", "Monthly reporting"],
+    why: [["Reach new people", "Show up for customers who aren’t searching yet."], ["Target precisely", "Choose the area and audience you want."], ["Start small", "Test with a modest budget and grow what works."]],
+    steps: [["Goals", "We decide what you want people to do."], ["Create", "We design the ads and set the audience."], ["Run", "Ads go live and we watch the results."], ["Improve", "We shift budget to what works best."]],
+    faq: [
+      { q: "How much do social ads cost?", a: "You choose the budget. We’ll recommend a starting point and adjust as results come in." },
+    ],
+  },
+
+  // ---------- Grow ----------
+  "/services/digital-marketing-strategy-and-support/": {
+    group: "grow",
+    name: "Monthly support plans",
+    title: "Monthly Website & Marketing Support | Broadstreet.net",
+    description: "Monthly support plans with design and content updates, training and scheduled strategy reviews from a local team. Broadstreet.net, Camden, SC.",
+    h1: <>Never worry about <span className="c-yellow">your website again</span></>,
+    lede: "Send us a change and we’ll make it. Our monthly plans cover design and content updates, training and scheduled strategy reviews, from a local team that answers the phone.",
+    facts: [["Updates", "Design and content changes"], ["Training", "For you and your staff"], ["Strategy reviews", "Scheduled check-ins"], ["Local team", "We answer the phone"]],
+    included: ["Design and content updates", "Security updates and backups", "Training for you and your staff", "Scheduled strategy reviews", "Help with Google, social media and email", "A local team that answers the phone"],
+    why: [["Always current", "Your hours, specials and services stay up to date."], ["Less to manage", "Send a request and get back to work."], ["A partner, not a vendor", "We know your business and your goals."]],
+    steps: [["Free consultation", "We learn what you need help with each month."], ["Pick a plan", "We recommend the support that fits."], ["Send requests", "Call, text or email changes any time."], ["Review together", "Scheduled reviews keep your plan on track."]],
+    faq: [
+      { q: "What counts as an update?", a: "Text and photo changes, new pages, specials, staff changes and design tweaks. If you’re not sure, just send it." },
+      { q: "Can you support a site you didn’t build?", a: "Often, yes. We’ll take a look and tell you plainly what’s possible." },
+    ],
+  },
+  "/lead-generation-services/": {
+    group: "grow",
+    name: "Lead generation",
+    title: "Lead Generation for Local Businesses | Broadstreet.net",
+    description: "More calls, form fills and walk-ins from your website, Google and social media, with every lead tracked. Broadstreet.net, Camden, SC.",
+    h1: <>More calls, forms <span className="c-yellow">and walk-ins</span></>,
+    lede: "We combine your website, Google and social media into one plan with a single goal: more people contacting your business, and knowing where each one came from.",
+    facts: [["Tracked", "Every call and form"], ["Landing pages", "Built for your offers"], ["Follow-up", "Leads don’t go cold"], ["Reported", "Monthly lead counts"]],
+    included: ["Call and form tracking", "Landing pages for your offers", "Google and social campaigns pointed at one goal", "Follow-up by email or with the Bridges CRM", "Monthly lead reports"],
+    why: [["Focus on what counts", "Leads and customers, not just clicks."], ["Know your sources", "See which channels bring business in."], ["Follow up faster", "Answer leads while they’re still interested."]],
+    steps: [["Goals", "We decide what a good lead looks like for you."], ["Build", "We set up pages, tracking and campaigns."], ["Run", "Leads start coming in from every channel."], ["Improve", "We do more of what brings in customers."]],
+    faq: [
+      { q: "Do you guarantee a number of leads?", a: "No honest agency can promise exact numbers, but we track every lead so you always know what you’re getting." },
+    ],
+  },
+  "/services/strategy-training/": {
+    group: "grow",
+    name: "Strategy reviews & training",
+    title: "Marketing Strategy Reviews & Training | Broadstreet.net",
+    description: "Regular strategy meetings and hands-on training for your team on your website, Google and social media. Broadstreet.net, Camden, SC.",
+    h1: <>Know what’s working <span className="c-yellow">and what’s next</span></>,
+    lede: "We sit down with you on a regular schedule to look at the numbers, talk about what’s working and plan what’s next, in plain English. We also train your team to handle what they want to do themselves.",
+    facts: [["Regular meetings", "On a set schedule"], ["Your numbers", "Traffic, rankings and leads"], ["A clear plan", "What we’ll do next"], ["Training", "Hands-on for your team"]],
+    included: ["Regular strategy meetings, in person or by video", "Reviews of traffic, rankings and leads", "A plan for the next month or quarter", "Hands-on training on your website", "Training on Google Business Profile and social media"],
+    why: [["Make better decisions", "Spend time and money where it works."], ["Stay in control", "You always know what’s happening and why."], ["Build skills in-house", "Your team gets confident with your tools."]],
+    steps: [["Schedule", "We set a meeting rhythm that fits you."], ["Review", "We go over your numbers together."], ["Plan", "We agree on what to do next."], ["Train", "We teach your team what they want to learn."]],
+    faq: [
+      { q: "Can training happen at our office?", a: "Yes. We can meet in person in the Camden area or train your team by video." },
+    ],
+  },
+};
+
+
+export { DRAFT };

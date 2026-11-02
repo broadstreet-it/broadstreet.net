@@ -68,7 +68,7 @@
 /node/315 /lead-generation-services/ 301
 /node/313 /open-source-development-services/ 301
 /node/272 /broadstreet-consulting-google-partners-google-adwords-certified/ 301
-/node/308 /services/local-online-marketing/ 301
+/node/308 /services/google-business-profile/ 301
 /node/259 /services/content-management-development/ 301
 /node/255 /services/web-mobile-app-development/ 301
 /node/256 /services/digital-marketing-strategy-and-support/ 301
@@ -106,3 +106,5 @@
 /web-success/ /services/#web-success 301
 /web-success-signup /services/#web-success 301
 /web-success-signup/ /services/#web-success 301
+/services/local-online-marketing /services/google-business-profile/ 301
+/services/local-online-marketing/ /services/google-business-profile/ 301

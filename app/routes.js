@@ -1,4 +1,5 @@
 import { index, route } from "@react-router/dev/routes";
+import { SERVICE_DETAIL_PATHS } from "./data/servicePaths.js";
 
 // One entry per page. Every route is prerendered to static HTML at build time
 // (see react-router.config.js). To add a page: create app/pages/<name>.jsx and add it here.
@@ -39,11 +40,9 @@ export default [
   route("john-jackson", "pages/john-jackson.jsx"),
   route("kershaw-county-council-aging-testimonial", "pages/kershaw-county-council-aging-testimonial.jsx"),
   route("lancaster-sc", "pages/lancaster-sc.jsx"),
-  route("lead-generation-services", "pages/lead-generation-services.jsx"),
   route("mary-souto", "pages/mary-souto.jsx"),
   route("measured-results", "pages/measured-results.jsx"),
   route("nyia-langley", "pages/nyia-langley.jsx"),
-  route("open-source-development-services", "pages/open-source-development-services.jsx"),
   route("portfolio", "pages/portfolio.jsx"),
   route("portfolio/air-restoration-heating-cooling", "pages/portfolio/air-restoration-heating-cooling.jsx"),
   route("portfolio/all-around-tampa-pressure-washing", "pages/portfolio/all-around-tampa-pressure-washing.jsx"),
@@ -79,6 +78,11 @@ export default [
   route("search", "pages/search.jsx"),
   route("sell-your-products-online", "pages/sell-your-products-online.jsx"),
   route("services", "pages/services.jsx"),
+  // One page per service item (content in app/data/serviceDetails.jsx).
+  ...SERVICE_DETAIL_PATHS.map((p) => {
+    const path = p.replace(/^\/|\/$/g, "");
+    return route(path, "pages/service-detail.jsx", { id: `service-${path.replace(/\//g, "-")}` });
+  }),
   // 2026 redesign: service groups, new offerings and service areas.
   route("services/get-found", "pages/services/get-found.jsx"),
   route("services/websites", "pages/services/websites.jsx"),
@@ -90,17 +94,8 @@ export default [
     "web-design-darlington-sc", "web-design-aiken-sc", "web-design-myrtle-beach-sc", "web-design-charlotte-nc",
   ].map((slug) => route(slug, "pages/service-area.jsx", { id: `area-${slug}` })),
   route("services/content-management-development","pages/services/content-management-development.jsx"),
-  route("services/digital-marketing-strategy-and-support", "pages/services/digital-marketing-strategy-and-support.jsx"),
-  route("services/ecommerce-website-development", "pages/services/ecommerce-website-development.jsx"),
-  route("services/email-marketing", "pages/services/email-marketing.jsx"),
-  route("services/google-adwords-ppc-search-engine-marketing-consulting", "pages/services/google-adwords-ppc-search-engine-marketing-consulting.jsx"),
-  route("services/local-online-marketing", "pages/services/local-online-marketing.jsx"),
   route("services/logo-design", "pages/services/logo-design.jsx"),
-  route("services/mobile-friendly-website-design-development", "pages/services/mobile-friendly-website-design-development.jsx"),
-  route("services/search-engine-optimization-seo", "pages/services/search-engine-optimization-seo.jsx"),
   route("services/secure-hosting-technical-support", "pages/services/secure-hosting-technical-support.jsx"),
-  route("services/social-media-marketing", "pages/services/social-media-marketing.jsx"),
-  route("services/video-production", "pages/services/video-production.jsx"),
   route("services/web-mobile-app-development", "pages/services/web-mobile-app-development.jsx"),
   route("site-map", "pages/site-map.jsx"),
   route("staff", "pages/staff.jsx"),

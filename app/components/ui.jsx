@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router";
+import { ITEM_LINKS } from "../data/servicePaths";
 
 // Shared building blocks for the redesigned pages.
 
@@ -298,7 +299,11 @@ export function ServiceGroups({ withIds = false }) {
           <span className="ic">{Icon[g.icon]}</span>
           <h3>{g.title}</h3>
           <p>{g.text}</p>
-          <ul>{g.items.map((i) => <li key={i}>{i}</li>)}</ul>
+          <ul>
+            {g.items.map((i) => (
+              <li key={i}>{ITEM_LINKS[i] ? <Link to={ITEM_LINKS[i]}>{i}</Link> : i}</li>
+            ))}
+          </ul>
           <Link className="more" to={g.to}>{g.more} →</Link>
         </article>
       ))}
