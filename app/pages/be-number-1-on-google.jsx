@@ -149,7 +149,7 @@ export default function BeNumber1OnGoogle() {
                             </p>
                             <p>
                               Here's another -{" "}
-                              <Link to="/portfolio/busbee-truck-parts/">Busbee Truck Parts</Link> -
+                              <Link to="/busbee-truck-parts-worldwide-reach/">Busbee Truck Parts</Link> -
                               that has reached a worldwide market selling parts for a specific set
                               of trucks. They dominate this niche both in organic search results AND
                               paid search.{" "}

@@ -271,18 +271,7 @@ export default function SiteMap() {
               <Link to="/portfolio/stars-campus-solutions/">STARS Campus Solutions</Link>
             </li>
             <li>
-              <Link to="/portfolio/air-restoration-heating-cooling/">
-                {"Air Restoration Heating & Cooling"}
-              </Link>
-            </li>
-            <li>
-              <Link to="/portfolio/busbee-truck-parts/">Busbee Truck Parts</Link>
-            </li>
-            <li>
               <Link to="/portfolio/laureledu/">Laurel.edu</Link>
-            </li>
-            <li>
-              <Link to="/portfolio/cotdoc/">CotDoc</Link>
             </li>
             <li>
               <Link to="/portfolio/tyler-brothers/">Tyler Brothers</Link>
@@ -294,9 +283,6 @@ export default function SiteMap() {
               <Link to="/portfolio/river-valley-recycling/">River Valley Recycling</Link>
             </li>
             <li>
-              <Link to="/portfolio/als-upstairs-italian-2013/">Al's Upstairs Italian</Link>
-            </li>
-            <li>
               <Link to="/portfolio/d-t-steel-inc/">{"D & T Steel, Inc"}</Link>
             </li>
             <li>
@@ -305,17 +291,9 @@ export default function SiteMap() {
               </Link>
             </li>
             <li>
-              <Link to="/portfolio/all-around-tampa-pressure-washing/">
-                All Around Tampa Pressure Washing
-              </Link>
-            </li>
-            <li>
               <Link to="/portfolio/brazell-exterminating-home-repair/">
                 {"Brazell Exterminating & Home Repair"}
               </Link>
-            </li>
-            <li>
-              <Link to="/portfolio/banyan-bay-trading-company/">Banyan Bay Trading Company</Link>
             </li>
             <li>
               <Link to="/blog/ai-alone-isnt-marketing-strategy/">

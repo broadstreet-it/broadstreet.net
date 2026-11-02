@@ -32,10 +32,10 @@ export const meta = () =>
 const FILTERS = ["All", "SEO", "Online store", "Social media", "Google Ads", "Drupal development"];
 
 const STORIES = [
-  { to: "/busbee-truck-parts-worldwide-reach/", small: "Busbee Truck Parts", title: "Worldwide reach", c: "var(--blue)" },
-  { to: "/cotdoc-increasing-sales/", small: "CotDoc", title: "Increasing sales", c: "var(--g-red)" },
   { to: "/powers-gregory-staying-connected-customers/", small: "Powers & Gregory", title: "Staying connected", c: "#1E8E3E" },
-  { to: "/als-upstairs-online-visibility-capability/", small: "Al’s Upstairs", title: "Online visibility", c: "var(--orange)" },
+  { to: "/wings-international-adventures/", small: "Wings", title: "International adventures", c: "var(--blue)" },
+  { to: "/kershaw-county-council-aging-testimonial/", small: "Kershaw County Council on Aging", title: "Serving the community", c: "var(--g-red)" },
+  { to: "/fj-rabon-testimonial/", small: "FJ Rabon", title: "Client testimonial", c: "var(--orange)" },
 ];
 
 export default function Portfolio() {

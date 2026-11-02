@@ -2,86 +2,6 @@
 // edit freely. `services` was inferred from each story's text — check before launch.
 export const PORTFOLIO = [
   {
-    "slug": "air-restoration-heating-cooling",
-    "name": "Air Restoration Heating & Cooling",
-    "description": "Explore Broadstreet’s work with Air Restoration Heating & Cooling: website design, online presence, and a partnership built around the client’s business.",
-    "url": "https://www.airrestorationhvac.com/",
-    "image": {
-      "src": "/assets/media/93e61448d31b043b.jpg",
-      "width": 565,
-      "height": 270
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ]
-    ]
-  },
-  {
-    "slug": "als-upstairs-italian-2013",
-    "name": "Al's Upstairs Italian",
-    "description": "Explore Broadstreet’s work with Al's Upstairs Italian: website design, online presence, and a partnership built around the client’s business.",
-    "url": "http://www.alsupstairsitalian.com/",
-    "image": {
-      "src": "/assets/media/8cfbffe07843d360.jpg",
-      "width": 1322,
-      "height": 858
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ],
-      [
-        "Social media",
-        "/services/social-media-marketing/"
-      ],
-      [
-        "Video & content",
-        "/services/video-production/"
-      ],
-      [
-        "Drupal development",
-        "/open-source-development-services/"
-      ]
-    ]
-  },
-  {
-    "slug": "all-around-tampa-pressure-washing",
-    "name": "All Around Tampa Pressure Washing",
-    "description": "Explore Broadstreet’s work with All Around Tampa Pressure Washing: website design, online presence, and a partnership built around the client’s business.",
-    "url": "http://www.allaroundtampapressurewashing.com/",
-    "image": {
-      "src": "/assets/media/3a495cc96a41fd37.jpg",
-      "width": 1184,
-      "height": 616
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ]
-    ]
-  },
-  {
-    "slug": "banyan-bay-trading-company",
-    "name": "Banyan Bay Trading Company",
-    "description": "Explore Broadstreet’s work with Banyan Bay Trading Company: website design, online presence, and a partnership built around the client’s business.",
-    "url": "http://store.banyanbaytrading.com/about-us",
-    "image": {
-      "src": "/assets/media/ba41de6915f9bac6.jpg",
-      "width": 591,
-      "height": 392
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ]
-    ]
-  },
-  {
     "slug": "brazell-exterminating-home-repair",
     "name": "Brazell Exterminating & Home Repair",
     "description": "Explore Broadstreet’s work with Brazell Exterminating & Home Repair: website design, online presence, and a partnership built around the client’s business.",
@@ -124,43 +44,6 @@ export const PORTFOLIO = [
     ]
   },
   {
-    "slug": "busbee-truck-parts",
-    "name": "Busbee Truck Parts",
-    "description": "Explore Broadstreet’s work with Busbee Truck Parts: website design, online presence, and a partnership built around the client’s business.",
-    "url": "http://www.busbeetruckparts.com/",
-    "image": {
-      "src": "/assets/media/43174c6d2a2add50.png",
-      "width": 1650,
-      "height": 1374
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ],
-      [
-        "SEO",
-        "/services/search-engine-optimization-seo/"
-      ],
-      [
-        "Social media",
-        "/services/social-media-marketing/"
-      ],
-      [
-        "Google Ads",
-        "/services/google-adwords-ppc-search-engine-marketing-consulting/"
-      ],
-      [
-        "Email marketing",
-        "/services/email-marketing/"
-      ],
-      [
-        "Drupal development",
-        "/open-source-development-services/"
-      ]
-    ]
-  },
-  {
     "slug": "carolina-scoop-crew",
     "name": "Carolina Scoop Crew",
     "description": "Explore Broadstreet’s work with Carolina Scoop Crew: website design, online presence, and a partnership built around the client’s business.",
@@ -195,43 +78,6 @@ export const PORTFOLIO = [
       [
         "Website design",
         "/services/mobile-friendly-website-design-development/"
-      ]
-    ]
-  },
-  {
-    "slug": "cotdoc",
-    "name": "CotDoc",
-    "description": "Explore Broadstreet’s work with CotDoc: website design, online presence, and a partnership built around the client’s business.",
-    "url": "http://www.cotdoc.com/",
-    "image": {
-      "src": "/assets/media/408f09f66c11c630.jpg",
-      "width": 550,
-      "height": 449
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ],
-      [
-        "SEO",
-        "/services/search-engine-optimization-seo/"
-      ],
-      [
-        "Online store",
-        "/services/ecommerce-website-development/"
-      ],
-      [
-        "Google Ads",
-        "/services/google-adwords-ppc-search-engine-marketing-consulting/"
-      ],
-      [
-        "Email marketing",
-        "/services/email-marketing/"
-      ],
-      [
-        "Drupal development",
-        "/open-source-development-services/"
       ]
     ]
   },

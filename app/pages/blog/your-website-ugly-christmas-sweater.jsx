@@ -135,7 +135,7 @@ export default function BlogYourWebsiteUglyChristmasSweater() {
                             too many things without a clear focus. It's like trying to tell a story
                             but jumping from topic to topic without connection. To read more on what
                             Broadstreet has done for other{" "}
-                            <Link to="/portfolio/als-upstairs-italian-2013/">clients</Link>.
+                            <Link to="/portfolio/">clients</Link>.
                           </p>
                           <h3>
                             <strong>4. Getting Lost:</strong>
