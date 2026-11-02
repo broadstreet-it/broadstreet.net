@@ -10,6 +10,80 @@ export const NAV = [
   { to: "/contact/", label: "Contact" },
 ];
 
+// Items in the Services dropdown. The "Services" link itself goes to the landing page.
+export const SERVICE_MENU = [
+  { to: "/services/get-found/", label: "Get Found", text: "SEO, Google Business Profile & Google Ads", c: "var(--g-blue)" },
+  { to: "/services/websites/", label: "Websites", text: "Website design & online stores", c: "var(--g-red)" },
+  { to: "/services/stay-connected/", label: "Stay Connected", text: "Social media, email & video", c: "var(--g-yellow)" },
+  { to: "/services/grow/", label: "Grow", text: "Monthly support & lead generation", c: "var(--g-green)" },
+  { to: "/services/web-mobile-app-development/", label: "App Development", text: "Mobile apps, web apps & portals", c: "var(--g-blue)", isNew: true },
+  { to: "/services/bridges-crm/", label: "Bridges CRM", text: "One inbox & automatic follow-up", c: "var(--g-red)", isNew: true },
+  { to: "/services/#web-success", label: "Web Success", text: "Free videos & guides, no sign-up", c: "var(--g-green)" },
+];
+
+function ServicesDropdown() {
+  const [open, setOpen] = useState(false);
+  const wrapRef = useRef(null);
+  const btnRef = useRef(null);
+  const { pathname, hash } = useLocation();
+
+  useEffect(() => setOpen(false), [pathname, hash]);
+
+  // Close on Escape or a click outside.
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e) => {
+      if (e.key === "Escape") {
+        setOpen(false);
+        btnRef.current?.focus();
+      }
+    };
+    const onClick = (e) => {
+      if (!wrapRef.current?.contains(e.target)) setOpen(false);
+    };
+    document.addEventListener("keydown", onKey);
+    document.addEventListener("mousedown", onClick);
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.removeEventListener("mousedown", onClick);
+    };
+  }, [open]);
+
+  return (
+    // Hover opens the panel in CSS; the button opens it for clicks, taps and the keyboard.
+    <div className={`nav-dd${open ? " open" : ""}`} ref={wrapRef} onMouseLeave={() => setOpen(false)}>
+      <NavLink to="/services/" className="nav-dd-link">Services</NavLink>
+      <button
+        ref={btnRef}
+        type="button"
+        className="nav-dd-toggle"
+        aria-expanded={open}
+        aria-controls="services-menu"
+        aria-label="Show services"
+        onClick={() => setOpen((v) => !v)}
+      >
+        <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" strokeWidth="2" fill="none" /></svg>
+      </button>
+      <div className="nav-dd-panel" id="services-menu">
+        <ul>
+          {SERVICE_MENU.map((s) => (
+            <li key={s.to}>
+              <Link to={s.to} style={{ "--c": s.c }}>
+                <b>
+                  {s.label}
+                  {s.isNew && <span className="new">New</span>}
+                </b>
+                <span>{s.text}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <Link className="nav-dd-all" to="/services/">View all services →</Link>
+      </div>
+    </div>
+  );
+}
+
 export function GoogleWord() {
   return (
     <span className="g">
@@ -73,7 +147,8 @@ export default function Header() {
             />
           </Link>
           <nav className="main-nav" aria-label="Main navigation">
-            {NAV.map((item) => (
+            <ServicesDropdown />
+            {NAV.slice(1).map((item) => (
               <NavLink key={item.to} to={item.to}>
                 {item.label}
               </NavLink>
@@ -100,7 +175,16 @@ export default function Header() {
         </div>
         <nav className={`mobile-nav${open ? " open" : ""}`} id="mobile-nav" aria-label="Mobile navigation">
           <div className="wrap">
-            {NAV.map((item) => (
+            <details className="mobile-services">
+              <summary>Services</summary>
+              <Link to="/services/">All services</Link>
+              {SERVICE_MENU.map((s) => (
+                <Link key={s.to} to={s.to} style={{ "--c": s.c }}>
+                  {s.label}
+                </Link>
+              ))}
+            </details>
+            {NAV.slice(1).map((item) => (
               <Link key={item.to} to={item.to}>
                 {item.label}
               </Link>

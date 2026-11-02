@@ -71,6 +71,30 @@ p{margin:0 0 1em}
 .main-nav{display:flex;gap:2px;margin-left:auto}
 .main-nav a{font-weight:600;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:10px 12px}
 .main-nav a:hover,.main-nav a[aria-current=page]{color:#fff}
+/* Services dropdown (desktop) */
+.nav-dd{position:relative;display:flex;align-items:center}
+.main-nav .nav-dd-link{padding-right:4px}
+.nav-dd-toggle{background:none;border:0;color:var(--muted);padding:10px 8px 10px 2px;display:grid;place-items:center}
+.nav-dd-toggle svg{transition:transform .15s}
+.nav-dd.open .nav-dd-toggle,.nav-dd:hover .nav-dd-toggle{color:#fff}
+.nav-dd.open .nav-dd-toggle svg,.nav-dd:hover .nav-dd-toggle svg{transform:rotate(180deg)}
+.nav-dd-panel{position:absolute;top:100%;left:-12px;width:min(620px,90vw);padding-top:12px;display:none;z-index:60}
+.nav-dd.open .nav-dd-panel,.nav-dd:hover .nav-dd-panel{display:block}
+.nav-dd-panel ul{list-style:none;margin:0;padding:12px;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:var(--paper);border-radius:4px 4px 0 0;border-top:6px solid var(--g-blue);box-shadow:0 24px 48px rgba(0,0,0,.45)}
+.nav-dd-panel li:last-child:nth-child(odd){grid-column:1/-1}
+.nav-dd-panel li a{display:grid;gap:2px;padding:12px 14px 12px 18px;border-radius:3px;text-decoration:none;color:var(--ink);border-left:4px solid var(--c);text-transform:none;letter-spacing:0}
+.nav-dd-panel li a:hover,.nav-dd-panel li a:focus-visible{background:#EEF3FA}
+.nav-dd-panel li b{font:700 1.15rem/1.1 var(--font-display);text-transform:uppercase;color:var(--navy);display:flex;align-items:center;gap:8px}
+.nav-dd-panel li span{font-size:.86rem;color:var(--ink-muted);font-weight:500}
+.nav-dd-panel .new{font:800 .62rem var(--font-body);padding:3px 6px}
+.main-nav .nav-dd-all{display:block;background:var(--navy);color:#fff;padding:14px 18px;border-radius:0 0 4px 4px;font-size:.85rem}
+.main-nav .nav-dd-all:hover{background:var(--blue)}
+/* Services section in the phone menu */
+.mobile-services summary{display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid var(--card-line);font:600 1.5rem var(--font-display);text-transform:uppercase;cursor:pointer;list-style:none}
+.mobile-services summary::-webkit-details-marker{display:none}
+.mobile-services summary::after{content:"+";color:var(--g-yellow)}
+.mobile-services[open] summary::after{content:"–"}
+.mobile-nav .mobile-services a{font:600 1.05rem var(--font-body);text-transform:none;padding:12px 0 12px 14px;border-left:4px solid var(--c,var(--g-yellow));margin:6px 0}
 .call{background:var(--g-red);color:#fff;font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:.9rem;text-decoration:none;padding:12px 18px;border-radius:3px;display:inline-flex;gap:8px;align-items:center;white-space:nowrap}
 .menu-toggle{display:none;background:none;border:1px solid var(--card-line);color:#fff;width:46px;height:46px;border-radius:3px;padding:0;place-items:center}
 .mobile-nav{display:none;border-top:1px solid var(--card-line)}
