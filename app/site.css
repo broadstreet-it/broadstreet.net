@@ -64,6 +64,7 @@ p{margin:0 0 1em}
 .nav-row{display:flex;align-items:center;gap:20px;padding-block:14px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0;color:#fff}
 .brand svg{width:50px;height:40px;flex-shrink:0}
+.brand-logo{display:block;height:48px;width:auto;max-width:100%}
 .brand-text{display:grid;line-height:1}
 .brand-text b{font:700 1.4rem var(--font-logo);letter-spacing:-.02em}
 .brand-text small{font-weight:600;font-size:.7rem;margin-top:3px;text-align:right}
@@ -74,8 +75,8 @@ p{margin:0 0 1em}
 .menu-toggle{display:none;background:none;border:1px solid var(--card-line);color:#fff;width:46px;height:46px;border-radius:3px;padding:0;place-items:center}
 .mobile-nav{display:none;border-top:1px solid var(--card-line)}
 .mobile-nav a{display:block;padding:16px 0;border-bottom:1px solid var(--card-line);font:600 1.5rem var(--font-display);text-transform:uppercase;text-decoration:none;color:var(--text)}
-@media (max-width:1060px){.main-nav{display:none}.menu-toggle{display:inline-grid}.call{margin-left:auto}.mobile-nav.open{display:block}}
-@media (max-width:480px){.brand-text b{font-size:1.15rem}.brand-text small{font-size:.6rem}.brand svg{width:42px;height:34px}.call span{display:none}.call{padding:12px 14px}}
+@media (max-width:1140px){.main-nav{display:none}.menu-toggle{display:inline-grid}.call{margin-left:auto}.mobile-nav.open{display:block}}
+@media (max-width:480px){.brand-logo{height:36px}.site-header .brand{min-width:0;flex-shrink:1}.brand-text b{font-size:1.15rem}.brand-text small{font-size:.6rem}.brand svg{width:42px;height:34px}.call span{display:none}.call{padding:12px 14px}}
 
 /* home hero */
 .home-hero{position:relative;overflow:hidden;background:#0A2240 url("/assets/media/hero-camden.jpg") center 55%/cover no-repeat}

@@ -63,13 +63,14 @@ export default function Header() {
       <header className="site-header">
         <div className="wrap nav-row">
           <Link className="brand" to="/" aria-label="Broadstreet.net home">
-            <LogoMark />
-            <span className="brand-text">
-              <b>Broadstreet.net</b>
-              <small>
-                Your Local <GoogleWord /> Partner
-              </small>
-            </span>
+            <img
+              className="brand-logo"
+              src="/assets/media/broadstreet-logo-white.webp"
+              alt="Broadstreet.net — Your Local Google Partner"
+              width="2000"
+              height="335"
+              fetchPriority="high"
+            />
           </Link>
           <nav className="main-nav" aria-label="Main navigation">
             {NAV.map((item) => (
