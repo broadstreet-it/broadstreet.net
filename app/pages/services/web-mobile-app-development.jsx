@@ -1,137 +1,66 @@
-import { Link } from "react-router";
-import { seo } from "../../lib/seo";
+import { faqNode, pageSeo, serviceNode } from "../../lib/seo";
+import ServicePage from "../../components/ServicePage";
+import { RELATED } from "../../components/ui";
+
+const PATH = "/services/web-mobile-app-development/";
+const TITLE = "App Development for Small Businesses in SC | Broadstreet.net";
+const DESCRIPTION =
+  "Custom mobile apps, web apps, customer portals and internal tools for Carolina small businesses. Planned, designed and built by Broadstreet.net in Camden, SC.";
+
+const FAQ = [
+  { q: "Do I need an app, or is a website enough?", a: "Many businesses only need a great website. An app makes sense when customers come back often or your team needs a tool for daily work. We’ll tell you plainly which one fits." },
+  { q: "Do you build for both iPhone and Android?", a: "Yes. We can build apps that work on both, or a web app that works in any browser." },
+  { q: "Will you help after the app launches?", a: "Yes. We keep your app updated, fix issues and add features as your business grows." },
+];
 
 export const meta = () =>
-  seo({
-    title: "Web & Mobile App Development | Broadstreet",
-    description:
-      "Get a jump start by taking advantage of Broadstreet's Drupal experience. We offer affordable custom programming in Columbia, South Carolina and beyond. Our…",
-    canonical: "https://broadstreet.net/services/web-mobile-app-development/",
-    graph: [
-      {
-        "@type": "WebPage",
-        "@id": "https://broadstreet.net/services/web-mobile-app-development/#webpage",
-        url: "https://broadstreet.net/services/web-mobile-app-development/",
-        name: "Web & Mobile App Development | Broadstreet",
-        description:
-          "Get a jump start by taking advantage of Broadstreet's Drupal experience. We offer affordable custom programming in Columbia, South Carolina and beyond. Our…",
-        isPartOf: { "@id": "https://broadstreet.net/#website" },
-        about: { "@id": "https://broadstreet.net/#organization" },
-      },
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://broadstreet.net/" },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "Web & Mobile App Development",
-            item: "https://broadstreet.net/services/web-mobile-app-development/",
-          },
-        ],
-      },
-      {
-        "@type": "Service",
-        name: "Web & Mobile App Development",
-        description:
-          "Get a jump start by taking advantage of Broadstreet's Drupal experience. We offer affordable custom programming in Columbia, South Carolina and beyond. Our…",
-        provider: { "@id": "https://broadstreet.net/#organization" },
-        url: "https://broadstreet.net/services/web-mobile-app-development/",
-      },
-    ],
+  pageSeo({
+    path: PATH,
+    title: TITLE,
+    description: DESCRIPTION,
+    crumbs: [{ name: "Services", path: "/services/" }, { name: "App Development", path: PATH }],
+    extra: [serviceNode("App development", PATH, DESCRIPTION), faqNode(FAQ)],
   });
 
-export default function ServicesWebMobileAppDevelopment() {
-  return (
-    <>
-      <section className="page-hero">
-        <div className="wrap">
-          <nav className="breadcrumbs" aria-label="Breadcrumb">
-            <Link to="/">Home</Link>
-            {" / Web & Mobile App Development"}
-          </nav>
-          <h1>{"Web & Mobile App Development"}</h1>
-          <p className="lead">
-            Get a jump start by taking advantage of Broadstreet's Drupal experience. We offer
-            affordable custom programming in Columbia, South Carolina and beyond. Our…
-          </p>
-        </div>
-      </section>
-      <div className="wrap article-layout">
-        <article className="article-content">
-          <div className="region-inner region-content-inner">
-            <div
-              id="block-system-main"
-              className="block block-system block-main block-system-main odd block-without-title"
-            >
-              <div className="block-inner clearfix">
-                <div className="content clearfix">
-                  <div
-                    id="node-service-255"
-                    className="ds-1col node node-service view-mode-full node-published node-not-promoted node-not-sticky author-tsliker odd clearfix clearfix"
-                  >
-                    <div className="field field-name-field-service-image field-type-image field-label-hidden">
-                      <div className="field-items">
-                        <div className="field-item even">
-                          <img
-                            className="adaptive-image"
-                            alt={"Web & Mobile App Development"}
-                            src="https://broadstreet.net/sites/broadstreet.net/files/styles/service_adaptive/adaptive-image/public/drupal.png?itok=O4o5ItZ-"
-                            loading="lazy"
-                            decoding="async"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="field field-name-body field-type-text-with-summary field-label-hidden">
-                      <div className="field-items">
-                        <div className="field-item even">
-                          <p>
-                            {
-                              "Get a jump start by taking advantage of Broadstreet's Drupal experience. We offer affordable custom programming in Columbia, South Carolina and beyond. Our experienced, full-service design & programming teams will take your ideas for any custom application and turn them into a reality."
-                            }
-                          </p>
-                          <p>
-                            Our custom development skills have been used to create team time logging
-                            applications, content management systems and more. Our professional
-                            design team with experience in marketing will work to ensure easy use
-                            and flow of custom applications.
-                          </p>
-                          <p>
-                            Investing in second-rate programmers to cut costs can be risky and
-                            costly to your success online. When you have Broadstreet design custom
-                            applications, they are built to last.
-                          </p>
-                          <p>
-                            Broadstreet uses an Agile development methodology and can put together
-                            the right team to meet your needs.{" "}
-                          </p>
-                          <p>
-                            {" "}
-                            Read more about <a href="/drupal/">Drupal</a>.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-        <aside className="sidebar">
-          <p className="eyebrow">Let’s move forward</p>
-          <h2>What’s next for your business?</h2>
-          <p>
-            Start with a conversation about your goals, your customers, and where you want to grow.
-          </p>
-          <Link className="button" to="/contact/">
-            Free consultation
-          </Link>
-          <a href="tel:+18035750564">(803) 575-0564</a>
-          <Link to="/portfolio/">Explore our work</Link>
-        </aside>
-      </div>
-    </>
-  );
+const page = {
+  name: "App Development",
+  accent: "var(--g-blue)",
+  label: "App development · New",
+  title: <>Apps that make <span className="c-yellow">business easier</span></>,
+  lede: "Custom apps that make it easier for customers to buy from you and for your team to get work done. We plan, design and build them, then keep them running.",
+  jump: [["mobile", "Mobile apps"], ["web-apps", "Web apps & portals"], ["tools", "Internal tools"], ["connect", "Connections"], ["faq", "Questions"]],
+  facts: [
+    ["iPhone & Android", "Mobile apps for your customers"],
+    ["Web apps", "Portals that work in any browser"],
+    ["Internal tools", "Less paperwork for your team"],
+    ["Local team", "Built and supported from Camden"],
+  ],
+  blocksLabel: "What we build",
+  blocksTitle: <>Four kinds of apps <span className="c-blue">we build</span></>,
+  blocks: [
+    { id: "mobile", color: "var(--g-blue)", label: "Mobile apps", title: "Your business on their home screen", text: "A mobile app keeps your business one tap away. Customers can order, book, check rewards or get updates without searching for you.", listTitle: "Good for", items: ["Ordering and reordering", "Booking appointments", "Loyalty and rewards", "Push notifications for specials and updates"] },
+    { id: "web-apps", color: "var(--g-red)", label: "Web apps & customer portals", title: "Self-service your customers will use", text: "A secure portal on your website where customers can log in to check orders, pay invoices, download documents or request service, without calling your office.", listTitle: "Good for", items: ["Order and job status", "Invoices and online payments", "Shared documents and forms", "Service requests"] },
+    { id: "tools", color: "var(--gold)", label: "Internal tools", title: "Replace the spreadsheets", text: "Simple apps built around how your team actually works: job tracking, scheduling, inspections, inventory counts and more, on a phone, tablet or computer.", listTitle: "Good for", items: ["Job and project tracking", "Field checklists and photos", "Scheduling and dispatch", "Inventory and equipment logs"] },
+    { id: "connect", color: "var(--g-green)", label: "Connections", title: "Works with what you already use", text: "We connect your app to your website, online store, accounting software and the Bridges CRM, so information is entered once and shows up everywhere it’s needed.", listTitle: "We can connect", items: ["Your website and online store", "Accounting and inventory systems", "The Bridges CRM", "Payment processing"] },
+  ],
+  blocksNote: "Draft lists. Confirm the kinds of apps and connections the team will offer before launch.",
+  stepsTitle: "From idea to app",
+  steps: [
+    ["Talk it through", "Tell us what you want customers or staff to be able to do. We’ll help you decide what’s worth building."],
+    ["Design", "You see screens and try out how the app will work before we build it."],
+    ["Build & test", "We build the app and test it on real phones and computers with your team."],
+    ["Launch & support", "We launch it, train your team and keep it updated as your business changes."],
+  ],
+  proof: {
+    label: "Client review",
+    quote: "Five stars! Friendly and creative, and very helpful.",
+    cite: "Chardukian Patteson, Broadstreet client",
+    side: { label: "Have an idea?", title: "Talk it through with us", text: "Book a free consultation. We’ll talk through your idea and tell you what it would take to build it.", to: "/contact/", link: "Book a consultation" },
+  },
+  faq: FAQ,
+  related: [RELATED.bridges, RELATED.websites, RELATED.grow],
+};
+
+export default function AppDevelopment() {
+  return <ServicePage page={page} />;
 }

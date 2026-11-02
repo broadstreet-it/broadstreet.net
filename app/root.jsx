@@ -3,7 +3,15 @@ import Header from "./components/Header";
 import Footer, { CallToAction } from "./components/Footer";
 import "./site.css";
 
-export const links = () => [{ rel: "icon", href: "/favicon.ico" }];
+export const links = () => [
+  { rel: "icon", href: "/favicon.ico" },
+  { rel: "preconnect", href: "https://fonts.googleapis.com" },
+  { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+  {
+    rel: "stylesheet",
+    href: "https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Figtree:wght@400;500;600;700;800&family=Poppins:wght@700&display=swap",
+  },
+];
 
 export function Layout({ children }) {
   return (
@@ -11,6 +19,7 @@ export function Layout({ children }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#06182E" />
         <Meta />
         <Links />
       </head>

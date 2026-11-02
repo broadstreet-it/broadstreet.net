@@ -1,16 +1,38 @@
 import { Link } from "react-router";
+import { GoogleWord, LogoMark } from "./Header";
 
 export function CallToAction() {
   return (
-    <section className="cta">
-      <div className="wrap">
+    <section className="cta-band" aria-label="Contact us">
+      <div className="wrap cta">
         <div>
-          <h2>Let’s build your next chapter.</h2>
-          <p>Tell us where you want to go. We’ll help you get there.</p>
+          <h2>
+            Let’s get your <span className="c-yellow">phone ringing</span>
+          </h2>
+          <p>
+            Book a free, no-pressure consultation. We’ll review your website and Google presence and
+            show you where you can grow.
+          </p>
+          <div className="actions">
+            <Link className="button btn-yellow" to="/contact/">
+              Book a free consultation
+            </Link>
+            <a className="button secondary" href="tel:+18035750564">
+              Call (803) 575-0564
+            </a>
+          </div>
         </div>
-        <Link to="/contact/" className="button">
-          Schedule a free consultation
-        </Link>
+        <ul>
+          <li>
+            <b>Camden, SC</b>537 E DeKalb St, Camden, SC 29020
+          </li>
+          <li>
+            <b>Lancaster, SC</b>Serving Lancaster County businesses
+          </li>
+          <li>
+            <b>Carolinas &amp; beyond</b>In person or by phone and video
+          </li>
+        </ul>
       </div>
     </section>
   );
@@ -19,62 +41,83 @@ export function CallToAction() {
 export default function Footer() {
   const year = 2026; // keep static so prerendered HTML matches hydration
   return (
-    <footer className="site-footer">
-      <div className="wrap">
-        <div className="footer-grid">
-          <div>
-            <h2>Broadstreet.</h2>
-            <p>
-              Digital marketing. Real relationships.
-              <br />
-              Over 20 years of helping businesses grow.
-            </p>
-            <p>
-              537 E DeKalb St
-              <br />
-              Camden, SC 29020
-            </p>
-            <a href="tel:+18035750564">(803) 575-0564</a>
-            <br />
-            <a href="mailto:support@sliker.com">support@sliker.com</a>
+    <>
+      <footer className="site-footer">
+        <div className="wrap">
+          <div className="footer-grid">
+            <div>
+              <Link className="brand" to="/" aria-label="Broadstreet.net home">
+                <LogoMark light />
+                <span className="brand-text">
+                  <b>Broadstreet.net</b>
+                  <small>
+                    Your Local <GoogleWord /> Partner
+                  </small>
+                </span>
+              </Link>
+              <address>
+                <span>Broadstreet Consulting, LLC</span>
+                <span>537 E DeKalb St, Camden, SC 29020</span>
+                <span>PO Box 515, Camden, SC 29021</span>
+                <a href="tel:+18035750564">(803) 575-0564</a>
+                <a href="mailto:support@sliker.com">support@sliker.com</a>
+              </address>
+            </div>
+            <div>
+              <h3>Services</h3>
+              <ul>
+                <li><Link to="/services/get-found/">Get Found</Link></li>
+                <li><Link to="/services/websites/">Websites</Link></li>
+                <li><Link to="/services/stay-connected/">Stay Connected</Link></li>
+                <li><Link to="/services/grow/">Grow</Link></li>
+                <li><Link to="/services/web-mobile-app-development/">App Development</Link></li>
+                <li><Link to="/services/bridges-crm/">Bridges CRM</Link></li>
+                <li><Link to="/services/#web-success">Web Success</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3>Company</h3>
+              <ul>
+                <li><Link to="/about-broadstreet-consulting-camden-scs-trusted-digital-marketing-partner/">About us</Link></li>
+                <li><Link to="/staff/">Our team</Link></li>
+                <li><Link to="/portfolio/">Our work</Link></li>
+                <li><Link to="/what-our-clients-are-saying/">Reviews</Link></li>
+                <li><Link to="/blogs/">Blog</Link></li>
+                <li><Link to="/contact/">Contact</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3>Service areas</h3>
+              <ul>
+                <li><Link to="/camden-sc/">Camden</Link></li>
+                <li><Link to="/lancaster-sc/">Lancaster</Link></li>
+                <li><Link to="/web-design-columbia-sc/">Columbia</Link></li>
+                <li><Link to="/web-design-sumter-sc/">Sumter</Link></li>
+                <li><Link to="/web-design-charlotte-nc/">Charlotte</Link></li>
+                <li><Link to="/#areas">All service areas</Link></li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <h3>What we do</h3>
-            <ul>
-              <li><Link to="/services/mobile-friendly-website-design-development/">Website design</Link></li>
-              <li><Link to="/services/search-engine-optimization-seo/">Search optimization</Link></li>
-              <li><Link to="/services/google-adwords-ppc-search-engine-marketing-consulting/">Google Ads</Link></li>
-              <li><Link to="/services/">All services</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h3>Get to know us</h3>
-            <ul>
-              <li><Link to="/about-broadstreet-consulting-camden-scs-trusted-digital-marketing-partner/">Our company</Link></li>
-              <li><Link to="/staff/">Our team</Link></li>
-              <li><Link to="/what-our-clients-are-saying/">Client reviews</Link></li>
-              <li><Link to="/camden-sc/">Camden</Link></li>
-              <li><Link to="/lancaster-sc/">Lancaster</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h3>Keep exploring</h3>
-            <ul>
-              <li><Link to="/blogs/">Insights</Link></li>
-              <li><Link to="/downloads/">Downloads</Link></li>
-              <li><Link to="/web-success-videos/">Web success videos</Link></li>
-              <li><Link to="/search/">Search the site</Link></li>
-              <li><Link to="/site-map/">All pages</Link></li>
-              <li><a href="https://www.facebook.com/broadstreetconsulting">Facebook</a></li>
-              <li><a href="https://www.youtube.com/user/BroadstConsulting">YouTube</a></li>
-            </ul>
+          <div className="footer-bottom">
+            <span>© {year} Broadstreet Consulting, LLC</span>
+            <span>
+              <a href="https://www.facebook.com/broadstreetconsulting">Facebook</a> ·{" "}
+              <a href="https://www.youtube.com/user/BroadstConsulting">YouTube</a> ·{" "}
+              <Link to="/site-map/">Site map</Link>
+            </span>
+            <span className="bar4" aria-hidden="true">
+              <i style={{ background: "var(--g-blue)" }}></i>
+              <i style={{ background: "var(--g-red)" }}></i>
+              <i style={{ background: "var(--g-yellow)" }}></i>
+              <i style={{ background: "var(--g-green)" }}></i>
+            </span>
           </div>
         </div>
-        <div className="footer-bottom">
-          <span>© {year} Broadstreet Consulting, LLC</span>
-          <span>Camden, South Carolina · Serving businesses nationwide</span>
-        </div>
+      </footer>
+      <div className="callbar">
+        <a href="tel:+18035750564">Call now</a>
+        <Link to="/contact/">Free consult</Link>
       </div>
-    </footer>
+    </>
   );
 }

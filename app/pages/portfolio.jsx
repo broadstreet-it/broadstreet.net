@@ -233,28 +233,6 @@ export default function Portfolio() {
               </div>
             </article>
             <article className="card">
-              <Link to="/portfolio/backcountry-beyond/" tabIndex="-1" aria-hidden="true">
-                <img
-                  src="/assets/media/e050cfca2f874814.jpg"
-                  alt=""
-                  loading="lazy"
-                  width="640"
-                  height="400"
-                />
-              </Link>
-              <div className="card-content">
-                <p className="eyebrow">Our work</p>
-                <h3>
-                  <Link to="/portfolio/backcountry-beyond/">{"Backcountry & Beyond"}</Link>
-                </h3>
-                <p>
-                  {
-                    "Explore Broadstreet’s work with Backcountry & Beyond: website design, online presence, and a partnership built around the client’s business."
-                  }
-                </p>
-              </div>
-            </article>
-            <article className="card">
               <Link to="/portfolio/torres-law-firm/" tabIndex="-1" aria-hidden="true">
                 <img
                   src="/assets/media/87e7cda7913053a9.png"
@@ -292,27 +270,6 @@ export default function Portfolio() {
                 </h3>
                 <p>
                   Explore Broadstreet’s work with Thompson Rental Services: website design, online
-                  presence, and a partnership built around the client’s business.
-                </p>
-              </div>
-            </article>
-            <article className="card">
-              <Link to="/portfolio/fairfield-county-chamber/" tabIndex="-1" aria-hidden="true">
-                <img
-                  src="/assets/media/1b8fd661513f4309.jpg"
-                  alt=""
-                  loading="lazy"
-                  width="640"
-                  height="400"
-                />
-              </Link>
-              <div className="card-content">
-                <p className="eyebrow">Our work</p>
-                <h3>
-                  <Link to="/portfolio/fairfield-county-chamber/">Fairfield County Chamber</Link>
-                </h3>
-                <p>
-                  Explore Broadstreet’s work with Fairfield County Chamber: website design, online
                   presence, and a partnership built around the client’s business.
                 </p>
               </div>

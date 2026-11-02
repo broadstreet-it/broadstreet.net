@@ -43,10 +43,10 @@
 /node/473 /portfolio/town-elgin/ 301
 /node/391 /portfolio/powers-gregory-heating-cooling-hvac/ 301
 /node/476 /portfolio/signs-unlimited-sc/ 301
-/node/387 /portfolio/backcountry-beyond/ 301
+/node/387 /portfolio/ 301
 /node/392 /portfolio/torres-law-firm/ 301
 /node/133 /portfolio/thompson-rental-services/ 301
-/node/408 /portfolio/fairfield-county-chamber/ 301
+/node/408 /portfolio/ 301
 /node/399 /portfolio/big-red-barn-retreat/ 301
 /node/407 /portfolio/rock-bottom-pond/ 301
 /node/403 /portfolio/handy-man-purpose-llc/ 301
@@ -72,7 +72,7 @@
 /node/259 /services/content-management-development/ 301
 /node/255 /services/web-mobile-app-development/ 301
 /node/256 /services/digital-marketing-strategy-and-support/ 301
-/node/290 /web-success/ 301
+/node/290 /services/#web-success 301
 /node/219 /tom-sliker/ 301
 /node/389 /tom-sliker-technical-expert-digital-marketing-social-media-google-seo-search-marketing/ 301
 /node/468 /buster/ 301
@@ -97,3 +97,12 @@
 /node/324 /blog/5-tips-succeeding-google-adwords/ 301
 /node/328 /blog/using-google-street-view-and-360-spherical-camera-showcase-your-small-business/ 301
 /node/423 /book-now/ 301
+# 2026 redesign: removed pages
+/portfolio/backcountry-beyond /portfolio/ 301
+/portfolio/backcountry-beyond/ /portfolio/ 301
+/portfolio/fairfield-county-chamber /portfolio/ 301
+/portfolio/fairfield-county-chamber/ /portfolio/ 301
+/web-success /services/#web-success 301
+/web-success/ /services/#web-success 301
+/web-success-signup /services/#web-success 301
+/web-success-signup/ /services/#web-success 301
