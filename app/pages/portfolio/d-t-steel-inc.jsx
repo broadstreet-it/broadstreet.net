@@ -1,94 +1,11 @@
-import { Link } from "react-router";
-import { seo } from "../../lib/seo";
+import CaseStudy, { caseStudyMeta } from "../../components/CaseStudy";
 
-export const meta = () =>
-  seo({
-    title: "D & T Steel, Inc | Broadstreet",
-    description:
-      "Explore Broadstreet’s work with D & T Steel, Inc: website design, online presence, and a partnership built around the client’s business.",
-    canonical: "https://broadstreet.net/portfolio/d-t-steel-inc/",
-    graph: [
-      {
-        "@type": "WebPage",
-        "@id": "https://broadstreet.net/portfolio/d-t-steel-inc/#webpage",
-        url: "https://broadstreet.net/portfolio/d-t-steel-inc/",
-        name: "D & T Steel, Inc | Broadstreet",
-        description:
-          "Explore Broadstreet’s work with D & T Steel, Inc: website design, online presence, and a partnership built around the client’s business.",
-        isPartOf: { "@id": "https://broadstreet.net/#website" },
-        about: { "@id": "https://broadstreet.net/#organization" },
-      },
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://broadstreet.net/" },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "D & T Steel, Inc",
-            item: "https://broadstreet.net/portfolio/d-t-steel-inc/",
-          },
-        ],
-      },
-    ],
-  });
+export const meta = () => caseStudyMeta("d-t-steel-inc");
 
 export default function PortfolioDTSteelInc() {
   return (
-    <>
-      <section className="page-hero">
-        <div className="wrap">
-          <nav className="breadcrumbs" aria-label="Breadcrumb">
-            <Link to="/">Home</Link>
-            {" / D & T Steel, Inc"}
-          </nav>
-          <h1>{"D & T Steel, Inc"}</h1>
-          <p className="lead">
-            {
-              "Explore Broadstreet’s work with D & T Steel, Inc: website design, online presence, and a partnership built around the client’s business."
-            }
-          </p>
-        </div>
-      </section>
-      <div className="wrap article-layout">
-        <article className="article-content">
-          <div className="region-inner region-content-inner">
-            <div
-              id="block-system-main"
-              className="block block-system block-main block-system-main odd block-without-title"
-            >
-              <div className="block-inner clearfix">
-                <div className="content clearfix">
-                  <div
-                    id="node-portfolio-363"
-                    className="ds-2col-stacked node node-portfolio view-mode-full node-published node-not-promoted node-not-sticky author-ajwillis odd clearfix clearfix"
-                  >
-                    <div className="group-header"></div>
-                    <div className="group-left">
-                      <div className="field field-name-field-image-page-view field-type-image field-label-hidden">
-                        <div className="field-items">
-                          <div className="field-item even">
-                            <a
-                              href="http://www.dtsteelinc.com/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <img
-                                alt={"D & T Steel, Inc"}
-                                src="/assets/media/fa71fa13a5351e8c.jpg"
-                                loading="lazy"
-                                decoding="async"
-                                width="527"
-                                height="505"
-                              />
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="field field-name-body field-type-text-with-summary field-label-hidden">
-                        <div className="field-items">
-                          <div className="field-item even">
-                            <p>
+    <CaseStudy slug="d-t-steel-inc">
+      <p>
                               {
                                 "D&T Steel, Inc. was founded by Donna & Travis Crumpton in 1990. The company began as a small fabricator, which produced stairs, handrails, ladders and gates."
                               }
@@ -134,31 +51,6 @@ export default function PortfolioDTSteelInc() {
                                 "Our goal is to meet our client's needs and requirements while providing a quality product, on time and within budget. From stairs and handrails to multi-story buildings, D&T Steel can fabricate and install any steel product. We are committed to providing the highest quality products and services to each and every customer."
                               }
                             </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="group-right"></div>
-                    <div className="group-footer"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-        <aside className="sidebar">
-          <p className="eyebrow">Let’s move forward</p>
-          <h2>What’s next for your business?</h2>
-          <p>
-            Start with a conversation about your goals, your customers, and where you want to grow.
-          </p>
-          <Link className="button" to="/contact/">
-            Free consultation
-          </Link>
-          <a href="tel:+18035750564">(803) 575-0564</a>
-          <Link to="/portfolio/">Explore our work</Link>
-        </aside>
-      </div>
-    </>
+    </CaseStudy>
   );
 }

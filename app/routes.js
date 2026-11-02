@@ -62,7 +62,6 @@ export default [
   route("portfolio/kb-cores", "pages/portfolio/kb-cores.jsx"),
   route("portfolio/laureledu", "pages/portfolio/laureledu.jsx"),
   route("portfolio/nature-teacher-preserve", "pages/portfolio/nature-teacher-preserve.jsx"),
-  route("portfolio/page/2", "pages/portfolio/page/2.jsx"),
   route("portfolio/palmetto-glass", "pages/portfolio/palmetto-glass.jsx"),
   route("portfolio/powers-gregory-heating-cooling-hvac", "pages/portfolio/powers-gregory-heating-cooling-hvac.jsx"),
   route("portfolio/river-valley-recycling", "pages/portfolio/river-valley-recycling.jsx"),

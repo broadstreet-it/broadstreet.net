@@ -2,7 +2,7 @@
 // Cloudflare's _redirects file can't match query strings, so the old Drupal
 // pagination URLs (?page=1) are redirected here.
 const QUERY_REDIRECTS = {
-  "/portfolio?page=1": "/portfolio/page/2/",
+  "/portfolio?page=1": "/portfolio/",
   "/blogs?page=1": "/blogs/page/2/",
 };
 

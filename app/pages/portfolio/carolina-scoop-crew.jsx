@@ -1,92 +1,11 @@
-import { Link } from "react-router";
-import { seo } from "../../lib/seo";
+import CaseStudy, { caseStudyMeta } from "../../components/CaseStudy";
 
-export const meta = () =>
-  seo({
-    title: "Carolina Scoop Crew | Broadstreet",
-    description:
-      "Explore Broadstreet’s work with Carolina Scoop Crew: website design, online presence, and a partnership built around the client’s business.",
-    canonical: "https://broadstreet.net/portfolio/carolina-scoop-crew/",
-    graph: [
-      {
-        "@type": "WebPage",
-        "@id": "https://broadstreet.net/portfolio/carolina-scoop-crew/#webpage",
-        url: "https://broadstreet.net/portfolio/carolina-scoop-crew/",
-        name: "Carolina Scoop Crew | Broadstreet",
-        description:
-          "Explore Broadstreet’s work with Carolina Scoop Crew: website design, online presence, and a partnership built around the client’s business.",
-        isPartOf: { "@id": "https://broadstreet.net/#website" },
-        about: { "@id": "https://broadstreet.net/#organization" },
-      },
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://broadstreet.net/" },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "Carolina Scoop Crew",
-            item: "https://broadstreet.net/portfolio/carolina-scoop-crew/",
-          },
-        ],
-      },
-    ],
-  });
+export const meta = () => caseStudyMeta("carolina-scoop-crew");
 
 export default function PortfolioCarolinaScoopCrew() {
   return (
-    <>
-      <section className="page-hero">
-        <div className="wrap">
-          <nav className="breadcrumbs" aria-label="Breadcrumb">
-            <Link to="/">Home</Link> / Carolina Scoop Crew
-          </nav>
-          <h1>Carolina Scoop Crew</h1>
-          <p className="lead">
-            Explore Broadstreet’s work with Carolina Scoop Crew: website design, online presence,
-            and a partnership built around the client’s business.
-          </p>
-        </div>
-      </section>
-      <div className="wrap article-layout">
-        <article className="article-content">
-          <div className="region-inner region-content-inner">
-            <div
-              id="block-system-main"
-              className="block block-system block-main block-system-main odd block-without-title"
-            >
-              <div className="block-inner clearfix">
-                <div className="content clearfix">
-                  <div
-                    id="node-portfolio-474"
-                    className="ds-2col-stacked node node-portfolio view-mode-full node-published node-not-promoted node-not-sticky author-mary odd clearfix clearfix"
-                  >
-                    <div className="group-header"></div>
-                    <div className="group-left">
-                      <div className="field field-name-field-image-page-view field-type-image field-label-hidden">
-                        <div className="field-items">
-                          <div className="field-item even">
-                            <a
-                              href="https://carolinascoopcrew.com/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <img
-                                alt="Carolina Scoop Crew"
-                                src="/assets/media/e33bcf8e45df4b05.png"
-                                loading="lazy"
-                                decoding="async"
-                                width="1366"
-                                height="2123"
-                              />
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="field field-name-body field-type-text-with-summary field-label-hidden">
-                        <div className="field-items">
-                          <div className="field-item even">
-                            <p>
+    <CaseStudy slug="carolina-scoop-crew">
+      <p>
                               When{" "}
                               <a href="https://carolinascoopcrew.com/">
                                 <strong>Carolina Scoop Crew</strong>
@@ -135,31 +54,6 @@ export default function PortfolioCarolinaScoopCrew() {
                               online presence into a digital experience designed to turn clicks into
                               customers.
                             </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="group-right"></div>
-                    <div className="group-footer"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-        <aside className="sidebar">
-          <p className="eyebrow">Let’s move forward</p>
-          <h2>What’s next for your business?</h2>
-          <p>
-            Start with a conversation about your goals, your customers, and where you want to grow.
-          </p>
-          <Link className="button" to="/contact/">
-            Free consultation
-          </Link>
-          <a href="tel:+18035750564">(803) 575-0564</a>
-          <Link to="/portfolio/">Explore our work</Link>
-        </aside>
-      </div>
-    </>
+    </CaseStudy>
   );
 }
