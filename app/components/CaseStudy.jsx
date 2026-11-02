@@ -33,7 +33,7 @@ export function BrowserShot({ p, size = "large", eager = false }) {
   return (
     <figure
       className={`browser browser-${size}`}
-      style={narrow ? { maxWidth: Math.round(p.image.width * 1.25), marginInline: "auto" } : undefined}
+      style={narrow ? { maxWidth: Math.round(p.image.width * 1.6), marginInline: "auto" } : undefined}
     >
       <div className="browser-bar" aria-hidden="true">
         <i></i><i></i><i></i>

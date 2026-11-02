@@ -195,12 +195,13 @@ ol.breadcrumbs li+li::before{content:"/";margin-right:8px}
 .browser-bar i:nth-child(2){background:var(--g-yellow)}
 .browser-bar i:nth-child(3){background:var(--g-green)}
 .browser-bar span{margin-left:10px;flex:1;min-width:0;background:#fff;border-radius:999px;padding:4px 14px;font-size:.82rem;color:var(--ink-muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.browser-view{--vh:clamp(300px,52vw,640px);height:var(--vh);overflow:hidden;background:#F1F4F8}
+.browser-view{--vh:clamp(240px,34vw,460px);height:var(--vh);overflow:hidden;background:#F1F4F8}
 .browser-small .browser-view{--vh:230px}
 .browser-view img{display:block;width:100%;height:auto;transition:transform 7s ease-in-out}
 .browser:hover .browser-view img{transform:translateY(min(0px,calc(-100% + var(--vh))))}
 .browser-small .browser-view img{transition-duration:4s}
 .showcase{padding-bottom:0}
+.showcase .wrap{max-width:1440px}
 .showcase-note{color:var(--dim);font-size:.85rem;text-align:center;margin-top:14px}
 @media (hover:none){.showcase-note{display:none}}
 .case-section{padding-top:clamp(40px,6vw,64px)}
