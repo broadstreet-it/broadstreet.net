@@ -83,14 +83,4 @@ export const CLIENT_REVIEWS = [
     biz: "Broadstreet client",
     c: "#1A66A8",
   },
-  {
-    headline: "Highly recommended!",
-    excerpt: "An excellent job with website design, maintenance, AdWords and retargeting campaigns.",
-    full: [
-      "Broadstreet does an excellent job with website design, maintenance, AdWords and retargeting campaigns. I highly recommend their services!",
-    ],
-    who: "Douglas Decker",
-    biz: "Broadstreet client",
-    c: "#C5221F",
-  },
 ];
