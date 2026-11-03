@@ -8,7 +8,7 @@ export const meta = () =>
   pageSeo({
     path: PATH,
     title: "Tom Sliker in the Media: Digital Marketing & Technology Expert | Broadstreet",
-    description: "Podcasts, interviews and videos featuring Broadstreet founder Tom Sliker on digital marketing, web platforms, Google and cyber security.",
+    description: "Podcasts, interviews and videos featuring Broadstreet founder Tom Sliker on digital marketing strategy and cyber security.",
     crumbs: [{ name: "Our Team", path: "/staff/" }, { name: "Tom Sliker", path: "/tom-sliker/" }, { name: "In the media", path: PATH }],
   });
 
@@ -30,15 +30,6 @@ const APPEARANCES = [
     href: "http://lykkenonlending.com/11-20-17-hot-topic-creating-a-comprehensive-digital-marketing-strategy-with-tom-sliker/",
     link: "Listen to the episode",
     c: "var(--g-red)",
-  },
-  {
-    date: "Nov 26, 2010",
-    kind: "Podcast",
-    title: "Social Media Monster",
-    text: "Tom joins Michael Carnell to talk about WordPress, Drupal and choosing the right web platform.",
-    href: "http://michaelcarnell.com/podcast-episode-006-wordpress-drupal-and-the-choice-of-web-platforms/",
-    link: "Listen to the episode",
-    c: "var(--g-yellow)",
   },
 ];
 
