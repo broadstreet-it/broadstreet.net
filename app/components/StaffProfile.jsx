@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import { pageSeo } from "../lib/seo";
 import { TEAM, teamBySlug } from "../data/team";
 import { PageHero, SectionHead } from "./ui";
+import EmailChooser from "./EmailChooser";
 
 export const staffMeta = (slug) => {
   const m = teamBySlug[slug];
@@ -44,7 +45,7 @@ export default function StaffProfile({ slug }) {
         actions={
           <>
             {m.email ? (
-              <a className="button btn-yellow" href={`mailto:${m.email}`}>Email {first}</a>
+              <EmailChooser className="button btn-yellow" email={m.email}>Email {first}</EmailChooser>
             ) : (
               <Link className="button btn-yellow" to="/contact/">Contact us</Link>
             )}
@@ -62,7 +63,7 @@ export default function StaffProfile({ slug }) {
             <div className="profile-card-body">
               <h2>{m.name}</h2>
               <span className="member-title">{m.title}</span>
-              {m.email && <a className="profile-email" href={`mailto:${m.email}`}>{m.email}</a>}
+              {m.email && <EmailChooser className="profile-email" email={m.email}>{m.email}</EmailChooser>}
               {m.links.length > 0 && (
                 <div className="profile-social">
                   {m.links.map(([label, href]) => (
