@@ -1,11 +1,21 @@
-// The Broadstreet team, shown on /staff/. Bios are shortened from each person's profile page.
+// The Broadstreet team: /staff/ lists everyone, and each person has a profile page (slug).
+// `bio` is the short version for cards; `about` is the full profile text.
 export const TEAM = [
   {
+    slug: "tom-sliker",
     name: "Tom Sliker",
     title: "President / CEO / Lead Consultant",
     to: "/tom-sliker/",
     photo: { src: "/assets/media/team/tom-sliker.webp", width: 1024, height: 1024 },
     bio: "Tom leads the Broadstreet team and brings over 30 years of software development and integration experience to his clients. He holds a B.S. in Computer Science and an MBA from the University of South Carolina.",
+    about: [
+      "Tom Sliker serves as the ringleader for the Broadstreet team and has built a diverse, talented, multi-faceted team that has taken on a wide range of projects. With over 30 years of software development and integration experience, Tom brings a wealth of technical and business knowledge to his customers and his team.",
+      "Tom graduated with a B.S. in Computer Science from the University of South Carolina. For ten years, he developed financial software for corporations such as BellSouth and Westinghouse. In the mid-1990s, Tom began working as a consultant and software project manager throughout South Carolina and served as a manager in two high-tech startups. From 2001 to 2013, he worked in various roles for AgFirst Farm Credit Bank in Columbia, SC, and along the way earned an MBA from the University of South Carolina with a focus on international business.",
+      "In May 2013, Tom left his day job to focus full-time on Broadstreet Consulting. Besides the work of Broadstreet, Tom stays busy promoting Drupal and building the local Drupal community through meetups and camps.",
+      "When he’s not on his computer, Tom can be found hiking nearby or somewhere in the mountains.",
+    ],
+    more: { to: "/tom-sliker-technical-expert-digital-marketing-social-media-google-seo-search-marketing/", text: "Podcasts and videos featuring Tom" },
+    gallery: ["/assets/media/5add965935864475.jpg", "/assets/media/7e8693b35eac9b3f.jpg", "/assets/media/70e4e1e989b0adcd.jpg", "/assets/media/323b46e0f009a96e.jpg"],
     color: "var(--g-blue)",
     links: [
       ["LinkedIn", "http://www.linkedin.com/pub/tom-sliker/5/532/8a6"],
@@ -14,12 +24,18 @@ export const TEAM = [
     ],
   },
   {
+    slug: "tiffany-massey",
     name: "Tiffany Massey",
     title: "Content Specialist",
     to: "/tiffany-massey/",
     email: "tiffany@broadstreet.net",
     photo: { src: "/assets/media/14b1b5df5288f388.png", width: 480, height: 480 },
     bio: "Tiffany enjoys building relationships with clients and helping them represent their businesses in new ways online. She’s based in Camden and studied advertising and public relations at Grand Canyon University.",
+    about: [
+      "As a Content Specialist for Broadstreet Consulting, Tiffany Massey enjoys building relationships with clients and enabling them to represent their businesses in innovative ways online.",
+      "Based in Camden, SC, Tiffany graduated from Grand Canyon University with a Bachelor of Arts in Advertising and Public Relations with an emphasis in Advertisement Design.",
+      "When she isn’t behind the computer, she enjoys spending time with her husband, Derek, and their toddler, Tucker.",
+    ],
     color: "var(--g-red)",
     links: [
       ["Facebook", "https://www.facebook.com/tiffanymasseyyy"],
@@ -27,54 +43,88 @@ export const TEAM = [
     ],
   },
   {
+    slug: "danielle-wolsleben",
     name: "Danielle Wolsleben",
     title: "Content Specialist",
     to: "/danielle-wolsleben/",
     email: "daniellew@broadstreet.net",
     photo: { src: "/assets/media/6cd35eb1f422c5f8.jpg", width: 480, height: 480 },
     bio: "Danielle helps clients build strong, consistent online identities through graphic design and digital content, including social media, website design, logos and branding.",
+    about: [
+      "Danielle is a Nebraska native with a B.A. in Graphic Design from Wayne State College. She joined Broadstreet in 2021 after Air Force life brought her family to Camden, SC. Since then, Danielle and Nevin have welcomed two little boys into the family, and their next adventure has taken them to Texas.",
+      "As a Content Specialist, Danielle helps Broadstreet clients create strong, consistent online identities through graphic design and digital content. Her work includes social media content, website design, logo design and brand development.",
+      "Outside of work, Danielle embraces the wonderfully busy life of a boy mom. She enjoys family adventures, home projects, photography, movies, and relaxing whenever she gets the chance.",
+    ],
     color: "var(--gold)",
     links: [
       ["LinkedIn", "https://www.linkedin.com/in/daniellerutar/"],
+      ["Facebook", "https://www.facebook.com/danielle.rutar"],
       ["Instagram", "https://www.instagram.com/daniellewolsleben/"],
     ],
   },
   {
+    slug: "john-jackson",
     name: "John Jackson",
     title: "Web Developer",
     to: "/john-jackson/",
     email: "john@broadstreet.net",
     photo: { src: "/assets/media/0230f500a11500d2.jpg", width: 269, height: 480 },
     bio: "John, from Cassatt, SC, brings a passion for technology and entrepreneurship to the team, with a background that runs from coding to digital marketing.",
+    about: [
+      "John Jackson, hailing from Cassatt, SC, brings a passion for technology and entrepreneurship to his role at Broadstreet.",
+      "From his early days tinkering with PlayStation consoles to diving into coding and digital marketing ventures, John’s diverse background enriches the team’s creative approach.",
+      "Under the mentorship of Tom Sliker, founder and president of Broadstreet, John has quickly embraced his position, demonstrating remarkable progress and dedication.",
+    ],
     color: "var(--g-green)",
     links: [],
   },
   {
+    slug: "mary-souto",
     name: "Mary Souto",
     title: "Content Specialist – Web Design",
     to: "/mary-souto/",
     email: "mary@broadstreet.net",
     photo: { src: "/assets/media/3fd486d91ad86bbf.jpg", width: 480, height: 477 },
     bio: "Mary brings years of marketing, graphic design and digital content experience to Broadstreet, and designs websites that are both beautiful and effective.",
+    about: [
+      "Mary joins our team from Lugoff, where she shares her home with her husband, four daughters, and two black labs who have proudly earned the title of “the best dogs ever.” With a passion for creativity and storytelling, Mary brings years of experience in marketing, graphic design and digital content creation to Broadstreet.",
+      "As a content specialist, Mary helps bring our clients’ brands to life through engaging messaging, thoughtful strategy and creative campaigns. She also works as one of our web designers, combining her eye for design with her understanding of what makes a website both beautiful and effective.",
+      "Whether she’s crafting the perfect social media post, creating a fresh website design, or helping businesses connect with their customers, Mary brings creativity, attention to detail, and a genuine passion for helping local businesses grow.",
+    ],
     color: "var(--g-blue)",
     links: [],
   },
   {
+    slug: "nyia-langley",
     name: "Nyia Langley",
     title: "Content Specialist",
     to: "/nyia-langley/",
     photo: { src: "/assets/media/3c9cc6372edded63.png", width: 384, height: 480 },
     bio: "Nyia brings over seven years of social media strategy and content experience, helping brands build a consistent, strategic online presence.",
+    about: [
+      "Nyia Langley brings over seven years of social media strategy and content experience to the Broadstreet team.",
+      "She specializes in helping brands build a consistent, strategic online presence, creating content that reflects who they are and speaks directly to the people they want to reach.",
+      "Nyia believes great content starts with clarity, and she loves helping businesses find theirs.",
+    ],
     color: "var(--g-red)",
     links: [],
   },
   {
+    slug: "buster",
     name: "Buster",
     title: "Employee of the Century – Chief Happiness Officer",
     to: "/buster/",
     photo: { src: "/assets/media/team/buster.webp", width: 526, height: 701 },
     bio: "Buster keeps the team (and Tom) on schedule with tail wags and friendly greetings. You’ll usually find him welcoming clients at the office door.",
+    about: [
+      "Buster may technically belong to Tom, our owner, but around the office everyone knows who is really in charge. As Broadstreet’s unofficial Chief Happiness Officer, Buster keeps the team (and Tom) on schedule with plenty of tail wags, friendly greetings, and important supervision.",
+      "A familiar face around Camden, Buster is Tom’s loyal sidekick and can often be found tagging along on adventures throughout the community. Whether he’s riding along for a local outing, exploring the great outdoors, or simply making new friends, Buster loves being wherever the action is.",
+      "When he’s not out adventuring, you can usually find him welcoming clients at the office door or soaking up the sunshine in his favorite spot inside the office. His responsibilities include greeting visitors, providing moral support, and reminding everyone that a little fresh air and fun are essential parts of a good workday.",
+      "Buster brings a little extra personality to Broadstreet every day, and we’re pretty sure our clients enjoy seeing him just as much as we enjoy having him here.",
+    ],
     color: "var(--gold)",
     links: [],
   },
 ];
+
+export const teamBySlug = Object.fromEntries(TEAM.map((m) => [m.slug, m]));
