@@ -26,6 +26,7 @@ export const ORGANIZATION = {
   sameAs: [
     "https://www.facebook.com/broadstreetconsulting",
     "https://www.youtube.com/user/BroadstConsulting",
+    "https://www.linkedin.com/company/broadstreet-consulting/",
   ],
 };
 

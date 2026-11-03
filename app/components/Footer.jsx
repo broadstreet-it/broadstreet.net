@@ -1,6 +1,34 @@
 import { Link } from "react-router";
 import EmailChooser from "./EmailChooser";
 
+const SOCIAL = [
+  {
+    label: "Facebook",
+    href: "https://www.facebook.com/broadstreetconsulting",
+    bg: "#1877F2",
+    icon: <path fill="#fff" d="M14 8h3V4h-3c-2.8 0-4.5 1.7-4.5 4.6V11H7v4h2.5v9h4v-9h3l.5-4h-3.5V8.9c0-.6.3-.9.9-.9z" />,
+  },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/company/broadstreet-consulting/",
+    bg: "#0A66C2",
+    icon: <path fill="#fff" d="M5 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 10h4v11H3zm6.5 0h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.3c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4z" />,
+  },
+  {
+    label: "Google Business Profile",
+    href: "https://share.google/1NhuaGRKBP359VyvA",
+    bg: "#fff",
+    icon: (
+      <>
+        <path fill="#4285F4" d="M21.6 12.2c0-.7-.1-1.4-.2-2H12v3.8h5.4a4.6 4.6 0 0 1-2 3v2.5h3.2c1.9-1.7 3-4.3 3-7.3z" />
+        <path fill="#34A853" d="M12 22c2.7 0 5-.9 6.6-2.4l-3.2-2.5c-.9.6-2 1-3.4 1-2.6 0-4.8-1.8-5.6-4.1H3.1v2.6A10 10 0 0 0 12 22z" />
+        <path fill="#FBBC05" d="M6.4 14c-.2-.6-.3-1.3-.3-2s.1-1.4.3-2V7.4H3.1a10 10 0 0 0 0 9.2z" />
+        <path fill="#EA4335" d="M12 6c1.5 0 2.8.5 3.8 1.5l2.9-2.9A10 10 0 0 0 3.1 7.4L6.4 10C7.2 7.7 9.4 6 12 6z" />
+      </>
+    ),
+  },
+];
+
 export function CallToAction() {
   return (
     <section className="cta-band" aria-label="Contact us">
@@ -52,6 +80,15 @@ export default function Footer() {
                 <a href="tel:+18035750564">(803) 575-0564</a>
                 <EmailChooser email="support@sliker.com">support@sliker.com</EmailChooser>
               </address>
+              <ul className="footer-social" aria-label="Broadstreet on social media">
+                {SOCIAL.map((s) => (
+                  <li key={s.label}>
+                    <a href={s.href} target="_blank" rel="noopener noreferrer" aria-label={`Broadstreet on ${s.label}`} title={s.label} style={{ background: s.bg }}>
+                      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">{s.icon}</svg>
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
             <div>
               <h3>Services</h3>
