@@ -580,6 +580,11 @@ a.member-card:hover .member-name{color:var(--blue)}
 .partner-points li::before{content:"✓";grid-row:span 2;width:30px;height:30px;border-radius:50%;background:var(--pc);color:var(--pt);display:grid;place-items:center;font-weight:800;font-size:.95rem}
 .partner-points b{color:#fff;font-size:1.05rem}
 .partner-points span{color:var(--muted);font-size:.95rem;line-height:1.5}
+.partner-promise{font-weight:700;color:var(--text)!important;border-left:4px solid var(--g-yellow);padding-left:16px}
+.beliefs.beliefs-2{grid-template-columns:repeat(2,1fr)}
+.reading-card a{color:var(--g-yellow);font-weight:700;text-decoration:none;line-height:1.4}
+.reading-card a:hover{text-decoration:underline}
+@media (max-width:560px){.beliefs.beliefs-2{grid-template-columns:1fr}}
 .beliefs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .belief{background:var(--bc);border-radius:4px;padding:26px;color:#fff}
 .belief h3{margin:0 0 10px;font-size:1.6rem;line-height:1.05}

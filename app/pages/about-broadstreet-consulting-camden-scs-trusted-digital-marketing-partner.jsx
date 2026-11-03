@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { Link } from "react-router";
 import { pageSeo } from "../lib/seo";
 import { Facts, PageHero, SectionHead } from "../components/ui";
+import PartnerCard from "../components/PartnerCard";
 
 const PATH = "/about-broadstreet-consulting-camden-scs-trusted-digital-marketing-partner/";
 
@@ -45,12 +46,6 @@ const TIMELINE = [
   { era: "growth", month: "Oct", year: "2023", title: "Serving Lancaster", text: "A Lancaster office opens to serve one of the fastest-growing counties in the Charlotte metro. Today we serve Lancaster clients 100% remotely.", to: "/lancaster-sc/" },
   { era: "growth", month: "", year: "2025", title: "Steps from Broad Street", text: "We move to a larger, better space for clients, just steps away from Camden’s own Broad Street." },
   { era: "growth", month: "", year: "Today", title: "Your digital marketing team", text: "Websites, SEO, Google Ads and social media for businesses across the Carolinas.", to: "/services/" },
-];
-
-const PARTNER_POINTS = [
-  ["Certified in Google Ads", "Certified staff who follow Google’s best practices.", "var(--g-blue)"],
-  ["Verified by Google", "Listed on Google’s official Partner Search.", "var(--g-red)"],
-  ["Ahead of the changes", "Exclusive Google training, product updates and research.", "var(--g-yellow)", true],
 ];
 
 const BELIEFS = [
@@ -187,19 +182,7 @@ export default function About() {
 
       <section className="section">
         <div className="wrap about-partner">
-          <div className="partner-card">
-            <Link to="/broadstreet-consulting-google-partners-google-adwords-certified/" className="partner-badge">
-              <img src="/assets/media/google-partner-badge.png" alt="Google Partner" width="603" height="205" loading="lazy" decoding="async" />
-            </Link>
-            <ul className="partner-points">
-              {PARTNER_POINTS.map(([title, text, c, dark]) => (
-                <li key={title} style={{ "--pc": c, "--pt": dark ? "#06182E" : "#fff" }}>
-                  <b>{title}</b>
-                  <span>{text}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+          <PartnerCard />
           <div className="about-copy">
             <span className="label" style={{ "--lc": "var(--g-green)" }}>Google Partner</span>
             <h2>A double layer of quality assurance</h2>

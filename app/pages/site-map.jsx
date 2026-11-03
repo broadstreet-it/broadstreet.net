@@ -305,7 +305,7 @@ export default function SiteMap() {
             </li>
             <li>
               <Link to="/broadstreet-consulting-google-partners-google-adwords-certified/">
-                {"Broadstreet Consulting - Google Partner & Adwords Certified Agency"}
+                {"Google Partner & Google Ads Certified Agency"}
               </Link>
             </li>
             <li>
