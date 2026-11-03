@@ -7,7 +7,7 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Commercial Dock and Door Systems: website design, online presence, and a partnership built around the client’s business.",
     "url": "https://commercialdockanddoorsystems.com/",
     "image": {
-      "src": "/assets/media/88dacd6e6d0c427a.png",
+      "src": "/assets/media/portfolio/commercial-dock-and-door-systems.webp",
       "width": 1366,
       "height": 2033
     },
@@ -24,7 +24,7 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Carolina Scoop Crew: website design, online presence, and a partnership built around the client’s business.",
     "url": "https://carolinascoopcrew.com/",
     "image": {
-      "src": "/assets/media/e33bcf8e45df4b05.png",
+      "src": "/assets/media/portfolio/carolina-scoop-crew.webp",
       "width": 1366,
       "height": 2123
     },
@@ -45,7 +45,7 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Nature As Teacher Preserve: website design, online presence, and a partnership built around the client’s business.",
     "url": "https://natureasteacher.org/",
     "image": {
-      "src": "/assets/media/fca421e49830ab98.png",
+      "src": "/assets/media/portfolio/nature-teacher-preserve.webp",
       "width": 1366,
       "height": 2370
     },
@@ -62,7 +62,7 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Signs Unlimited SC: website design, online presence, and a partnership built around the client’s business.",
     "url": "https://signsunlimitedsc.com/",
     "image": {
-      "src": "/assets/media/ba6779fba2368d52.png",
+      "src": "/assets/media/portfolio/signs-unlimited-sc.webp",
       "width": 1366,
       "height": 2426
     },
@@ -83,9 +83,9 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Powers & Gregory HVAC: website design, online presence, and a partnership built around the client’s business.",
     "url": "https://www.powersandgregory.com/",
     "image": {
-      "src": "/assets/media/18d95daac4660ac1.png",
-      "width": 3825,
-      "height": 5947
+      "src": "/assets/media/portfolio/powers-gregory-heating-cooling-hvac.webp",
+      "width": 1400,
+      "height": 2177
     },
     "services": [
       [
@@ -167,9 +167,9 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with KB Cores: website design, online presence, and a partnership built around the client’s business.",
     "url": "http://www.kbcores.com/",
     "image": {
-      "src": "/assets/media/e6dbb9c3a2ef91d2.png",
-      "width": 1547,
-      "height": 1592
+      "src": "/assets/media/portfolio/kb-cores.webp",
+      "width": 1400,
+      "height": 1441
     },
     "services": [
       [
@@ -196,7 +196,7 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Palmetto Glass: website design, online presence, and a partnership built around the client’s business.",
     "url": "https://palmettoglass.com/",
     "image": {
-      "src": "/assets/media/cff38687931332f5.png",
+      "src": "/assets/media/portfolio/palmetto-glass.webp",
       "width": 1366,
       "height": 2268
     },
@@ -217,7 +217,7 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with River Valley Recycling: website design, online presence, and a partnership built around the client’s business.",
     "url": "https://www.rivervalleyrecycling.net/",
     "image": {
-      "src": "/assets/media/d67fb8e53dc48dae.jpg",
+      "src": "/assets/media/portfolio/river-valley-recycling.webp",
       "width": 1276,
       "height": 718
     },
@@ -234,7 +234,7 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with The Big Red Barn Retreat: website design, online presence, and a partnership built around the client’s business.",
     "url": "http://thebigredbarnretreat.org/",
     "image": {
-      "src": "/assets/media/c2325cd1cbb6b73a.png",
+      "src": "/assets/media/portfolio/big-red-barn-retreat.webp",
       "width": 1366,
       "height": 2076
     },
@@ -259,9 +259,9 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Torres Law Firm: website design, online presence, and a partnership built around the client’s business.",
     "url": "https://www.torreslawfirm.net/",
     "image": {
-      "src": "/assets/media/87e7cda7913053a9.png",
-      "width": 3825,
-      "height": 7073
+      "src": "/assets/media/portfolio/torres-law-firm.webp",
+      "width": 1400,
+      "height": 2589
     },
     "services": [
       [
@@ -280,9 +280,9 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Brazell Exterminating & Home Repair: website design, online presence, and a partnership built around the client’s business.",
     "url": "https://www.brazellexterminating.com/",
     "image": {
-      "src": "/assets/media/ceefe855ecb3b0c7.png",
-      "width": 3825,
-      "height": 8290
+      "src": "/assets/media/portfolio/brazell-exterminating-home-repair.webp",
+      "width": 1400,
+      "height": 3034
     },
     "services": [
       [
@@ -301,9 +301,9 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Browns Oil & Lube: website design, online presence, and a partnership built around the client’s business.",
     "url": "http://brownsoillube.com/",
     "image": {
-      "src": "/assets/media/5ad9aa02086c7aa4.jpg",
-      "width": 1573,
-      "height": 1192
+      "src": "/assets/media/portfolio/browns-oil-lube.webp",
+      "width": 1400,
+      "height": 1061
     },
     "services": [
       [
@@ -339,9 +339,9 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Handy Man on Purpose, LLC: website design, online presence, and a partnership built around the client’s business.",
     "url": "https://www.handymanonpurpose.com/",
     "image": {
-      "src": "/assets/media/8dcf56d15bae13f0.jpg",
-      "width": 2334,
-      "height": 1796
+      "src": "/assets/media/portfolio/handy-man-purpose-llc.webp",
+      "width": 1400,
+      "height": 1077
     },
     "services": [
       [
@@ -381,9 +381,9 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Laurel.edu: website design, online presence, and a partnership built around the client’s business.",
     "url": "http://www.laurel.edu/",
     "image": {
-      "src": "/assets/media/60ea8abdfc1723b2.png",
-      "width": 1889,
-      "height": 1469
+      "src": "/assets/media/portfolio/laureledu.webp",
+      "width": 1400,
+      "height": 1089
     },
     "services": [
       [
@@ -414,9 +414,9 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Rock Bottom Pond: website design, online presence, and a partnership built around the client’s business.",
     "url": "https://www.rockbottompond.com/",
     "image": {
-      "src": "/assets/media/dfbbb84eb8639c21.jpg",
-      "width": 1620,
-      "height": 1172
+      "src": "/assets/media/portfolio/rock-bottom-pond.webp",
+      "width": 1400,
+      "height": 1013
     },
     "services": [
       [
@@ -443,9 +443,9 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with STARS Campus Solutions: website design, online presence, and a partnership built around the client’s business.",
     "url": "https://starscampus.com/",
     "image": {
-      "src": "/assets/media/91bed00febd5c3d8.jpg",
-      "width": 1607,
-      "height": 1194
+      "src": "/assets/media/portfolio/stars-campus-solutions.webp",
+      "width": 1400,
+      "height": 1040
     },
     "services": [
       [
@@ -468,9 +468,9 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Thompson Rental Services: website design, online presence, and a partnership built around the client’s business.",
     "url": "http://www.thompsonrentalservices.com/",
     "image": {
-      "src": "/assets/media/b9350e7812813ae6.png",
-      "width": 1901,
-      "height": 1247
+      "src": "/assets/media/portfolio/thompson-rental-services.webp",
+      "width": 1400,
+      "height": 918
     },
     "services": [
       [
@@ -505,7 +505,7 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Town of Elgin: website design, online presence, and a partnership built around the client’s business.",
     "url": "https://townofelginsc.com/",
     "image": {
-      "src": "/assets/media/958bcf317be06c4b.png",
+      "src": "/assets/media/portfolio/town-elgin.webp",
       "width": 1366,
       "height": 2099
     },
@@ -522,7 +522,7 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet’s work with Tyler Brothers: website design, online presence, and a partnership built around the client’s business.",
     "url": "http://www.tylerbrothers.net/",
     "image": {
-      "src": "/assets/media/9ad5dc17aa183542.jpg",
+      "src": "/assets/media/portfolio/tyler-brothers.webp",
       "width": 1084,
       "height": 939
     },
