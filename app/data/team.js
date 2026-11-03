@@ -87,9 +87,11 @@ export const TEAM = [
     photo: { src: "/assets/media/3fd486d91ad86bbf.jpg", width: 480, height: 477 },
     bio: "Mary brings years of marketing, graphic design and digital content experience to Broadstreet, and designs websites that are both beautiful and effective.",
     about: [
-      "Mary joins our team from Lugoff, where she shares her home with her husband, four daughters, and two black labs who have proudly earned the title of “the best dogs ever.” With a passion for creativity and storytelling, Mary brings years of experience in marketing, graphic design and digital content creation to Broadstreet.",
+      "Mary joins our team from Lugoff, where she shares her home with her husband, four daughters, and two black labs who have proudly earned the title of “the best dogs ever.” She also has a son who is serving in the U.S. Navy in Japan. With a passion for creativity and storytelling, Mary brings years of experience in marketing, graphic design and digital content creation to Broadstreet.",
       "As a content specialist, Mary helps bring our clients’ brands to life through engaging messaging, thoughtful strategy and creative campaigns. She also works as one of our web designers, combining her eye for design with her understanding of what makes a website both beautiful and effective.",
       "Whether she’s crafting the perfect social media post, creating a fresh website design, or helping businesses connect with their customers, Mary brings creativity, attention to detail, and a genuine passion for helping local businesses grow.",
+      "When she’s not working, you’ll find Mary relaxing with The Sims, one of her favorite games, binging a good true crime series, or serving as chauffeur, nurse, line cook, teacher and therapist to her army of kids. She loves photography and nature. Three years of living in Germany only fueled her love of travel, and if she had her way, she’d be hopping on a plane or into the car every weekend.",
+      "Mary serves her community as social chair of the Camden Rotary Club and lends a helping hand to local organizations like the United Way of Kershaw County.",
     ],
     color: "var(--g-blue)",
     links: [],
