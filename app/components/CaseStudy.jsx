@@ -42,7 +42,7 @@ export function BrowserShot({ p, size = "large", eager = false }) {
       <div className="browser-view">
         <img
           src={p.image.src}
-          alt={size === "large" ? `${p.name} website designed by Broadstreet.net` : ""}
+          alt={size === "small" ? "" : `${p.name} website designed by Broadstreet.net`}
           width={p.image.width || undefined}
           height={p.image.height || undefined}
           loading={eager ? "eager" : "lazy"}
@@ -78,37 +78,40 @@ export default function CaseStudy({ slug, children }) {
         }
       />
 
-      <section className="section showcase">
-        <div className="wrap">
-          <BrowserShot p={p} eager />
-          <p className="showcase-note">Hover over the screenshot to scroll through the site.</p>
-        </div>
-      </section>
-
       <section className="section case-section">
+        {/* Desktop: details then story on the left, a fixed-size site scroller on the right.
+            Phone: details, scroller, story. */}
         <div className="wrap case-grid">
+          <div className="case-details">
+            <h2>Project details</h2>
+            <dl>
+              <div>
+                <dt>Client</dt>
+                <dd>{p.name}</dd>
+              </div>
+              {p.url && (
+                <div>
+                  <dt>Website</dt>
+                  <dd><a href={p.url} target="_blank" rel="noopener noreferrer">{domainOf(p.url)} ↗</a></dd>
+                </div>
+              )}
+              <div className="wide">
+                <dt>Services</dt>
+                <dd className="chips">
+                  {p.services.map(([label, to]) => <Link key={to} to={to}>{label}</Link>)}
+                </dd>
+              </div>
+            </dl>
+          </div>
+          <aside className="case-shot" aria-label={`${p.name} website`}>
+            <BrowserShot p={p} size="side" eager />
+            <p className="showcase-note">Hover over the screenshot to scroll through the site.</p>
+            <Link className="button btn-yellow" to="/contact/">Start a project like this</Link>
+          </aside>
           <article className="article-content case-story">
             <span className="label" style={{ "--lc": "var(--blue)" }}>The story</span>
             {children}
           </article>
-          <aside className="case-details">
-            <h2>Project details</h2>
-            <dl>
-              <dt>Client</dt>
-              <dd>{p.name}</dd>
-              {p.url && (
-                <>
-                  <dt>Website</dt>
-                  <dd><a href={p.url} target="_blank" rel="noopener noreferrer">{domainOf(p.url)} ↗</a></dd>
-                </>
-              )}
-              <dt>Services</dt>
-              <dd className="chips">
-                {p.services.map(([label, to]) => <Link key={to} to={to}>{label}</Link>)}
-              </dd>
-            </dl>
-            <Link className="button btn-yellow" to="/contact/">Start a project like this</Link>
-          </aside>
         </div>
       </section>
 
