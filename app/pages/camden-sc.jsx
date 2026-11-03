@@ -1,329 +1,172 @@
 import { Link } from "react-router";
-import { seo } from "../lib/seo";
+import { pageSeo, serviceNode } from "../lib/seo";
+import { AreaGrid, PageHero, SectionHead, ServiceGroups } from "../components/ui";
+import PhotoGrid from "../components/PhotoGrid";
+
+const PATH = "/camden-sc/";
+const TITLE = "Digital Marketing & Web Design in Camden, SC | Broadstreet";
+const DESCRIPTION =
+  "Work with a local Camden, SC team for website design, SEO, Google Ads, and digital marketing. Visit Broadstreet at 537 E DeKalb St or book a free consultation.";
 
 export const meta = () =>
-  seo({
-    title: "Digital Marketing & Web Design in Camden, SC | Broadstreet",
-    description:
-      "Work with a local Camden, SC team for website design, SEO, Google Ads, and digital marketing. Visit Broadstreet at 537 E DeKalb St or book a free consultation.",
-    canonical: "https://broadstreet.net/camden-sc/",
-    graph: [
+  pageSeo({
+    path: PATH,
+    title: TITLE,
+    description: DESCRIPTION,
+    crumbs: [{ name: "Service Areas", path: "/#areas" }, { name: "Camden", path: PATH }],
+    extra: [
       {
-        "@type": "WebPage",
-        "@id": "https://broadstreet.net/camden-sc/#webpage",
-        url: "https://broadstreet.net/camden-sc/",
-        name: "Digital Marketing & Web Design in Camden, SC | Broadstreet",
-        description:
-          "Work with a local Camden, SC team for website design, SEO, Google Ads, and digital marketing. Visit Broadstreet at 537 E DeKalb St or book a free consultation.",
-        isPartOf: { "@id": "https://broadstreet.net/#website" },
-        about: { "@id": "https://broadstreet.net/#organization" },
-      },
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://broadstreet.net/" },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "Your digital marketing team in Camden, SC.",
-            item: "https://broadstreet.net/camden-sc/",
-          },
-        ],
+        ...serviceNode("Web design and digital marketing in Camden, SC", PATH, DESCRIPTION),
+        areaServed: { "@type": "City", name: "Camden", containedInPlace: { "@type": "State", name: "South Carolina" } },
       },
     ],
   });
 
+const MAPS = "https://www.google.com/maps/search/?api=1&query=Broadstreet.net%2C+537+E+DeKalb+St%2C+Camden%2C+SC+29020";
+const SEARCHES = ["web design camden sc", "camden seo company", "google ads camden", "camden website developer", "kershaw county marketing"];
+const img = (name, width, height) => ({ src: `/assets/media/places/${name}.webp`, width, height });
+
+const STORY = [
+  {
+    ...img("camden-ribbon-cutting", 1400, 774),
+    alt: "Broadstreet team and Camden community members cutting the ribbon at 1119 Little Street",
+    title: "July 2023 · Little Street",
+    text: "We opened our first office at 1119 Little Street with a ribbon-cutting, joined by members of the Camden community. It reflected steady demand from Camden businesses looking for a digital marketing partner they could meet face-to-face, not an out-of-state agency working from a call center.",
+    c: "var(--g-blue)",
+  },
+  {
+    ...img("camden-office", 1200, 675),
+    alt: "Ribbon-cutting outside Broadstreet’s office at 537 E DeKalb St, Camden",
+    title: "2025 · 537 E DeKalb St",
+    text: "We moved to a larger, better space for clients in downtown Camden, steps away from Camden’s own Broad Street. Stop by anytime to chat.",
+    c: "var(--g-yellow)",
+  },
+];
+
+const COMMUNITY = [
+  {
+    ...img("camden-chamber-gala", 1400, 946),
+    alt: "Tom Sliker with Broadstreet staff at the Kershaw County Chamber of Commerce Awards Gala",
+    title: "Kershaw County Chamber of Commerce",
+    text: "Tom with Broadstreet staff Kristen, Tiffany and Daneen at the Chamber’s Awards Gala. Tom has been an active Chamber member since 2018, which keeps us connected to what’s actually happening in local business.",
+    c: "var(--g-red)",
+  },
+  {
+    ...img("camden-kccoa", 1400, 1050),
+    alt: "Tom Sliker with Bruce at the Kershaw County Council on Aging",
+    title: "Kershaw County Council on Aging",
+    text: "Tom with Bruce at KCCOA. Tom volunteers for KCCOA’s Meals on Wheels program and enjoys helping seniors in the Camden community.",
+    c: "var(--g-green)",
+  },
+  {
+    ...img("camden-woolard-tech", 1400, 1050),
+    alt: "Tom Sliker with instructor LaKeith Bufford at Woolard Technology Center",
+    title: "Woolard Technology Center",
+    text: "Tom serves on the Information Technology Advisory Board at WTC, home to dedicated instructors like LaKeith Bufford.",
+    c: "var(--g-blue)",
+  },
+  {
+    ...img("camden-powers-gregory-shoot", 1400, 933),
+    alt: "Broadstreet on a photo shoot for Powers & Gregory",
+    title: "Powers & Gregory",
+    text: "A photo shoot for Powers & Gregory, one of our long-term local partners. We’ve helped them grow through consistent SEO and paid search to compete as a top heating and cooling company in the Kershaw area.",
+    c: "var(--gold)",
+  },
+  {
+    ...img("camden-mattress-outlet", 1400, 1050),
+    alt: "Tom Sliker with Steve, owner of Mattress Outlet of Camden",
+    title: "Mattress Outlet of Camden",
+    text: "We love connecting with Camden business owners, like Steve at Mattress Outlet, who showed us his extensive collection of mattresses.",
+    c: "var(--orange)",
+  },
+];
+
 export default function CamdenSc() {
   return (
-    <>
-      <section className="page-hero">
-        <div className="wrap">
-          <nav className="breadcrumbs" aria-label="Breadcrumb">
-            <Link to="/">Home</Link> / Your digital marketing team in Camden, SC.
-          </nav>
-          <h1>Your digital marketing team in Camden, SC.</h1>
-          <p className="lead">
-            Work with a local Camden, SC team for website design, SEO, Google Ads, and digital
-            marketing. Visit Broadstreet at 537 E DeKalb St or book a free consultation.
-          </p>
+    <div style={{ "--accent": "var(--g-yellow)" }}>
+      <PageHero
+        crumbs={[{ name: "Service Areas", to: "/#areas" }, { name: "Camden" }]}
+        label="Serving Camden, South Carolina"
+        title={<>Your digital marketing team in <span className="accent">Camden</span></>}
+        lede="Website design, SEO, Google Ads and digital marketing from a local team in downtown Camden. Visit us at 537 E DeKalb St or book a free consultation."
+      />
+
+      <section className="section">
+        <div className="wrap local">
+          <div>
+            <span className="label">Right here in Camden</span>
+            <h2>Local help, <span className="accent">right around the corner</span></h2>
+            <p>
+              Broadstreet helps small businesses in Camden and Lugoff grow their online presence through web development,
+              SEO and paid advertising. Our office sits at <strong>537 E DeKalb St</strong>, right in the heart of downtown,
+              so whether you need a new website, a stronger Google presence or a full digital marketing strategy, local help
+              is right around the corner.
+            </p>
+            <p>
+              Camden isn’t just where our office happens to be. It’s home, and the place we build relationships with local
+              business owners rather than treating clients as accounts. From the historic storefronts along DeKalb Street to
+              the growing business community out toward Lugoff, we build strategies around how people in Camden and Kershaw
+              County actually search, shop and find local businesses online.
+            </p>
+            <p>
+              Our team handles everything from custom websites and Drupal development to Google Ads, local SEO and ongoing
+              social media, all in-house, by people who live and work in the same community as our clients. That means faster
+              turnaround, direct access to your account manager, and a team that already understands the local market.
+            </p>
+          </div>
+          <div className="local-side">
+            <aside className="searches visit-card" aria-label="Visit our office">
+              <h3>Visit our office</h3>
+              <address>
+                <b>Broadstreet.net</b>
+                537 E DeKalb St<br />Camden, SC 29020
+              </address>
+              <p>Mailing address: PO Box 515, Camden, SC 29021</p>
+              <div className="visit-actions">
+                <a className="button btn-yellow" href={MAPS} target="_blank" rel="noopener noreferrer">Get directions ↗</a>
+                <a className="button secondary" href="tel:+18035750564">(803) 575-0564</a>
+              </div>
+            </aside>
+            <aside className="searches" aria-label="Example searches">
+              <h3>Searches we help you win</h3>
+              <div className="chips">{SEARCHES.map((s) => <span key={s}>{s}</span>)}</div>
+            </aside>
+          </div>
         </div>
       </section>
-      <div className="wrap article-layout">
-        <article className="article-content">
-          <div className="region-inner region-content-inner">
-            <div
-              id="block-system-main"
-              className="block block-system block-main block-system-main odd block-without-title"
-            >
-              <div className="block-inner clearfix">
-                <div className="content clearfix">
-                  <article
-                    id="node-page-451"
-                    className="node node-page node-published node-not-promoted node-not-sticky author-tsliker odd clearfix"
-                  >
-                    <div className="content clearfix">
-                      <div className="field field-name-body field-type-text-with-summary field-label-hidden">
-                        <div className="field-items">
-                          <div className="field-item even">
-                            <div className="column-section">
-                              <div className="column-2">
-                                <img
-                                  id="responsive-img"
-                                  alt="Your digital marketing team in Camden, SC."
-                                  src="https://broadstreet.net/sites/broadstreet.net/files/broadstreet.net_camden_south_carolina_office.png"
-                                  loading="lazy"
-                                  decoding="async"
-                                />
-                              </div>
-                              <div className="column-2">
-                                <h2>{"Digital Marketing & Web Development in Camden, SC"}</h2>
-                                <p>
-                                  For over 20 years, Broadstreet Consulting has helped small
-                                  businesses in Camden and Lugoff, SC grow their online presence
-                                  through web development, SEO, and paid advertising. Our home
-                                  office sits at <strong>537 E DeKalb St in Camden, SC</strong>,
-                                  right in the heart of downtown — so whether you need a new
-                                  website, a stronger Google presence, or a full digital marketing
-                                  strategy, local help is right around the corner. Look us up on
-                                  Google or Apple Maps and stop by anytime to chat.
-                                </p>
-                                <p>
-                                  Camden isn't just where our office happens to be — it's home,
-                                  and the place we build relationships with local business owners
-                                  rather than treating clients as accounts. Since 2025 our office
-                                  has been just steps from Camden's own Broad Street. From the historic downtown
-                                  storefronts along DeKalb Street to the growing business community
-                                  out toward Lugoff, we've watched Camden change and grown right
-                                  alongside it. That local perspective shapes everything we do: we
-                                  don't hand small businesses generic marketing templates, we build
-                                  strategies around how people in Camden and Kershaw County actually
-                                  search, shop, and find local businesses online.
-                                </p>
-                                <h2>Camden, SC's Local Digital Marketing Agency</h2>
-                                <p>
-                                  Broadstreet is your local digital marketing agency that aims to
-                                  grow your business through web development, SEO, and paid
-                                  advertising. Broadstreet is well known in the Camden area and
-                                  hopes to make the same impacts in Lancaster.
-                                </p>
-                                <p>
-                                  Our Camden team handles everything from custom website builds and
-                                  Drupal-based content management to Google Ads campaigns, local
-                                  SEO, and ongoing social media marketing — all managed in-house by
-                                  people who live and work in the same community as our clients.
-                                  That means faster turnaround, direct access to your account
-                                  manager, and a team that already understands the local competitive
-                                  landscape, whether you're a restaurant on Broad Street, a
-                                  contractor serving Kershaw County, or a retailer competing for
-                                  foot traffic downtown.
-                                </p>
-                              </div>
-                            </div>
-                            <div className="column-section column-section-color">
-                              <div className="column-3">
-                                <p>
-                                  <img
-                                    className="media-element file-default"
-                                    alt="Broadstreet.net ribbon cutting in Camden, SC"
-                                    title="Broadstreet.net ribbon cutting in Camden, SC"
-                                    src="https://broadstreet.net/sites/broadstreet.net/files/ribboncutting1.jpg"
-                                    loading="lazy"
-                                    decoding="async"
-                                    width="2085"
-                                    height="1152"
-                                  />
-                                </p>
-                                <p>
-                                  <strong>
-                                    In July of 2023, Broadstreet marked the expansion of its new
-                                    office space with a ribbon-cutting ceremony. Numerous members
-                                    from the Camden community joined Broadstreet in commemorating
-                                    this milestone celebration.
-                                  </strong>
-                                </p>
-                                <p>
-                                  <strong>
-                                    The expansion reflected steady growth in demand from Camden-area
-                                    businesses looking for a full-service digital marketing partner
-                                    they could actually meet with face-to-face — not an out-of-state
-                                    agency working from a call center. The new space gave our team
-                                    more room to grow while keeping us exactly where we started: in
-                                    downtown Camden.
-                                  </strong>
-                                </p>
-                              </div>
-                              <div className="column-3">
-                                <p>
-                                  <img
-                                    className="media-element file-default"
-                                    alt="Broadstreet.net at the Kershaw County Chamber of Commerce"
-                                    title="Broadstreet.net at the Kershaw County Chamber of Commerce"
-                                    src="https://broadstreet.net/sites/broadstreet.net/files/chamberofcommerce1.jpg"
-                                    loading="lazy"
-                                    decoding="async"
-                                    width="1704"
-                                    height="1152"
-                                  />
-                                </p>
-                                <p>
-                                  <strong>
-                                    Broadstreet Founder and CEO, Tom Sliker, gathers with
-                                    Broadstreet staff, Kristen, Tiffany, and Daneen, at the Kershaw
-                                    County Chamber of Commerce Awards Gala. Tom has been an active
-                                    member of the Chamber since 2018.
-                                  </strong>
-                                </p>
-                                <p>
-                                  <strong>
-                                    Staying active in the Kershaw County Chamber of Commerce keeps
-                                    our team connected to what's actually happening in the local
-                                    business community — new openings, local events, and the
-                                    challenges Camden business owners are facing in real time. It's
-                                    part of how we make sure our marketing advice stays grounded in
-                                    what's actually working locally, not just what's trending
-                                    nationally.
-                                  </strong>
-                                </p>
-                              </div>
-                              <div className="column-3">
-                                <p>
-                                  <img
-                                    className="media-element file-default"
-                                    alt={
-                                      "Broadstreet.net founder & CEO, Tom Sliker, at the Kershaw County Council on Aging"
-                                    }
-                                    title={
-                                      "Broadstreet.net founder & CEO, Tom Sliker, at the Kershaw County Council on Aging"
-                                    }
-                                    src="https://broadstreet.net/sites/broadstreet.net/files/kccoa1.jpg"
-                                    loading="lazy"
-                                    decoding="async"
-                                    width="1536"
-                                    height="1152"
-                                  />
-                                </p>
-                                <p>
-                                  <strong>
-                                    {
-                                      "Broadstreet Founder & CEO, Tom Sliker, had a good chat with Bruce at Kershaw County Council on Aging. Tom has been volunteering for KCCOA's Meals on Wheels program and has enjoyed helping Seniors within the Camden community."
-                                    }
-                                  </strong>
-                                </p>
-                              </div>
-                            </div>
-                            <div className="column-section column-section-without-color">
-                              <div className="column-3">
-                                <p>
-                                  <img
-                                    className="media-element file-default"
-                                    alt={
-                                      "Broadstreet.net conducting a photo shoot for Powers & Gregory."
-                                    }
-                                    title={
-                                      "Broadstreet.net conducting a photo shoot for Powers & Gregory."
-                                    }
-                                    src="https://broadstreet.net/sites/broadstreet.net/files/img_4996.jpg"
-                                    loading="lazy"
-                                    decoding="async"
-                                    width="3888"
-                                    height="2592"
-                                  />
-                                </p>
-                                <p>
-                                  <strong>
-                                    {
-                                      "Broadstreet is proud to work with Powers & Gregory, pushing their online presence to be the #1 Heating & Cooling company in the Kershaw area."
-                                    }
-                                  </strong>
-                                </p>
-                                <p>
-                                  <strong>
-                                    {
-                                      "Powers & Gregory is one of several long-term local partnerships we're proud of — businesses that came to us needing to be found online in a crowded, competitive local market, and who we've helped grow through consistent SEO and paid search strategy over time. It's the kind of measurable, local result we aim for with every Camden client."
-                                    }
-                                  </strong>
-                                </p>
-                              </div>
-                              <div className="column-3">
-                                <p>
-                                  <img
-                                    className="media-element file-default"
-                                    alt={
-                                      "Broadstreet.net founder & CEO, Tom Sliker, at Woolard Technology Center with LaKeith Bufford"
-                                    }
-                                    title={
-                                      "Broadstreet.net founder & CEO, Tom Sliker, at Woolard Technology Center with LaKeith Bufford"
-                                    }
-                                    src="https://broadstreet.net/sites/broadstreet.net/files/wtc1.jpg"
-                                    loading="lazy"
-                                    decoding="async"
-                                    width="1536"
-                                    height="1152"
-                                  />
-                                  <br />
-                                  <br />
-                                  <strong>
-                                    Tom Sliker proudly holds a position on the Information
-                                    Technology Advisory Board at the Woolard Technology Center.
-                                    Within the IT department, they are fortunate to have dedicated
-                                    instructors like LaKeith Bufford. It's great to hear about the
-                                    career and technology education and training provided by WTC.
-                                  </strong>
-                                </p>
-                              </div>
-                              <div className="column-3">
-                                <p>
-                                  <img
-                                    className="media-element file-default"
-                                    alt={
-                                      "Broadstreet.net founder & CEO, Tom Sliker, with Steve, the owner of Mattress Outlet in Camden, SC"
-                                    }
-                                    title={
-                                      "Broadstreet.net founder & CEO, Tom Sliker, with Steve, the owner of Mattress Outlet in Camden, SC"
-                                    }
-                                    src="https://broadstreet.net/sites/broadstreet.net/files/mattressoutlet1_0.jpg"
-                                    loading="lazy"
-                                    decoding="async"
-                                    width="1536"
-                                    height="1152"
-                                  />
-                                </p>
-                                <p>
-                                  <strong>
-                                    The Broadstreet team thoroughly enjoys connecting with business
-                                    owners in Camden. During their visit with Steve at Mattress
-                                    Outlet of Camden, they had the pleasure of exploring his
-                                    extensive collection of mattresses.​​​​​​​
-                                  </strong>
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="clearfix">
-                      <nav className="links node-links clearfix"></nav>
-                    </div>
-                  </article>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-        <aside className="sidebar">
-          <p className="eyebrow">Let’s move forward</p>
-          <h2>What’s next for your business?</h2>
-          <p>
-            Start with a conversation about your goals, your customers, and where you want to grow.
-          </p>
-          <Link className="button" to="/contact/">
-            Free consultation
-          </Link>
-          <a href="tel:+18035750564">(803) 575-0564</a>
-          <Link to="/portfolio/">Explore our work</Link>
-        </aside>
-      </div>
-    </>
+
+      <section className="section alt">
+        <div className="wrap">
+          <SectionHead
+            label="Our Camden story"
+            labelColor="var(--g-blue)"
+            title={<>From Little Street to <span className="c-yellow">steps from Broad Street</span></>}
+            lede={<><Link to="/about-broadstreet-consulting-camden-scs-trusted-digital-marketing-partner/" style={{ color: "var(--g-yellow)", fontWeight: 700 }}>See our full timeline →</Link></>}
+          />
+          <PhotoGrid items={STORY} />
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap">
+          <SectionHead label="Part of the community" labelColor="var(--g-green)" title="Out and about in Kershaw County" />
+          <PhotoGrid items={COMMUNITY} />
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="wrap">
+          <SectionHead label="Services in Camden" title={<>Everything you need, <span className="accent">one local team</span></>} />
+          <ServiceGroups />
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap">
+          <SectionHead label="Service areas" labelColor="var(--g-green)" title="Where else we work" lede="Based in Camden, serving businesses across South Carolina and the Charlotte region." />
+          <AreaGrid />
+        </div>
+      </section>
+    </div>
   );
 }

@@ -75,7 +75,7 @@ export default function ServicesLogoDesign() {
                           <img
                             className="adaptive-image"
                             alt="Logo Design"
-                            src="https://broadstreet.net/sites/broadstreet.net/files/styles/service_adaptive/adaptive-image/public/broadst_googleplus.png?itok=ZqJLuZuY"
+                            src="/assets/media/legacy/broadst-googleplus.webp"
                             loading="lazy"
                             decoding="async"
                           />

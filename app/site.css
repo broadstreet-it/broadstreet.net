@@ -566,6 +566,20 @@ a.member-card:hover .member-name{color:var(--blue)}
 @media (max-width:900px){.about-intro,.about-name,.about-partner{grid-template-columns:1fr}.beliefs{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.beliefs{grid-template-columns:1fr}.timeline li{flex-basis:78vw}}
 
+/* captioned photo cards (Camden, Lancaster) */
+.photo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.photo-card{margin:0;background:var(--card);border:1px solid var(--card-line);border-top:5px solid var(--pc,var(--g-blue));border-radius:4px;overflow:hidden;display:flex;flex-direction:column}
+.photo-card img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;height:auto}
+.photo-card figcaption{padding:18px 20px 22px;display:grid;gap:8px}
+.photo-card figcaption b{font:700 1.35rem/1.1 var(--font-display);text-transform:uppercase;color:#fff}
+.photo-card figcaption span{color:var(--muted);line-height:1.6}
+.local-side{display:grid;gap:18px}
+.visit-card address{font-style:normal;line-height:1.6;font-size:1.1rem}
+.visit-card address b{display:block;font-size:1.2rem}
+.visit-card p{color:var(--muted)}
+.visit-actions{display:flex;flex-wrap:wrap;gap:10px}
+.visit-actions .button{padding:12px 18px}
+
 /* single blog post */
 .blog-hero-grid{grid-template-columns:minmax(0,1fr) minmax(0,440px);align-items:center;gap:clamp(24px,4vw,56px)}
 .blog-hero-text{display:grid;gap:18px;align-content:center}

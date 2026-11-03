@@ -1,216 +1,124 @@
 import { Link } from "react-router";
-import { seo } from "../lib/seo";
+import { pageSeo, serviceNode } from "../lib/seo";
+import { AreaGrid, PageHero, SectionHead, ServiceGroups } from "../components/ui";
+import PhotoGrid from "../components/PhotoGrid";
+
+const PATH = "/lancaster-sc/";
+const TITLE = "Digital Marketing & SEO in Lancaster, SC | Broadstreet";
+const DESCRIPTION =
+  "Reach more customers in Lancaster, SC with Broadstreet’s website design, SEO, and paid advertising services. Start with a free digital marketing consultation.";
 
 export const meta = () =>
-  seo({
-    title: "Digital Marketing & SEO in Lancaster, SC | Broadstreet",
-    description:
-      "Reach more customers in Lancaster, SC with Broadstreet’s website design, SEO, and paid advertising services. Start with a free digital marketing consultation.",
-    canonical: "https://broadstreet.net/lancaster-sc/",
-    graph: [
+  pageSeo({
+    path: PATH,
+    title: TITLE,
+    description: DESCRIPTION,
+    crumbs: [{ name: "Service Areas", path: "/#areas" }, { name: "Lancaster", path: PATH }],
+    extra: [
       {
-        "@type": "WebPage",
-        "@id": "https://broadstreet.net/lancaster-sc/#webpage",
-        url: "https://broadstreet.net/lancaster-sc/",
-        name: "Digital Marketing & SEO in Lancaster, SC | Broadstreet",
-        description:
-          "Reach more customers in Lancaster, SC with Broadstreet’s website design, SEO, and paid advertising services. Start with a free digital marketing consultation.",
-        isPartOf: { "@id": "https://broadstreet.net/#website" },
-        about: { "@id": "https://broadstreet.net/#organization" },
-      },
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://broadstreet.net/" },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "Helping Lancaster businesses grow online.",
-            item: "https://broadstreet.net/lancaster-sc/",
-          },
-        ],
+        ...serviceNode("Web design and digital marketing in Lancaster, SC", PATH, DESCRIPTION),
+        areaServed: { "@type": "City", name: "Lancaster", containedInPlace: { "@type": "State", name: "South Carolina" } },
       },
     ],
   });
 
+const SEARCHES = ["web design lancaster sc", "lancaster seo company", "google ads lancaster", "lancaster website developer", "indian land marketing"];
+const img = (name, width, height) => ({ src: `/assets/media/places/${name}.webp`, width, height });
+
+const PHOTOS = [
+  {
+    ...img("lancaster-mural", 1400, 787),
+    alt: "Tom Sliker in front of a mural on Main Street in Lancaster",
+    title: "Main Street",
+    text: "Broadstreet founder and CEO Tom Sliker in front of a famous mural on Main Street.",
+    c: "var(--g-red)",
+  },
+  {
+    ...img("lancaster-punkys", 1400, 1050),
+    alt: "Tom, John and Michaela having lunch at Punky’s on Main",
+    title: "Lunch at Punky’s",
+    text: "Tom, John and Michaela having lunch at Punky’s on Main.",
+    c: "var(--g-yellow)",
+  },
+  {
+    ...img("lancaster-golf-hole-7", 1400, 1050),
+    alt: "Broadstreet.net sign at Hole 7, Lancaster Golf Club",
+    title: "Lancaster Golf Club",
+    text: "Broadstreet.net is proud to sponsor Hole 7 at the Lancaster Golf Club, the most iconic hole on the course.",
+    c: "var(--g-green)",
+  },
+  {
+    ...img("lancaster-chamber", 1400, 993),
+    alt: "Tom Sliker with John and Jessica from the Lancaster County Chamber of Commerce",
+    title: "Lancaster County Chamber of Commerce",
+    text: "Tom with John and Jessica from the Lancaster County Chamber of Commerce.",
+    c: "var(--g-blue)",
+  },
+  {
+    ...img("lancaster-golf-tournament", 1400, 933),
+    alt: "Danielle, Tiffany and John at the Rub of the Green Golf Tournament",
+    title: "Rub of the Green",
+    text: "Danielle, Tiffany and John at the Lancaster County Chamber of Commerce Rub of the Green Golf Tournament.",
+    c: "var(--orange)",
+  },
+];
+
 export default function LancasterSc() {
   return (
-    <>
-      <section className="page-hero">
-        <div className="wrap">
-          <nav className="breadcrumbs" aria-label="Breadcrumb">
-            <Link to="/">Home</Link> / Helping Lancaster businesses grow online.
-          </nav>
-          <h1>Helping Lancaster businesses grow online.</h1>
-          <p className="lead">
-            Reach more customers in Lancaster, SC with Broadstreet’s website design, SEO, and paid
-            advertising services. Start with a free digital marketing consultation.
-          </p>
+    <div style={{ "--accent": "var(--g-red)" }}>
+      <PageHero
+        crumbs={[{ name: "Service Areas", to: "/#areas" }, { name: "Lancaster" }]}
+        label="Serving Lancaster, South Carolina"
+        title={<>Helping <span className="accent">Lancaster</span> businesses grow online</>}
+        lede="Reach more customers in Lancaster, SC with website design, SEO and paid advertising from a certified Google Partner team. Start with a free consultation."
+      />
+
+      <section className="section">
+        <div className="wrap local">
+          <div>
+            <span className="label">Why Lancaster businesses call us</span>
+            <h2>Local focus, <span className="accent">Lancaster results</span></h2>
+            <p>
+              Lancaster County has some of the fastest population growth in the Charlotte metro, and new residents find
+              almost everything by searching on their phones. We help Lancaster businesses be the ones they find, through{" "}
+              <Link to="/services/websites/">web development</Link>,{" "}
+              <Link to="/services/search-engine-optimization-seo/">SEO</Link> and{" "}
+              <Link to="/services/google-adwords-ppc-search-engine-marketing-consulting/">paid advertising</Link>.
+            </p>
+            <p>
+              We opened a Lancaster office in 2023 and got to know the community through the Chamber, local events and lunch
+              on Main Street. Today we serve Lancaster clients 100% remotely from our Camden office, with the same
+              team and the same local focus. We’re a phone call or video chat away.
+            </p>
+          </div>
+          <aside className="searches" aria-label="Example searches">
+            <h3>Searches we help you win</h3>
+            <p style={{ color: "var(--muted)" }}>When people in Lancaster search for what you do, you should be near the top.</p>
+            <div className="chips">{SEARCHES.map((s) => <span key={s}>{s}</span>)}</div>
+          </aside>
         </div>
       </section>
-      <div className="wrap article-layout">
-        <article className="article-content">
-          <div className="region-inner region-content-inner">
-            <div
-              id="block-system-main"
-              className="block block-system block-main block-system-main odd block-without-title"
-            >
-              <div className="block-inner clearfix">
-                <div className="content clearfix">
-                  <article
-                    id="node-page-452"
-                    className="node node-page node-published node-not-promoted node-not-sticky author-tsliker odd clearfix"
-                  >
-                    <div className="content clearfix">
-                      <div className="field field-name-body field-type-text-with-summary field-label-hidden">
-                        <div className="field-items">
-                          <div className="field-item even">
-                            <div className="column-section">
-                              <div className="column-2"></div>
-                              <div className="column-2">
-                                <h2>Digital Marketing Services Near Lancaster, SC</h2>
-                                <p>
-                                  <strong>
-                                    Broadstreet is your local digital marketing agency that aims to
-                                    grow your business through web development, SEO, and paid
-                                    advertising. Broadstreet is well known in the Camden area and
-                                    hopes to make the same impacts in Lancaster
-                                  </strong>
-                                  .
-                                </p>
-                              </div>
-                            </div>
-                            <div className="column-section column-section-color justify-content-center">
-                              <div className="column-3">
-                                <p>
-                                  <img
-                                    className="media-element file-default"
-                                    alt="Helping Lancaster businesses grow online."
-                                    src="https://broadstreet.net/sites/broadstreet.net/files/tommurral.jpg"
-                                    loading="lazy"
-                                    decoding="async"
-                                    width="3392"
-                                    height="1908"
-                                  />
-                                </p>
-                                <p>
-                                  <b>
-                                    Broadstreet Founder and CEO, Tom Sliker, in front of a famous
-                                    mural found on main street.
-                                  </b>
-                                </p>
-                              </div>
-                              <div className="column-3">
-                                <p>
-                                  <img
-                                    className="media-element file-default"
-                                    alt="Helping Lancaster businesses grow online."
-                                    src="https://broadstreet.net/sites/broadstreet.net/files/punkys.jpg"
-                                    loading="lazy"
-                                    decoding="async"
-                                    width="4000"
-                                    height="3000"
-                                  />
-                                </p>
-                                <p>
-                                  <b>
-                                    Tom - CEO, John - Sales, and Michaela, having lunch at Punky's
-                                    on Main.
-                                  </b>
-                                </p>
-                              </div>
-                              <div className="column-3">
-                                <p>
-                                  <img
-                                    className="media-element file-default"
-                                    alt="Helping Lancaster businesses grow online."
-                                    src="https://broadstreet.net/sites/broadstreet.net/files/image_1.png"
-                                    loading="lazy"
-                                    decoding="async"
-                                    width="2048"
-                                    height="1536"
-                                  />
-                                </p>
-                                <p>
-                                  <b>
-                                    Broadstreet.net is proud to sponsor Hole 7 at the Lancaster Golf
-                                    Club, the most iconic hole on the course.
-                                  </b>
-                                </p>
-                              </div>
-                            </div>
-                            <div className="column-section column-section-without-color">
-                              <div className="column-3">
-                                <p>
-                                  <img
-                                    className="media-element file-default"
-                                    alt={
-                                      "Broadstreet.net founder & CEO, Tom Sliker, with John & Jessica from the Lancaster Chamber of Commerce"
-                                    }
-                                    title={
-                                      "Broadstreet.net founder & CEO, Tom Sliker, with John & Jessica from the Lancaster Chamber of Commerce"
-                                    }
-                                    src="https://broadstreet.net/sites/broadstreet.net/files/l1-lancasterchamber.png"
-                                    loading="lazy"
-                                    decoding="async"
-                                    width="1625"
-                                    height="1153"
-                                  />
-                                </p>
-                                <p>
-                                  <b>
-                                    Tom Sliker with John and Jessica from Lancaster Chamber of
-                                    Commerce.
-                                  </b>
-                                </p>
-                              </div>
-                              <div className="column-3">
-                                <p>
-                                  <img
-                                    className="media-element file-default"
-                                    alt="Danielle, Tiffany, and John at the Lancaster County Chamber of Commerce Rub of the Green Golf Tournament."
-                                    title="Danielle, Tiffany, and John at the Lancaster County Chamber of Commerce Rub of the Green Golf Tournament."
-                                    src="https://broadstreet.net/sites/broadstreet.net/files/l-golf.jpg"
-                                    loading="lazy"
-                                    decoding="async"
-                                    width="1730"
-                                    height="1153"
-                                  />
-                                </p>
-                                <p>
-                                  <b>
-                                    Danielle, Tiffany, and John at the Lancaster County Chamber of
-                                    Commerce Rub of the Green Golf Tournament.
-                                  </b>
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="clearfix">
-                      <nav className="links node-links clearfix"></nav>
-                    </div>
-                  </article>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-        <aside className="sidebar">
-          <p className="eyebrow">Let’s move forward</p>
-          <h2>What’s next for your business?</h2>
-          <p>
-            Start with a conversation about your goals, your customers, and where you want to grow.
-          </p>
-          <Link className="button" to="/contact/">
-            Free consultation
-          </Link>
-          <a href="tel:+18035750564">(803) 575-0564</a>
-          <Link to="/portfolio/">Explore our work</Link>
-        </aside>
-      </div>
-    </>
+
+      <section className="section alt">
+        <div className="wrap">
+          <SectionHead label="Part of the community" labelColor="var(--g-yellow)" title="Out and about in Lancaster" />
+          <PhotoGrid items={PHOTOS} />
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap">
+          <SectionHead label="Services in Lancaster" title={<>Everything you need, <span className="accent">one team</span></>} />
+          <ServiceGroups />
+        </div>
+      </section>
+
+      <section className="section alt">
+        <div className="wrap">
+          <SectionHead label="Service areas" labelColor="var(--g-green)" title="Where else we work" lede="Based in Camden, serving businesses across South Carolina and the Charlotte region." />
+          <AreaGrid />
+        </div>
+      </section>
+    </div>
   );
 }
