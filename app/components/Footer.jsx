@@ -15,6 +15,12 @@ const SOCIAL = [
     icon: <path fill="#fff" d="M5 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 10h4v11H3zm6.5 0h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.3c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4z" />,
   },
   {
+    label: "YouTube",
+    href: "https://www.youtube.com/user/BroadstConsulting",
+    bg: "#FF0000",
+    icon: <path fill="#fff" d="M9.5 8.2v7.6l6.6-3.8z" />,
+  },
+  {
     label: "Google Business Profile",
     href: "https://share.google/1NhuaGRKBP359VyvA",
     bg: "#fff",
@@ -128,8 +134,6 @@ export default function Footer() {
           <div className="footer-bottom">
             <span>© {year} Broadstreet Consulting, LLC</span>
             <span>
-              <a href="https://www.facebook.com/broadstreetconsulting">Facebook</a> ·{" "}
-              <a href="https://www.youtube.com/user/BroadstConsulting">YouTube</a> ·{" "}
               <Link to="/site-map/">Site map</Link>
             </span>
             <span className="bar4" aria-hidden="true">
