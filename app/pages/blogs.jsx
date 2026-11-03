@@ -54,7 +54,7 @@ export default function Blogs() {
             <article className="card">
               <Link to="/blog/ai-alone-isnt-marketing-strategy/" tabIndex="-1" aria-hidden="true">
                 <img
-                  src="/assets/media/838c136eb9650bf0.png"
+                  src="/assets/media/blog/ai-alone-isnt-marketing-strategy.webp"
                   alt=""
                   loading="lazy"
                   width="640"
@@ -81,7 +81,7 @@ export default function Blogs() {
                 aria-hidden="true"
               >
                 <img
-                  src="/assets/media/32d1386884ed0008.png"
+                  src="/assets/media/blog/why-your-business-isnt-showing-google-and-how-fix-it.webp"
                   alt=""
                   loading="lazy"
                   width="640"
@@ -108,7 +108,7 @@ export default function Blogs() {
                 aria-hidden="true"
               >
                 <img
-                  src="/assets/media/dcb3cb05e76260e7.png"
+                  src="/assets/media/blog/what-we-love-about-small-towns-and-why-we-never-left.webp"
                   alt=""
                   loading="lazy"
                   width="640"
@@ -135,7 +135,7 @@ export default function Blogs() {
                 aria-hidden="true"
               >
                 <img
-                  src="/assets/media/73a058604ccc112d.png"
+                  src="/assets/media/blog/storefront-online-store-guide-ecommerce-camden-and-columbia-sc-retailers.webp"
                   alt=""
                   loading="lazy"
                   width="640"
@@ -163,7 +163,7 @@ export default function Blogs() {
                 aria-hidden="true"
               >
                 <img
-                  src="/assets/media/2215d214762f86e2.png"
+                  src="/assets/media/blog/google-ads-vs-seo-which-right-your-sumter-or-camden-sc-business.webp"
                   alt=""
                   loading="lazy"
                   width="640"
@@ -190,7 +190,7 @@ export default function Blogs() {
                 aria-hidden="true"
               >
                 <img
-                  src="/assets/media/da64c0678f6d648d.png"
+                  src="/assets/media/blog/local-seo-101-how-columbia-and-camden-sc-businesses-can-rank-higher-google.webp"
                   alt=""
                   loading="lazy"
                   width="640"
@@ -217,7 +217,7 @@ export default function Blogs() {
                 aria-hidden="true"
               >
                 <img
-                  src="/assets/media/c53fff9885df9cff.png"
+                  src="/assets/media/blog/why-your-camden-sc-small-business-needs-mobile-friendly-website-2026.webp"
                   alt=""
                   loading="lazy"
                   width="640"
@@ -240,7 +240,7 @@ export default function Blogs() {
             <article className="card">
               <Link to="/blog/being-google-guide-series-part-1/" tabIndex="-1" aria-hidden="true">
                 <img
-                  src="/assets/media/d03a6581b7a5f613.png"
+                  src="/assets/media/blog/being-google-guide-series-part-1.webp"
                   alt=""
                   loading="lazy"
                   width="640"
@@ -267,7 +267,7 @@ export default function Blogs() {
                 aria-hidden="true"
               >
                 <img
-                  src="/assets/media/7dc11622f5ddc640.png"
+                  src="/assets/media/blog/your-website-ugly-christmas-sweater.webp"
                   alt=""
                   loading="lazy"
                   width="640"
@@ -294,7 +294,7 @@ export default function Blogs() {
                 aria-hidden="true"
               >
                 <img
-                  src="/assets/media/0cc50351a46d7be5.png"
+                  src="/assets/media/blog/celebrating-world-computer-literacy-day-december-2.webp"
                   alt=""
                   loading="lazy"
                   width="640"
@@ -321,7 +321,7 @@ export default function Blogs() {
                 aria-hidden="true"
               >
                 <img
-                  src="/assets/media/6d8328ec57a532e3.jpg"
+                  src="/assets/media/blog/3-great-simple-ways-increase-your-online-presence.webp"
                   alt=""
                   loading="lazy"
                   width="640"
@@ -348,7 +348,7 @@ export default function Blogs() {
                 aria-hidden="true"
               >
                 <img
-                  src="/assets/media/f12f104640ac9a8f.jpg"
+                  src="/assets/media/blog/5-key-steps-getting-your-home-business-found-online.webp"
                   alt=""
                   loading="lazy"
                   width="640"
@@ -371,7 +371,7 @@ export default function Blogs() {
             <article className="card">
               <Link to="/blog/5-tips-succeeding-google-adwords/" tabIndex="-1" aria-hidden="true">
                 <img
-                  src="/assets/media/7c955d682125c811.jpg"
+                  src="/assets/media/blog/5-tips-succeeding-google-adwords.webp"
                   alt=""
                   loading="lazy"
                   width="640"
@@ -386,7 +386,7 @@ export default function Blogs() {
                   </Link>
                 </h3>
                 <p>
-                  In my 4 years of working with Google AdWords, I�ve had plenty of time to make
+                  In my 4 years of working with Google AdWords, I’ve had plenty of time to make
                   mistakes and learn from them - over, and over and over again. Through…
                 </p>
               </div>
@@ -398,7 +398,7 @@ export default function Blogs() {
                 aria-hidden="true"
               >
                 <img
-                  src="/assets/media/c2e09b2c3eb76a6f.jpg"
+                  src="/assets/media/blog/using-google-street-view-and-360-spherical-camera-showcase-your-small-business.webp"
                   alt=""
                   loading="lazy"
                   width="640"
