@@ -108,7 +108,7 @@ export const PORTFOLIO = [
     "description": "Explore Broadstreet.net’s work with 24 Hour Garage Door Service: website design and online presence for a local garage door repair company.",
     "url": null,
     "image": {
-      "src": "/assets/media/24-hour-garage-door-service.webp",
+      "src": "/assets/media/portfolio/24-hour-garage-door-service-v2.webp",
       "width": 484,
       "height": 2000
     },
