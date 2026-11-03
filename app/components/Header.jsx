@@ -5,6 +5,7 @@ export const NAV = [
   { to: "/services/", label: "Services" },
   { to: "/portfolio/", label: "Our Work" },
   { to: "/about-broadstreet-consulting-camden-scs-trusted-digital-marketing-partner/", label: "About" },
+  { to: "/staff/", label: "Our Team" },
   { to: "/what-our-clients-are-saying/", label: "Reviews" },
   { to: "/blogs/", label: "Blog" },
   { to: "/contact/", label: "Contact" },
