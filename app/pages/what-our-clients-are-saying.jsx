@@ -16,6 +16,8 @@ export const meta = () =>
     crumbs: [{ name: "Reviews", path: "/what-our-clients-are-saying/" }],
   });
 
+const GOOGLE_REVIEWS = "https://share.google/1NhuaGRKBP359VyvA";
+
 const STORIES = [
   { to: "/powers-gregory-staying-connected-customers/", small: "Powers & Gregory", title: "Staying connected", c: "#1E8E3E" },
   { to: "/wings-international-adventures/", small: "Wings", title: "International adventures", c: "var(--blue)" },
@@ -69,9 +71,12 @@ export default function WhatOurClientsAreSaying() {
         crumbs={[{ name: "Reviews" }]}
         label="Client reviews"
         title={<>Our clients tell the story <span className="c-yellow">best</span></>}
-        lede="Hear from Broadstreet clients about website development, responsive support, online visibility and business growth. Tap any review to read it in full."
+        lede="Rated 5.0 stars on Google. Hear from Broadstreet clients about website development, responsive support, online visibility and business growth. Tap any review to read it in full."
         actions={
-          <Link className="button btn-yellow" to="/contact/">Start your success story</Link>
+          <>
+            <Link className="button btn-yellow" to="/contact/">Start your success story</Link>
+            <a className="button secondary" href={GOOGLE_REVIEWS} target="_blank" rel="noopener noreferrer">See our Google reviews ↗</a>
+          </>
         }
       />
 
