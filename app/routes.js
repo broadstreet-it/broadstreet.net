@@ -1,5 +1,7 @@
 import { index, route } from "@react-router/dev/routes";
 import { SERVICE_DETAIL_PATHS } from "./data/servicePaths.js";
+import { BLOG_ARCHIVE_SLUGS } from "./data/blogArchiveSlugs.js";
+import { BLOG_PAGES } from "./data/blog.js";
 
 // One entry per page. Every route is prerendered to static HTML at build time
 // (see react-router.config.js). To add a page: create app/pages/<name>.jsx and add it here.
@@ -23,8 +25,10 @@ export default [
   route("blog/why-your-business-isnt-showing-google-and-how-fix-it", "pages/blog/why-your-business-isnt-showing-google-and-how-fix-it.jsx"),
   route("blog/why-your-camden-sc-small-business-needs-mobile-friendly-website-2026", "pages/blog/why-your-camden-sc-small-business-needs-mobile-friendly-website-2026.jsx"),
   route("blog/your-website-ugly-christmas-sweater", "pages/blog/your-website-ugly-christmas-sweater.jsx"),
-  route("blogs", "pages/blogs.jsx"),
-  route("blogs/page/2", "pages/blogs/page/2.jsx"),
+  // Blog posts imported from the old site (content in app/data/blog-archive/).
+  ...BLOG_ARCHIVE_SLUGS.map((slug) => route(`blog/${slug}`, "pages/blog-archive-post.jsx", { id: `blog-${slug}` })),
+  route("blogs", "pages/blogs.jsx", { id: "blogs" }),
+  ...Array.from({ length: BLOG_PAGES - 1 }, (_, i) => route(`blogs/page/${i + 2}`, "pages/blogs.jsx", { id: `blogs-page-${i + 2}` })),
   route("book-now", "pages/book-now.jsx"),
   route("broadstreet-consulting-google-partners-google-adwords-certified", "pages/broadstreet-consulting-google-partners-google-adwords-certified.jsx"),
   route("buster", "pages/buster.jsx"),

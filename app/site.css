@@ -536,6 +536,24 @@ a.member-card:hover .member-name{color:var(--blue)}
 .blog-body blockquote{margin:28px 0;padding:18px 22px;border-left:5px solid var(--g-yellow);background:#F6F8FB;border-radius:0 4px 4px 0}
 .blog-body .button{display:inline-block;color:#fff;background:var(--blue);text-decoration:none;margin-top:8px}
 .blog-more-title{margin:0 0 24px;font-size:clamp(2rem,4vw,3rem)}
+.blog-byline{margin:0;color:var(--muted);font-weight:600}
+.blog-hero-image.small{justify-self:center;width:auto;max-width:100%;background:#fff;padding:18px;box-sizing:border-box}
+.blog-hero-image.small img{width:auto;max-width:100%;margin:0 auto}
+.blog-body iframe{display:block;margin:24px 0}
+.blog-body table{margin:20px 0}
+.blog-card{display:flex;flex-direction:column}
+.blog-thumb{display:block;aspect-ratio:1.6;overflow:hidden;background:#EEF2F7}
+.blog-thumb img{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
+.blog-thumb.small{display:grid;place-items:center;padding:14px}
+.blog-thumb.small img{width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}
+.blog-date{margin:0 0 6px;font-size:.8rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--blue)}
+.blog-pager{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:40px;flex-wrap:wrap}
+.blog-pager ol{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0;padding:0;justify-content:center}
+.blog-pager ol a,.blog-pager ol span{display:grid;place-items:center;min-width:42px;height:42px;padding:0 8px;border-radius:4px;border:1px solid var(--card-line);color:var(--text);text-decoration:none;font-weight:700}
+.blog-pager ol a:hover{border-color:var(--g-yellow)}
+.blog-pager ol [aria-current]{background:var(--g-yellow);border-color:var(--g-yellow);color:#06182E}
+.blog-pager .pager-step{min-width:90px;color:var(--text);font-weight:700;text-decoration:none}
+.blog-pager .pager-step:last-child{text-align:right}
 @media (max-width:900px){.blog-hero-grid{grid-template-columns:1fr}.blog-hero-image{max-width:520px}}
 
 /* contact + search (legacy) */
