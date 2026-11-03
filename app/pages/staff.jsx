@@ -53,22 +53,13 @@ export default function Staff() {
                 <div className="member-body">
                   <h3><Link to={m.to}>{m.name}</Link></h3>
                   <span className="member-title">{m.title}</span>
-                  <p>{m.bio}</p>
-                  {m.email && <a className="member-email" href={`mailto:${m.email}`}>{m.email}</a>}
-                  <div className="member-links">
-                    <Link to={m.to}>Read more →</Link>
-                    {m.links.map(([label, href]) => (
-                      <a key={href} href={href} target="_blank" rel="noopener noreferrer">{label}</a>
-                    ))}
-                  </div>
                 </div>
               </article>
             ))}
             <article className="member-card say-hi">
               <h3>Come say hi</h3>
-              <p>Stop by the office at 537 E DeKalb St in Camden, or give us a call. Buster will probably meet you at the door.</p>
+              <p>537 E DeKalb St, Camden</p>
               <Link className="button btn-yellow" to="/contact/">Contact us</Link>
-              <a href="tel:+18035750564" style={{ color: "#fff", fontWeight: 700 }}>(803) 575-0564</a>
             </article>
           </div>
         </div>

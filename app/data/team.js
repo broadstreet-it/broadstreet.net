@@ -72,7 +72,7 @@ export const TEAM = [
     name: "Buster",
     title: "Employee of the Century – Chief Happiness Officer",
     to: "/buster/",
-    photo: { src: "/assets/media/e665ae804fd1c8ea.jpg", width: 480, height: 360 },
+    photo: { src: "/assets/media/team/buster.webp", width: 526, height: 701 },
     bio: "Buster keeps the team (and Tom) on schedule with tail wags and friendly greetings. You’ll usually find him welcoming clients at the office door.",
     color: "var(--gold)",
     links: [],
