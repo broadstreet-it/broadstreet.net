@@ -88,10 +88,10 @@ export default function CamdenSc() {
                                   Google or Apple Maps and stop by anytime to chat.
                                 </p>
                                 <p>
-                                  Camden isn't just where our office happens to be — it's where
-                                  Broadstreet got its start, and where we've spent two decades
-                                  building relationships with local business owners rather than
-                                  treating clients as accounts. From the historic downtown
+                                  Camden isn't just where our office happens to be — it's home,
+                                  and the place we build relationships with local business owners
+                                  rather than treating clients as accounts. Since 2025 our office
+                                  has been just steps from Camden's own Broad Street. From the historic downtown
                                   storefronts along DeKalb Street to the growing business community
                                   out toward Lugoff, we've watched Camden change and grown right
                                   alongside it. That local perspective shapes everything we do: we

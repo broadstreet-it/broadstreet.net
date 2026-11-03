@@ -41,7 +41,9 @@ const TIMELINE = [
   { era: "community", month: "Nov", year: "2015", title: "Google certified", text: "Broadstreet earns Google AdWords certification on the way to becoming a Google Partner agency.", to: "/blog/we-are-now-certified-google-adwords/" },
   { era: "growth", month: "Jun", year: "2017", title: "Web Success launches", text: "“The 9 Essentials of Web Success” shares our framework for winning online.", to: "/web-success/" },
   { era: "growth", month: "Jun", year: "2020", title: "Help through COVID-19", text: "Broadstreet clients receive $3,500 in Google ad credits to stay in touch with customers.", to: "/blog/google-gives-broadstreet-clients-3500-ad-credit-covid-19-relief/" },
-  { era: "growth", month: "Oct", year: "2023", title: "Lancaster office opens", text: "A second office serves one of the fastest-growing counties in the Charlotte metro.", to: "/blog/broadstreet-announces-new-office-lancaster-sc/" },
+  { era: "growth", month: "Jul", year: "2023", title: "Our first Camden office", text: "Broadstreet opens its first office location, on Little Street in Camden, with a ribbon-cutting.", to: "/camden-sc/" },
+  { era: "growth", month: "Oct", year: "2023", title: "Serving Lancaster", text: "A Lancaster office opens to serve one of the fastest-growing counties in the Charlotte metro. Today we serve Lancaster clients 100% remotely.", to: "/lancaster-sc/" },
+  { era: "growth", month: "", year: "2025", title: "Steps from Broad Street", text: "We move to a larger, better space for clients, just steps away from Camden’s own Broad Street." },
   { era: "growth", month: "", year: "Today", title: "Your digital marketing team", text: "Websites, SEO, Google Ads and social media for businesses across the Carolinas.", to: "/services/" },
 ];
 
@@ -172,6 +174,7 @@ export default function About() {
               confidence. We’re here to offer a hand, share our experience, and help you cross over.
             </p>
             <p className="about-sign">— <Link to="/tom-sliker/">Tom Sliker</Link>, founder</p>
+            <p>Fittingly, since 2025 our Camden office has been just steps away from Camden’s own Broad Street.</p>
           </div>
         </div>
       </section>
