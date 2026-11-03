@@ -103,6 +103,44 @@ export const PORTFOLIO = [
     ]
   },
   {
+    "slug": "24-hour-garage-door-service",
+    "name": "24 Hour Garage Door Service",
+    "description": "Explore Broadstreet.net’s work with 24 Hour Garage Door Service: website design and online presence for a local garage door repair company.",
+    "url": null,
+    "image": {
+      "src": "/assets/media/24-hour-garage-door-service.webp",
+      "width": 484,
+      "height": 2000
+    },
+    "services": [
+      [
+        "Website design",
+        "/services/mobile-friendly-website-design-development/"
+      ]
+    ]
+  },
+  {
+    "slug": "kershaw-county-council-on-aging",
+    "name": "Kershaw County Council on Aging",
+    "description": "Explore Broadstreet.net’s work with the Kershaw County Council on Aging: a website for the nonprofit serving seniors across Kershaw County, SC.",
+    "url": null,
+    "image": {
+      "src": "/assets/media/kershaw-county-council-on-aging.webp",
+      "width": 758,
+      "height": 2000
+    },
+    "services": [
+      [
+        "Website design",
+        "/services/mobile-friendly-website-design-development/"
+      ],
+      [
+        "Hosting & support",
+        "/services/secure-hosting-technical-support/"
+      ]
+    ]
+  },
+  {
     "slug": "glens-import-services-llc",
     "name": "Glen's Import Services LLC",
     "description": "Explore Broadstreet’s work with Glen's Import Services LLC: website design, online presence, and a partnership built around the client’s business.",

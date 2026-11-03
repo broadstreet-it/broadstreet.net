@@ -42,6 +42,8 @@ export default [
   route("nyia-langley", "pages/nyia-langley.jsx"),
   route("portfolio", "pages/portfolio.jsx"),
   route("portfolio/big-red-barn-retreat", "pages/portfolio/big-red-barn-retreat.jsx"),
+  route("portfolio/kershaw-county-council-on-aging", "pages/portfolio/kershaw-county-council-on-aging.jsx"),
+  route("portfolio/24-hour-garage-door-service", "pages/portfolio/24-hour-garage-door-service.jsx"),
   route("portfolio/brazell-exterminating-home-repair", "pages/portfolio/brazell-exterminating-home-repair.jsx"),
   route("portfolio/browns-oil-lube", "pages/portfolio/browns-oil-lube.jsx"),
   route("portfolio/carolina-scoop-crew", "pages/portfolio/carolina-scoop-crew.jsx"),
