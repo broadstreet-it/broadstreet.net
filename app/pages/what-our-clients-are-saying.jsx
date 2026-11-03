@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router";
 import { pageSeo } from "../lib/seo";
-import { PageHero, SectionHead } from "../components/ui";
-import { CLIENT_REVIEWS } from "../data/reviews";
+import { PageHero } from "../components/ui";
+import { CLIENT_REVIEWS, VIDEO_REVIEWS } from "../data/reviews";
 
 const TITLE = "Client Reviews & Testimonials | Broadstreet";
 const DESCRIPTION =
@@ -18,14 +18,27 @@ export const meta = () =>
 
 const GOOGLE_REVIEWS = "https://share.google/1NhuaGRKBP359VyvA";
 
-const STORIES = [
-  { to: "/powers-gregory-staying-connected-customers/", small: "Powers & Gregory", title: "Staying connected", c: "#1E8E3E" },
-  { to: "/wings-international-adventures/", small: "Wings", title: "International adventures", c: "var(--blue)" },
-  { to: "/kershaw-county-council-aging-testimonial/", small: "Kershaw County Council on Aging", title: "Serving the community", c: "var(--g-red)" },
-  { to: "/fj-rabon-testimonial/", small: "FJ Rabon", title: "Client testimonial", c: "var(--orange)" },
+// Tile colors, assigned by position. Tiles fill three columns left to right, so side-by-side
+// neighbors are 1 apart and stacked neighbors 3 apart; with 7 colors neither ever repeats.
+const PALETTE = [
+  { c: "#1A66A8" },
+  { c: "#C5221F" },
+  { c: "#FBBC05", dark: true },
+  { c: "#1E8E3E" },
+  { c: "#C2410C" },
+  { c: "#0B3561" },
+  { c: "#E8A400", dark: true },
 ];
+const COLUMNS = 3;
 
-/** Full review in a modal dialog. */
+// Written reviews with a video every few tiles.
+const TILES = (() => {
+  const tiles = CLIENT_REVIEWS.map((r) => ({ ...r, key: r.who }));
+  VIDEO_REVIEWS.forEach((v, i) => tiles.splice(1 + i * 5, 0, { ...v, key: v.youtube }));
+  return tiles.map((t, i) => ({ ...t, ...PALETTE[i % PALETTE.length], order: i }));
+})();
+
+/** Full review or video in a modal dialog. */
 function ReviewDialog({ review, onClose }) {
   const ref = useRef(null);
 
@@ -38,7 +51,7 @@ function ReviewDialog({ review, onClose }) {
   return (
     <dialog
       ref={ref}
-      className="review-dialog"
+      className={`review-dialog${review?.youtube ? " video" : ""}`}
       aria-labelledby="review-dialog-title"
       onClose={onClose}
       onClick={(e) => {
@@ -46,7 +59,26 @@ function ReviewDialog({ review, onClose }) {
       }}
       style={review ? { "--rc": review.c } : undefined}
     >
-      {review && (
+      {review?.youtube && (
+        <div className="review-dialog-inner">
+          <div className="review-video">
+            <iframe
+              src={`https://www.youtube-nocookie.com/embed/${review.youtube}?autoplay=1&rel=0`}
+              title={review.title}
+              allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+              allowFullScreen
+            />
+          </div>
+          <h2 id="review-dialog-title">{review.title}</h2>
+          <p className="review-who">
+            {review.who}
+            <small>{review.biz}</small>
+          </p>
+          <Link className="review-story" to={review.story} onClick={onClose}>Read the full story →</Link>
+          <button type="button" className="review-close" onClick={onClose} aria-label="Close video">×</button>
+        </div>
+      )}
+      {review && !review.youtube && (
         <div className="review-dialog-inner">
           <span className="stars" aria-label="Five stars">★★★★★</span>
           <h2 id="review-dialog-title">“{review.headline}”</h2>
@@ -62,8 +94,40 @@ function ReviewDialog({ review, onClose }) {
   );
 }
 
+function Tile({ t, onOpen }) {
+  const cls = `rv-card${t.dark ? " dark" : ""}${t.youtube ? " video" : ""}`;
+  return (
+    <button type="button" className={cls} style={{ "--rc": t.c, order: t.order }} onClick={() => onOpen(t)} aria-haspopup="dialog">
+      {t.youtube ? (
+        <>
+          <span className="rv-thumb">
+            <img src={t.thumb} alt="" width="960" height="540" loading="lazy" decoding="async" />
+            <span className="rv-play" aria-hidden="true">▶</span>
+          </span>
+          <span className="rv-kicker">Video testimonial</span>
+          <span className="review-headline">{t.who}</span>
+          <span className="review-who"><small>{t.biz}</small></span>
+          <span className="review-more">▶ Watch the video</span>
+        </>
+      ) : (
+        <>
+          <span className="stars" aria-hidden="true">★★★★★</span>
+          <span className="review-headline">“{t.headline}”</span>
+          {t.excerpt && <span className="review-excerpt">{t.excerpt}</span>}
+          <span className="review-who">
+            {t.who}
+            <small>{t.biz}</small>
+          </span>
+          {t.full && <span className="review-more">Read full review →</span>}
+        </>
+      )}
+    </button>
+  );
+}
+
 export default function WhatOurClientsAreSaying() {
   const [open, setOpen] = useState(null);
+  const columns = Array.from({ length: COLUMNS }, (_, c) => TILES.filter((t) => t.order % COLUMNS === c));
 
   return (
     <div style={{ "--accent": "var(--g-yellow)" }}>
@@ -71,7 +135,7 @@ export default function WhatOurClientsAreSaying() {
         crumbs={[{ name: "Reviews" }]}
         label="Client reviews"
         title={<>Our clients tell the story <span className="c-yellow">best</span></>}
-        lede="Rated 5.0 stars on Google. Hear from Broadstreet clients about website development, responsive support, online visibility and business growth. Tap any review to read it in full."
+        lede="Rated 5.0 stars on Google. Hear from Broadstreet clients about website development, responsive support, online visibility and business growth. Tap any review to read it in full, or any video to watch it."
         actions={
           <>
             <Link className="button btn-yellow" to="/contact/">Start your success story</Link>
@@ -82,40 +146,12 @@ export default function WhatOurClientsAreSaying() {
 
       <section className="section">
         <div className="wrap">
+          {/* On phones the columns dissolve (display: contents) and `order` restores reading order. */}
           <div className="review-masonry">
-            {CLIENT_REVIEWS.map((r) => (
-              <button
-                type="button"
-                key={r.who}
-                className={`rv-card${r.dark ? " dark" : ""}`}
-                style={{ "--rc": r.c }}
-                onClick={() => setOpen(r)}
-                aria-haspopup="dialog"
-              >
-                <span className="stars" aria-hidden="true">★★★★★</span>
-                <span className="review-headline">“{r.headline}”</span>
-                {r.excerpt && <span className="review-excerpt">{r.excerpt}</span>}
-                <span className="review-who">
-                  {r.who}
-                  <small>{r.biz}</small>
-                </span>
-                {r.full && <span className="review-more">Read full review →</span>}
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section alt">
-        <div className="wrap">
-          <SectionHead label="Client stories" labelColor="var(--g-yellow)" title="Results in their own words" />
-          <div className="cases cases-4">
-            {STORIES.map((s) => (
-              <Link className="case" key={s.to} to={s.to} style={{ "--cc": s.c }}>
-                <small>{s.small}</small>
-                <h3>{s.title}</h3>
-                <span className="more">Read the story →</span>
-              </Link>
+            {columns.map((col, c) => (
+              <div className="rv-col" key={c}>
+                {col.map((t) => <Tile key={t.key} t={t} onOpen={setOpen} />)}
+              </div>
             ))}
           </div>
         </div>

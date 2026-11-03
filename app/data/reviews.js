@@ -1,6 +1,6 @@
 // Client reviews for /what-our-clients-are-saying/. `headline` is the big line on the card,
 // `excerpt` the short teaser under it, and `full` the paragraphs shown in the review dialog.
-// `dark` = light background color, so the card uses dark text.
+// Tile colors are assigned by position on the page, so neighbors never match.
 export const CLIENT_REVIEWS = [
   {
     headline: "This is the best company to work with!",
@@ -11,7 +11,6 @@ export const CLIENT_REVIEWS = [
     ],
     who: "Benji Glover",
     biz: "Thompson Rental Services",
-    c: "#1A66A8",
   },
   {
     headline: "People can find us now!",
@@ -24,8 +23,6 @@ export const CLIENT_REVIEWS = [
     ],
     who: "Doug Decker",
     biz: "Laurel Technical Institute & Laurel Business Institute",
-    c: "#FBBC05",
-    dark: true,
   },
   {
     headline: "Worth it!",
@@ -33,7 +30,6 @@ export const CLIENT_REVIEWS = [
     full: ["Five stars! Friendly and creative, and very helpful."],
     who: "Chardukian Patteson",
     biz: "Broadstreet client",
-    c: "#C5221F",
   },
   {
     headline: "Highly recommend Tom and his staff!",
@@ -44,13 +40,11 @@ export const CLIENT_REVIEWS = [
     ],
     who: "RWS",
     biz: "Powers & Gregory",
-    c: "#1E8E3E",
   },
   {
     headline: "We’re over 100 years old, and our customers keep getting younger.",
     who: "Al Tyler",
     biz: "Tyler Brothers",
-    c: "#0B3561",
   },
   {
     headline: "Thank you for helping me improve!",
@@ -60,7 +54,6 @@ export const CLIENT_REVIEWS = [
     ],
     who: "Mindy Melinda",
     biz: "Home & Land Pros LLC",
-    c: "#C2410C",
   },
   {
     headline: "Committed to delivering results!",
@@ -70,8 +63,6 @@ export const CLIENT_REVIEWS = [
     ],
     who: "Patty Rose",
     biz: "Broadstreet client",
-    c: "#E8A400",
-    dark: true,
   },
   {
     headline: "From providing knowledge to completely building online presence",
@@ -81,7 +72,6 @@ export const CLIENT_REVIEWS = [
     ],
     who: "Megan Tenley",
     biz: "Broadstreet client",
-    c: "#1A66A8",
   },
   // From the Google Business Profile.
   {
@@ -93,7 +83,6 @@ export const CLIENT_REVIEWS = [
     ],
     who: "Gavin Keller",
     biz: "LHWCO",
-    c: "#C5221F",
   },
   {
     headline: "Sales have increased tremendously",
@@ -103,7 +92,6 @@ export const CLIENT_REVIEWS = [
     ],
     who: "Spencer Hornsby",
     biz: "Google review",
-    c: "#1E8E3E",
   },
   {
     headline: "Tom is fantastic!",
@@ -114,8 +102,6 @@ export const CLIENT_REVIEWS = [
     ],
     who: "Beth Quick",
     biz: "Google review",
-    c: "#FBBC05",
-    dark: true,
   },
   {
     headline: "I can’t speak highly enough about this group",
@@ -126,7 +112,6 @@ export const CLIENT_REVIEWS = [
     ],
     who: "Jennifer Smith",
     biz: "Google review",
-    c: "#0B3561",
   },
   {
     headline: "Super awesome and affordable",
@@ -136,7 +121,6 @@ export const CLIENT_REVIEWS = [
     ],
     who: "Spencer Wayne",
     biz: "Google review",
-    c: "#C2410C",
   },
   {
     headline: "Couldn’t be happier",
@@ -144,7 +128,6 @@ export const CLIENT_REVIEWS = [
     full: ["Helped us with my business webpage and couldn’t be happier."],
     who: "Tina & Patrick",
     biz: "Carolina Scoop Crew",
-    c: "#1A66A8",
   },
   {
     headline: "Always willing to help grow our business",
@@ -152,8 +135,6 @@ export const CLIENT_REVIEWS = [
     full: ["Tom and his team have been great! Always willing to help grow our business."],
     who: "Cripple Creek",
     biz: "Google review",
-    c: "#E8A400",
-    dark: true,
   },
   {
     headline: "Great service!",
@@ -161,6 +142,13 @@ export const CLIENT_REVIEWS = [
     full: ["Been using Broadstreet since I started my business over a year ago. Great service!"],
     who: "Steve McDonald",
     biz: "Google review",
-    c: "#1E8E3E",
   },
+];
+
+// Video testimonials (from the old home page). They play in the review dialog.
+export const VIDEO_REVIEWS = [
+  { youtube: "3J1gqCSj1wk", thumb: "/assets/media/reviews/video-kccoa.webp", title: "Customer testimonial: KCCOA", who: "Bruce Little", biz: "Kershaw County Council on Aging", story: "/kershaw-county-council-aging-testimonial/" },
+  { youtube: "VafXMnArlFE", thumb: "/assets/media/reviews/video-fj-rabon.webp", title: "FJ Rabon Construction testimonial", who: "FJ Rabon Construction", biz: "Construction & septic tank services", story: "/fj-rabon-testimonial/" },
+  { youtube: "Z4eKLX1uvb0", thumb: "/assets/media/reviews/video-wings.webp", title: "Don Terrell, Wingsport.com", who: "Don Terrell", biz: "Wings: International Adventures", story: "/wings-international-adventures/" },
+  { youtube: "IreikjTzDiw", thumb: "/assets/media/reviews/video-powers-gregory.webp", title: "Powers & Gregory HVAC talks about Broadstreet", who: "Powers & Gregory", biz: "Heating & Cooling", story: "/powers-gregory-staying-connected-customers/" },
 ];
