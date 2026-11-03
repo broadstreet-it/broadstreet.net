@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { Link } from "react-router";
 import { pageSeo } from "../lib/seo";
-import { PageHero, SectionHead } from "../components/ui";
+import { PageHero } from "../components/ui";
 import { WorkCard } from "../components/CaseStudy";
 import { PORTFOLIO } from "../data/portfolio";
 
@@ -31,13 +30,6 @@ export const meta = () =>
 
 const FILTERS = ["All", "SEO", "Online store", "Social media", "Google Ads", "Drupal development"];
 
-const STORIES = [
-  { to: "/powers-gregory-staying-connected-customers/", small: "Powers & Gregory", title: "Staying connected", c: "#1E8E3E" },
-  { to: "/wings-international-adventures/", small: "Wings", title: "International adventures", c: "var(--blue)" },
-  { to: "/kershaw-county-council-aging-testimonial/", small: "Kershaw County Council on Aging", title: "Serving the community", c: "var(--g-red)" },
-  { to: "/fj-rabon-testimonial/", small: "FJ Rabon", title: "Client testimonial", c: "var(--orange)" },
-];
-
 export default function Portfolio() {
   const [filter, setFilter] = useState("All");
   const shown = filter === "All" ? PORTFOLIO : PORTFOLIO.filter((p) => p.services.some(([s]) => s === filter));
@@ -64,21 +56,6 @@ export default function Portfolio() {
           </div>
           <div className="work-grid">
             {shown.map((p) => <WorkCard key={p.slug} p={p} />)}
-          </div>
-        </div>
-      </section>
-
-      <section className="section alt">
-        <div className="wrap">
-          <SectionHead label="Client stories" labelColor="var(--g-yellow)" title="Results in their own words" />
-          <div className="cases cases-4">
-            {STORIES.map((s) => (
-              <Link className="case" key={s.to} to={s.to} style={{ "--cc": s.c }}>
-                <small>{s.small}</small>
-                <h3>{s.title}</h3>
-                <span className="more">Read the story →</span>
-              </Link>
-            ))}
           </div>
         </div>
       </section>
