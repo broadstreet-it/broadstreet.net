@@ -4,7 +4,7 @@ export const TEAM = [
     name: "Tom Sliker",
     title: "President / CEO / Lead Consultant",
     to: "/tom-sliker/",
-    photo: { src: "/assets/media/7e4ee0f3f0a6207e.jpg", width: 471, height: 480 },
+    photo: { src: "/assets/media/team/tom-sliker.webp", width: 1024, height: 1024 },
     bio: "Tom leads the Broadstreet team and brings over 30 years of software development and integration experience to his clients. He holds a B.S. in Computer Science and an MBA from the University of South Carolina.",
     color: "var(--g-blue)",
     links: [
