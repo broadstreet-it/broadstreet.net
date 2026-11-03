@@ -1,5 +1,6 @@
 // The Broadstreet team: /staff/ lists everyone, and each person has a profile page (slug).
 // `bio` is the short version for cards; `about` is the full profile text.
+// `emailUser` is the part before @broadstreet.net, kept split so spam bots can't find the address.
 export const TEAM = [
   {
     slug: "tom-sliker",
@@ -28,7 +29,7 @@ export const TEAM = [
     name: "Tiffany Massey",
     title: "Content Specialist",
     to: "/tiffany-massey/",
-    email: "tiffany@broadstreet.net",
+    emailUser: "tiffany",
     photo: { src: "/assets/media/14b1b5df5288f388.png", width: 480, height: 480 },
     bio: "Tiffany enjoys building relationships with clients and helping them represent their businesses in new ways online. She’s based in Camden and studied advertising and public relations at Grand Canyon University.",
     about: [
@@ -47,7 +48,7 @@ export const TEAM = [
     name: "Danielle Wolsleben",
     title: "Content Specialist",
     to: "/danielle-wolsleben/",
-    email: "daniellew@broadstreet.net",
+    emailUser: "daniellew",
     photo: { src: "/assets/media/6cd35eb1f422c5f8.jpg", width: 480, height: 480 },
     bio: "Danielle helps clients build strong, consistent online identities through graphic design and digital content, including social media, website design, logos and branding.",
     about: [
@@ -67,7 +68,7 @@ export const TEAM = [
     name: "John Jackson",
     title: "Web Developer",
     to: "/john-jackson/",
-    email: "john@broadstreet.net",
+    emailUser: "john",
     photo: { src: "/assets/media/0230f500a11500d2.jpg", width: 269, height: 480 },
     bio: "John, from Cassatt, SC, is a Web Developer at Broadstreet who builds secure, fast, search-friendly websites that help local businesses get found and grow.",
     about: [
@@ -84,7 +85,7 @@ export const TEAM = [
     name: "Mary Souto",
     title: "Content Specialist – Web Design",
     to: "/mary-souto/",
-    email: "mary@broadstreet.net",
+    emailUser: "mary",
     photo: { src: "/assets/media/3fd486d91ad86bbf.jpg", width: 480, height: 477 },
     bio: "Mary brings years of marketing, graphic design and digital content experience to Broadstreet, and designs websites that are both beautiful and effective.",
     about: [

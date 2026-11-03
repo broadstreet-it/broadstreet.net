@@ -44,8 +44,8 @@ export default function StaffProfile({ slug }) {
         lede={m.bio}
         actions={
           <>
-            {m.email ? (
-              <EmailChooser className="button btn-yellow" email={m.email}>Email {first}</EmailChooser>
+            {m.emailUser ? (
+              <EmailChooser className="button btn-yellow" user={m.emailUser}>Email {first}</EmailChooser>
             ) : (
               <Link className="button btn-yellow" to="/contact/">Contact us</Link>
             )}
@@ -63,7 +63,7 @@ export default function StaffProfile({ slug }) {
             <div className="profile-card-body">
               <h2>{m.name}</h2>
               <span className="member-title">{m.title}</span>
-              {m.email && <EmailChooser className="profile-email" email={m.email}>{m.email}</EmailChooser>}
+              {m.emailUser && <EmailChooser className="profile-email" user={m.emailUser}>✉ Email {first}</EmailChooser>}
               {m.links.length > 0 && (
                 <div className="profile-social">
                   {m.links.map(([label, href]) => (

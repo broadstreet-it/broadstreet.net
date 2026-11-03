@@ -204,7 +204,8 @@ ol.breadcrumbs li+li::before{content:"/";margin-right:8px}
 .profile-photo img{width:100%;height:100%;object-fit:cover;object-position:center 22%;display:block}
 .profile-card-body{padding:20px 22px 22px;display:grid;gap:6px}
 .profile-card-body h2{font-size:1.8rem;color:var(--navy);margin:0}
-.profile-email{color:var(--navy);font-weight:700;overflow-wrap:anywhere;margin-top:6px}
+.profile-email{justify-self:start;margin-top:8px;padding:10px 16px;border:2px solid var(--navy);border-radius:3px;background:none;color:var(--navy);font-weight:700;font-size:.95rem}
+.profile-email:hover,.profile-email:focus-visible{background:var(--navy);color:#fff}
 .profile-social{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;padding-top:12px;border-top:1px solid var(--paper-line)}
 .profile-social a{border:1px solid var(--paper-line);border-radius:999px;padding:6px 12px;font-size:.86rem;font-weight:700;color:var(--blue);text-decoration:none}
 .profile-social a:hover{border-color:var(--blue)}
