@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import EmailChooser from "./EmailChooser";
 
 export function CallToAction() {
   return (
@@ -49,7 +50,7 @@ export default function Footer() {
                 <span>537 E DeKalb St, Camden, SC 29020</span>
                 <span>PO Box 515, Camden, SC 29021</span>
                 <a href="tel:+18035750564">(803) 575-0564</a>
-                <a href="mailto:support@sliker.com">support@sliker.com</a>
+                <EmailChooser email="support@sliker.com">support@sliker.com</EmailChooser>
               </address>
             </div>
             <div>

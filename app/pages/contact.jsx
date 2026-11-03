@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import { seo } from "../lib/seo";
+import EmailChooser from "../components/EmailChooser";
 
 export const meta = () =>
   seo({
@@ -56,7 +57,7 @@ export default function Contact() {
             <h3>Call us</h3>
             <a href="tel:+18035750564">(803) 575-0564</a>
             <h3>Email us</h3>
-            <a href="mailto:support@sliker.com">support@sliker.com</a>
+            <EmailChooser email="support@sliker.com">support@sliker.com</EmailChooser>
             <h3>Visit our Camden office</h3>
             <p>
               537 E DeKalb St
@@ -80,7 +81,7 @@ export default function Contact() {
             ></iframe>
             <p className="form-note">
               If the form doesn’t load,{" "}
-              <a href="mailto:support@sliker.com">email support@sliker.com</a> or call us directly.
+              <EmailChooser email="support@sliker.com">email support@sliker.com</EmailChooser> or call us directly.
             </p>
           </div>
         </div>

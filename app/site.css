@@ -226,10 +226,10 @@ a.member-card:hover .member-name{color:var(--blue)}
 .email-dialog::backdrop{background:rgba(6,24,46,.7)}
 .email-dialog-inner{position:relative;padding:26px;display:grid;gap:12px;border-top:6px solid var(--g-blue)}
 .email-dialog h2{font-size:1.6rem;color:var(--navy);margin:0}
-.email-address{margin:0;font-weight:700;color:var(--ink-muted);overflow-wrap:anywhere;user-select:all}
+.email-dialog .email-address{margin:0;font-weight:700;color:var(--ink-muted);overflow-wrap:anywhere;user-select:all}
 .email-options{display:grid;gap:8px;margin-top:4px}
-.email-options a,.email-options button{display:block;text-align:left;font:700 1rem var(--font-body);color:var(--navy);background:#F1F4F8;border:1px solid var(--paper-line);border-radius:4px;padding:13px 16px;text-decoration:none;cursor:pointer}
-.email-options a:hover,.email-options button:hover{border-color:var(--g-blue);background:#E8F0FE}
+.email-dialog .email-options a,.email-dialog .email-options button{display:block;text-align:left;font:700 1rem var(--font-body);color:var(--navy);background:#F1F4F8;border:1px solid var(--paper-line);border-radius:4px;padding:13px 16px;text-decoration:none;cursor:pointer}
+.email-dialog .email-options a:hover,.email-dialog .email-options button:hover{color:var(--navy);border-color:var(--g-blue);background:#E8F0FE}
 .email-close{position:absolute;top:10px;right:12px;background:none;border:0;font-size:1.8rem;line-height:1;color:var(--ink-muted);cursor:pointer;padding:4px 8px}
 
 /* single service pages */
