@@ -64,6 +64,16 @@ export default function ServiceDetail() {
             <a href="tel:+18035750564">Call (803) 575-0564 →</a>
           </aside>
         </div>
+        {s.gallery && (
+          <div className="wrap logo-gallery-wrap">
+            <SectionHead label="Our work" labelColor="var(--g-yellow)" title={s.gallery.title} />
+            <div className="logo-gallery">
+              {s.gallery.items.map(([src, alt, w, h]) => (
+                <figure key={src}><img src={src} alt={alt} width={w} height={h} loading="lazy" decoding="async" /></figure>
+              ))}
+            </div>
+          </div>
+        )}
       </section>
 
       <section className="section alt">

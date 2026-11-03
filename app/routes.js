@@ -2,14 +2,13 @@ import { index, route } from "@react-router/dev/routes";
 import { SERVICE_DETAIL_PATHS } from "./data/servicePaths.js";
 import { BLOG_ARCHIVE_SLUGS } from "./data/blogArchiveSlugs.js";
 import { BLOG_PAGES } from "./data/blog.js";
+import { VIDEO_REVIEWS } from "./data/reviews.js";
 
 // One entry per page. Every route is prerendered to static HTML at build time
 // (see react-router.config.js). To add a page: create app/pages/<name>.jsx and add it here.
 export default [
   index("pages/home.jsx"),
   route("about-broadstreet-consulting-camden-scs-trusted-digital-marketing-partner", "pages/about-broadstreet-consulting-camden-scs-trusted-digital-marketing-partner.jsx"),
-  route("adwords-consultant-services", "pages/adwords-consultant-services.jsx"),
-  route("be-number-1-on-google", "pages/be-number-1-on-google.jsx"),
   route("blog/3-great-simple-ways-increase-your-online-presence", "pages/blog/3-great-simple-ways-increase-your-online-presence.jsx"),
   route("blog/5-key-steps-getting-your-home-business-found-online", "pages/blog/5-key-steps-getting-your-home-business-found-online.jsx"),
   route("blog/5-tips-succeeding-google-adwords", "pages/blog/5-tips-succeeding-google-adwords.jsx"),
@@ -18,7 +17,6 @@ export default [
   route("blog/celebrating-world-computer-literacy-day-december-2", "pages/blog/celebrating-world-computer-literacy-day-december-2.jsx"),
   route("blog/google-ads-vs-seo-which-right-your-sumter-or-camden-sc-business", "pages/blog/google-ads-vs-seo-which-right-your-sumter-or-camden-sc-business.jsx"),
   route("blog/local-seo-101-how-columbia-and-camden-sc-businesses-can-rank-higher-google", "pages/blog/local-seo-101-how-columbia-and-camden-sc-businesses-can-rank-higher-google.jsx"),
-  route("blog/nyia", "pages/blog/nyia.jsx"),
   route("blog/storefront-online-store-guide-ecommerce-camden-and-columbia-sc-retailers", "pages/blog/storefront-online-store-guide-ecommerce-camden-and-columbia-sc-retailers.jsx"),
   route("blog/using-google-street-view-and-360-spherical-camera-showcase-your-small-business", "pages/blog/using-google-street-view-and-360-spherical-camera-showcase-your-small-business.jsx"),
   route("blog/what-we-love-about-small-towns-and-why-we-never-left", "pages/blog/what-we-love-about-small-towns-and-why-we-never-left.jsx"),
@@ -35,14 +33,10 @@ export default [
   route("camden-sc", "pages/camden-sc.jsx"),
   route("contact", "pages/contact.jsx"),
   route("danielle-wolsleben", "pages/danielle-wolsleben.jsx"),
-  route("dominate-local-markets-online", "pages/dominate-local-markets-online.jsx"),
   route("downloads", "pages/downloads.jsx"),
-  route("fj-rabon-testimonial", "pages/fj-rabon-testimonial.jsx"),
   route("john-jackson", "pages/john-jackson.jsx"),
-  route("kershaw-county-council-aging-testimonial", "pages/kershaw-county-council-aging-testimonial.jsx"),
   route("lancaster-sc", "pages/lancaster-sc.jsx"),
   route("mary-souto", "pages/mary-souto.jsx"),
-  route("measured-results", "pages/measured-results.jsx"),
   route("nyia-langley", "pages/nyia-langley.jsx"),
   route("portfolio", "pages/portfolio.jsx"),
   route("portfolio/big-red-barn-retreat", "pages/portfolio/big-red-barn-retreat.jsx"),
@@ -69,10 +63,7 @@ export default [
   route("portfolio/torres-law-firm", "pages/portfolio/torres-law-firm.jsx"),
   route("portfolio/town-elgin", "pages/portfolio/town-elgin.jsx"),
   route("portfolio/tyler-brothers", "pages/portfolio/tyler-brothers.jsx"),
-  route("powers-gregory-staying-connected-customers", "pages/powers-gregory-staying-connected-customers.jsx"),
-  route("reach-your-next-generation-customers-online-marketing", "pages/reach-your-next-generation-customers-online-marketing.jsx"),
   route("search", "pages/search.jsx"),
-  route("sell-your-products-online", "pages/sell-your-products-online.jsx"),
   route("services", "pages/services.jsx"),
   // One page per service item (content in app/data/serviceDetails.jsx).
   ...SERVICE_DETAIL_PATHS.map((p) => {
@@ -89,19 +80,16 @@ export default [
     "web-design-columbia-sc", "web-design-lexington-sc", "web-design-sumter-sc", "web-design-florence-sc",
     "web-design-darlington-sc", "web-design-aiken-sc", "web-design-myrtle-beach-sc", "web-design-charlotte-nc",
   ].map((slug) => route(slug, "pages/service-area.jsx", { id: `area-${slug}` })),
-  route("services/content-management-development","pages/services/content-management-development.jsx"),
-  route("services/logo-design", "pages/services/logo-design.jsx"),
-  route("services/secure-hosting-technical-support", "pages/services/secure-hosting-technical-support.jsx"),
   route("services/web-mobile-app-development", "pages/services/web-mobile-app-development.jsx"),
   route("site-map", "pages/site-map.jsx"),
   route("staff", "pages/staff.jsx"),
-  route("stay-connected-your-customers", "pages/stay-connected-your-customers.jsx"),
   route("tiffany-massey", "pages/tiffany-massey.jsx"),
   route("tom-sliker-technical-expert-digital-marketing-social-media-google-seo-search-marketing", "pages/tom-sliker-technical-expert-digital-marketing-social-media-google-seo-search-marketing.jsx"),
   route("tom-sliker", "pages/tom-sliker.jsx"),
   route("web-success-videos", "pages/web-success-videos.jsx"),
   route("web-success", "pages/web-success.jsx"),
   route("what-our-clients-are-saying", "pages/what-our-clients-are-saying.jsx"),
-  route("wings-international-adventures", "pages/wings-international-adventures.jsx"),
+  // Client video stories (data in app/data/reviews.js).
+  ...VIDEO_REVIEWS.map((v) => route(v.story.replace(/^\/|\/$/g, ""), "pages/video-story.jsx", { id: `story-${v.youtube}` })),
   route("*", "pages/not-found.jsx"),
 ];

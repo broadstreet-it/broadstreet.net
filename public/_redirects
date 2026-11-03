@@ -1,6 +1,6 @@
 # Legacy Drupal URLs -> new pages (301). Generated from migration/redirects.json.
 # Query-string redirects (?page=1) are handled in worker/index.js.
-/be-1-google /be-number-1-on-google/ 301
+/be-1-google /services/search-engine-optimization-seo/ 301
 /services/drupal-ecommerce-website-development /services/ecommerce-website-development/ 301
 /services/google-adwords-consulting-search-engine-marketing /services/google-adwords-ppc-search-engine-marketing-consulting/ 301
 /node/479 /blog/ai-alone-isnt-marketing-strategy/ 301
@@ -23,15 +23,15 @@
 /node/451 /camden-sc/ 301
 /node/452 /lancaster-sc/ 301
 /node/327 /what-our-clients-are-saying/ 301
-/node/321 /be-number-1-on-google/ 301
-/node/319 /stay-connected-your-customers/ 301
-/node/318 /sell-your-products-online/ 301
-/node/317 /reach-your-next-generation-customers-online-marketing/ 301
-/node/316 /dominate-local-markets-online/ 301
+/node/321 /services/search-engine-optimization-seo/ 301
+/node/319 /services/stay-connected/ 301
+/node/318 /services/ecommerce-website-development/ 301
+/node/317 /services/ 301
+/node/316 /services/get-found/ 301
 /node/257 /services/mobile-friendly-website-design-development/ 301
 /node/258 /services/ecommerce-website-development/ 301
 /node/311 /services/search-engine-optimization-seo/ 301
-/node/266 /adwords-consultant-services/ 301
+/node/266 /services/google-adwords-ppc-search-engine-marketing-consulting/ 301
 /node/260 /services/google-adwords-ppc-search-engine-marketing-consulting/ 301
 /node/309 /services/social-media-marketing/ 301
 /node/310 /services/email-marketing/ 301
@@ -91,7 +91,7 @@
 /node/460 /blog/being-google-guide-series-part-1/ 301
 /node/453 /blog/your-website-ugly-christmas-sweater/ 301
 /node/450 /blog/celebrating-world-computer-literacy-day-december-2/ 301
-/node/320 /measured-results/ 301
+/node/320 /services/reporting/ 301
 /node/218 /blog/3-great-simple-ways-increase-your-online-presence/ 301
 /node/322 /blog/5-key-steps-getting-your-home-business-found-online/ 301
 /node/324 /blog/5-tips-succeeding-google-adwords/ 301
@@ -248,3 +248,13 @@
 /node/178 /blog/why-you-need-google-page/ 301
 /node/433 /blog/wordpress-vs-drupal-definitive-breakdown/ 301
 /node/444 /blog/world-development-information-day-and-broadstreetnet/ 301
+# Old marketing pages folded into the service pages (2026 redesign)
+/be-number-1-on-google /services/search-engine-optimization-seo/ 301
+/sell-your-products-online /services/ecommerce-website-development/ 301
+/reach-your-next-generation-customers-online-marketing /services/ 301
+/dominate-local-markets-online /services/get-found/ 301
+/stay-connected-your-customers /services/stay-connected/ 301
+/adwords-consultant-services /services/google-adwords-ppc-search-engine-marketing-consulting/ 301
+/measured-results /services/reporting/ 301
+/blog/nyia /nyia-langley/ 301
+/search-engine-marketing-services /services/google-adwords-ppc-search-engine-marketing-consulting/ 301

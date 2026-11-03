@@ -9,7 +9,7 @@ export default function PortfolioTorresLawFirm() {
       <p>
                               Torres Law Firm came to us in 2018 when they decided it was time to
                               invest in{" "}
-                              <Link to="/be-number-1-on-google/">
+                              <Link to="/services/search-engine-optimization-seo/">
                                 improving their presence on Google
                               </Link>
                               . We worked with them to{" "}

@@ -49,7 +49,7 @@ export default function PortfolioLaureledu() {
                                 , and Google AdWords. By aligning these things, we have developed
                                 cost-effective Google Ad campaigns helping Laurel capture more of
                                 their market online and make{" "}
-                                <a href="/search-engine-marketing-services/">Google AdWords</a> its
+                                <a href="/services/google-adwords-ppc-search-engine-marketing-consulting/">Google AdWords</a> its
                                 primary source of advertising. Since we began managing their Google
                                 AdWords in 2015, they have invested triple the budget they started
                                 with and are getting five times the conversions while increasing

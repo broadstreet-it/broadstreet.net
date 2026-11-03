@@ -10,7 +10,7 @@ export default function PortfolioBrazellExterminatingHomeRepair() {
                               {
                                 "Brazell Exterminating & Home Repair is small, local company based out of Camden, SC. Richard Brazell had been in the Pest Control industry for over 20 years when he came to us for help growing his business through the use of"
                               }
-                              <Link to="/reach-your-next-generation-customers-online-marketing/">
+                              <Link to="/services/">
                                 {" "}
                                 online marketing
                               </Link>

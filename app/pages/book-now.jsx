@@ -1,106 +1,50 @@
 import { Link } from "react-router";
-import { seo } from "../lib/seo";
+import { pageSeo } from "../lib/seo";
+import { PageHero } from "../components/ui";
 
 export const meta = () =>
-  seo({
-    title: "Book Now | Broadstreet",
-    description: "Schedule a 30 minute appointment with Tom Sliker of Broadstreet.net",
-    canonical: "https://broadstreet.net/book-now/",
-    graph: [
-      {
-        "@type": "WebPage",
-        "@id": "https://broadstreet.net/book-now/#webpage",
-        url: "https://broadstreet.net/book-now/",
-        name: "Book Now | Broadstreet",
-        description: "Schedule a 30 minute appointment with Tom Sliker of Broadstreet.net",
-        isPartOf: { "@id": "https://broadstreet.net/#website" },
-        about: { "@id": "https://broadstreet.net/#organization" },
-      },
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://broadstreet.net/" },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "Book Now",
-            item: "https://broadstreet.net/book-now/",
-          },
-        ],
-      },
-    ],
+  pageSeo({
+    path: "/book-now/",
+    title: "Book a 30-Minute Call with Tom Sliker | Broadstreet",
+    description: "Schedule a free 30-minute appointment with Tom Sliker of Broadstreet.net to talk about your website, Google presence and marketing goals.",
+    crumbs: [{ name: "Contact", path: "/contact/" }, { name: "Book a call", path: "/book-now/" }],
   });
 
 export default function BookNow() {
   return (
-    <>
-      <section className="page-hero">
-        <div className="wrap">
-          <nav className="breadcrumbs" aria-label="Breadcrumb">
-            <Link to="/">Home</Link> / Book Now
-          </nav>
-          <h1>Book Now</h1>
-          <p className="lead">
-            Schedule a 30 minute appointment with Tom Sliker of Broadstreet.net
-          </p>
+    <div style={{ "--accent": "var(--g-yellow)" }}>
+      <PageHero
+        crumbs={[{ name: "Contact", to: "/contact/" }, { name: "Book a call" }]}
+        label="Book a call"
+        title={<>Pick a time with <span className="c-yellow">Tom Sliker</span></>}
+        lede="Schedule a 30-minute appointment with Tom to talk about your website, your Google presence and where you want to grow."
+        actions={false}
+      />
+      <section className="section">
+        <div className="wrap book-layout">
+          <div className="form-card">
+            <h2>Choose a time</h2>
+            <iframe
+              className="booking-embed"
+              src="https://api.leadconnectorhq.com/widget/booking/oXumrjaleJ5UOqsr098h"
+              title="Book a 30-minute appointment with Tom Sliker"
+              loading="lazy"
+            ></iframe>
+          </div>
+          <aside className="contact-cards">
+            <a className="contact-card" href="tel:+18035750564" style={{ "--cc": "var(--g-red)" }}>
+              <span className="contact-kicker">Rather talk now?</span>
+              <b>(803) 575-0564</b>
+              <span>Call and we’ll find a time together.</span>
+            </a>
+            <Link className="contact-card" to="/contact/" style={{ "--cc": "var(--g-blue)" }}>
+              <span className="contact-kicker">Not sure yet?</span>
+              <b>Send us a message</b>
+              <span>Tell us about your business and we’ll reach out →</span>
+            </Link>
+          </aside>
         </div>
       </section>
-      <div className="wrap article-layout">
-        <article className="article-content">
-          <div className="region-inner region-content-inner">
-            <div
-              id="block-system-main"
-              className="block block-system block-main block-system-main odd block-without-title"
-            >
-              <div className="block-inner clearfix">
-                <div className="content clearfix">
-                  <article
-                    id="node-page-423"
-                    className="node node-page node-published node-not-promoted node-not-sticky author-tsliker odd clearfix"
-                  >
-                    <div className="content clearfix">
-                      <div className="field field-name-body field-type-text-with-summary field-label-hidden">
-                        <div className="field-items">
-                          <div className="field-item even">
-                            <p>
-                              Schedule a 30 minute appointment with Tom Sliker of Broadstreet.net
-                            </p>
-                            <p>
-                              <iframe
-                                id="T8ueyP6TxY8E2oEKvYUf_1761932851540"
-                                src="https://api.leadconnectorhq.com/widget/booking/oXumrjaleJ5UOqsr098h"
-                                title="Book Now video"
-                                loading="lazy"
-                                allowFullScreen
-                                className="external-embed"
-                              ></iframe>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="clearfix">
-                      <nav className="links node-links clearfix"></nav>
-                    </div>
-                  </article>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-        <aside className="sidebar">
-          <p className="eyebrow">Let’s move forward</p>
-          <h2>What’s next for your business?</h2>
-          <p>
-            Start with a conversation about your goals, your customers, and where you want to grow.
-          </p>
-          <Link className="button" to="/contact/">
-            Free consultation
-          </Link>
-          <a href="tel:+18035750564">(803) 575-0564</a>
-          <Link to="/portfolio/">Explore our work</Link>
-        </aside>
-      </div>
-    </>
+    </div>
   );
 }

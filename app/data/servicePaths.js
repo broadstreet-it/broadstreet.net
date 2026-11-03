@@ -16,6 +16,9 @@ export const SERVICE_DETAIL_PATHS = [
   "/services/digital-marketing-strategy-and-support/",
   "/lead-generation-services/",
   "/services/strategy-training/",
+  "/services/logo-design/",
+  "/services/content-management-development/",
+  "/services/secure-hosting-technical-support/",
 ];
 
 // Item label (as shown on the service group cards) -> its page.

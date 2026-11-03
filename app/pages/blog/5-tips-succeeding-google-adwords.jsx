@@ -249,7 +249,7 @@ export default function Blog5TipsSucceedingGoogleAdwords() {
       <blockquote>
         <div>
           We are AdWords Certified.{" "}
-          <Link to="/adwords-consultant-services/">
+          <Link to="/services/google-adwords-ppc-search-engine-marketing-consulting/">
             Learn More about Broadstreet Consulting's AdWords services
           </Link>
         </div>

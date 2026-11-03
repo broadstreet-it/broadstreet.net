@@ -93,7 +93,7 @@ export default function BlogCelebratingWorldComputerLiteracyDayDecember2() {
           Digital marketing
         </Link>
         ,{" "}
-        <Link to="/reach-your-next-generation-customers-online-marketing/">
+        <Link to="/services/">
           internet marketing
         </Link>
         , and <Link to="/services/social-media-marketing/">social media</Link>{" "}

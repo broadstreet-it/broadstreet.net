@@ -19,7 +19,7 @@ export default function PortfolioTylerBrothers() {
                                 port the site to Drupal
                               </Link>
                               , using the powerful Ubercart platform to provide Shopping Cart and{" "}
-                              <Link to="/sell-your-products-online/">e-Commerce functionality</Link>
+                              <Link to="/services/ecommerce-website-development/">e-Commerce functionality</Link>
                               . With the easy functionality of Drupal, the Tylers are able to
                               maintain the on-line store themselves with regular product updates,
                               while we provide{" "}
@@ -31,7 +31,7 @@ export default function PortfolioTylerBrothers() {
                               presence, and individualized on-line campaigns through{" "}
                               <Link to="/services/email-marketing/">e-mail marketing</Link>
                               {", Facebook & "}
-                              <a href="/search-engine-marketing-services/">Google AdWords</a>. The
+                              <a href="/services/google-adwords-ppc-search-engine-marketing-consulting/">Google AdWords</a>. The
                               Tylers say as old as the store is, their customers continue getting
                               younger thanks to their on-line presence.
                             </p>

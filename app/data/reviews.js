@@ -147,8 +147,8 @@ export const CLIENT_REVIEWS = [
 
 // Video testimonials (from the old home page). They play in the review dialog.
 export const VIDEO_REVIEWS = [
-  { youtube: "3J1gqCSj1wk", thumb: "/assets/media/reviews/video-kccoa.webp", title: "Customer testimonial: KCCOA", who: "Bruce Little", biz: "Kershaw County Council on Aging", story: "/kershaw-county-council-aging-testimonial/" },
+  { youtube: "3J1gqCSj1wk", thumb: "/assets/media/reviews/video-kccoa.webp", title: "Customer testimonial: KCCOA", who: "Bruce Little", biz: "Kershaw County Council on Aging", story: "/kershaw-county-council-aging-testimonial/", portfolio: "/portfolio/kershaw-county-council-on-aging/" },
   { youtube: "VafXMnArlFE", thumb: "/assets/media/reviews/video-fj-rabon.webp", title: "FJ Rabon Construction testimonial", who: "FJ Rabon Construction", biz: "Construction & septic tank services", story: "/fj-rabon-testimonial/" },
   { youtube: "Z4eKLX1uvb0", thumb: "/assets/media/reviews/video-wings.webp", title: "Don Terrell, Wingsport.com", who: "Don Terrell", biz: "Wings: International Adventures", story: "/wings-international-adventures/" },
-  { youtube: "IreikjTzDiw", thumb: "/assets/media/reviews/video-powers-gregory.webp", title: "Powers & Gregory HVAC talks about Broadstreet", who: "Powers & Gregory", biz: "Heating & Cooling", story: "/powers-gregory-staying-connected-customers/" },
+  { youtube: "IreikjTzDiw", thumb: "/assets/media/reviews/video-powers-gregory.webp", title: "Powers & Gregory HVAC talks about Broadstreet", who: "Powers & Gregory", biz: "Heating & Cooling", story: "/powers-gregory-staying-connected-customers/", portfolio: "/portfolio/powers-gregory-heating-cooling-hvac/" },
 ];

@@ -257,6 +257,72 @@ export const SERVICE_DETAILS = {
       { q: "Can training happen at our office?", a: "Yes. We can meet in person in the Camden area or train your team by video." },
     ],
   },
+
+  // ---------- From the old site's service pages ----------
+  "/services/logo-design/": {
+    group: "websites",
+    name: "Logo design",
+    title: "Logo Design in Camden, SC | Broadstreet.net",
+    description: "Affordable, professional logo design that works everywhere your business shows up online and in print. Broadstreet.net, Camden, SC.",
+    h1: <>A logo people <span className="c-yellow">recognize anywhere</span></>,
+    lede: "Building your brand is at the center of building a website and growing online. We design one professional logo, versatile enough to work on every online and print platform where customers see you.",
+    facts: [["Versatile", "Online and in print"], ["Professional", "Designed by our team"], ["Affordable", "Built for small business"], ["Consistent", "Colors, fonts and images"]],
+    included: ["A professional, versatile logo", "Familiar colors, fonts and images for your brand", "Versions for your website and social media", "Files for print, from business cards to signs"],
+    why: [["Be recognized", "A consistent look builds trust everywhere customers see you."], ["Start right", "We design logos for new businesses and for companies ready for a modern refresh."], ["Ready to share", "Brand yourself first, then we help spread your message online."]],
+    steps: [["Talk", "We learn about your business and your customers."], ["Design", "Our team creates logo ideas for you."], ["Refine", "We fine-tune the one you like best."], ["Deliver", "You get files for web and print."]],
+    faq: [
+      { q: "Can you redesign the logo we already have?", a: "Yes. We’ve designed logos for businesses before they had one and for companies that needed a new, modern logo." },
+    ],
+    gallery: {
+      title: "Logos we’ve designed",
+      items: [
+        ["/assets/media/d0fffb0771faf5a4.png", "AllStaff Employment and Occupational Health logo", 1010, 242],
+        ["/assets/media/b586ff6693e4714e.png", "Olde English District logo", 1199, 283],
+        ["/assets/media/b1d60c7c192daabf.png", "Rockholt Real Estate logo", 1200, 472],
+        ["/assets/media/24f98350e1f9a356.png", "Zinnia Home Health logo", 1200, 990],
+        ["/assets/media/67f09b221ccf1127.png", "MIAC logo", 940, 788],
+        ["/assets/media/a1d926af16b0fc1b.png", "Historyman logo", 1158, 1200],
+        ["/assets/media/bd2b49b433b6bf3c.png", "Wagener Medical Family Medical Practice logo", 500, 200],
+        ["/assets/media/7c95e371a34dab57.png", "Commercial Dock & Door Systems logo", 250, 100],
+      ],
+    },
+  },
+  "/services/content-management-development/": {
+    group: "websites",
+    name: "Content development",
+    title: "Website Content Development & Management | Broadstreet.net",
+    description: "Content-rich websites you can update yourself: graphics, landing pages, blogs, videos and social posts from Broadstreet.net’s content and design team.",
+    h1: <>A content-rich website <span className="c-yellow">you can update yourself</span></>,
+    lede: "A content-rich website gets noticed and remembered. It gives people more ways to find you on search engines, more reasons to share your site, and sets you up as an expert in your industry.",
+    facts: [["Easy to edit", "Update content yourself"], ["Team-friendly", "Multiple users and roles"], ["Better SEO", "Fresh content ranks"], ["Created for you", "Graphics, posts and video"]],
+    included: ["Logos and sales & marketing graphics", "Landing pages", "Blog posts", "Videos", "Social media posts", "Training so your team can update the site"],
+    why: [
+      ["Easily edit your own content", "Behind the design is a back end built for your needs, easy enough for you or your staff to update. We train your administrators to manage content and products in-house."],
+      ["Collaborate", "Multiple users and levels of access let your team edit at the same time, save changes for review, and publish when an authorized user approves. Prefer to do less? We can handle updates for you."],
+      ["Improve your SEO", "Publishing fresh content regularly brings more visitors. Clients who use their content management system tend to climb in search results for their target keywords faster."],
+    ],
+    steps: [["Plan", "We decide what content will help you most."], ["Create", "Our writers and designers produce it."], ["Publish", "It goes on your website, social media and YouTube."], ["Train", "Your team learns to update content in-house."]],
+    faq: [
+      { q: "Will I be able to update the website myself?", a: "Yes. We build an easy back end and train anyone who will manage your content." },
+      { q: "Can several people work on the site?", a: "Yes. Multiple users can have different levels of access, with changes saved for review before they go live." },
+    ],
+  },
+  "/services/secure-hosting-technical-support/": {
+    group: "grow",
+    name: "Hosting & technical support",
+    title: "Secure Website Hosting & Technical Support | Broadstreet.net",
+    description: "Secure website hosting and technical support from a local team, whether or not we built your website. Plans from basic hosting to full digital marketing.",
+    h1: <>Secure hosting, <span className="c-yellow">real support</span></>,
+    lede: "Our most basic monthly support covers secure website hosting and technical support, whether or not we designed and built your website.",
+    facts: [["Secure", "Hosted on our server"], ["Supported", "Help when issues come up"], ["Any website", "Even if we didn’t build it"], ["Room to grow", "Plans up to full marketing"]],
+    included: ["Secure website hosting", "Technical support for any issues you run into", "A support package agreed in your plan", "Upgrades to content, social media and marketing support"],
+    why: [["Peace of mind", "Your website is secure on our server and someone is watching it."], ["Help when you need it", "Technical questions go to a local team that answers."], ["Grow at your pace", "Our most successful customers move up to full monthly support plans."]],
+    steps: [["Review", "We look at your current website and hosting."], ["Agree", "We choose the support package that fits."], ["Move", "Your website moves securely to our server."], ["Support", "We help with any issues that come up."]],
+    faq: [
+      { q: "Can you host a website you didn’t build?", a: "Yes. We can host your website and offer technical support whether or not we designed and built it." },
+      { q: "What comes after basic hosting?", a: "Higher-level plans add custom digital marketing strategy, regular content creation, social media sharing and more." },
+    ],
+  },
 };
 
 

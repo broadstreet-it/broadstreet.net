@@ -33,7 +33,7 @@ export default function PortfolioThompsonRentalServices() {
                               presence,{" "}
                               <Link to="/services/email-marketing/">e-mail campaigns</Link> and
                               investing in{" "}
-                              <a href="/search-engine-marketing-services/">Google AdWords</a>.
+                              <a href="/services/google-adwords-ppc-search-engine-marketing-consulting/">Google AdWords</a>.
                             </p>
                             <p>
                               {

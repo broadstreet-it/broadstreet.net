@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router";
 import { seo, SITE_URL } from "../lib/seo";
+import { PageHero } from "../components/ui";
 
 export const meta = () =>
   seo({
@@ -22,11 +23,13 @@ export const meta = () =>
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
-          { "@type": "ListItem", position: 2, name: "What are you looking for?", item: `${SITE_URL}/search/` },
+          { "@type": "ListItem", position: 2, name: "Search", item: `${SITE_URL}/search/` },
         ],
       },
     ],
   });
+
+const SUGGESTIONS = ["SEO", "Google Ads", "website design", "social media", "eCommerce", "Drupal"];
 
 export default function Search() {
   const [params, setParams] = useSearchParams();
@@ -57,39 +60,43 @@ export default function Search() {
     });
   }, [index, query]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const onChange = (e) => {
-    setQuery(e.target.value);
-    setParams(e.target.value ? { q: e.target.value } : {}, { replace: true, preventScrollReset: true });
+  const update = (value) => {
+    setQuery(value);
+    setParams(value ? { q: value } : {}, { replace: true, preventScrollReset: true });
   };
 
   let status = "Enter a word or phrase to search the site.";
-  if (words.length) status = index ? `${results.length} matching pages` : "Loading…";
+  if (words.length) status = index ? `${results.length} matching page${results.length === 1 ? "" : "s"}` : "Loading…";
 
   return (
-    <>
-      <section className="page-hero">
-        <div className="wrap">
-          <nav className="breadcrumbs" aria-label="Breadcrumb">
-            <Link to="/">Home</Link> / What are you looking for?
-          </nav>
-          <h1>What are you looking for?</h1>
-          <p className="lead">Search Broadstreet services, projects, and digital marketing articles.</p>
-        </div>
-      </section>
+    <div style={{ "--accent": "var(--g-blue)" }}>
+      <PageHero
+        crumbs={[{ name: "Search" }]}
+        label="Search"
+        title={<>What are you <span className="c-yellow">looking for?</span></>}
+        lede="Search our services, projects, client stories and every post on our blog."
+        actions={false}
+      />
       <section className="section">
         <div className="wrap">
-          <label htmlFor="site-search">Search services, projects, and articles</label>
-          <input
-            className="search-input"
-            id="site-search"
-            type="search"
-            placeholder="Try SEO, website design, or a client name"
-            value={query}
-            onChange={onChange}
-          />
-          <p id="search-status" role="status">
-            {status}
-          </p>
+          <form className="search-box" role="search" onSubmit={(e) => e.preventDefault()}>
+            <label htmlFor="site-search" className="sr-only">Search the site</label>
+            <input
+              className="search-input"
+              id="site-search"
+              type="search"
+              placeholder="Try SEO, website design, or a client name"
+              value={query}
+              onChange={(e) => update(e.target.value)}
+              autoComplete="off"
+            />
+          </form>
+          {!words.length && (
+            <div className="work-filters" style={{ marginTop: 16 }} aria-label="Popular searches">
+              {SUGGESTIONS.map((s) => <button key={s} type="button" onClick={() => update(s)}>{s}</button>)}
+            </div>
+          )}
+          <p className="search-status" id="search-status" role="status">{status}</p>
           <ul className="search-results" id="search-results">
             {results.slice(0, 100).map((p) => (
               <li key={p.href}>
@@ -100,6 +107,6 @@ export default function Search() {
           </ul>
         </div>
       </section>
-    </>
+    </div>
   );
 }

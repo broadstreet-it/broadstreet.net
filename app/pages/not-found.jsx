@@ -1,5 +1,7 @@
-import { Link } from "react-router";
+import { useState } from "react";
+import { Link, useNavigate } from "react-router";
 import { seo } from "../lib/seo";
+import { PageHero } from "../components/ui";
 
 export const meta = () =>
   seo({
@@ -7,58 +9,51 @@ export const meta = () =>
     description: "Find the information you need on the Broadstreet website.",
     canonical: "https://broadstreet.net/404/",
     robots: "noindex,follow",
-    graph: [
-      {
-        "@type": "WebPage",
-        "@id": "https://broadstreet.net/404/#webpage",
-        url: "https://broadstreet.net/404/",
-        name: "Page Not Found | Broadstreet",
-        description: "Find the information you need on the Broadstreet website.",
-        isPartOf: { "@id": "https://broadstreet.net/#website" },
-        about: { "@id": "https://broadstreet.net/#organization" },
-      },
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://broadstreet.net/" },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "Let’s help you find the right page.",
-            item: "https://broadstreet.net/404/",
-          },
-        ],
-      },
-    ],
+    graph: [],
   });
 
+const POPULAR = [
+  ["/services/", "Services", "Websites, SEO, Google Ads and more", "var(--g-blue)"],
+  ["/portfolio/", "Our work", "Websites we’ve built", "var(--g-red)"],
+  ["/blogs/", "Blog", "Tips and insights", "var(--g-yellow)"],
+  ["/contact/", "Contact", "Talk to our team", "var(--g-green)"],
+];
+
 export default function NotFound() {
+  const [q, setQ] = useState("");
+  const navigate = useNavigate();
+
   return (
-    <>
-      <section className="page-hero">
-        <div className="wrap">
-          <nav className="breadcrumbs" aria-label="Breadcrumb">
-            <Link to="/">Home</Link> / Let’s help you find the right page.
-          </nav>
-          <h1>Let’s help you find the right page.</h1>
-          <p className="lead">Find the information you need on the Broadstreet website.</p>
-        </div>
-      </section>
+    <div style={{ "--accent": "var(--g-red)" }}>
+      <PageHero
+        crumbs={[{ name: "Page not found" }]}
+        label="404 · Page not found"
+        title={<>Let’s find <span className="c-yellow">the right page</span></>}
+        lede="The page you’re looking for may have moved when we redesigned our website. Search below or start from one of these pages."
+        actions={false}
+      />
       <section className="section">
         <div className="wrap">
-          <p>
-            The address may have changed. Search the site or browse all pages to find what you need.
-          </p>
-          <div className="actions">
-            <Link className="button" to="/search/">
-              Search the site
-            </Link>
-            <Link to="/site-map/" className="button secondary">
-              Browse all pages
-            </Link>
-          </div>
+          <form
+            className="search-box"
+            role="search"
+            onSubmit={(e) => {
+              e.preventDefault();
+              navigate(q.trim() ? `/search/?q=${encodeURIComponent(q.trim())}` : "/search/");
+            }}
+          >
+            <label htmlFor="nf-search" className="sr-only">Search the site</label>
+            <input className="search-input" id="nf-search" type="search" placeholder="Search the site" value={q} onChange={(e) => setQ(e.target.value)} />
+            <button className="button btn-yellow" type="submit">Search</button>
+          </form>
+          <nav className="quick-links" aria-label="Popular pages">
+            {POPULAR.map(([to, title, text, c]) => (
+              <Link key={to} to={to} style={{ "--qc": c }}>{title}<span>{text}</span></Link>
+            ))}
+          </nav>
+          <p className="search-status">Or <Link to="/site-map/" style={{ color: "var(--g-yellow)" }}>browse every page in the site map</Link>.</p>
         </div>
       </section>
-    </>
+    </div>
   );
 }

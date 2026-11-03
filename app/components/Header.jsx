@@ -30,6 +30,8 @@ export const SERVICE_MENU = [
       ["Online stores", "/services/ecommerce-website-development/"],
       ["Drupal development", "/open-source-development-services/"],
       ["Inventory & accounting", "/services/inventory-accounting-integration/"],
+      ["Logo design", "/services/logo-design/"],
+      ["Content development", "/services/content-management-development/"],
     ],
   },
   {
@@ -47,6 +49,7 @@ export const SERVICE_MENU = [
       ["Monthly support plans", "/services/digital-marketing-strategy-and-support/"],
       ["Lead generation", "/lead-generation-services/"],
       ["Strategy reviews & training", "/services/strategy-training/"],
+      ["Hosting & support", "/services/secure-hosting-technical-support/"],
     ],
   },
   {
