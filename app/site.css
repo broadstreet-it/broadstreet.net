@@ -570,8 +570,16 @@ a.member-card:hover .member-name{color:var(--blue)}
 .about-name-photo img{display:block;width:100%;height:auto}
 .about-sign{font-weight:700;color:var(--text)!important}
 .about-sign a{color:var(--g-yellow)}
-.about-badge{display:block;background:#fff;border-radius:6px;padding:clamp(20px,4vw,40px);box-shadow:0 24px 60px rgba(0,0,0,.35)}
-.about-badge img{display:block;width:100%;height:auto}
+.partner-card{position:relative;overflow:hidden;background:var(--card);border:1px solid var(--card-line);border-radius:6px;padding:clamp(26px,3.4vw,38px) clamp(20px,3vw,34px) clamp(22px,3vw,32px);display:grid;gap:26px;box-shadow:0 24px 60px rgba(0,0,0,.35)}
+.partner-card::before{content:"";position:absolute;inset:0 0 auto;height:6px;background:linear-gradient(90deg,var(--g-blue) 0 25%,var(--g-red) 25% 50%,var(--g-yellow) 50% 75%,var(--g-green) 75%)}
+.partner-badge{display:block;justify-self:start;max-width:380px;width:100%;border-radius:4px;overflow:hidden;box-shadow:0 10px 26px rgba(0,0,0,.3);transition:transform .15s ease}
+.partner-badge:hover{transform:translateY(-2px)}
+.partner-badge img{display:block;width:100%;height:auto}
+.partner-points{list-style:none;margin:0;padding:0;display:grid;gap:16px}
+.partner-points li{display:grid;grid-template-columns:30px 1fr;column-gap:14px;row-gap:2px}
+.partner-points li::before{content:"✓";grid-row:span 2;width:30px;height:30px;border-radius:50%;background:var(--pc);color:var(--pt);display:grid;place-items:center;font-weight:800;font-size:.95rem}
+.partner-points b{color:#fff;font-size:1.05rem}
+.partner-points span{color:var(--muted);font-size:.95rem;line-height:1.5}
 .beliefs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .belief{background:var(--bc);border-radius:4px;padding:26px;color:#fff}
 .belief h3{margin:0 0 10px;font-size:1.6rem;line-height:1.05}

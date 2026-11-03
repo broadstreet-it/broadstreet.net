@@ -47,6 +47,12 @@ const TIMELINE = [
   { era: "growth", month: "", year: "Today", title: "Your digital marketing team", text: "Websites, SEO, Google Ads and social media for businesses across the Carolinas.", to: "/services/" },
 ];
 
+const PARTNER_POINTS = [
+  ["Certified in Google Ads", "Certified staff who follow Google’s best practices.", "var(--g-blue)"],
+  ["Verified by Google", "Listed on Google’s official Partner Search.", "var(--g-red)"],
+  ["Ahead of the changes", "Exclusive Google training, product updates and research.", "var(--g-yellow)", true],
+];
+
 const BELIEFS = [
   ["The internet builds relationships", "We believe in the power of the internet to build and strengthen human relationships.", "var(--g-blue)"],
   ["Technology serves people", "Technology should serve people, not the other way around.", "var(--g-red)"],
@@ -181,9 +187,19 @@ export default function About() {
 
       <section className="section">
         <div className="wrap about-partner">
-          <Link to="/broadstreet-consulting-google-partners-google-adwords-certified/" className="about-badge">
-            <img src="/assets/media/887cd580aaba36d5.png" alt="Google Partner" width="634" height="238" loading="lazy" decoding="async" />
-          </Link>
+          <div className="partner-card">
+            <Link to="/broadstreet-consulting-google-partners-google-adwords-certified/" className="partner-badge">
+              <img src="/assets/media/google-partner-badge.png" alt="Google Partner" width="603" height="205" loading="lazy" decoding="async" />
+            </Link>
+            <ul className="partner-points">
+              {PARTNER_POINTS.map(([title, text, c, dark]) => (
+                <li key={title} style={{ "--pc": c, "--pt": dark ? "#06182E" : "#fff" }}>
+                  <b>{title}</b>
+                  <span>{text}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
           <div className="about-copy">
             <span className="label" style={{ "--lc": "var(--g-green)" }}>Google Partner</span>
             <h2>A double layer of quality assurance</h2>
