@@ -2,6 +2,241 @@
 // edit freely. `services` was inferred from each story's text — check before launch.
 export const PORTFOLIO = [
   {
+    "slug": "commercial-dock-and-door-systems",
+    "name": "Commercial Dock and Door Systems",
+    "description": "Explore Broadstreet’s work with Commercial Dock and Door Systems: website design, online presence, and a partnership built around the client’s business.",
+    "url": "https://commercialdockanddoorsystems.com/",
+    "image": {
+      "src": "/assets/media/88dacd6e6d0c427a.png",
+      "width": 1366,
+      "height": 2033
+    },
+    "services": [
+      [
+        "Website design",
+        "/services/mobile-friendly-website-design-development/"
+      ]
+    ]
+  },
+  {
+    "slug": "carolina-scoop-crew",
+    "name": "Carolina Scoop Crew",
+    "description": "Explore Broadstreet’s work with Carolina Scoop Crew: website design, online presence, and a partnership built around the client’s business.",
+    "url": "https://carolinascoopcrew.com/",
+    "image": {
+      "src": "/assets/media/e33bcf8e45df4b05.png",
+      "width": 1366,
+      "height": 2123
+    },
+    "services": [
+      [
+        "Website design",
+        "/services/mobile-friendly-website-design-development/"
+      ],
+      [
+        "SEO",
+        "/services/search-engine-optimization-seo/"
+      ]
+    ]
+  },
+  {
+    "slug": "nature-teacher-preserve",
+    "name": "Nature As Teacher Preserve",
+    "description": "Explore Broadstreet’s work with Nature As Teacher Preserve: website design, online presence, and a partnership built around the client’s business.",
+    "url": "https://natureasteacher.org/",
+    "image": {
+      "src": "/assets/media/fca421e49830ab98.png",
+      "width": 1366,
+      "height": 2370
+    },
+    "services": [
+      [
+        "Website design",
+        "/services/mobile-friendly-website-design-development/"
+      ]
+    ]
+  },
+  {
+    "slug": "signs-unlimited-sc",
+    "name": "Signs Unlimited SC",
+    "description": "Explore Broadstreet’s work with Signs Unlimited SC: website design, online presence, and a partnership built around the client’s business.",
+    "url": "https://signsunlimitedsc.com/",
+    "image": {
+      "src": "/assets/media/ba6779fba2368d52.png",
+      "width": 1366,
+      "height": 2426
+    },
+    "services": [
+      [
+        "Website design",
+        "/services/mobile-friendly-website-design-development/"
+      ],
+      [
+        "SEO",
+        "/services/search-engine-optimization-seo/"
+      ]
+    ]
+  },
+  {
+    "slug": "powers-gregory-heating-cooling-hvac",
+    "name": "Powers & Gregory HVAC",
+    "description": "Explore Broadstreet’s work with Powers & Gregory HVAC: website design, online presence, and a partnership built around the client’s business.",
+    "url": "https://www.powersandgregory.com/",
+    "image": {
+      "src": "/assets/media/18d95daac4660ac1.png",
+      "width": 3825,
+      "height": 5947
+    },
+    "services": [
+      [
+        "Website design",
+        "/services/mobile-friendly-website-design-development/"
+      ],
+      [
+        "SEO",
+        "/services/search-engine-optimization-seo/"
+      ],
+      [
+        "Social media",
+        "/services/social-media-marketing/"
+      ]
+    ]
+  },
+  {
+    "slug": "glens-import-services-llc",
+    "name": "Glen's Import Services LLC",
+    "description": "Explore Broadstreet’s work with Glen's Import Services LLC: website design, online presence, and a partnership built around the client’s business.",
+    "url": "https://glensimportservice.com/",
+    "image": {
+      "src": "/assets/media/glens-import-service.webp",
+      "width": 588,
+      "height": 2000
+    },
+    "services": [
+      [
+        "Website design",
+        "/services/mobile-friendly-website-design-development/"
+      ],
+      [
+        "SEO",
+        "/services/search-engine-optimization-seo/"
+      ]
+    ]
+  },
+  {
+    "slug": "kb-cores",
+    "name": "KB Cores",
+    "description": "Explore Broadstreet’s work with KB Cores: website design, online presence, and a partnership built around the client’s business.",
+    "url": "http://www.kbcores.com/",
+    "image": {
+      "src": "/assets/media/e6dbb9c3a2ef91d2.png",
+      "width": 1547,
+      "height": 1592
+    },
+    "services": [
+      [
+        "Website design",
+        "/services/mobile-friendly-website-design-development/"
+      ],
+      [
+        "SEO",
+        "/services/search-engine-optimization-seo/"
+      ],
+      [
+        "Google Ads",
+        "/services/google-adwords-ppc-search-engine-marketing-consulting/"
+      ],
+      [
+        "Drupal development",
+        "/open-source-development-services/"
+      ]
+    ]
+  },
+  {
+    "slug": "palmetto-glass",
+    "name": "Palmetto Glass",
+    "description": "Explore Broadstreet’s work with Palmetto Glass: website design, online presence, and a partnership built around the client’s business.",
+    "url": "https://palmettoglass.com/",
+    "image": {
+      "src": "/assets/media/cff38687931332f5.png",
+      "width": 1366,
+      "height": 2268
+    },
+    "services": [
+      [
+        "Website design",
+        "/services/mobile-friendly-website-design-development/"
+      ],
+      [
+        "SEO",
+        "/services/search-engine-optimization-seo/"
+      ]
+    ]
+  },
+  {
+    "slug": "river-valley-recycling",
+    "name": "River Valley Recycling",
+    "description": "Explore Broadstreet’s work with River Valley Recycling: website design, online presence, and a partnership built around the client’s business.",
+    "url": "https://www.rivervalleyrecycling.net/",
+    "image": {
+      "src": "/assets/media/d67fb8e53dc48dae.jpg",
+      "width": 1276,
+      "height": 718
+    },
+    "services": [
+      [
+        "Website design",
+        "/services/mobile-friendly-website-design-development/"
+      ]
+    ]
+  },
+  {
+    "slug": "big-red-barn-retreat",
+    "name": "The Big Red Barn Retreat",
+    "description": "Explore Broadstreet’s work with The Big Red Barn Retreat: website design, online presence, and a partnership built around the client’s business.",
+    "url": "http://thebigredbarnretreat.org/",
+    "image": {
+      "src": "/assets/media/c2325cd1cbb6b73a.png",
+      "width": 1366,
+      "height": 2076
+    },
+    "services": [
+      [
+        "Website design",
+        "/services/mobile-friendly-website-design-development/"
+      ],
+      [
+        "SEO",
+        "/services/search-engine-optimization-seo/"
+      ],
+      [
+        "Social media",
+        "/services/social-media-marketing/"
+      ]
+    ]
+  },
+  {
+    "slug": "torres-law-firm",
+    "name": "Torres Law Firm",
+    "description": "Explore Broadstreet’s work with Torres Law Firm: website design, online presence, and a partnership built around the client’s business.",
+    "url": "https://www.torreslawfirm.net/",
+    "image": {
+      "src": "/assets/media/87e7cda7913053a9.png",
+      "width": 3825,
+      "height": 7073
+    },
+    "services": [
+      [
+        "Website design",
+        "/services/mobile-friendly-website-design-development/"
+      ],
+      [
+        "SEO",
+        "/services/search-engine-optimization-seo/"
+      ]
+    ]
+  },
+  {
     "slug": "brazell-exterminating-home-repair",
     "name": "Brazell Exterminating & Home Repair",
     "description": "Explore Broadstreet’s work with Brazell Exterminating & Home Repair: website design, online presence, and a partnership built around the client’s business.",
@@ -44,44 +279,6 @@ export const PORTFOLIO = [
     ]
   },
   {
-    "slug": "carolina-scoop-crew",
-    "name": "Carolina Scoop Crew",
-    "description": "Explore Broadstreet’s work with Carolina Scoop Crew: website design, online presence, and a partnership built around the client’s business.",
-    "url": "https://carolinascoopcrew.com/",
-    "image": {
-      "src": "/assets/media/e33bcf8e45df4b05.png",
-      "width": 1366,
-      "height": 2123
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ],
-      [
-        "SEO",
-        "/services/search-engine-optimization-seo/"
-      ]
-    ]
-  },
-  {
-    "slug": "commercial-dock-and-door-systems",
-    "name": "Commercial Dock and Door Systems",
-    "description": "Explore Broadstreet’s work with Commercial Dock and Door Systems: website design, online presence, and a partnership built around the client’s business.",
-    "url": "https://commercialdockanddoorsystems.com/",
-    "image": {
-      "src": "/assets/media/88dacd6e6d0c427a.png",
-      "width": 1366,
-      "height": 2033
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ]
-    ]
-  },
-  {
     "slug": "d-t-steel-inc",
     "name": "D & T Steel, Inc",
     "description": "Explore Broadstreet’s work with D & T Steel, Inc: website design, online presence, and a partnership built around the client’s business.",
@@ -95,27 +292,6 @@ export const PORTFOLIO = [
       [
         "Website design",
         "/services/mobile-friendly-website-design-development/"
-      ]
-    ]
-  },
-  {
-    "slug": "glens-import-services-llc",
-    "name": "Glen's Import Services LLC",
-    "description": "Explore Broadstreet’s work with Glen's Import Services LLC: website design, online presence, and a partnership built around the client’s business.",
-    "url": "https://glensimportservice.com/",
-    "image": {
-      "src": "/assets/media/glens-import-service.webp",
-      "width": 588,
-      "height": 2000
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ],
-      [
-        "SEO",
-        "/services/search-engine-optimization-seo/"
       ]
     ]
   },
@@ -162,35 +338,6 @@ export const PORTFOLIO = [
     ]
   },
   {
-    "slug": "kb-cores",
-    "name": "KB Cores",
-    "description": "Explore Broadstreet’s work with KB Cores: website design, online presence, and a partnership built around the client’s business.",
-    "url": "http://www.kbcores.com/",
-    "image": {
-      "src": "/assets/media/e6dbb9c3a2ef91d2.png",
-      "width": 1547,
-      "height": 1592
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ],
-      [
-        "SEO",
-        "/services/search-engine-optimization-seo/"
-      ],
-      [
-        "Google Ads",
-        "/services/google-adwords-ppc-search-engine-marketing-consulting/"
-      ],
-      [
-        "Drupal development",
-        "/open-source-development-services/"
-      ]
-    ]
-  },
-  {
     "slug": "laureledu",
     "name": "Laurel.edu",
     "description": "Explore Broadstreet’s work with Laurel.edu: website design, online presence, and a partnership built around the client’s business.",
@@ -224,86 +371,6 @@ export const PORTFOLIO = [
     ]
   },
   {
-    "slug": "nature-teacher-preserve",
-    "name": "Nature As Teacher Preserve",
-    "description": "Explore Broadstreet’s work with Nature As Teacher Preserve: website design, online presence, and a partnership built around the client’s business.",
-    "url": "https://natureasteacher.org/",
-    "image": {
-      "src": "/assets/media/fca421e49830ab98.png",
-      "width": 1366,
-      "height": 2370
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ]
-    ]
-  },
-  {
-    "slug": "palmetto-glass",
-    "name": "Palmetto Glass",
-    "description": "Explore Broadstreet’s work with Palmetto Glass: website design, online presence, and a partnership built around the client’s business.",
-    "url": "https://palmettoglass.com/",
-    "image": {
-      "src": "/assets/media/cff38687931332f5.png",
-      "width": 1366,
-      "height": 2268
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ],
-      [
-        "SEO",
-        "/services/search-engine-optimization-seo/"
-      ]
-    ]
-  },
-  {
-    "slug": "powers-gregory-heating-cooling-hvac",
-    "name": "Powers & Gregory HVAC",
-    "description": "Explore Broadstreet’s work with Powers & Gregory HVAC: website design, online presence, and a partnership built around the client’s business.",
-    "url": "https://www.powersandgregory.com/",
-    "image": {
-      "src": "/assets/media/18d95daac4660ac1.png",
-      "width": 3825,
-      "height": 5947
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ],
-      [
-        "SEO",
-        "/services/search-engine-optimization-seo/"
-      ],
-      [
-        "Social media",
-        "/services/social-media-marketing/"
-      ]
-    ]
-  },
-  {
-    "slug": "river-valley-recycling",
-    "name": "River Valley Recycling",
-    "description": "Explore Broadstreet’s work with River Valley Recycling: website design, online presence, and a partnership built around the client’s business.",
-    "url": "https://www.rivervalleyrecycling.net/",
-    "image": {
-      "src": "/assets/media/d67fb8e53dc48dae.jpg",
-      "width": 1276,
-      "height": 718
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ]
-    ]
-  },
-  {
     "slug": "rock-bottom-pond",
     "name": "Rock Bottom Pond",
     "description": "Explore Broadstreet’s work with Rock Bottom Pond: website design, online presence, and a partnership built around the client’s business.",
@@ -333,27 +400,6 @@ export const PORTFOLIO = [
     ]
   },
   {
-    "slug": "signs-unlimited-sc",
-    "name": "Signs Unlimited SC",
-    "description": "Explore Broadstreet’s work with Signs Unlimited SC: website design, online presence, and a partnership built around the client’s business.",
-    "url": "https://signsunlimitedsc.com/",
-    "image": {
-      "src": "/assets/media/ba6779fba2368d52.png",
-      "width": 1366,
-      "height": 2426
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ],
-      [
-        "SEO",
-        "/services/search-engine-optimization-seo/"
-      ]
-    ]
-  },
-  {
     "slug": "stars-campus-solutions",
     "name": "STARS Campus Solutions",
     "description": "Explore Broadstreet’s work with STARS Campus Solutions: website design, online presence, and a partnership built around the client’s business.",
@@ -375,31 +421,6 @@ export const PORTFOLIO = [
       [
         "Google Ads",
         "/services/google-adwords-ppc-search-engine-marketing-consulting/"
-      ]
-    ]
-  },
-  {
-    "slug": "big-red-barn-retreat",
-    "name": "The Big Red Barn Retreat",
-    "description": "Explore Broadstreet’s work with The Big Red Barn Retreat: website design, online presence, and a partnership built around the client’s business.",
-    "url": "http://thebigredbarnretreat.org/",
-    "image": {
-      "src": "/assets/media/c2325cd1cbb6b73a.png",
-      "width": 1366,
-      "height": 2076
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ],
-      [
-        "SEO",
-        "/services/search-engine-optimization-seo/"
-      ],
-      [
-        "Social media",
-        "/services/social-media-marketing/"
       ]
     ]
   },
@@ -437,27 +458,6 @@ export const PORTFOLIO = [
       [
         "Drupal development",
         "/open-source-development-services/"
-      ]
-    ]
-  },
-  {
-    "slug": "torres-law-firm",
-    "name": "Torres Law Firm",
-    "description": "Explore Broadstreet’s work with Torres Law Firm: website design, online presence, and a partnership built around the client’s business.",
-    "url": "https://www.torreslawfirm.net/",
-    "image": {
-      "src": "/assets/media/87e7cda7913053a9.png",
-      "width": 3825,
-      "height": 7073
-    },
-    "services": [
-      [
-        "Website design",
-        "/services/mobile-friendly-website-design-development/"
-      ],
-      [
-        "SEO",
-        "/services/search-engine-optimization-seo/"
       ]
     ]
   },
