@@ -6,7 +6,7 @@ import { PageHero } from "../components/ui";
 export const meta = () =>
   seo({
     title: "Search the Broadstreet Website",
-    description: "Search Broadstreet services, projects, and digital marketing articles.",
+    description: "Search the Broadstreet.net website for services, portfolio projects, client stories and digital marketing articles from our Camden, SC team.",
     canonical: `${SITE_URL}/search/`,
     robots: "noindex,follow",
     graph: [
@@ -15,7 +15,7 @@ export const meta = () =>
         "@id": `${SITE_URL}/search/#webpage`,
         url: `${SITE_URL}/search/`,
         name: "Search the Broadstreet Website",
-        description: "Search Broadstreet services, projects, and digital marketing articles.",
+        description: "Search the Broadstreet.net website for services, portfolio projects, client stories and digital marketing articles from our Camden, SC team.",
         isPartOf: { "@id": `${SITE_URL}/#website` },
         about: { "@id": `${SITE_URL}/#organization` },
       },

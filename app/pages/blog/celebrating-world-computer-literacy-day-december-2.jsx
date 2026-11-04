@@ -6,7 +6,7 @@ export const meta = () =>
   seo({
     title: "Celebrating World Computer Literacy Day on December 2 | Broadstreet",
     description:
-      "Computer skills are vital today; they empower individuals and communities globally. World Computer Literacy Day , celebrated on December 2nd since 2001,…",
+      "Computer skills are vital today; they empower individuals and communities globally. World Computer Literacy Day, celebrated on December 2nd since 2001…",
     canonical: "https://broadstreet.net/blog/celebrating-world-computer-literacy-day-december-2/",
     graph: [
       {
@@ -16,7 +16,7 @@ export const meta = () =>
         url: "https://broadstreet.net/blog/celebrating-world-computer-literacy-day-december-2/",
         name: "Celebrating World Computer Literacy Day on December 2 | Broadstreet",
         description:
-          "Computer skills are vital today; they empower individuals and communities globally. World Computer Literacy Day , celebrated on December 2nd since 2001,…",
+          "Computer skills are vital today; they empower individuals and communities globally. World Computer Literacy Day, celebrated on December 2nd since 2001…",
         isPartOf: { "@id": "https://broadstreet.net/#website" },
         about: { "@id": "https://broadstreet.net/#organization" },
       },
@@ -37,7 +37,7 @@ export const meta = () =>
         image: "https://broadstreet.net/assets/media/blog/celebrating-world-computer-literacy-day-december-2.webp",
         headline: "Celebrating World Computer Literacy Day on December 2",
         description:
-          "Computer skills are vital today; they empower individuals and communities globally. World Computer Literacy Day , celebrated on December 2nd since 2001,…",
+          "Computer skills are vital today; they empower individuals and communities globally. World Computer Literacy Day, celebrated on December 2nd since 2001…",
         mainEntityOfPage: {
           "@id":
             "https://broadstreet.net/blog/celebrating-world-computer-literacy-day-december-2/#webpage",

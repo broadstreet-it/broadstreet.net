@@ -6,7 +6,7 @@ export const meta = () =>
   seo({
     title: "Why Your Business Isn't Showing Up on Google (and How to Fix It) | Broadstreet",
     description:
-      "You know your business is good. Your customers know it too. So why does someone searching for exactly what you offer end up finding three competitors before…",
+      "You know your business is good. Your customers know it too. So why does someone searching for exactly what you offer end up finding three competitors…",
     canonical: "https://broadstreet.net/blog/why-your-business-isnt-showing-google-and-how-fix-it/",
     graph: [
       {
@@ -16,7 +16,7 @@ export const meta = () =>
         url: "https://broadstreet.net/blog/why-your-business-isnt-showing-google-and-how-fix-it/",
         name: "Why Your Business Isn't Showing Up on Google (and How to Fix It) | Broadstreet",
         description:
-          "You know your business is good. Your customers know it too. So why does someone searching for exactly what you offer end up finding three competitors before…",
+          "You know your business is good. Your customers know it too. So why does someone searching for exactly what you offer end up finding three competitors…",
         isPartOf: { "@id": "https://broadstreet.net/#website" },
         about: { "@id": "https://broadstreet.net/#organization" },
       },
@@ -37,7 +37,7 @@ export const meta = () =>
         image: "https://broadstreet.net/assets/media/blog/why-your-business-isnt-showing-google-and-how-fix-it.webp",
         headline: "Why Your Business Isn't Showing Up on Google (and How to Fix It)",
         description:
-          "You know your business is good. Your customers know it too. So why does someone searching for exactly what you offer end up finding three competitors before…",
+          "You know your business is good. Your customers know it too. So why does someone searching for exactly what you offer end up finding three competitors…",
         mainEntityOfPage: {
           "@id":
             "https://broadstreet.net/blog/why-your-business-isnt-showing-google-and-how-fix-it/#webpage",

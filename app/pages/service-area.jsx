@@ -34,7 +34,7 @@ export const meta = ({ location }) => {
   if (!a) return [];
   const path = `/${slug}/`;
   const title = `Web Design & SEO in ${a.city}, ${a.st} | Broadstreet.net`;
-  const description = `Web design, local SEO, Google Ads and social media for ${a.city}, ${a.st} businesses. Broadstreet.net is a certified Google Partner serving the Carolinas since 2010. Free consultation.`;
+  const description = `Web design, local SEO, Google Ads and social media for ${a.city}, ${a.st} businesses from Broadstreet.net, a certified Google Partner. Free consultation.`;
   return pageSeo({
     path,
     title,

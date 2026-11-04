@@ -5,7 +5,7 @@ export const meta = () =>
   seo({
     title: "Being A Google Guide Series - Part 1 | Broadstreet",
     description:
-      "A Google Guide , also known as a Local Guide allows you to contribute to Google Maps. Google Guides are people who write reviews, share photos, answer…",
+      "A Google Guide, also known as a Local Guide allows you to contribute to Google Maps. Google Guides are people who write reviews, share photos, answer…",
     canonical: "https://broadstreet.net/blog/being-google-guide-series-part-1/",
     graph: [
       {
@@ -14,7 +14,7 @@ export const meta = () =>
         url: "https://broadstreet.net/blog/being-google-guide-series-part-1/",
         name: "Being A Google Guide Series - Part 1 | Broadstreet",
         description:
-          "A Google Guide , also known as a Local Guide allows you to contribute to Google Maps. Google Guides are people who write reviews, share photos, answer…",
+          "A Google Guide, also known as a Local Guide allows you to contribute to Google Maps. Google Guides are people who write reviews, share photos, answer…",
         isPartOf: { "@id": "https://broadstreet.net/#website" },
         about: { "@id": "https://broadstreet.net/#organization" },
       },
@@ -35,7 +35,7 @@ export const meta = () =>
         image: "https://broadstreet.net/assets/media/blog/being-google-guide-series-part-1.webp",
         headline: "Being A Google Guide Series - Part 1",
         description:
-          "A Google Guide , also known as a Local Guide allows you to contribute to Google Maps. Google Guides are people who write reviews, share photos, answer…",
+          "A Google Guide, also known as a Local Guide allows you to contribute to Google Maps. Google Guides are people who write reviews, share photos, answer…",
         mainEntityOfPage: {
           "@id": "https://broadstreet.net/blog/being-google-guide-series-part-1/#webpage",
         },

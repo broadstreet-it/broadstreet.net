@@ -6,7 +6,7 @@ export const meta = () =>
   seo({
     title: "AI Alone Isn't a Marketing Strategy | Broadstreet",
     description:
-      "Artificial intelligence is everywhere right now, and for good reason. It can draft an email in seconds, brainstorm a month of post ideas, and crunch numbers…",
+      "Artificial intelligence is everywhere right now, and for good reason. It can draft an email in seconds, brainstorm a month of post ideas, and crunch…",
     canonical: "https://broadstreet.net/blog/ai-alone-isnt-marketing-strategy/",
     graph: [
       {
@@ -15,7 +15,7 @@ export const meta = () =>
         url: "https://broadstreet.net/blog/ai-alone-isnt-marketing-strategy/",
         name: "AI Alone Isn't a Marketing Strategy | Broadstreet",
         description:
-          "Artificial intelligence is everywhere right now, and for good reason. It can draft an email in seconds, brainstorm a month of post ideas, and crunch numbers…",
+          "Artificial intelligence is everywhere right now, and for good reason. It can draft an email in seconds, brainstorm a month of post ideas, and crunch…",
         isPartOf: { "@id": "https://broadstreet.net/#website" },
         about: { "@id": "https://broadstreet.net/#organization" },
       },
@@ -36,7 +36,7 @@ export const meta = () =>
         image: "https://broadstreet.net/assets/media/blog/ai-alone-isnt-marketing-strategy.webp",
         headline: "AI Alone Isn't a Marketing Strategy",
         description:
-          "Artificial intelligence is everywhere right now, and for good reason. It can draft an email in seconds, brainstorm a month of post ideas, and crunch numbers…",
+          "Artificial intelligence is everywhere right now, and for good reason. It can draft an email in seconds, brainstorm a month of post ideas, and crunch…",
         mainEntityOfPage: {
           "@id": "https://broadstreet.net/blog/ai-alone-isnt-marketing-strategy/#webpage",
         },

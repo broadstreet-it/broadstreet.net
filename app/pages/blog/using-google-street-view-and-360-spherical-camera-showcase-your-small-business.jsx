@@ -6,7 +6,7 @@ export const meta = () =>
     title:
       "Using Google Street View and a 360 Spherical Camera to Showcase your Small Business | Broadstreet",
     description:
-      "I recently picked up a Ricoh Theta SC 360 Spherical camera from Amazon for around $200. The camera comes with a great app for my Android phone that let's me…",
+      "I recently picked up a Ricoh Theta SC 360 Spherical camera from Amazon for around $200. The camera comes with a great app for my Android phone that let's…",
     canonical:
       "https://broadstreet.net/blog/using-google-street-view-and-360-spherical-camera-showcase-your-small-business/",
     graph: [
@@ -17,7 +17,7 @@ export const meta = () =>
         url: "https://broadstreet.net/blog/using-google-street-view-and-360-spherical-camera-showcase-your-small-business/",
         name: "Using Google Street View and a 360 Spherical Camera to Showcase your Small Business | Broadstreet",
         description:
-          "I recently picked up a Ricoh Theta SC 360 Spherical camera from Amazon for around $200. The camera comes with a great app for my Android phone that let's me…",
+          "I recently picked up a Ricoh Theta SC 360 Spherical camera from Amazon for around $200. The camera comes with a great app for my Android phone that let's…",
         isPartOf: { "@id": "https://broadstreet.net/#website" },
         about: { "@id": "https://broadstreet.net/#organization" },
       },
@@ -39,7 +39,7 @@ export const meta = () =>
         headline:
           "Using Google Street View and a 360 Spherical Camera to Showcase your Small Business",
         description:
-          "I recently picked up a Ricoh Theta SC 360 Spherical camera from Amazon for around $200. The camera comes with a great app for my Android phone that let's me…",
+          "I recently picked up a Ricoh Theta SC 360 Spherical camera from Amazon for around $200. The camera comes with a great app for my Android phone that let's…",
         mainEntityOfPage: {
           "@id":
             "https://broadstreet.net/blog/using-google-street-view-and-360-spherical-camera-showcase-your-small-business/#webpage",

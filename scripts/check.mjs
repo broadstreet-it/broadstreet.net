@@ -25,12 +25,19 @@ const exists = (url) => {
 
 const errors = [];
 const brokenLinks = new Map(); // url -> pages
+const badDescriptions = []; // search results show about 155–160 characters
+const decode = (s) => s.replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").replace(/&lt;/g, "<").replace(/&gt;/g, ">");
 for (const page of pages) {
   const html = fs.readFileSync(path.join(root, page), "utf8");
   const err = (msg) => errors.push(`${page}: ${msg}`);
   if ((html.match(/<h1\b/g) || []).length !== 1) err("expected exactly one <h1>");
   if (!/<title>[^<]+<\/title>/.test(html)) err("missing <title>");
-  if (!/<meta name="description" content="[^"]+"/.test(html)) err("missing meta description");
+  const desc = html.match(/<meta name="description" content="([^"]+)"/)?.[1];
+  if (!desc) err("missing meta description");
+  else if (!/name="robots" content="noindex/.test(html)) {
+    const len = decode(desc).length;
+    if (len < 120 || len > 160) badDescriptions.push(`${page} (${len})`);
+  }
   if (!/<link rel="canonical" href="https:\/\/broadstreet\.net\/[^"]*"/.test(html)) err("missing canonical");
   for (const m of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
     try { JSON.parse(m[1]); } catch { err("invalid JSON-LD"); }
@@ -44,6 +51,12 @@ if (brokenLinks.size) {
   // Known gap: these pages were deferred in the Drupal migration (see migration/deferred-pages.csv).
   console.warn(`⚠ ${brokenLinks.size} local link target(s) don't exist yet:`);
   for (const [url, from] of brokenLinks) console.warn(`  ${url}  (linked from ${[...new Set(from)].join(", ")})`);
+  console.warn("");
+}
+
+if (badDescriptions.length) {
+  console.warn(`⚠ ${badDescriptions.length} meta description(s) outside 120–160 characters:`);
+  for (const d of badDescriptions) console.warn(`  ${d}`);
   console.warn("");
 }
 

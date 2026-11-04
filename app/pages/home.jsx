@@ -4,7 +4,7 @@ import { AreaGrid, Faq, Facts, ReviewRotator, SectionHead, ServiceGroups } from 
 
 const TITLE = "Web Design, SEO & Google Ads in Camden, SC | Broadstreet.net";
 const DESCRIPTION =
-  "Broadstreet.net is Camden, SC's local Google Partner. Websites, SEO, Google Ads, social media, apps and the Bridges CRM for businesses across the Carolinas. Free consultation.";
+  "Camden, SC’s local Google Partner for websites, SEO, Google Ads, social media, apps and the Bridges CRM, serving businesses across the Carolinas.";
 
 const FAQ = [
   {

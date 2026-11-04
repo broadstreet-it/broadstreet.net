@@ -7,7 +7,7 @@ export const BLOG_POSTS = [
     "title": "AI Alone Isn't a Marketing Strategy",
     "date": "2026-08-12",
     "author": "Nyia Langley",
-    "excerpt": "Artificial intelligence is everywhere right now, and for good reason. It can draft an email in seconds, brainstorm a month of post ideas, and crunch numbers…",
+    "excerpt": "Artificial intelligence is everywhere right now, and for good reason. It can draft an email in seconds, brainstorm a month of post ideas, and crunch…",
     "image": {
       "src": "/assets/media/blog/ai-alone-isnt-marketing-strategy.webp",
       "width": 1080,
@@ -19,7 +19,7 @@ export const BLOG_POSTS = [
     "title": "Why Your Business Isn't Showing Up on Google (and How to Fix It)",
     "date": "2026-08-06",
     "author": "Nyia Langley",
-    "excerpt": "You know your business is good. Your customers know it too. So why does someone searching for exactly what you offer end up finding three competitors before…",
+    "excerpt": "You know your business is good. Your customers know it too. So why does someone searching for exactly what you offer end up finding three competitors…",
     "image": {
       "src": "/assets/media/blog/why-your-business-isnt-showing-google-and-how-fix-it.webp",
       "width": 1080,
@@ -31,7 +31,7 @@ export const BLOG_POSTS = [
     "title": "What We Love About Small Towns (And Why We Never Left)",
     "date": "2026-07-21",
     "author": "Nyia Langley",
-    "excerpt": "There's a particular kind of quiet you get in Camden on a Sunday morning. The kind where you can hear the birds arguing over a birdfeeder two yards away,…",
+    "excerpt": "There's a particular kind of quiet you get in Camden on a Sunday morning. The kind where you can hear the birds arguing over a birdfeeder two yards away…",
     "image": {
       "src": "/assets/media/blog/what-we-love-about-small-towns-and-why-we-never-left.webp",
       "width": 1080,
@@ -43,7 +43,7 @@ export const BLOG_POSTS = [
     "title": "From Storefront to Online Store: A Guide to eCommerce for Camden and Columbia, SC Retailers",
     "date": "2026-07-20",
     "author": "Tom Sliker",
-    "excerpt": "Running a successful retail business today means meeting customers wherever they want to shop. For many businesses in Camden, Columbia, Lugoff, Elgin, and…",
+    "excerpt": "Running a successful retail business today means meeting customers wherever they want to shop. For many businesses in Camden, Columbia, Lugoff, Elgin…",
     "image": {
       "src": "/assets/media/blog/storefront-online-store-guide-ecommerce-camden-and-columbia-sc-retailers.webp",
       "width": 1080,
@@ -55,7 +55,7 @@ export const BLOG_POSTS = [
     "title": "Google Ads vs. SEO: Which Is Right for Your Sumter or Camden, SC Business?",
     "date": "2026-07-20",
     "author": "Tom Sliker",
-    "excerpt": "If you're investing in digital marketing for your business, you've probably asked yourself one important question:",
+    "excerpt": "If you're investing in digital marketing for your business, you've probably asked yourself one important question: Should I invest in Google Ads or SEO?",
     "image": {
       "src": "/assets/media/blog/google-ads-vs-seo-which-right-your-sumter-or-camden-sc-business.webp",
       "width": 1080,
@@ -91,7 +91,7 @@ export const BLOG_POSTS = [
     "title": "Being A Google Guide Series - Part 1",
     "date": "2024-06-28",
     "author": "Tom Sliker",
-    "excerpt": "A Google Guide , also known as a Local Guide allows you to contribute to Google Maps. Google Guides are people who write reviews, share photos, answer…",
+    "excerpt": "A Google Guide, also known as a Local Guide allows you to contribute to Google Maps. Google Guides are people who write reviews, share photos, answer…",
     "image": {
       "src": "/assets/media/blog/being-google-guide-series-part-1.webp",
       "width": 1080,
@@ -115,7 +115,7 @@ export const BLOG_POSTS = [
     "title": "Celebrating World Computer Literacy Day on December 2",
     "date": "2023-12-01",
     "author": null,
-    "excerpt": "Computer skills are vital today; they empower individuals and communities globally. World Computer Literacy Day , celebrated on December 2nd since 2001,…",
+    "excerpt": "Computer skills are vital today; they empower individuals and communities globally. World Computer Literacy Day, celebrated on December 2nd since 2001…",
     "image": {
       "src": "/assets/media/blog/celebrating-world-computer-literacy-day-december-2.webp",
       "width": 1080,
@@ -127,7 +127,7 @@ export const BLOG_POSTS = [
     "title": "Colorful Mountains and the Art of Web Design",
     "date": "2023-11-19",
     "author": "Tom Sliker",
-    "excerpt": "Just as the leaves in the mountains transform their colors, so does the world of web and graphic design constantly evolve. Recently, I embarked on a rejuvenating trip to…",
+    "excerpt": "Just as the leaves in the mountains transform their colors, so does the world of web and graphic design constantly evolve.",
     "image": {
       "src": "/assets/media/blog/colorful-mountains-and-art-web-design.webp",
       "width": 1200,
@@ -139,7 +139,7 @@ export const BLOG_POSTS = [
     "title": "Celebrating STEM/STEAM Day by Empowering Women in Technology",
     "date": "2023-11-08",
     "author": null,
-    "excerpt": "November 8th is a special day called STEM/STEAM Day, celebrating the worlds of Science, Technology, Engineering, Art, and Mathematics. Broadstreet.net is a digital…",
+    "excerpt": "November 8th is a special day called STEM/STEAM Day, celebrating the worlds of Science, Technology, Engineering, Art, and Mathematics.",
     "image": {
       "src": "/assets/media/blog/celebrating-stemsteam-day-empowering-women-technology.webp",
       "width": 1080,
@@ -151,7 +151,7 @@ export const BLOG_POSTS = [
     "title": "World Development Information Day and Broadstreet.net",
     "date": "2023-10-24",
     "author": null,
-    "excerpt": "Every year, on October 24th, the world celebrates World Development Information Day. This day was established by the United Nations and is about raising awareness of…",
+    "excerpt": "Every year, on October 24th, the world celebrates World Development Information Day. This day was established by the United Nations and is about raising…",
     "image": {
       "src": "/assets/media/blog/world-development-information-day-and-broadstreetnet.webp",
       "width": 1080,
@@ -163,7 +163,7 @@ export const BLOG_POSTS = [
     "title": "Mac and Cheese vs Website Design: What's the Connection?",
     "date": "2023-10-19",
     "author": null,
-    "excerpt": "Today, we’re diving into the evolution of macaroni and cheese over the years and how your website design should adapt to connect with your audience. Kraft Macaroni and…",
+    "excerpt": "Today, we’re diving into the evolution of macaroni and cheese over the years and how your website design should adapt to connect with your audience.",
     "image": {
       "src": "/assets/media/blog/mac-and-cheese-vs-website-design-whats-connection.webp",
       "width": 750,
@@ -175,7 +175,7 @@ export const BLOG_POSTS = [
     "title": "Broadstreet Announces New Office in Lancaster, SC",
     "date": "2023-10-12",
     "author": null,
-    "excerpt": "Broadstreet.net Opens Office in Lancaster, SC We are Broadstreet.net, a leading digital marketing company based in Camden, SC. We announced our expansion with the…",
+    "excerpt": "Broadstreet.net Opens Office in Lancaster, SC We are Broadstreet.net, a leading digital marketing company based in Camden, SC.",
     "image": {
       "src": "/assets/media/blog/broadstreet-announces-new-office-lancaster-sc.webp",
       "width": 1200,
@@ -187,7 +187,7 @@ export const BLOG_POSTS = [
     "title": "Google Applications Name Changing Throughout History",
     "date": "2022-10-25",
     "author": "Tom Sliker",
-    "excerpt": "Google constantly rebrands its apps, but most people don't even realize it. Recently, the company quietly changed the name of its Google Wallet app to \"Google Pay.\"…",
+    "excerpt": "Google constantly rebrands its apps, but most people don't even realize it. Recently, the company quietly changed the name of its Google Wallet app to…",
     "image": {
       "src": "/assets/media/blog/google-applications-name-changing-throughout-history.webp",
       "width": 940,
@@ -199,7 +199,7 @@ export const BLOG_POSTS = [
     "title": "An In-Depth Guide to Google Analytics 4",
     "date": "2022-10-11",
     "author": "Tom Sliker",
-    "excerpt": "Google Analytics 4 is the latest release of Google's popular, free website analytics service. It includes a variety of new and improved features, so it's worth reviewing…",
+    "excerpt": "Google Analytics 4 (GA4) is the latest version of Google's popular web analytics platform. It's packed with new features and improvements, making it more…",
     "image": {
       "src": "/assets/media/blog/depth-guide-google-analytics-4.webp",
       "width": 940,
@@ -211,7 +211,7 @@ export const BLOG_POSTS = [
     "title": "Wordpress vs Drupal - The DEFINITIVE Breakdown.",
     "date": "2022-09-16",
     "author": "Tom Sliker",
-    "excerpt": "In spite of our undying affection for both Drupal and WordPress, we recognize that there are situations in which one is better suited than the other. We split our time…",
+    "excerpt": "In spite of our undying affection for both Drupal and WordPress, we recognize that there are situations in which one is better suited than the other.",
     "image": {
       "src": "/assets/media/blog/wordpress-vs-drupal-definitive-breakdown.webp",
       "width": 940,
@@ -223,7 +223,7 @@ export const BLOG_POSTS = [
     "title": "Stay Connected with your Remote Coworkers!",
     "date": "2021-05-26",
     "author": null,
-    "excerpt": "At Broadstreet Consulting, our entire team works remotely to serve our clients. With team members working from their homes in Texas, North Carolina, South Carolina, and…",
+    "excerpt": "At Broadstreet Consulting, our entire team works remotely to serve our clients. With team members working from their homes in Texas, North Carolina…",
     "image": {
       "src": "/assets/media/blog/stay-connected-your-remote-coworkers.webp",
       "width": 940,
@@ -235,7 +235,7 @@ export const BLOG_POSTS = [
     "title": "Take on 2021 with Broadstreet",
     "date": "2021-01-28",
     "author": null,
-    "excerpt": "Reflecting on 2020, Looking Ahead to 2021 It is no secret that 2020 was a big year for the internet, but it was also a big year for Broadstreet. When the COIVD-19…",
+    "excerpt": "It is no secret that 2020 was a big year for the internet, but it was also a big year for Broadstreet. When the COIVD-19 pandemic stuck, people suddenly…",
     "image": {
       "src": "/assets/media/blog/take-2021-broadstreet.webp",
       "width": 928,
@@ -247,7 +247,7 @@ export const BLOG_POSTS = [
     "title": "Google Gives Broadstreet Clients $3,500 in Ad Credit for Covid-19 Relief",
     "date": "2020-06-25",
     "author": null,
-    "excerpt": "Thank you, Google for Supporting Our Small & Medium-Sized Businesses In an effort to help small and medium-sized businesses (SMBs) stay in touch with their customers,…",
+    "excerpt": "In an effort to help small and medium-sized businesses (SMBs) stay in touch with their customers, Google has given $340 million in ad credits worldwide…",
     "image": {
       "src": "/assets/media/blog/google-gives-broadstreet-clients-3500-ad-credit-covid-19-relief.webp",
       "width": 1200,
@@ -259,7 +259,7 @@ export const BLOG_POSTS = [
     "title": "The Benefits of Working with a Google Partner",
     "date": "2020-05-21",
     "author": null,
-    "excerpt": "If You're Looking for the Best Place to Start, Start Here. During times of uncertainty, it can be hard to decide how much time and money to invest in moving your…",
+    "excerpt": "During times of uncertainty, it can be hard to decide how much time and money to invest in moving your business online. Making decisions, such as…",
     "image": {
       "src": "/assets/media/blog/benefits-working-google-partner.webp",
       "width": 1200,
@@ -271,7 +271,7 @@ export const BLOG_POSTS = [
     "title": "A Quick Message from Broadstreet, your Local Google Partner",
     "date": "2020-04-30",
     "author": null,
-    "excerpt": "During the COVID-19 pandemic, your Broadstreet team is here to help! During the novel coronavirus pandemic, your Broadstreet team is here to help! Our entire team is…",
+    "excerpt": "During the novel coronavirus pandemic, your Broadstreet team is here to help! Our entire team is working remotely and our availability has not changed.",
     "image": {
       "src": "/assets/media/blog/quick-message-broadstreet-your-local-google-partner.webp",
       "width": 1200,
@@ -283,7 +283,7 @@ export const BLOG_POSTS = [
     "title": "Proven SEO Strategies for Local, Small Businesses Across the U.S.",
     "date": "2020-04-01",
     "author": null,
-    "excerpt": "How To Improve the Search Engine Optimization (SEO) on Your Website A lot of local, small businesses across the U.S. have been hiring us for SEO improvements and…",
+    "excerpt": "A lot of local, small businesses across the U.S. have been hiring us for SEO improvements and updates. No matter where you are located, our proven…",
     "image": {
       "src": "/assets/media/blog/proven-seo-strategies-local-small-businesses-across-us.webp",
       "width": 750,
@@ -295,7 +295,7 @@ export const BLOG_POSTS = [
     "title": "Grow Your Business Using Google AdWords",
     "date": "2019-11-06",
     "author": null,
-    "excerpt": "Broadstreet Consulting Can Help Grow Your Business Using Google AdWords Campaigns November 2019 Client Highlight: Conversion rates can be a business owner’s most…",
+    "excerpt": "Conversion rates can be a business owner’s most frustrating numbers. Second only to cost per conversion numbers. We at Broadstreet Consulting utilize…",
     "image": {
       "src": "/assets/media/blog/grow-your-business-using-google-adwords.webp",
       "width": 1080,
@@ -307,7 +307,7 @@ export const BLOG_POSTS = [
     "title": "Why And How To Use Similar Audiences in Google AdWords",
     "date": "2018-04-14",
     "author": null,
-    "excerpt": "Expanding Your Audience With Similar Audiences Can Increase Your Conversion Rate & ROI Sometimes the hardest part of something is just getting started. If you haven'…",
+    "excerpt": "Sometimes the hardest part of something is just getting started. If you haven' started using similar audiences in your AdWords campaigns yet, it's time…",
     "image": {
       "src": "/assets/media/blog/why-and-how-use-similar-audiences-google-adwords.webp",
       "width": 1200,
@@ -319,7 +319,7 @@ export const BLOG_POSTS = [
     "title": "Broadstreet Renews Google Partnership & AdWords Certification",
     "date": "2018-02-28",
     "author": null,
-    "excerpt": "We are proud to announce that we are a Google Partner for a fourth year specializing in Google Search Advertising. This Google Partner badge recognizes that Broadstreet…",
+    "excerpt": "We are proud to announce that we are a Google Partner for a fourth year specializing in Google Search Advertising. This Google Partner badge recognizes…",
     "image": {
       "src": "/assets/media/blog/broadstreet-renews-google-partnership-adwords-certification.webp",
       "width": 1200,
@@ -331,7 +331,7 @@ export const BLOG_POSTS = [
     "title": "Learning to Run Facebook For Business - FAQ's Answered",
     "date": "2018-02-26",
     "author": null,
-    "excerpt": "Getting Started, Unfortunately, Isn't The Hardest Part of Running A Facebook Campaign. Here Are Some Tough Questions Answered. Are you a business owner who is finally…",
+    "excerpt": "Are you a business owner who is finally starting to come around to the idea of using Facebook and social media for business marketing purposes?",
     "image": {
       "src": "/assets/media/blog/learning-run-facebook-business-faqs-answered.webp",
       "width": 1200,
@@ -343,7 +343,7 @@ export const BLOG_POSTS = [
     "title": "5 Major Factors For Consistency in Google AdWords Conversions",
     "date": "2017-11-07",
     "author": null,
-    "excerpt": "Consistently Increase Your Conversion Rate With These Simple Google AdWords Solutions Are you struggling to consistently meet a benchmark you've set for your monthly…",
+    "excerpt": "Are you struggling to consistently meet a benchmark you've set for your monthly conversion rate on Google Adwords? It's not a great feeling when you…",
     "image": {
       "src": "/assets/media/blog/5-major-factors-consistency-google-adwords-conversions.webp",
       "width": 1200,
@@ -355,7 +355,7 @@ export const BLOG_POSTS = [
     "title": "5 Tips for Succeeding in Google AdWords",
     "date": "2017-09-15",
     "author": null,
-    "excerpt": "In my 4 years of working with Google AdWords, I�ve had plenty of time to make mistakes and learn from them - over, and over and over again. Through…",
+    "excerpt": "In my 4 years of working with Google AdWords, I’ve had plenty of time to make mistakes and learn from them - over, and over and over again.",
     "image": {
       "src": "/assets/media/blog/5-tips-succeeding-google-adwords.webp",
       "width": 959,
@@ -367,7 +367,7 @@ export const BLOG_POSTS = [
     "title": "Using Google Street View and a 360 Spherical Camera to Showcase your Small Business",
     "date": "2017-08-27",
     "author": "Tom Sliker",
-    "excerpt": "I recently picked up a Ricoh Theta SC 360 Spherical camera from Amazon for around $200. The camera comes with a great app for my Android phone that let's me…",
+    "excerpt": "I recently picked up a Ricoh Theta SC 360 Spherical camera from Amazon for around $200. The camera comes with a great app for my Android phone that let's…",
     "image": {
       "src": "/assets/media/blog/using-google-street-view-and-360-spherical-camera-showcase-your-small-business.webp",
       "width": 1200,
@@ -379,7 +379,7 @@ export const BLOG_POSTS = [
     "title": "5 Key Steps To Getting Your Home Business Found Online",
     "date": "2017-08-16",
     "author": null,
-    "excerpt": "With over 28 million small businesses in the U.S. - more than 52% of these small businesses are home based, according to the Small Business Administration",
+    "excerpt": "With over 28 million small businesses in the U.S. - more than 52% of these small businesses are home based, according to the Small Business…",
     "image": {
       "src": "/assets/media/blog/5-key-steps-getting-your-home-business-found-online.webp",
       "width": 1200,
@@ -391,7 +391,7 @@ export const BLOG_POSTS = [
     "title": "How to Make a Simple Video for Your Small Business Using Biteable",
     "date": "2017-08-03",
     "author": "Tom Sliker",
-    "excerpt": "I am always looking for new ways to tell a story or communicate a message, and there is no doubt that video is a good way to do that. One of my clients, a regional…",
+    "excerpt": "I am always looking for new ways to tell a story or communicate a message, and there is no doubt that video is a good way to do that.",
     "image": {
       "src": "/assets/media/blog/how-make-simple-video-your-small-business-using-biteable.webp",
       "width": 1155,
@@ -403,7 +403,7 @@ export const BLOG_POSTS = [
     "title": "Build an Online Business Strategy for Long-Term Revenue Growth",
     "date": "2017-07-28",
     "author": "Tom Sliker",
-    "excerpt": "I started my company, Broadstreet Consulting, because I had friends with businesses who really needed to be online. The potential to grow their business using the Web…",
+    "excerpt": "I started my company, Broadstreet Consulting, because I had friends with businesses who really needed to be online. The potential to grow their business…",
     "image": {
       "src": "/assets/media/blog/build-online-business-strategy-long-term-revenue-growth.webp",
       "width": 624,
@@ -415,7 +415,7 @@ export const BLOG_POSTS = [
     "title": "Small Business Digital Marketing Strategy Using eCommerce & Pay-Per-Click",
     "date": "2017-07-11",
     "author": "Tom Sliker",
-    "excerpt": "When you own a small business it is sometimes hard to find the time to think strategically. Business owners get caught up in the NOW of making sales, fulfilling orders,…",
+    "excerpt": "When you own a small business it is sometimes hard to find the time to think strategically. Business owners get caught up in the NOW of making sales…",
     "image": {
       "src": "/assets/media/blog/small-business-digital-marketing-strategy-using-ecommerce-pay-click.webp",
       "width": 849,
@@ -427,7 +427,7 @@ export const BLOG_POSTS = [
     "title": "Web Success Webinars - Summer Schedule",
     "date": "2017-06-12",
     "author": "Tom Sliker",
-    "excerpt": "The initial webinar, The 9 Essentials of Web Success, was completed on June 7, 2017, and is available below. The following LIVE Webinars are scheduled for Summer 2017.",
+    "excerpt": "The initial webinar, The 9 Essentials of Web Success, was completed on June 7, 2017, and is available below. The following LIVE Webinars are scheduled…",
     "image": {
       "src": "/assets/media/blog/web-success-webinars-summer-schedule.webp",
       "width": 1200,
@@ -439,7 +439,7 @@ export const BLOG_POSTS = [
     "title": "9 Strategies To Quickly Start Building Your Online Presence [Free Webinar]",
     "date": "2017-06-09",
     "author": "Tom Sliker",
-    "excerpt": "Join in and Get The 9 Essentials To Web Success! A recent survey showed that 53% of small business owners say their online presence is NOT serving their business well.…",
+    "excerpt": "A recent survey showed that 53% of small business owners say their online presence is NOT serving their business well. Our goal is to help you build an…",
     "image": {
       "src": "/assets/media/blog/9-strategies-quickly-start-building-your-online-presence-free-webinar.webp",
       "width": 350,
@@ -451,7 +451,7 @@ export const BLOG_POSTS = [
     "title": "Gain Success Online, Faster & Smarter [FREE WEBINAR]",
     "date": "2017-05-23",
     "author": "Tom Sliker",
-    "excerpt": "Join in and Get The 9 Essentials To Web Success! When I talk with people about their struggles in building a professional online presence, not knowing where to start and…",
+    "excerpt": "When I talk with people about their struggles in building a professional online presence, not knowing where to start and insufficient time come up more…",
     "image": {
       "src": "/assets/media/blog/gain-success-online-faster-smarter-free-webinar.webp",
       "width": 350,
@@ -463,7 +463,7 @@ export const BLOG_POSTS = [
     "title": "Fixing Your Business Listing on Google Search",
     "date": "2017-03-21",
     "author": null,
-    "excerpt": "Have you \"Googled\" your business lately? Chances are, if you haven't already put in the effort to make it perfect, your business listing is loaded with inaccurate or old…",
+    "excerpt": "Have you \"Googled\" your business lately? Chances are, if you haven't already put in the effort to make it perfect, your business listing is loaded with…",
     "image": {
       "src": "/assets/media/blog/fixing-your-business-listing-google-search.webp",
       "width": 1200,
@@ -475,7 +475,7 @@ export const BLOG_POSTS = [
     "title": "Immediate Success in Google AdWords",
     "date": "2017-03-21",
     "author": null,
-    "excerpt": "After months of preparation, on March 1 we took a new client live on Google AdWords. After 2 weeks, they called us and asked us to almost double the budget. According to…",
+    "excerpt": "After months of preparation, on March 1 we took a new client live on Google AdWords. After 2 weeks, they called us and asked us to almost double the…",
     "image": {
       "src": "/assets/media/blog/immediate-success-google-adwords.webp",
       "width": 1200,
@@ -487,7 +487,7 @@ export const BLOG_POSTS = [
     "title": "Digital Marketing Tip of the Day: Anything Successful Starts With a Well Organized Google Doc",
     "date": "2016-04-11",
     "author": null,
-    "excerpt": "You know, it still surprises me the number of people who have no idea what a Google Doc is and have never used their Google Drive. Don't get me wrong, I understand why…",
+    "excerpt": "You know, it still surprises me the number of people who have no idea what a Google Doc is and have never used their Google Drive.",
     "image": {
       "src": "/assets/media/blog/digital-marketing-tip-day-anything-successful-starts-well-organized-google-doc.webp",
       "width": 450,
@@ -499,7 +499,7 @@ export const BLOG_POSTS = [
     "title": "We Are Now Certified in Google Adwords",
     "date": "2015-11-30",
     "author": null,
-    "excerpt": "Our Digital Marketing Strategist Marjorie Sliker is now a Certified Google Adwords Specialist. The Google AdWords certification is a professional accreditation that…",
+    "excerpt": "Our Digital Marketing Strategist Marjorie Sliker is now a Certified Google Adwords Specialist. The Google AdWords certification is a professional…",
     "image": {
       "src": "/assets/media/blog/we-are-now-certified-google-adwords.webp",
       "width": 966,
@@ -511,7 +511,7 @@ export const BLOG_POSTS = [
     "title": "Why We're Kinda Into Using Viral Content Buzz for Social Sharing",
     "date": "2015-01-29",
     "author": null,
-    "excerpt": "When I first heard about Viral Content Buzz, a tool to \"have your content shared by influencers for free!\" of course I was skeptical. There are countless tools that…",
+    "excerpt": "When I first heard about Viral Content Buzz, a tool to \"have your content shared by influencers for free!\" of course I was skeptical.",
     "image": {
       "src": "/assets/media/blog/why-were-kinda-using-viral-content-buzz-social-sharing.webp",
       "width": 518,
@@ -523,7 +523,7 @@ export const BLOG_POSTS = [
     "title": "Facebook For Business - Managing Multiple Business Campaigns The New Way",
     "date": "2014-11-19",
     "author": null,
-    "excerpt": "Just when you've started getting comfortable with using Facebook's Business Accounts for managing multiple business campaigns, boom, there's another change. This summer…",
+    "excerpt": "Just when you've started getting comfortable with using Facebook's Business Accounts for managing multiple business campaigns, boom, there's another…",
     "image": {
       "src": "/assets/media/blog/facebook-business-managing-multiple-business-campaigns-new-way.webp",
       "width": 287,
@@ -535,7 +535,7 @@ export const BLOG_POSTS = [
     "title": "Facebook's New Save Feature - A Read-It-Later List of Pages and Links",
     "date": "2014-11-11",
     "author": null,
-    "excerpt": "Have you ever been scrolling down your Facebook news feed in the few spare minutes that you have, and seen an article that really interested you that you just didn't…",
+    "excerpt": "Have you ever been scrolling down your Facebook news feed in the few spare minutes that you have, and seen an article that really interested you that you…",
     "image": {
       "src": "/assets/media/blog/facebooks-new-save-feature-read-it-later-list-pages-and-links.webp",
       "width": 504,
@@ -547,7 +547,7 @@ export const BLOG_POSTS = [
     "title": "5 Costly Mistakes When Using Google Adwords - And How To Avoid Making Them",
     "date": "2014-10-22",
     "author": null,
-    "excerpt": "Google Adwords has become one of the biggest assets for some of our clients, driving sales and phone calls instantly. It has become one of the most effective ways for…",
+    "excerpt": "Google Adwords has become one of the biggest assets for some of our clients, driving sales and phone calls instantly. It has become one of the most…",
     "image": {
       "src": "/assets/media/blog/5-costly-mistakes-when-using-google-adwords-and-how-avoid-making-them.webp",
       "width": 1200,
@@ -559,7 +559,7 @@ export const BLOG_POSTS = [
     "title": "Drupal Commerce Data Feed for Google Merchant Center",
     "date": "2014-09-25",
     "author": null,
-    "excerpt": "I recently setup a products feed from Drupal 7 to Google Merchant Center, and it took quite a bit of work. I am expecting it to be worth the effort. Maybe it will not be…",
+    "excerpt": "I recently setup a products feed from Drupal 7 to Google Merchant Center, and it took quite a bit of work. I am expecting it to be worth the effort.",
     "image": {
       "src": "/assets/media/blog/drupal-commerce-data-feed-google-merchant-center.webp",
       "width": 1137,
@@ -571,7 +571,7 @@ export const BLOG_POSTS = [
     "title": "How to Start a Business Account on Yelp",
     "date": "2014-07-07",
     "author": null,
-    "excerpt": "Yelp is local business and service search engine and social network that uses a rating system based on user reviews - and it is a major tool for small businesses to be…",
+    "excerpt": "Yelp is local business and service search engine and social network that uses a rating system based on user reviews - and it is a major tool for small…",
     "image": {
       "src": "/assets/media/blog/how-start-business-account-yelp.webp",
       "width": 297,
@@ -583,7 +583,7 @@ export const BLOG_POSTS = [
     "title": "Omega vs. Bootstrap",
     "date": "2014-06-25",
     "author": null,
-    "excerpt": "I have done a lot of Drupal theming with Omega 3, and I have been trying to figure out a way to have my themes look good after an install without much customization.…",
+    "excerpt": "I have done a lot of Drupal theming with Omega 3, and I have been trying to figure out a way to have my themes look good after an install without much…",
     "image": {
       "src": "/assets/media/blog/omega-vs-bootstrap.webp",
       "width": 220,
@@ -595,7 +595,7 @@ export const BLOG_POSTS = [
     "title": "Do You Heart It? Or Haven't You Heard...",
     "date": "2014-06-15",
     "author": null,
-    "excerpt": "If you haven't yet heard about the new social media platform We Heart It, just ask the closest teenage girl. With nearly 30 million global users, We Heart It stands just…",
+    "excerpt": "If you haven't yet heard about the new social media platform We Heart It, just ask the closest teenage girl. With nearly 30 million global users, We…",
     "image": {
       "src": "/assets/media/blog/do-you-heart-it-or-havent-you-heard.webp",
       "width": 498,
@@ -607,7 +607,7 @@ export const BLOG_POSTS = [
     "title": "My first module - Admin Settings",
     "date": "2014-06-09",
     "author": null,
-    "excerpt": "So I'm not great at PHP. I don't really understand Drupal hooks all that well, but I have been wanting to work on a module for a while now. So I took on the project of…",
+    "excerpt": "So I'm not great at PHP. I don't really understand Drupal hooks all that well, but I have been wanting to work on a module for a while now.",
     "image": {
       "src": "/assets/media/blog/my-first-module-admin-settings.webp",
       "width": 506,
@@ -619,7 +619,7 @@ export const BLOG_POSTS = [
     "title": "Drupalcamp South Carolina - Survey Results",
     "date": "2014-06-05",
     "author": "Tom Sliker",
-    "excerpt": "I'm a little late in posting, but I wanted to let everybody know the results of our post-Drupalcamp SC survey. Overall, I think it was a very good camp. 23 out of 24…",
+    "excerpt": "I'm a little late in posting, but I wanted to let everybody know the results of our post-Drupalcamp SC survey. Overall, I think it was a very good camp.",
     "image": {
       "src": "/assets/media/blog/drupalcamp-south-carolina-survey-results.webp",
       "width": 402,
@@ -631,7 +631,7 @@ export const BLOG_POSTS = [
     "title": "Why Should I Create and Update My Business Account on Yelp?",
     "date": "2014-05-22",
     "author": null,
-    "excerpt": "Yelp is local business and service search engine and social network that uses a rating system based on user reviews - and it is a major tool for small businesses to be…",
+    "excerpt": "Yelp is local business and service search engine and social network that uses a rating system based on user reviews - and it is a major tool for small…",
     "image": {
       "src": "/assets/media/blog/why-should-i-create-and-update-my-business-account-yelp.webp",
       "width": 297,
@@ -643,7 +643,7 @@ export const BLOG_POSTS = [
     "title": "Drupalcamp South Carolina Coming NOW!",
     "date": "2014-04-17",
     "author": "Tom Sliker",
-    "excerpt": "After several months of planning, the first stand-alone Drupalcamp South Carolina is finally upon us. We are expecting 60-70 attendees which is not bad considering it is…",
+    "excerpt": "After several months of planning, the first stand-alone Drupalcamp South Carolina is finally upon us. We are expecting 60-70 attendees which is not bad…",
     "image": {
       "src": "/assets/media/blog/drupalcamp-south-carolina-coming-now.webp",
       "width": 292,
@@ -655,7 +655,7 @@ export const BLOG_POSTS = [
     "title": "What Do You Think of Bitcoin?",
     "date": "2014-04-08",
     "author": "Tom Sliker",
-    "excerpt": "I had an old friend ask me (via LinkedIn), What do I think of Bitcoin? While I do have opinions about this, no one has ever asked me before! In particular, this person…",
+    "excerpt": "I had an old friend ask me (via LinkedIn ), What do I think of Bitcoin? While I do have opinions about this, no one has ever asked me before!",
     "image": {
       "src": "/assets/media/blog/what-do-you-think-bitcoin.webp",
       "width": 182,
@@ -667,7 +667,7 @@ export const BLOG_POSTS = [
     "title": "Great Wide Open Conference a Great Success",
     "date": "2014-04-06",
     "author": "Tom Sliker",
-    "excerpt": "I had the pleasure this past week of attending the Great Wide Open conference in Atlanta. Many thanks to Todd Lewis and the folks at IT-oLogy for inviting me to serve as…",
+    "excerpt": "I had the pleasure this past week of attending the Great Wide Open conference in Atlanta. Many thanks to Todd Lewis and the folks at IT-oLogy for…",
     "image": {
       "src": "/assets/media/blog/great-wide-open-conference-great-success.webp",
       "width": 923,
@@ -679,7 +679,7 @@ export const BLOG_POSTS = [
     "title": "Facebook Makes It Harder for People to See Your Business Page",
     "date": "2014-01-11",
     "author": null,
-    "excerpt": "Facebook’s December algorithm change has cut the reach of brand pages nearly 50% in their never-ending push to get page owners to “boost” their posts. Boosting a post is…",
+    "excerpt": "Facebook’s December algorithm change has cut the reach of brand pages nearly 50% in their never-ending push to get page owners to “boost” their posts.",
     "image": {
       "src": "/assets/media/blog/facebook-makes-it-harder-people-see-your-business-page.webp",
       "width": 302,
@@ -691,7 +691,7 @@ export const BLOG_POSTS = [
     "title": "jQuery and Drupal 7",
     "date": "2013-12-30",
     "author": null,
-    "excerpt": "So it turns out jquery is easy. I can't believe I have gone this long as a Drupal themer and not bothered to try jquery. I saw all these $ and () and just figured it…",
+    "excerpt": "So it turns out jquery is easy. I can't believe I have gone this long as a Drupal themer and not bothered to try jquery.",
     "image": {
       "src": "/assets/media/blog/jquery-and-drupal-7.webp",
       "width": 300,
@@ -703,7 +703,7 @@ export const BLOG_POSTS = [
     "title": "Bye Bye iGoogle!",
     "date": "2013-10-31",
     "author": "Tom Sliker",
-    "excerpt": "After being my home page for over 6 years, iGoogle will be retiring tomorrow. I will miss it so much! I had my favorite shortcuts right there, and some CNN breaking…",
+    "excerpt": "After being my home page for over 6 years, iGoogle will be retiring tomorrow. I will miss it so much! I had my favorite shortcuts right there, and some…",
     "image": {
       "src": "/assets/media/blog/bye-bye-igoogle.webp",
       "width": 894,
@@ -715,7 +715,7 @@ export const BLOG_POSTS = [
     "title": "Free Drupal Training Offered by Broadstreet & IT-Ology",
     "date": "2013-10-07",
     "author": "Tom Sliker",
-    "excerpt": "We at Broadstreet are happy to announce that, in conjunction with IT-Ology, we are offering free training for Drupal, the open source content management system used to…",
+    "excerpt": "We at Broadstreet are happy to announce that, in conjunction with IT-Ology, we are offering free training for Drupal, the open source content management…",
     "image": {
       "src": "/assets/media/blog/free-drupal-training-offered-broadstreet-it-ology.webp",
       "width": 690,
@@ -727,7 +727,7 @@ export const BLOG_POSTS = [
     "title": "My First Drupalcon",
     "date": "2013-10-02",
     "author": "Tom Sliker",
-    "excerpt": "This week I attended my first DrupalCon, the semi-annual gathering of a diverse group of people devoted to the health & development of Drupal. After being involved with…",
+    "excerpt": "This week I attended my first DrupalCon, the semi-annual gathering of a diverse group of people devoted to the health & development of Drupal.",
     "image": {
       "src": "/assets/media/blog/my-first-drupalcon.webp",
       "width": 429,
@@ -739,7 +739,7 @@ export const BLOG_POSTS = [
     "title": "3 Great, Simple Ways to Increase Your Online Presence",
     "date": "2013-09-13",
     "author": null,
-    "excerpt": "I'm tired of the generic terms I see listed as ways to improve your online presence. \"SEO, Social Media, Blogs, Link Sharing,\" etc. These are all very broad…",
+    "excerpt": "I'm tired of the generic terms I see listed as ways to improve your online presence. \"SEO, Social Media, Blogs, Link Sharing,\" etc.",
     "image": {
       "src": "/assets/media/blog/3-great-simple-ways-increase-your-online-presence.webp",
       "width": 771,
@@ -751,7 +751,7 @@ export const BLOG_POSTS = [
     "title": "3 Social Media Lessons We Learned from Scott Monty and Ford Motor Company",
     "date": "2013-09-07",
     "author": null,
-    "excerpt": "Scott Monty, Ford Motor Co.'s global head of social media, is taking Ford's digital and social media efforts to a whole new level. \"To generate real results and…",
+    "excerpt": "\"To generate real results and accomplish long-term goals over social media, businesses need to think beyond simple, one-off campaigns and make a regular…",
     "image": {
       "src": "/assets/media/blog/3-social-media-lessons-we-learned-scott-monty-and-ford-motor-company.webp",
       "width": 952,
@@ -763,7 +763,7 @@ export const BLOG_POSTS = [
     "title": "Google Wants to Increase Small Business SEO",
     "date": "2013-08-31",
     "author": null,
-    "excerpt": "Would you like someone at Google to take a look at the search engine performance of your small website? Sounds like a dream? It's a dream come true. Google is asking…",
+    "excerpt": "Would you like someone at Google to take a look at the search engine performance of your small website? Sounds like a dream?",
     "image": {
       "src": "/assets/media/blog/google-wants-increase-small-business-seo.webp",
       "width": 766,
@@ -775,7 +775,7 @@ export const BLOG_POSTS = [
     "title": "Facebook's New Promotion Guidelines for Pages",
     "date": "2013-08-29",
     "author": null,
-    "excerpt": "Facebook made some significant changes to the Facebook Promotion Guidelines that, frankly, many small businesses were ignoring anyway. The terms and conditions have…",
+    "excerpt": "Facebook made some significant changes to the Facebook Promotion Guidelines that, frankly, many small businesses were ignoring anyway.",
     "image": {
       "src": "/assets/media/blog/facebooks-new-promotion-guidelines-pages.webp",
       "width": 712,
@@ -787,7 +787,7 @@ export const BLOG_POSTS = [
     "title": "Drupal Meetup in Columbia - Monday, Aug 12, 6:00 PM",
     "date": "2013-08-07",
     "author": null,
-    "excerpt": "The SC Drupal User Group meets the second Monday of every month at the IT-Ology building in Columbia, 1301 Gervais St, 2nd Floor. http://it-ology.org Our next meeting…",
+    "excerpt": "The SC Drupal User Group meets the second Monday of every month at the IT-Ology building in Columbia, 1301 Gervais St, 2nd Floor. http://it-ology.org Our…",
     "image": {
       "src": "/assets/media/blog/drupal-meetup-columbia-monday-aug-12-600-pm.webp",
       "width": 210,
@@ -799,7 +799,7 @@ export const BLOG_POSTS = [
     "title": "7 Survival Skills from a Small Town Business",
     "date": "2013-06-11",
     "author": null,
-    "excerpt": "The giant world that we once knew has become a lot smaller in the past several years. Customers who were once distant our now just a click away, and customers who would…",
+    "excerpt": "The giant world that we once knew has become a lot smaller in the past several years. Customers who were once distant our now just a click away, and…",
     "image": {
       "src": "/assets/media/blog/7-survival-skills-small-town-business.webp",
       "width": 322,
@@ -811,7 +811,7 @@ export const BLOG_POSTS = [
     "title": "Drupal Developers in South Carolina",
     "date": "2013-05-15",
     "author": null,
-    "excerpt": "It's been over 3 years since I started a Meetup Group for Drupal Developers in Columbia, SC. The groups started out meeting at Richland County Public Libary (which is a…",
+    "excerpt": "It's been over 3 years since I started a Meetup Group for Drupal Developers in Columbia, SC. The groups started out meeting at Richland County Public…",
     "image": {
       "src": "/assets/media/blog/drupal-developers-south-carolina.webp",
       "width": 450,
@@ -823,7 +823,7 @@ export const BLOG_POSTS = [
     "title": "Google's Gags 2013: We got fooled!",
     "date": "2013-04-06",
     "author": null,
-    "excerpt": "Based on the number of pranks Google has pulled over the past... four years, (at least), it should be no surprise that they kicked it in full gear this year. If your…",
+    "excerpt": "Based on the number of pranks Google has pulled over the past... four years, (at least), it should be no surprise that they kicked it in full gear this…",
     "image": {
       "src": "/assets/media/blog/googles-gags-2013-we-got-fooled.webp",
       "width": 600,
@@ -835,7 +835,7 @@ export const BLOG_POSTS = [
     "title": "The 7 Core Components of an Exceptional Email",
     "date": "2013-03-28",
     "author": null,
-    "excerpt": "Did you know, with 91% of online consumers checking their email daily, email marketing is one of your best means of generating leads, and converting those leads into…",
+    "excerpt": "Did you know, with 91% of online consumers checking their email daily, e mail marketing is one of your best means of generating leads, and converting…",
     "image": {
       "src": "/assets/media/blog/7-core-components-exceptional-email.webp",
       "width": 267,
@@ -847,7 +847,7 @@ export const BLOG_POSTS = [
     "title": "How to Decrapify Your PC",
     "date": "2013-01-29",
     "author": null,
-    "excerpt": "When you start your computer, you may notice several programs launching themselves along with Windows. Maybe you want them there or maybe you don’t, but some…",
+    "excerpt": "When you start your computer, you may notice several programs launching themselves along with Windows. Maybe you want them there or maybe you don’t, but…",
     "image": {
       "src": "/assets/media/blog/how-decrapify-your-pc.webp",
       "width": 350,
@@ -859,7 +859,7 @@ export const BLOG_POSTS = [
     "title": "2 Tools for Keeping Your Great Tweets!",
     "date": "2012-12-15",
     "author": null,
-    "excerpt": "Do you keep track of interesting tweets you send? Chances are if you tweeted, retweeted, or favorited a tweet, it was worth remembering. I constantly retweet links to…",
+    "excerpt": "Do you keep track of interesting tweets you send? Chances are if you tweeted, retweeted, or favorited a tweet, it was worth remembering.",
     "image": {
       "src": "/assets/media/blog/2-tools-keeping-your-great-tweets.webp",
       "width": 440,
@@ -871,7 +871,7 @@ export const BLOG_POSTS = [
     "title": "Excellent Marketing Campaign via Social Media #DietCokeBday",
     "date": "2012-08-17",
     "author": "Tom Sliker",
-    "excerpt": "Diet Coke turns 30 this year, and everybody is talking about it! On July 29th the brand launched an excellent marketing campaign, using a FREE marketing tool, twitter,…",
+    "excerpt": "Diet Coke turns 30 this year, and everybody is talking about it! On July 29 th the brand launched an excellent marketing campaign, using a FREE marketing…",
     "image": {
       "src": "/assets/media/blog/excellent-marketing-campaign-social-media-dietcokebday.webp",
       "width": 596,
@@ -883,7 +883,7 @@ export const BLOG_POSTS = [
     "title": "Me, the Soup Nazi, and iPhoto Faces",
     "date": "2012-08-07",
     "author": "Tom Sliker",
-    "excerpt": "I've had my iMac for probably 3 years now, and I have to say I'm still not really a \"Mac Person\" like so many are. I love how reliable it is, but a lot of things annoy…",
+    "excerpt": "I've had my iMac for probably 3 years now, and I have to say I'm still not really a \"Mac Person\" like so many are. I love how reliable it is, but a lot…",
     "image": {
       "src": "/assets/media/blog/me-soup-nazi-and-iphoto-faces.webp",
       "width": 480,
@@ -895,7 +895,7 @@ export const BLOG_POSTS = [
     "title": "Beginning with Bing",
     "date": "2012-07-05",
     "author": "Tom Sliker",
-    "excerpt": "Happy 4th of July to everyone. I'm going to try to consistently blog. It takes discipline of which I have very little. I've been meaning for some time to try switching…",
+    "excerpt": "Happy 4th of July to everyone. I'm going to try to consistently blog. It takes discipline of which I have very little. I've been meaning for some time to…",
     "image": {
       "src": "/assets/media/blog/beginning-bing.webp",
       "width": 600,
@@ -907,7 +907,7 @@ export const BLOG_POSTS = [
     "title": "How To: Create Your Own Twitter Background",
     "date": "2012-07-03",
     "author": null,
-    "excerpt": "So you want to create your own background image for your twitter account, but don’t know where to start. Been there! What’s the right size? Should it be a gradient, a…",
+    "excerpt": "So you want to create your own background image for your twitter account, but don’t know where to start. Been there! What’s the right size?",
     "image": {
       "src": "/assets/media/blog/how-create-your-own-twitter-background.webp",
       "width": 1200,
@@ -919,7 +919,7 @@ export const BLOG_POSTS = [
     "title": "Mike Mooney on Viral Marketing",
     "date": "2012-06-25",
     "author": null,
-    "excerpt": "“Will it blend?” is a marketing campaign started in 2004 by BlendTec that Mike Mooney brought to our attention during the Broadstreet Bridges conference. It is “the best…",
+    "excerpt": "“Will it blend?” is a marketing campaign started in 2004 by BlendTec that Mike Mooney brought to our attention during the Broadstreet Bridges conference.",
     "image": {
       "src": "/assets/media/blog/mike-mooney-viral-marketing.webp",
       "width": 313,
@@ -931,7 +931,7 @@ export const BLOG_POSTS = [
     "title": "New Levels of Page Admins for Facebook Pages",
     "date": "2012-06-04",
     "author": null,
-    "excerpt": "Following up on a February promise, Facebook has organized page administrators into five different levels of permission. The five different levels are as follows:…",
+    "excerpt": "Following up on a February promise, Facebook has organized page administrators into five different levels of permission.",
     "image": {
       "src": "/assets/media/blog/new-levels-page-admins-facebook-pages.webp",
       "width": 512,
@@ -943,7 +943,7 @@ export const BLOG_POSTS = [
     "title": "Hello Drupal Coming to Open IT Lab at IT-Ology",
     "date": "2012-03-09",
     "author": "Tom Sliker",
-    "excerpt": "I'll be teaching a session of \"Hello Drupal\" for the Open IT Lab at IT-Ology in Columbia, next Saturday, March 17, 2012, 9:30 - noon. If you've never been to IT-Ology,…",
+    "excerpt": "I'll be teaching a session of \"Hello Drupal\" for the Open IT Lab at IT-Ology in Columbia, next Saturday, March 17, 2012, 9:30 - noon.",
     "image": {
       "src": "/assets/media/blog/hello-drupal-coming-open-it-lab-it-ology.webp",
       "width": 208,
@@ -955,7 +955,7 @@ export const BLOG_POSTS = [
     "title": "Why You Need a Google+ Page",
     "date": "2012-02-22",
     "author": null,
-    "excerpt": "Yesterday I told you that you should get a Google+ page. I told you I decided my customers need a Google+ page. They are kicking and screaming, but I am taking them…",
+    "excerpt": "Yesterday I told you that you should get a Google+ page. I told you I decided my customers need a Google+ page. They are kicking and screaming, but I am…",
     "image": {
       "src": "/assets/media/blog/why-you-need-google-page.webp",
       "width": 272,
@@ -967,7 +967,7 @@ export const BLOG_POSTS = [
     "title": "How to Set Up your Google+ and How to Use It Effectively",
     "date": "2012-02-21",
     "author": null,
-    "excerpt": "After great reluctance, I’ve decided that our customers need to get on Google+. Yes, they are already far too busy. No, they don’t have time for more social media. Yet I…",
+    "excerpt": "After great reluctance, I’ve decided that our customers need to get on Google+. Yes, they are already far too busy. No, they don’t have time for more…",
     "image": {
       "src": "/assets/media/blog/how-set-your-google-and-how-use-it-effectively.webp",
       "width": 360,
@@ -979,7 +979,7 @@ export const BLOG_POSTS = [
     "title": "QR Codes: Why Yours Isn't Working",
     "date": "2011-11-28",
     "author": null,
-    "excerpt": "QR codes are not seeing the rate of success I expected when they first hit the scene. I'm not surprised to see businesses using them poorly, however I am surprised to…",
+    "excerpt": "QR codes are not seeing the rate of success I expected when they first hit the scene. I'm not surprised to see businesses using them poorly, however I am…",
     "image": {
       "src": "/assets/media/blog/qr-codes-why-yours-isnt-working.webp",
       "width": 248,
@@ -991,7 +991,7 @@ export const BLOG_POSTS = [
     "title": "The New Facebook Timeline Will Benefit Your Business",
     "date": "2011-09-29",
     "author": null,
-    "excerpt": "Update, 10/11/2011: Facebook has postponed the beta version of timeline after Timeline.com filed a lawsuit. Timeline is currently only available to those who have…",
+    "excerpt": "Update, 10/11/2011: Facebook has postponed the beta version of timeline after Timeline.com filed a lawsuit. Timeline is currently only available to those…",
     "image": {
       "src": "/assets/media/blog/new-facebook-timeline-will-benefit-your-business.webp",
       "width": 300,
@@ -1003,7 +1003,7 @@ export const BLOG_POSTS = [
     "title": "Increase Your EdgeRank on Facebook Pages",
     "date": "2011-07-22",
     "author": null,
-    "excerpt": "Sure.... your customers like you. Your friends like you. Your mom likes you. But does Facebook like you? Edgerank is Facebook's way of \"liking\" you. Edgerank is a search…",
+    "excerpt": "Sure.... your customers like you. Your friends like you. Your mom likes you. Edgerank is Facebook's way of \"liking\" you.",
     "image": {
       "src": "/assets/media/blog/increase-your-edgerank-facebook-pages.webp",
       "width": 800,
@@ -1015,7 +1015,7 @@ export const BLOG_POSTS = [
     "title": "Google's Instant Preview Feature",
     "date": "2011-05-22",
     "author": null,
-    "excerpt": "Google’s Instant Preview feature gives new meaning to the phrase “A picture is worth a thousand words.” The Instant Preview feature was rolled out without much fanfare…",
+    "excerpt": "Google’s Instant Preview feature gives new meaning to the phrase “A picture is worth a thousand words.” The Instant Preview feature was rolled out…",
     "image": {
       "src": "/assets/media/blog/googles-instant-preview-feature.webp",
       "width": 700,
@@ -1027,7 +1027,7 @@ export const BLOG_POSTS = [
     "title": "Fun with Drupal's ImageCache",
     "date": "2011-01-08",
     "author": "Tom Sliker",
-    "excerpt": "I had a problem appear this week that I've seen before, but couldn't remember the best resolution for it. If you don't setup your ImageCache Presets correctly, you…",
+    "excerpt": "I had a problem appear this week that I've seen before, but couldn't remember the best resolution for it. If you don't setup your ImageCache Presets…",
     "image": {
       "src": "/assets/media/blog/fun-drupals-imagecache.webp",
       "width": 225,
@@ -1039,7 +1039,7 @@ export const BLOG_POSTS = [
     "title": "Broadstreet 2010 in Review",
     "date": "2010-12-31",
     "author": "Tom Sliker",
-    "excerpt": "Seth Godin had a good post called \"What did you ship in 2010?\", which listed out all his accomplishments for 2010 and asked readers to think about our own. Read it at…",
+    "excerpt": "Seth Godin had a good post called \"What did you ship in 2010?\", which listed out all his accomplishments for 2010 and asked readers to think about our own.",
     "image": {
       "src": "/assets/media/blog/broadstreet-2010-review.webp",
       "width": 494,
@@ -1051,7 +1051,7 @@ export const BLOG_POSTS = [
     "title": "Barcamp Charleston - Notes about the Day and Drupal",
     "date": "2010-12-06",
     "author": "Tom Sliker",
-    "excerpt": "I'm a little late sharing this but I just wanted to take moment to mention the very successful Bar Camp Charleston (www.BarCampChS.org). There were dozens of interesting…",
+    "excerpt": "I'm a little late sharing this but I just wanted to take moment to mention the very successful Bar Camp Charleston ( www.BarCampChS.org ).",
     "image": {
       "src": "/assets/media/blog/barcamp-charleston-notes-about-day-and-drupal.webp",
       "width": 640,
@@ -1075,7 +1075,7 @@ export const BLOG_POSTS = [
     "title": "Hosting - Why I Prefer HostGator to GoDaddy",
     "date": "2010-09-12",
     "author": "Tom Sliker",
-    "excerpt": "Like most people, I started doing business with GoDaddy a long time ago, when I first started registering Domain names. Actually, my first domain—sliker.com in 1997—was…",
+    "excerpt": "Like most people, I started doing business with GoDaddy a long time ago, when I first started registering Domain names. Actually, my first domain…",
     "image": {
       "src": "/assets/media/blog/hosting-why-i-prefer-hostgator-godaddy.webp",
       "width": 540,
@@ -1087,7 +1087,7 @@ export const BLOG_POSTS = [
     "title": "The Purpose of Broadstreet Consulting",
     "date": "2010-07-13",
     "author": "Tom Sliker",
-    "excerpt": "Whenever I hear something that makes me want to read a certain book, I right it down in my Outlook To-Do list. I have an Agenda item called \"Books to Read\"-- I add it to…",
+    "excerpt": "Whenever I hear something that makes me want to read a certain book, I right it down in my Outlook To-Do list. I have an Agenda item called \"Books to…",
     "image": {
       "src": "/assets/media/blog/purpose-broadstreet-consulting.webp",
       "width": 481,
@@ -1099,7 +1099,7 @@ export const BLOG_POSTS = [
     "title": "Drupal Camp SC - Presentation Posted",
     "date": "2010-06-11",
     "author": "Tom Sliker",
-    "excerpt": "The first ever Drupal Camp South Carolina is coming up this Sunday and I am giving a presentation called \"Which Drupal Modules Should I Use?\" The presentation is geared…",
+    "excerpt": "The first ever Drupal Camp South Carolina is coming up this Sunday and I am giving a presentation called \"Which Drupal Modules Should I Use?\"",
     "image": {
       "src": "/assets/media/blog/drupal-camp-sc-presentation-posted.webp",
       "width": 210,
@@ -1111,7 +1111,7 @@ export const BLOG_POSTS = [
     "title": "Broadstreet's First Advertisement",
     "date": "2010-04-02",
     "author": "Tom Sliker",
-    "excerpt": "This month we ran our first advertisement in the Wagener Monthly, which is a part of the Aiken Standard. This is it. Broadstreet has been in business in its current form…",
+    "excerpt": "This month we ran our first advertisement in the Wagener Monthly, which is a part of the Aiken Standard. This is it. Broadstreet has been in business in…",
     "image": {
       "src": "/assets/media/blog/broadstreets-first-advertisement.webp",
       "width": 377,
@@ -1123,7 +1123,7 @@ export const BLOG_POSTS = [
     "title": "Columbia Drupal Meetings Picking Up Steam",
     "date": "2010-03-31",
     "author": "Tom Sliker",
-    "excerpt": "Monday night we had our third Drupal Columbia meet-up at the Richland County Public Library and had 7 attendees. It was exciting and very encouraging since the first two…",
+    "excerpt": "Monday night we had our third Drupal Columbia meet-up at the Richland County Public Library and had 7 attendees. It was exciting and very encouraging…",
     "image": {
       "src": "/assets/media/blog/columbia-drupal-meetings-picking-steam.webp",
       "width": 256,
@@ -1147,7 +1147,7 @@ export const BLOG_POSTS = [
     "title": "Motiviational Speech on Eating Better",
     "date": "2010-02-12",
     "author": "Tom Sliker",
-    "excerpt": "Good example of how one person with a clear vision can transform a community.",
+    "excerpt": "Jamie Oliver’s 2010 TED Prize talk is a good example of how one person with a clear vision can transform a community, starting with what kids eat.",
     "image": {
       "src": "/assets/media/blog/motiviational-speech-eating-better.webp",
       "width": 360,
@@ -1159,7 +1159,7 @@ export const BLOG_POSTS = [
     "title": "Drupal Location Module - Changing to Locative Information from a CCK Field",
     "date": "2009-10-31",
     "author": "Tom Sliker",
-    "excerpt": "Recently I've had to do this. I create a Drupal Content Type using the Location Module and GMAP Module, I created a Location CCK field and started entering (or…",
+    "excerpt": "Recently I've had to do this. I create a Drupal Content Type using the Location Module and GMAP Module, I created a Location CCK field and started…",
     "image": {
       "src": "/assets/media/blog/drupal-location-module-changing-locative-information-cck-field.webp",
       "width": 215,
@@ -1171,7 +1171,7 @@ export const BLOG_POSTS = [
     "title": "Indian Trail Golf Course - Nice Drupal Site",
     "date": "2009-09-05",
     "author": "Tom Sliker",
-    "excerpt": "I wanted to get a tee time for golf a couple weeks back so I Googled Indian Trail Golf Course in Leesville, SC. It's a decent course, close to home, and very reasonably…",
+    "excerpt": "I wanted to get a tee time for golf a couple weeks back so I Googled Indian Trail Golf Course in Leesville, SC. It's a decent course, close to home, and…",
     "image": {
       "src": "/assets/media/blog/indian-trail-golf-course-nice-drupal-site.webp",
       "width": 765,
@@ -1183,7 +1183,7 @@ export const BLOG_POSTS = [
     "title": "My Richland County Public Libary uses Drupal",
     "date": "2009-09-01",
     "author": "Tom Sliker",
-    "excerpt": "I found out today that the myrcpl.com site is built with Drupal. Also found out that an old friend and co-worker from Syneractive (Scottie) helps to manage the site.…",
+    "excerpt": "I found out today that the myrcpl.com site is built with Drupal. Also found out that an old friend and co-worker from Syneractive (Scottie) helps to…",
     "image": {
       "src": "/assets/media/blog/my-richland-county-public-libary-uses-drupal.webp",
       "width": 662,
@@ -1195,7 +1195,7 @@ export const BLOG_POSTS = [
     "title": "What is Drupal? (in 57 seconds...)",
     "date": "2009-07-23",
     "author": "Tom Sliker",
-    "excerpt": "Drupal is free, open source software that can be used to easily create and manage various different types of Web sites. The Drupal application includes a content…",
+    "excerpt": "Drupal is free, open source software that can be used to easily create and manage various different types of Web sites. The Drupal application includes a…",
     "image": {
       "src": "/assets/media/blog/what-drupal-57-seconds.webp",
       "width": 620,
@@ -1207,7 +1207,7 @@ export const BLOG_POSTS = [
     "title": "My Favorite Blogs for the Week - 06-13-2009",
     "date": "2009-06-11",
     "author": "Tom Sliker",
-    "excerpt": "Here are the some of the blogs I've read this week and thought were worth sharing: www.drawncloser.com - My new favorite comic strip, drawn by my friend Jimmy Steen. You…",
+    "excerpt": "Here are the some of the blogs I've read this week and thought were worth sharing: www.drawncloser.com - My new favorite comic strip, drawn by my friend…",
     "image": {
       "src": "/assets/media/blog/my-favorite-blogs-week-06-13-2009.webp",
       "width": 495,
@@ -1219,7 +1219,7 @@ export const BLOG_POSTS = [
     "title": "Use an RSS Reader as Your Automatic Web Surfer",
     "date": "2009-06-11",
     "author": "Tom Sliker",
-    "excerpt": "I read quite a number of blogs ever week, but I spend very little time \"surfing the Web.\" Instead, I subscribe to blogs using RSS, or Real Simple Syndication. My RSS…",
+    "excerpt": "I read quite a number of blogs ever week, but I spend very little time \"surfing the Web.\" Instead, I subscribe to blogs using RSS, or Real Simple…",
     "image": {
       "src": "/assets/media/blog/use-rss-reader-your-automatic-web-surfer.webp",
       "width": 780,
@@ -1231,7 +1231,7 @@ export const BLOG_POSTS = [
     "title": "How Trends Spread - Hey Seth Godin, I Like Guy #2",
     "date": "2009-06-10",
     "author": "Tom Sliker",
-    "excerpt": "Seth Godin had a great post recently -- a video showing a guy dancing, then two guys dancing, then... well, watch for yourself. Seth's point is the first guy is very…",
+    "excerpt": "Seth Godin had a great post recently -- a video showing a guy dancing, then two guys dancing, then... well, watch for yourself.",
     "image": {
       "src": "/assets/media/blog/how-trends-spread-hey-seth-godin-i-guy-2.webp",
       "width": 600,
@@ -1243,7 +1243,7 @@ export const BLOG_POSTS = [
     "title": "Thoughts on Viral Marketing and a World Wide Rave",
     "date": "2009-06-10",
     "author": "Tom Sliker",
-    "excerpt": "I had the pleasure of listening to theDuct Tape Marketing Podcast recently, the March 23 episode featureing David Meerman Scott, who recently wrote the book called World…",
+    "excerpt": "I had the pleasure of listening to the Duct Tape Marketing Podcast recently, the March 23 episode featureing David Meerman Scott, who recently wrote the…",
     "image": {
       "src": "/assets/media/blog/thoughts-viral-marketing-and-world-wide-rave.webp",
       "width": 221,
@@ -1255,7 +1255,7 @@ export const BLOG_POSTS = [
     "title": "Skype Video Comes in Handy for International Communications",
     "date": "2009-05-16",
     "author": "Tom Sliker",
-    "excerpt": "My daughter Patti is in London, England for three weeks as part of the USC Law program, and we are keeping her daugther Eva. We have been having nightly Skype sessions…",
+    "excerpt": "My daughter Patti is in London, England for three weeks as part of the USC Law program, and we are keeping her daugther Eva.",
     "image": {
       "src": "/assets/media/blog/skype-video-comes-handy-international-communications.webp",
       "width": 398,
@@ -1267,7 +1267,7 @@ export const BLOG_POSTS = [
     "title": "Using Drupal's Node Import Module",
     "date": "2009-05-03",
     "author": "Tom Sliker",
-    "excerpt": "I fell in love with a new Drupal module tonight. I am working on rebuilding the New York Pizza Finder site (www.newyorkpizzafinder.com). This site is a database of New…",
+    "excerpt": "I fell in love with a new Drupal module tonight. I am working on rebuilding the New York Pizza Finder site ( www.newyorkpizzafinder.com ).",
     "image": {
       "src": "/assets/media/blog/using-drupals-node-import-module.webp",
       "width": 380,
@@ -1279,7 +1279,7 @@ export const BLOG_POSTS = [
     "title": "How to Create a Viral Video",
     "date": "2009-04-29",
     "author": "Tom Sliker",
-    "excerpt": "My father-in-law, Jerry Maslar, is working hard to promote traffic to his trout fishing site, www.troutu.com. As you can see from the chart above, he is doing quite a…",
+    "excerpt": "My father-in-law, Jerry Maslar, is working hard to promote traffic to his trout fishing site, www.troutu.com. As you can see from the chart above, he is…",
     "image": {
       "src": "/assets/media/blog/how-create-viral-video.webp",
       "width": 506,
@@ -1291,7 +1291,7 @@ export const BLOG_POSTS = [
     "title": "Duct Tape Marketing Podcast with Seth Godin",
     "date": "2009-04-20",
     "author": "Tom Sliker",
-    "excerpt": "The January 14 episode (click to download) of the Duct Tape Marketing Podcast had an excellent interview with Seth Godin, talking about the opportunities for small…",
+    "excerpt": "The January 14 episode ( click to download ) of the Duct Tape Marketing Podcast had an excellent interview with Seth Godin, talking about the…",
     "image": {
       "src": "/assets/media/blog/duct-tape-marketing-podcast-seth-godin.webp",
       "width": 600,
@@ -1303,7 +1303,7 @@ export const BLOG_POSTS = [
     "title": "Google Apps Has a Major Down-side",
     "date": "2009-04-19",
     "author": "Tom Sliker",
-    "excerpt": "I've become more and more comfortable putting important personal and business information on Google Apps. It's very convenient to create a document and share it with my…",
+    "excerpt": "I've become more and more comfortable putting important personal and business information on Google Apps. It's very convenient to create a document and…",
     "image": {
       "src": "/assets/media/blog/google-apps-has-major-down-side.webp",
       "width": 452,
@@ -1315,7 +1315,7 @@ export const BLOG_POSTS = [
     "title": "comScore Rankings Tell Us the Most Popular Web Sites",
     "date": "2008-12-03",
     "author": "Tom Sliker",
-    "excerpt": "Ever wonder what is the most popular site on the Web? ComScore is a business that measures traffic on the Web and publishes it on a subscription basis. Below is…",
+    "excerpt": "Ever wonder what is the most popular site on the Web? ComScore is a business that measures traffic on the Web and publishes it on a subscription basis.",
     "image": {
       "src": "/assets/media/blog/comscore-rankings-tell-us-most-popular-web-sites.webp",
       "width": 300,
@@ -1327,7 +1327,7 @@ export const BLOG_POSTS = [
     "title": "Obama's First Weekly YouTube Address to the Nation",
     "date": "2008-11-16",
     "author": "Tom Sliker",
-    "excerpt": "As predicted, President-elect Obama will use YouTube in addition to radio to deliver his weekly address to the nation. This will be the first time that a President-elect…",
+    "excerpt": "As predicted, President-elect Obama will use YouTube in addition to radio to deliver his weekly address to the nation. This will be the first time that a…",
     "image": {
       "src": "/assets/media/blog/obamas-first-weekly-youtube-address-nation.webp",
       "width": 300,
@@ -1339,7 +1339,7 @@ export const BLOG_POSTS = [
     "title": "Help Determine Priorities for Obama's C.T.O.",
     "date": "2008-11-15",
     "author": "Tom Sliker",
-    "excerpt": "President-elect Obama is looking to create a position for Chief Technology Officer. This is a good thing. Frank Greve at McClatchy reports that Obama will use new media…",
+    "excerpt": "President-elect Obama is looking to create a position for Chief Technology Officer. This is a good thing. Frank Greve at McClatchy reports that Obama…",
     "image": {
       "src": "/assets/media/blog/help-determine-priorities-obamas-cto.webp",
       "width": 300,
@@ -1351,7 +1351,7 @@ export const BLOG_POSTS = [
     "title": "Columbia's Trouble Building a Web site",
     "date": "2008-11-14",
     "author": "Tom Sliker",
-    "excerpt": "One of the challenges of building a large Web site is getting the technical people to work with the graphic design and marketing people. The city of Columbia, SC…",
+    "excerpt": "One of the challenges of building a large Web site is getting the technical people to work with the graphic design and marketing people.",
     "image": {
       "src": "/assets/media/blog/columbias-trouble-building-web-site.webp",
       "width": 359,
@@ -1363,7 +1363,7 @@ export const BLOG_POSTS = [
     "title": "Obama Site to Provide Communications, Transparency",
     "date": "2008-11-11",
     "author": "Tom Sliker",
-    "excerpt": "Barack Obama has created change.gov as part of his transition to the Oval Office. In addition, he has said he will appoint a Chief Technology Officer and will push to…",
+    "excerpt": "Barack Obama has created change.gov as part of his transition to the Oval Office. In addition, he has said he will appoint a Chief Technology Officer and…",
     "image": {
       "src": "/assets/media/blog/obama-site-provide-communications-transparency.webp",
       "width": 300,
@@ -1375,7 +1375,7 @@ export const BLOG_POSTS = [
     "title": "FCKEditor Now In Use",
     "date": "2008-11-09",
     "author": "Tom Sliker",
-    "excerpt": "Up until today I was using BUEditor for editing this blog. Functionality is fairly limited. It seems more geared toward someone who is comfortable with HTML. Now I've…",
+    "excerpt": "Up until today I was using BUEditor for editing this blog. Functionality is fairly limited. It seems more geared toward someone who is comfortable with…",
     "image": {
       "src": "/assets/media/blog/fckeditor-now-use.webp",
       "width": 256,
@@ -1387,7 +1387,7 @@ export const BLOG_POSTS = [
     "title": "iSKORPiTX; a Turkish Hacker, has Struck Again",
     "date": "2008-11-07",
     "author": "Tom Sliker",
-    "excerpt": "I had a phone call today that a site that I support was not available and their was a very strange home page. After doing a research, it appears to me that iSKORPiTX;…",
+    "excerpt": "I had a phone call today that a site that I support was not available and their was a very strange home page. After doing a research, it appears to me…",
     "image": {
       "src": "/assets/media/blog/iskorpitx-turkish-hacker-has-struck-again.webp",
       "width": 266,
@@ -1399,7 +1399,7 @@ export const BLOG_POSTS = [
     "title": "How to Get Others to Link to Your Site",
     "date": "2008-11-01",
     "author": "Tom Sliker",
-    "excerpt": "One of the things that increases your \"Google Juice\" is \"Link Love.\" I'm helping a friend build a Web site about Trout fishing, called www.TroutU.com. I was explaining…",
+    "excerpt": "One of the things that increases your \"Google Juice\" is \"Link Love.\" I'm helping a friend build a Web site about Trout fishing, called www.TroutU.com.",
     "image": {
       "src": "/assets/media/blog/how-get-others-link-your-site.webp",
       "width": 225,
@@ -1411,7 +1411,7 @@ export const BLOG_POSTS = [
     "title": "Start an LLC or Corporation for Free Next Tuesday",
     "date": "2008-10-31",
     "author": "Tom Sliker",
-    "excerpt": "I found some useful information on the Duct Tape Marketing Blog. You can create an LLC or Corporation, normally $149, for free next Tuesday. Mention code FREE149 to…",
+    "excerpt": "I found some useful information on the Duct Tape Marketing Blog. You can create an LLC or Corporation, normally $149, for free next Tuesday.",
     "image": {
       "src": "/assets/media/blog/start-llc-or-corporation-free-next-tuesday.webp",
       "width": 200,
@@ -1435,7 +1435,7 @@ export const BLOG_POSTS = [
     "title": "Drupal as a Blogging Platform",
     "date": "2008-09-27",
     "author": "Tom Sliker",
-    "excerpt": "I found this article, talking about a new hosted blogging platform called OnSugar.com. I may have to check it out and see how it compares to my Broadstreet Blog.",
+    "excerpt": "I found this article, talking about a new hosted blogging platform called OnSugar.com. I may have to check it out and see how it compares to my…",
     "image": {
       "src": "/assets/media/blog/drupal-blogging-platform.webp",
       "width": 444,
@@ -1447,7 +1447,7 @@ export const BLOG_POSTS = [
     "title": "Google Analytics to Monitor Site Traffic",
     "date": "2008-09-27",
     "author": "Tom Sliker",
-    "excerpt": "Google Analytics is my tool of choice for viewing and analyzing site statistics. Here is an image from a recent report about Tyler Brothers, showing the impact of a…",
+    "excerpt": "Google Analytics is my tool of choice for viewing and analyzing site statistics. Here is an image from a recent report about Tyler Brothers, showing the…",
     "image": {
       "src": "/assets/media/blog/google-analytics-monitor-site-traffic.webp",
       "width": 506,
@@ -1459,7 +1459,7 @@ export const BLOG_POSTS = [
     "title": "Three New Modules for this Blog - Path, Pathauto, and Tagadelic",
     "date": "2008-09-27",
     "author": "Tom Sliker",
-    "excerpt": "I had several issues I wanted to address with regard to this blog. First, I wanted a tag cloud so that readers could easily find posts based on the tags. I also realized…",
+    "excerpt": "I had several issues I wanted to address with regard to this blog. First, I wanted a tag cloud so that readers could easily find posts based on the tags.",
     "image": {
       "src": "/assets/media/blog/three-new-modules-blog-path-pathauto-and-tagadelic.webp",
       "width": 380,
@@ -1471,7 +1471,7 @@ export const BLOG_POSTS = [
     "title": "Adding Google Analytics Module to my Blog",
     "date": "2008-09-26",
     "author": "Tom Sliker",
-    "excerpt": "I've become a pretty big fan of Google Analytics and the more I dig into it the more I can learn from the various reports it provides. GoogleAnalytics is just about the…",
+    "excerpt": "I've become a pretty big fan of Google Analytics and the more I dig into it the more I can learn from the various reports it provides.",
     "image": {
       "src": "/assets/media/blog/adding-google-analytics-module-my-blog.webp",
       "width": 380,
@@ -1483,7 +1483,7 @@ export const BLOG_POSTS = [
     "title": "On Being a Rock Star",
     "date": "2008-09-26",
     "author": "Tom Sliker",
-    "excerpt": "I breakfast today with Kathy Harris, Vice-president and Distinguised Analyst for the Gartner Group. Kathy had more than 20 years experience in banking before joining…",
+    "excerpt": "I breakfast today with Kathy Harris, Vice-president and Distinguised Analyst for the Gartner Group. Kathy had more than 20 years experience in banking…",
     "image": {
       "src": "/assets/media/blog/being-rock-star.webp",
       "width": 400,
@@ -1495,7 +1495,7 @@ export const BLOG_POSTS = [
     "title": "Drupal's Masquerade Module",
     "date": "2008-09-26",
     "author": "Tom Sliker",
-    "excerpt": "I read something a few months back about a module, Masquerade, that let's a Drupal administrator impersonate other users. This is very useful when testing. You want to…",
+    "excerpt": "I read something a few months back about a module, Masquerade, that let's a Drupal administrator impersonate other users.",
     "image": {
       "src": "/assets/media/blog/drupals-masquerade-module.webp",
       "width": 380,
@@ -1507,7 +1507,7 @@ export const BLOG_POSTS = [
     "title": "HTML HREF Target - Why didn't I know that?",
     "date": "2008-09-26",
     "author": "Tom Sliker",
-    "excerpt": "I've been coding HTML for over 12 years and today reminded me that it's never too late to learn something new. I don't know why I didn't know this but today I watched…",
+    "excerpt": "I've been coding HTML for over 12 years and today reminded me that it's never too late to learn something new. I don't know why I didn't know this but…",
     "image": {
       "src": "/assets/media/blog/html-href-target-why-didnt-i-know.webp",
       "width": 259,
@@ -1519,7 +1519,7 @@ export const BLOG_POSTS = [
     "title": "More Drupal Modules for this Blog",
     "date": "2008-09-26",
     "author": "Tom Sliker",
-    "excerpt": "I finally set my mind to several things I'd like to blog about, and then I realize I've got this \"build-it-yourself\" blogging tool called Drupal. I know that I want to…",
+    "excerpt": "I finally set my mind to several things I'd like to blog about, and then I realize I've got this \"build-it-yourself\" blogging tool called Drupal.",
     "image": {
       "src": "/assets/media/blog/more-drupal-modules-blog.webp",
       "width": 380,
@@ -1531,7 +1531,7 @@ export const BLOG_POSTS = [
     "title": "Notifcation of Blog Comments in Drupal 6.x",
     "date": "2008-09-26",
     "author": "Tom Sliker",
-    "excerpt": "I was looking around my blog site today and realized that my friend MCarnell had not only created an account for himself but also left a comment on my blog. I had not…",
+    "excerpt": "I was looking around my blog site today and realized that my friend MCarnell had not only created an account for himself but also left a comment on my…",
     "image": {
       "src": "/assets/media/blog/notifcation-blog-comments-drupal-6x.webp",
       "width": 210,
@@ -1543,7 +1543,7 @@ export const BLOG_POSTS = [
     "title": "Point Lobos and My Social Network",
     "date": "2008-09-26",
     "author": "Tom Sliker",
-    "excerpt": "I would not have visited Point Lobos Reserve this week if it had not been for my social network. About a year ago, my friend Chris introduced me to his friend Kurt. A…",
+    "excerpt": "I would not have visited Point Lobos Reserve this week if it had not been for my social network. About a year ago, my friend Chris introduced me to his…",
     "image": {
       "src": "/assets/media/blog/point-lobos-and-my-social-network.webp",
       "width": 225,
@@ -1555,7 +1555,7 @@ export const BLOG_POSTS = [
     "title": "Prevent Spam Comments by Adding Image Captcha Module to Drupal Blogs",
     "date": "2008-09-26",
     "author": "Tom Sliker",
-    "excerpt": "I woke up this morning to see 20 comments on two different blog posts, most of them posting a link to see Lindsay Lohan nude. I installed the Drupal Captcha module and…",
+    "excerpt": "I woke up this morning to see 20 comments on two different blog posts, most of them posting a link to see Lindsay Lohan nude.",
     "image": {
       "src": "/assets/media/blog/prevent-spam-comments-adding-image-captcha-module-drupal-blogs.webp",
       "width": 380,
@@ -1567,7 +1567,7 @@ export const BLOG_POSTS = [
     "title": "ProStores and eBay Stores Integration",
     "date": "2008-09-26",
     "author": "Tom Sliker",
-    "excerpt": "One of the things that ProStores uses as a selling point is their integration with eBay. I was telling someone recently that I wasn't happy with the integration, and…",
+    "excerpt": "One of the things that ProStores uses as a selling point is their integration with eBay. I was telling someone recently that I wasn't happy with the…",
     "image": {
       "src": "/assets/media/blog/prostores-and-ebay-stores-integration.webp",
       "width": 240,
@@ -1579,7 +1579,7 @@ export const BLOG_POSTS = [
     "title": "Resizing Photos in Batch with FastStone Photo Resizer",
     "date": "2008-09-26",
     "author": "Tom Sliker",
-    "excerpt": "I am loading an online store with several hundred product images. Unfortunately, all images in the vendor's catalog CD is all in tif format. The images are huge and need…",
+    "excerpt": "I am loading an online store with several hundred product images. Unfortunately, all images in the vendor's catalog CD is all in tif format.",
     "image": {
       "src": "/assets/media/blog/resizing-photos-batch-faststone-photo-resizer.webp",
       "width": 506,
@@ -1591,7 +1591,7 @@ export const BLOG_POSTS = [
     "title": "Speaking at the Columbia Chamber of Commerce ITC",
     "date": "2008-09-26",
     "author": "Tom Sliker",
-    "excerpt": "I had the opportunity to speak to the Greater Columbia Chamber of Commerce's Information Technology Council this past Tuesday. I was very appreciative of Kurt Hamm and…",
+    "excerpt": "I had the opportunity to speak to the Greater Columbia Chamber of Commerce's Information Technology Council this past Tuesday.",
     "image": {
       "src": "/assets/media/blog/speaking-columbia-chamber-commerce-itc.webp",
       "width": 450,
@@ -1603,7 +1603,7 @@ export const BLOG_POSTS = [
     "title": "There is more to life than Pizza",
     "date": "2008-09-26",
     "author": "Tom Sliker",
-    "excerpt": "I originally had a \"slogan\" for my site that was something like \"Thoughts about Drupal and Doing Business on the Web.\" OK, but nothing to write home about. Then I…",
+    "excerpt": "I originally had a \"slogan\" for my site that was something like \"Thoughts about Drupal and Doing Business on the Web.\" OK, but nothing to write home about.",
     "image": {
       "src": "/assets/media/blog/there-more-life-pizza.webp",
       "width": 232,
@@ -1615,7 +1615,7 @@ export const BLOG_POSTS = [
     "title": "Turning off Teasers in my Drupal Blog",
     "date": "2008-09-26",
     "author": "Tom Sliker",
-    "excerpt": "I've created this blog in Drupal 6.3, so some of my comments may not apply to older versions of Drupal. One of my goals with this blog is to build it out into a very…",
+    "excerpt": "I've created this blog in Drupal 6.3, so some of my comments may not apply to older versions of Drupal. One of my goals with this blog is to build it out…",
     "image": {
       "src": "/assets/media/blog/turning-teasers-my-drupal-blog.webp",
       "width": 450,

@@ -6,7 +6,7 @@ export const meta = () =>
     title:
       "Google Ads vs. SEO: Which Is Right for Your Sumter or Camden, SC Business? | Broadstreet",
     description:
-      "If you're investing in digital marketing for your business, you've probably asked yourself one important question:",
+      "If you're investing in digital marketing for your business, you've probably asked yourself one important question: Should I invest in Google Ads or SEO?",
     canonical:
       "https://broadstreet.net/blog/google-ads-vs-seo-which-right-your-sumter-or-camden-sc-business/",
     graph: [
@@ -17,7 +17,7 @@ export const meta = () =>
         url: "https://broadstreet.net/blog/google-ads-vs-seo-which-right-your-sumter-or-camden-sc-business/",
         name: "Google Ads vs. SEO: Which Is Right for Your Sumter or Camden, SC Business? | Broadstreet",
         description:
-          "If you're investing in digital marketing for your business, you've probably asked yourself one important question:",
+          "If you're investing in digital marketing for your business, you've probably asked yourself one important question: Should I invest in Google Ads or SEO?",
         isPartOf: { "@id": "https://broadstreet.net/#website" },
         about: { "@id": "https://broadstreet.net/#organization" },
       },
@@ -38,7 +38,7 @@ export const meta = () =>
         image: "https://broadstreet.net/assets/media/blog/google-ads-vs-seo-which-right-your-sumter-or-camden-sc-business.webp",
         headline: "Google Ads vs. SEO: Which Is Right for Your Sumter or Camden, SC Business?",
         description:
-          "If you're investing in digital marketing for your business, you've probably asked yourself one important question:",
+          "If you're investing in digital marketing for your business, you've probably asked yourself one important question: Should I invest in Google Ads or SEO?",
         mainEntityOfPage: {
           "@id":
             "https://broadstreet.net/blog/google-ads-vs-seo-which-right-your-sumter-or-camden-sc-business/#webpage",

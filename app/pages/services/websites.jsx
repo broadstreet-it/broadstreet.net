@@ -5,7 +5,7 @@ import { RELATED } from "../../components/ui";
 const PATH = "/services/websites/";
 const TITLE = "Website Design & eCommerce in Camden, SC | Broadstreet.net";
 const DESCRIPTION =
-  "Fast, mobile-friendly website design and online stores for Carolina small businesses. Drupal development and inventory and accounting integration from Broadstreet.net.";
+  "Fast, mobile-friendly website design and online stores for Carolina small businesses, plus Drupal development and inventory and accounting tools.";
 
 const FAQ = [
   { q: "Will my website work on phones?", a: "Yes. Every site we build is mobile-friendly. Most of your customers will find you on a phone, so we design for phones first." },

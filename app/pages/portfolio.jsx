@@ -6,7 +6,7 @@ import { PORTFOLIO } from "../data/portfolio";
 
 const TITLE = "Website Design Portfolio & Client Stories | Broadstreet.net";
 const DESCRIPTION =
-  "Explore Broadstreet.net’s website portfolio and client stories, from local service businesses to online retailers, nonprofits, schools and towns across the Carolinas.";
+  "Explore Broadstreet.net’s website portfolio and client stories, from local service businesses to online stores, nonprofits, schools and towns.";
 
 export const meta = () =>
   pageSeo({

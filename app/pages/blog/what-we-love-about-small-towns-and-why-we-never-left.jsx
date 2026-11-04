@@ -5,7 +5,7 @@ export const meta = () =>
   seo({
     title: "What We Love About Small Towns (And Why We Never Left) | Broadstreet",
     description:
-      "There's a particular kind of quiet you get in Camden on a Sunday morning. The kind where you can hear the birds arguing over a birdfeeder two yards away,…",
+      "There's a particular kind of quiet you get in Camden on a Sunday morning. The kind where you can hear the birds arguing over a birdfeeder two yards away…",
     canonical: "https://broadstreet.net/blog/what-we-love-about-small-towns-and-why-we-never-left/",
     graph: [
       {
@@ -15,7 +15,7 @@ export const meta = () =>
         url: "https://broadstreet.net/blog/what-we-love-about-small-towns-and-why-we-never-left/",
         name: "What We Love About Small Towns (And Why We Never Left) | Broadstreet",
         description:
-          "There's a particular kind of quiet you get in Camden on a Sunday morning. The kind where you can hear the birds arguing over a birdfeeder two yards away,…",
+          "There's a particular kind of quiet you get in Camden on a Sunday morning. The kind where you can hear the birds arguing over a birdfeeder two yards away…",
         isPartOf: { "@id": "https://broadstreet.net/#website" },
         about: { "@id": "https://broadstreet.net/#organization" },
       },
@@ -36,7 +36,7 @@ export const meta = () =>
         image: "https://broadstreet.net/assets/media/blog/what-we-love-about-small-towns-and-why-we-never-left.webp",
         headline: "What We Love About Small Towns (And Why We Never Left)",
         description:
-          "There's a particular kind of quiet you get in Camden on a Sunday morning. The kind where you can hear the birds arguing over a birdfeeder two yards away,…",
+          "There's a particular kind of quiet you get in Camden on a Sunday morning. The kind where you can hear the birds arguing over a birdfeeder two yards away…",
         mainEntityOfPage: {
           "@id":
             "https://broadstreet.net/blog/what-we-love-about-small-towns-and-why-we-never-left/#webpage",

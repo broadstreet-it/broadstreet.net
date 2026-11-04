@@ -6,7 +6,7 @@ import EmailChooser from "./EmailChooser";
 
 export const staffMeta = (slug) => {
   const m = teamBySlug[slug];
-  const description = m.about[0].length > 155 ? m.bio : m.about[0];
+  const description = m.description || (m.about[0].length > 155 ? m.bio : m.about[0]);
   return pageSeo({
     path: m.to,
     title: `${m.name}, ${m.title} | Broadstreet.net`,

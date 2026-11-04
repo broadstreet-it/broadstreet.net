@@ -13,7 +13,7 @@ export const meta = () =>
   pageSeo({
     path: "/site-map/",
     title: "Site Map | Broadstreet",
-    description: "Every page on the Broadstreet website: services, service areas, our work, our team, client stories and the blog.",
+    description: "Every page on the Broadstreet.net website in one place: services, service areas, our work, our team, client stories and all of our blog posts.",
     crumbs: [{ name: "Site map", path: "/site-map/" }],
   });
 

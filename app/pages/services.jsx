@@ -5,7 +5,7 @@ import WebSuccessBand from "../components/WebSuccess";
 
 const TITLE = "Services | Web Design, SEO, Apps & CRM | Broadstreet.net";
 const DESCRIPTION =
-  "Web design, SEO, Google Ads, social media, app development and the Bridges CRM from Broadstreet.net in Camden, SC. Plus free Web Success videos and guides, no sign-up needed.";
+  "Web design, SEO, Google Ads, social media, app development and the Bridges CRM from Broadstreet.net in Camden, SC, plus free Web Success videos.";
 
 export const meta = () =>
   pageSeo({

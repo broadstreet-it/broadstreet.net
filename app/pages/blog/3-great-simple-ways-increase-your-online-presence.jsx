@@ -6,7 +6,7 @@ export const meta = () =>
   seo({
     title: "3 Great, Simple Ways to Increase Your Online Presence | Broadstreet",
     description:
-      'I\'m tired of the generic terms I see listed as ways to improve your online presence. "SEO, Social Media, Blogs, Link Sharing," etc. These are all very broad…',
+      "I'm tired of the generic terms I see listed as ways to improve your online presence. \"SEO, Social Media, Blogs, Link Sharing,\" etc.",
     canonical: "https://broadstreet.net/blog/3-great-simple-ways-increase-your-online-presence/",
     graph: [
       {
@@ -16,7 +16,7 @@ export const meta = () =>
         url: "https://broadstreet.net/blog/3-great-simple-ways-increase-your-online-presence/",
         name: "3 Great, Simple Ways to Increase Your Online Presence | Broadstreet",
         description:
-          'I\'m tired of the generic terms I see listed as ways to improve your online presence. "SEO, Social Media, Blogs, Link Sharing," etc. These are all very broad…',
+          "I'm tired of the generic terms I see listed as ways to improve your online presence. \"SEO, Social Media, Blogs, Link Sharing,\" etc.",
         isPartOf: { "@id": "https://broadstreet.net/#website" },
         about: { "@id": "https://broadstreet.net/#organization" },
       },
@@ -37,7 +37,7 @@ export const meta = () =>
         image: "https://broadstreet.net/assets/media/blog/3-great-simple-ways-increase-your-online-presence.webp",
         headline: "3 Great, Simple Ways to Increase Your Online Presence",
         description:
-          'I\'m tired of the generic terms I see listed as ways to improve your online presence. "SEO, Social Media, Blogs, Link Sharing," etc. These are all very broad…',
+          "I'm tired of the generic terms I see listed as ways to improve your online presence. \"SEO, Social Media, Blogs, Link Sharing,\" etc.",
         mainEntityOfPage: {
           "@id":
             "https://broadstreet.net/blog/3-great-simple-ways-increase-your-online-presence/#webpage",

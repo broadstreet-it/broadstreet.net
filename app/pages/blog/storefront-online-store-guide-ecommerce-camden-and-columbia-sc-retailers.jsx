@@ -6,7 +6,7 @@ export const meta = () =>
     title:
       "From Storefront to Online Store: A Guide to eCommerce for Camden and Columbia, SC Retailers | Broadstreet",
     description:
-      "Running a successful retail business today means meeting customers wherever they want to shop. For many businesses in Camden, Columbia, Lugoff, Elgin, and…",
+      "Running a successful retail business today means meeting customers wherever they want to shop. For many businesses in Camden, Columbia, Lugoff, Elgin…",
     canonical:
       "https://broadstreet.net/blog/storefront-online-store-guide-ecommerce-camden-and-columbia-sc-retailers/",
     graph: [
@@ -17,7 +17,7 @@ export const meta = () =>
         url: "https://broadstreet.net/blog/storefront-online-store-guide-ecommerce-camden-and-columbia-sc-retailers/",
         name: "From Storefront to Online Store: A Guide to eCommerce for Camden and Columbia, SC Retailers | Broadstreet",
         description:
-          "Running a successful retail business today means meeting customers wherever they want to shop. For many businesses in Camden, Columbia, Lugoff, Elgin, and…",
+          "Running a successful retail business today means meeting customers wherever they want to shop. For many businesses in Camden, Columbia, Lugoff, Elgin…",
         isPartOf: { "@id": "https://broadstreet.net/#website" },
         about: { "@id": "https://broadstreet.net/#organization" },
       },
@@ -39,7 +39,7 @@ export const meta = () =>
         headline:
           "From Storefront to Online Store: A Guide to eCommerce for Camden and Columbia, SC Retailers",
         description:
-          "Running a successful retail business today means meeting customers wherever they want to shop. For many businesses in Camden, Columbia, Lugoff, Elgin, and…",
+          "Running a successful retail business today means meeting customers wherever they want to shop. For many businesses in Camden, Columbia, Lugoff, Elgin…",
         mainEntityOfPage: {
           "@id":
             "https://broadstreet.net/blog/storefront-online-store-guide-ecommerce-camden-and-columbia-sc-retailers/#webpage",

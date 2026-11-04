@@ -5,7 +5,7 @@ import { TEAM } from "../data/team";
 
 const TITLE = "Our Team | Broadstreet.net, Camden, SC";
 const DESCRIPTION =
-  "Meet the Broadstreet.net team in Camden, SC: the people behind our website design, development, content and digital marketing for businesses across the Carolinas.";
+  "Meet the Broadstreet.net team in Camden, SC: the people behind our website design, development, content and digital marketing in the Carolinas.";
 
 export const meta = () =>
   pageSeo({

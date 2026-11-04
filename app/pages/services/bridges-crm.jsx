@@ -5,7 +5,7 @@ import { RELATED, SectionHead } from "../../components/ui";
 const PATH = "/services/bridges-crm/";
 const TITLE = "Bridges CRM | Lead Follow-Up & Customer Management | Broadstreet.net";
 const DESCRIPTION =
-  "Bridges CRM keeps every call, text, email and booking in one place and follows up automatically, so no lead goes cold. Set up and supported by Broadstreet.net in Camden, SC.";
+  "Bridges CRM keeps every call, text, email and booking in one place and follows up automatically, so no lead goes cold. Set up by Broadstreet.net.";
 
 const FAQ = [
   { q: "Who is Bridges for?", a: "Any business that gets leads by phone, text, website or social media and wants to answer faster and follow up more consistently. It’s especially helpful for service businesses and contractors." },

@@ -1,5 +1,6 @@
 // The Broadstreet team: /staff/ lists everyone, and each person has a profile page (slug).
-// `bio` is the short version for cards; `about` is the full profile text.
+// `bio` is the short version for cards; `about` is the full profile text; `description` (optional)
+// is the search-result summary when neither fits in 160 characters.
 // `emailUser` is the part before @broadstreet.net, kept split so spam bots can't find the address.
 export const TEAM = [
   {
@@ -7,6 +8,7 @@ export const TEAM = [
     name: "Tom Sliker",
     title: "President / CEO / Lead Consultant",
     to: "/tom-sliker/",
+    description: "Tom Sliker leads Broadstreet.net in Camden, SC, with 30+ years of software and web experience, a B.S. in Computer Science and an MBA from USC.",
     photo: { src: "/assets/media/team/tom-sliker.webp", width: 1024, height: 1024 },
     bio: "Tom leads the Broadstreet team and brings over 30 years of software development and integration experience to his clients. He holds a B.S. in Computer Science and an MBA from the University of South Carolina.",
     about: [
@@ -29,6 +31,7 @@ export const TEAM = [
     name: "Tiffany Massey",
     title: "Content Specialist",
     to: "/tiffany-massey/",
+    description: "Tiffany Massey is a Content Specialist at Broadstreet.net in Camden, SC, building client relationships and helping businesses stand out online.",
     emailUser: "tiffany",
     photo: { src: "/assets/media/14b1b5df5288f388.png", width: 480, height: 480 },
     bio: "Tiffany enjoys building relationships with clients and helping them represent their businesses in new ways online. She’s based in Camden and studied advertising and public relations at Grand Canyon University.",
@@ -48,6 +51,7 @@ export const TEAM = [
     name: "Danielle Wolsleben",
     title: "Content Specialist",
     to: "/danielle-wolsleben/",
+    description: "Danielle Wolsleben helps Broadstreet clients build strong, consistent online identities through graphic design, social media, websites and logos.",
     emailUser: "daniellew",
     photo: { src: "/assets/media/6cd35eb1f422c5f8.jpg", width: 480, height: 480 },
     bio: "Danielle helps clients build strong, consistent online identities through graphic design and digital content, including social media, website design, logos and branding.",
@@ -103,6 +107,7 @@ export const TEAM = [
     name: "Nyia Langley",
     title: "Content Specialist",
     to: "/nyia-langley/",
+    description: "Nyia Langley brings over seven years of social media strategy and content experience to Broadstreet, helping brands build a consistent presence.",
     photo: { src: "/assets/media/3c9cc6372edded63.png", width: 384, height: 480 },
     bio: "Nyia brings over seven years of social media strategy and content experience, helping brands build a consistent, strategic online presence.",
     about: [

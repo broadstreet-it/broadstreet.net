@@ -6,7 +6,7 @@ export const meta = () =>
   seo({
     title: "5 Tips for Succeeding in Google Ads | Broadstreet",
     description:
-      "In my 4 years of working with Google AdWords, I�ve had plenty of time to make mistakes and learn from them - over, and over and over again. Through…",
+      "In my 4 years of working with Google AdWords, I’ve had plenty of time to make mistakes and learn from them - over, and over and over again.",
     canonical: "https://broadstreet.net/blog/5-tips-succeeding-google-adwords/",
     graph: [
       {
@@ -15,7 +15,7 @@ export const meta = () =>
         url: "https://broadstreet.net/blog/5-tips-succeeding-google-adwords/",
         name: "5 Tips for Succeeding in Google Ads | Broadstreet",
         description:
-          "In my 4 years of working with Google AdWords, I�ve had plenty of time to make mistakes and learn from them - over, and over and over again. Through…",
+          "In my 4 years of working with Google AdWords, I’ve had plenty of time to make mistakes and learn from them - over, and over and over again.",
         isPartOf: { "@id": "https://broadstreet.net/#website" },
         about: { "@id": "https://broadstreet.net/#organization" },
       },
@@ -36,7 +36,7 @@ export const meta = () =>
         image: "https://broadstreet.net/assets/media/blog/5-tips-succeeding-google-adwords.webp",
         headline: "5 Tips for Succeeding in Google AdWords",
         description:
-          "In my 4 years of working with Google AdWords, I�ve had plenty of time to make mistakes and learn from them - over, and over and over again. Through…",
+          "In my 4 years of working with Google AdWords, I’ve had plenty of time to make mistakes and learn from them - over, and over and over again.",
         mainEntityOfPage: {
           "@id": "https://broadstreet.net/blog/5-tips-succeeding-google-adwords/#webpage",
         },

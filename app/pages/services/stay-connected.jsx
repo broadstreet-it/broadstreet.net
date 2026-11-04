@@ -5,7 +5,7 @@ import { RELATED } from "../../components/ui";
 const PATH = "/services/stay-connected/";
 const TITLE = "Social Media & Email Marketing in Camden, SC | Broadstreet.net";
 const DESCRIPTION =
-  "Social media marketing, email marketing, video and social ads for Carolina small businesses. Broadstreet.net builds and manages your accounts so customers keep coming back.";
+  "Social media, email marketing, video and social ads for Carolina small businesses, built and managed by Broadstreet.net so customers come back.";
 
 const FAQ = [
   { q: "Which social networks should my business be on?", a: "It depends on your customers. Most local businesses do best on Facebook and Instagram. We’ll recommend where your time and budget go furthest." },

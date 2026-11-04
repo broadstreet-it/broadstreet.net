@@ -6,7 +6,7 @@ export const meta = () =>
   seo({
     title: "5 Key Steps To Getting Your Home Business Found Online | Broadstreet",
     description:
-      "With over 28 million small businesses in the U.S. - more than 52% of these small businesses are home based, according to the Small Business Administration",
+      "With over 28 million small businesses in the U.S. - more than 52% of these small businesses are home based, according to the Small Business…",
     canonical: "https://broadstreet.net/blog/5-key-steps-getting-your-home-business-found-online/",
     graph: [
       {
@@ -16,7 +16,7 @@ export const meta = () =>
         url: "https://broadstreet.net/blog/5-key-steps-getting-your-home-business-found-online/",
         name: "5 Key Steps To Getting Your Home Business Found Online | Broadstreet",
         description:
-          "With over 28 million small businesses in the U.S. - more than 52% of these small businesses are home based, according to the Small Business Administration",
+          "With over 28 million small businesses in the U.S. - more than 52% of these small businesses are home based, according to the Small Business…",
         isPartOf: { "@id": "https://broadstreet.net/#website" },
         about: { "@id": "https://broadstreet.net/#organization" },
       },
@@ -37,7 +37,7 @@ export const meta = () =>
         image: "https://broadstreet.net/assets/media/blog/5-key-steps-getting-your-home-business-found-online.webp",
         headline: "5 Key Steps To Getting Your Home Business Found Online",
         description:
-          "With over 28 million small businesses in the U.S. - more than 52% of these small businesses are home based, according to the Small Business Administration",
+          "With over 28 million small businesses in the U.S. - more than 52% of these small businesses are home based, according to the Small Business…",
         mainEntityOfPage: {
           "@id":
             "https://broadstreet.net/blog/5-key-steps-getting-your-home-business-found-online/#webpage",
