@@ -27,7 +27,6 @@ export default [
   ...BLOG_ARCHIVE_SLUGS.map((slug) => route(`blog/${slug}`, "pages/blog-archive-post.jsx", { id: `blog-${slug}` })),
   route("blogs", "pages/blogs.jsx", { id: "blogs" }),
   ...Array.from({ length: BLOG_PAGES - 1 }, (_, i) => route(`blogs/page/${i + 2}`, "pages/blogs.jsx", { id: `blogs-page-${i + 2}` })),
-  route("book-now", "pages/book-now.jsx"),
   route("broadstreet-consulting-google-partners-google-adwords-certified", "pages/broadstreet-consulting-google-partners-google-adwords-certified.jsx"),
   route("buster", "pages/buster.jsx"),
   route("camden-sc", "pages/camden-sc.jsx"),

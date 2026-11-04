@@ -29,7 +29,6 @@ const GROUPS = [
       ["/broadstreet-consulting-google-partners-google-adwords-certified/", "Google Partner"],
       ["/what-our-clients-are-saying/", "Reviews"],
       ["/contact/", "Contact"],
-      ["/book-now/", "Book a call"],
       ["/search/", "Search"],
     ],
   },

@@ -82,7 +82,7 @@ export default function PortfolioBigRedBarnRetreat() {
                               <br />
                               <br />
                               <br />
-                              <Link className="custombutton" to="/book-now/">
+                              <Link className="custombutton" to="/contact/">
                                 Schedule a Free Consultation
                               </Link>
                             </div>

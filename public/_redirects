@@ -96,7 +96,7 @@
 /node/322 /blog/5-key-steps-getting-your-home-business-found-online/ 301
 /node/324 /blog/5-tips-succeeding-google-adwords/ 301
 /node/328 /blog/using-google-street-view-and-360-spherical-camera-showcase-your-small-business/ 301
-/node/423 /book-now/ 301
+/node/423 /contact/ 301
 # 2026 redesign: removed pages
 /portfolio/backcountry-beyond /portfolio/ 301
 /portfolio/backcountry-beyond/ /portfolio/ 301
@@ -356,7 +356,7 @@
 /node/322/ /blog/5-key-steps-getting-your-home-business-found-online/ 301
 /node/324/ /blog/5-tips-succeeding-google-adwords/ 301
 /node/328/ /blog/using-google-street-view-and-360-spherical-camera-showcase-your-small-business/ 301
-/node/423/ /book-now/ 301
+/node/423/ /contact/ 301
 /node/187/ /blog/2-tools-keeping-your-great-tweets/ 301
 /node/217/ /blog/3-social-media-lessons-we-learned-scott-monty-and-ford-motor-company/ 301
 /node/253/ /blog/5-costly-mistakes-when-using-google-adwords-and-how-avoid-making-them/ 301
@@ -487,3 +487,6 @@
 /measured-results/ /services/reporting/ 301
 /blog/nyia/ /nyia-langley/ 301
 /search-engine-marketing-services/ /services/google-adwords-ppc-search-engine-marketing-consulting/ 301
+# Booking page retired
+/book-now /contact/ 301
+/book-now/ /contact/ 301

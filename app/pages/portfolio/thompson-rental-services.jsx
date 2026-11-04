@@ -67,7 +67,7 @@ export default function PortfolioThompsonRentalServices() {
                               We offer free consultations to help determine which internet marketing
                               solutions are right for your business and your goals. <br />
                               <br />
-                              <Link className="custombutton" to="/book-now/">
+                              <Link className="custombutton" to="/contact/">
                                 Schedule A Free Consultation
                               </Link>
                             </div>
