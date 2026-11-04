@@ -91,7 +91,7 @@
 /node/460 /blog/being-google-guide-series-part-1/ 301
 /node/453 /blog/your-website-ugly-christmas-sweater/ 301
 /node/450 /blog/celebrating-world-computer-literacy-day-december-2/ 301
-/node/320 /services/reporting/ 301
+/node/320 /services/get-found/ 301
 /node/218 /blog/3-great-simple-ways-increase-your-online-presence/ 301
 /node/322 /blog/5-key-steps-getting-your-home-business-found-online/ 301
 /node/324 /blog/5-tips-succeeding-google-adwords/ 301
@@ -255,7 +255,7 @@
 /dominate-local-markets-online /services/get-found/ 301
 /stay-connected-your-customers /services/stay-connected/ 301
 /adwords-consultant-services /services/google-adwords-ppc-search-engine-marketing-consulting/ 301
-/measured-results /services/reporting/ 301
+/measured-results /services/get-found/ 301
 /blog/nyia /nyia-langley/ 301
 /search-engine-marketing-services /services/google-adwords-ppc-search-engine-marketing-consulting/ 301
 
@@ -351,7 +351,7 @@
 /node/460/ /blog/being-google-guide-series-part-1/ 301
 /node/453/ /blog/your-website-ugly-christmas-sweater/ 301
 /node/450/ /blog/celebrating-world-computer-literacy-day-december-2/ 301
-/node/320/ /services/reporting/ 301
+/node/320/ /services/get-found/ 301
 /node/218/ /blog/3-great-simple-ways-increase-your-online-presence/ 301
 /node/322/ /blog/5-key-steps-getting-your-home-business-found-online/ 301
 /node/324/ /blog/5-tips-succeeding-google-adwords/ 301
@@ -484,9 +484,12 @@
 /dominate-local-markets-online/ /services/get-found/ 301
 /stay-connected-your-customers/ /services/stay-connected/ 301
 /adwords-consultant-services/ /services/google-adwords-ppc-search-engine-marketing-consulting/ 301
-/measured-results/ /services/reporting/ 301
+/measured-results/ /services/get-found/ 301
 /blog/nyia/ /nyia-langley/ 301
 /search-engine-marketing-services/ /services/google-adwords-ppc-search-engine-marketing-consulting/ 301
 # Booking page retired
 /book-now /contact/ 301
 /book-now/ /contact/ 301
+# Ranking reports service retired
+/services/reporting /services/get-found/ 301
+/services/reporting/ /services/get-found/ 301

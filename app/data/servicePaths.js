@@ -4,7 +4,6 @@ export const SERVICE_DETAIL_PATHS = [
   "/services/search-engine-optimization-seo/",
   "/services/google-business-profile/",
   "/services/google-adwords-ppc-search-engine-marketing-consulting/",
-  "/services/reporting/",
   "/services/mobile-friendly-website-design-development/",
   "/services/ecommerce-website-development/",
   "/open-source-development-services/",
@@ -26,7 +25,6 @@ export const ITEM_LINKS = {
   "Search engine optimization": "/services/search-engine-optimization-seo/",
   "Google Business Profile": "/services/google-business-profile/",
   "Google Ads management": "/services/google-adwords-ppc-search-engine-marketing-consulting/",
-  "Monthly ranking reports": "/services/reporting/",
   "Website design": "/services/mobile-friendly-website-design-development/",
   "Online stores": "/services/ecommerce-website-development/",
   "Drupal development": "/open-source-development-services/",
@@ -38,5 +36,4 @@ export const ITEM_LINKS = {
   "Monthly support plans": "/services/digital-marketing-strategy-and-support/",
   "Lead generation": "/lead-generation-services/",
   "Strategy reviews & training": "/services/strategy-training/",
-  "Monthly reports": "/services/reporting/",
 };

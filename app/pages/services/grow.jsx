@@ -34,13 +34,13 @@ const page = {
     ["Updates", "Design and content changes"],
     ["Training", "For you and your staff"],
     ["Strategy reviews", "Scheduled check-ins"],
-    ["Monthly reports", "See what’s working"],
+    ["Lead generation", "More calls and forms"],
   ],
   blocksTitle: <>Three ways we <span className="c-green">keep you growing</span></>,
   blocks: [
     { id: "support", color: "var(--g-green)", label: "Monthly support plans", title: "Never worry about your website again", text: "Send us a change and we’ll make it. Our plans cover design and content updates, training and scheduled strategy reviews.", listTitle: "Every plan includes", items: ["Design and content updates", "Training for you and your staff", "Scheduled strategy reviews", "A local team that answers the phone"], link: { to: "/services/digital-marketing-strategy-and-support/", text: "More about ongoing support" } },
     { id: "leads", color: "var(--g-blue)", label: "Lead generation", title: "More calls, forms and walk-ins", text: "We combine your website, Google and social media into one plan aimed at a single goal: more people contacting your business, and knowing where each one came from.", items: ["Call and form tracking", "Landing pages for your offers", "Follow-up by email", "Monthly lead reports"], link: { to: "/lead-generation-services/", text: "More about lead generation" } },
-    { id: "training", color: "var(--gold)", label: "Strategy reviews & training", title: "Know what’s working", text: "We sit down with you on a regular schedule to look at the numbers, talk about what’s working and plan what’s next, in plain English.", items: ["Regular strategy meetings", "Reports on traffic, rankings and leads", "Hands-on training for your team"], link: { to: "/services/strategy-training/", text: "More about strategy & training" } },
+    { id: "training", color: "var(--gold)", label: "Strategy reviews & training", title: "Know what’s working", text: "We sit down with you on a regular schedule to look at the numbers, talk about what’s working and plan what’s next, in plain English.", items: ["Regular strategy meetings", "Reviews of your traffic and leads", "Hands-on training for your team"], link: { to: "/services/strategy-training/", text: "More about strategy & training" } },
   ],
   stepsTitle: "How a plan works",
   steps: [

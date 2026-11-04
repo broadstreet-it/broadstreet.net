@@ -100,8 +100,7 @@ export default function Services() {
             <li><Link to="/services/ecommerce-website-development/">eCommerce website development</Link></li>
             <li><Link to="/services/search-engine-optimization-seo/">Search engine optimization (SEO)</Link></li>
             <li><Link to="/services/google-adwords-ppc-search-engine-marketing-consulting/">Google Ads management</Link></li>
-            <li><Link to="/services/google-business-profile/">Google Business Profile</Link></li>
-            <li><Link to="/services/reporting/">Ranking &amp; results reports</Link></li>
+            <li><Link to="/services/google-business-profile/">Google Business Profile</Link></li>
             <li><Link to="/services/inventory-accounting-integration/">Inventory &amp; accounting integration</Link></li>
             <li><Link to="/services/social-advertising/">Social advertising</Link></li>
             <li><Link to="/services/strategy-training/">Strategy reviews &amp; training</Link></li>

@@ -285,10 +285,10 @@ export const Icon = {
 
 /** The four core service groups as white cards. */
 export const GROUPS = [
-  { id: "get-found", to: "/services/get-found/", c: "var(--g-blue)", icon: "search", title: "Get Found", text: "Show up when nearby customers search on Google.", items: ["Search engine optimization", "Google Business Profile", "Google Ads management", "Monthly ranking reports"], more: "Learn more about search" },
+  { id: "get-found", to: "/services/get-found/", c: "var(--g-blue)", icon: "search", title: "Get Found", text: "Show up when nearby customers search on Google.", items: ["Search engine optimization", "Google Business Profile", "Google Ads management"], more: "Learn more about search" },
   { id: "websites", to: "/services/websites/", c: "var(--g-red)", icon: "screen", title: "Websites", text: "Fast, mobile-friendly sites built to turn visits into calls.", items: ["Website design", "Online stores", "Drupal development", "Inventory & accounting links"], more: "Learn more about websites" },
   { id: "stay-connected", to: "/services/stay-connected/", c: "var(--gold)", icon: "chat", title: "Stay Connected", text: "Keep customers coming back between visits.", items: ["Social media marketing", "Email marketing", "Video & content creation", "Social advertising"], more: "Learn more about social" },
-  { id: "grow", to: "/services/grow/", c: "var(--g-green)", icon: "grow", title: "Grow", text: "Ongoing support, new leads and training every month.", items: ["Monthly support plans", "Lead generation", "Strategy reviews & training", "Monthly reports"], more: "Learn more about support" },
+  { id: "grow", to: "/services/grow/", c: "var(--g-green)", icon: "grow", title: "Grow", text: "Ongoing support, new leads and training every month.", items: ["Monthly support plans", "Lead generation", "Strategy reviews & training"], more: "Learn more about support" },
 ];
 
 export function ServiceGroups({ withIds = false }) {

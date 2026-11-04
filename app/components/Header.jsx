@@ -19,8 +19,7 @@ export const SERVICE_MENU = [
     items: [
       ["Search engine optimization", "/services/search-engine-optimization-seo/"],
       ["Google Business Profile", "/services/google-business-profile/"],
-      ["Google Ads management", "/services/google-adwords-ppc-search-engine-marketing-consulting/"],
-      ["Ranking & results reports", "/services/reporting/"],
+      ["Google Ads management", "/services/google-adwords-ppc-search-engine-marketing-consulting/"],
     ],
   },
   {
