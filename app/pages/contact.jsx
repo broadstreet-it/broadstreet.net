@@ -1,4 +1,3 @@
-import { Link } from "react-router";
 import { pageSeo } from "../lib/seo";
 import { PageHero } from "../components/ui";
 import EmailChooser from "../components/EmailChooser";
@@ -42,11 +41,6 @@ export default function Contact() {
               <span>Mailing address: PO Box 515, Camden, SC 29021</span>
               <a className="contact-link" href={MAPS} target="_blank" rel="noopener noreferrer">Get directions ↗</a>
             </div>
-            <Link className="contact-card" to="/book-now/" style={{ "--cc": "var(--g-yellow)" }}>
-              <span className="contact-kicker">Prefer to pick a time?</span>
-              <b>Book a 30-minute call</b>
-              <span>Choose a time that works for you on Tom’s calendar →</span>
-            </Link>
           </div>
 
           <div className="form-card">
