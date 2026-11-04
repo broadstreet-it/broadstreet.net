@@ -43,8 +43,7 @@ const page = {
     { id: "stores", color: "var(--gold)", label: "Online stores", title: "Sell around the clock", text: "We build full online stores that take payments, track inventory and handle shipping, so your shop stays open after you lock the front door.", items: ["Product catalog and secure checkout", "Shipping and tax setup", "Order emails for you and your customers", "Product pages built to show up on Google"], link: { to: "/services/ecommerce-website-development/", text: "More about eCommerce" } },
     { id: "drupal", color: "var(--g-blue)", label: "Drupal development", title: "Room to grow", text: "For larger sites and custom features, we build on Drupal, a proven open-source platform. You own your site, and it can grow with your business.", items: ["Custom features and content types", "Member areas and online forms", "Security updates and upgrades", "Hosting and backups"], link: { to: "/open-source-development-services/", text: "More about Drupal development" } },
     { id: "integration", color: "var(--g-green)", label: "Inventory & accounting", title: "One system, not three", text: "We connect your online store to the inventory and accounting systems you already use, so stock levels and sales stay in sync without retyping.", items: ["Inventory sync between store and shop", "Sales flowing into your accounting", "Fewer manual updates and errors"], link: { to: "/services/inventory-accounting-integration/", text: "More about integration" } },
-  ],
-  blocksNote: "Checklist items are suggestions. Confirm they match what the team offers before launch.",
+  ],
   stepsTitle: "From first call to launch day",
   steps: [
     ["Free review", "We look at your current site, your goals and what your customers need to find."],

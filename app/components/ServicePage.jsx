@@ -39,7 +39,7 @@ export default function ServicePage({ page, children }) {
       <section className="section">
         <div className="wrap">
           <SectionHead label={page.blocksLabel || "What we do"} title={page.blocksTitle} />
-          {page.cards ? <ServiceCards items={page.blocks} /> : <Blocks items={page.blocks} note={page.blocksNote} />}
+          {page.cards ? <ServiceCards items={page.blocks} /> : <Blocks items={page.blocks} />}
         </div>
       </section>
       <section className="section alt">
@@ -56,7 +56,7 @@ export default function ServicePage({ page, children }) {
       <section className="section alt" id="faq">
         <div className="wrap">
           <SectionHead label="Questions" title="Common questions" />
-          <Faq items={page.faq} note="Draft answers for the team to review before launch." />
+          <Faq items={page.faq} />
         </div>
       </section>
       <section className="section">

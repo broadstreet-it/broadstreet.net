@@ -42,8 +42,7 @@ const page = {
     { id: "web-apps", color: "var(--g-red)", label: "Web apps & customer portals", title: "Self-service your customers will use", text: "A secure portal on your website where customers can log in to check orders, pay invoices, download documents or request service, without calling your office.", listTitle: "Good for", items: ["Order and job status", "Invoices and online payments", "Shared documents and forms", "Service requests"] },
     { id: "tools", color: "var(--gold)", label: "Internal tools", title: "Replace the spreadsheets", text: "Simple apps built around how your team actually works: job tracking, scheduling, inspections, inventory counts and more, on a phone, tablet or computer.", listTitle: "Good for", items: ["Job and project tracking", "Field checklists and photos", "Scheduling and dispatch", "Inventory and equipment logs"] },
     { id: "connect", color: "var(--g-green)", label: "Connections", title: "Works with what you already use", text: "We connect your app to your website, online store, accounting software and the Bridges CRM, so information is entered once and shows up everywhere it’s needed.", listTitle: "We can connect", items: ["Your website and online store", "Accounting and inventory systems", "The Bridges CRM", "Payment processing"] },
-  ],
-  blocksNote: "Draft lists. Confirm the kinds of apps and connections the team will offer before launch.",
+  ],
   stepsTitle: "From idea to app",
   steps: [
     ["Talk it through", "Tell us what you want customers or staff to be able to do. We’ll help you decide what’s worth building."],

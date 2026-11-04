@@ -66,7 +66,7 @@ export function SectionHead({ label, labelColor, title, lede }) {
 }
 
 /** Detail blocks: [{id, color, label, title, text, listTitle, items}] */
-export function Blocks({ items, note }) {
+export function Blocks({ items }) {
   return (
     <>
       <div className="blocks">
@@ -84,8 +84,7 @@ export function Blocks({ items, note }) {
             </div>
           </article>
         ))}
-      </div>
-      {note && <p className="draft">{note}</p>}
+      </div>
     </>
   );
 }
@@ -108,7 +107,7 @@ export function Steps({ items }) {
 }
 
 /** FAQ accordion: [{q, a}] */
-export function Faq({ items, note }) {
+export function Faq({ items }) {
   return (
     <>
       <div className="faq">
@@ -118,8 +117,7 @@ export function Faq({ items, note }) {
             <p>{a}</p>
           </details>
         ))}
-      </div>
-      {note && <p className="draft">{note}</p>}
+      </div>
     </>
   );
 }

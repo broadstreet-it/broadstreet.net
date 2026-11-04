@@ -40,7 +40,6 @@ p{margin:0 0 1em}
 .head .lede{margin-top:12px}
 .accent{color:var(--accent)}
 .c-blue{color:var(--g-blue)}.c-yellow{color:var(--g-yellow)}.c-green{color:var(--g-green)}.c-red{color:var(--g-red)}
-.draft{font-size:.82rem;color:var(--dim);border-left:3px solid var(--g-yellow);padding-left:10px;margin-top:16px}
 .skip{position:absolute;left:12px;top:-80px;background:var(--g-yellow);color:#06182E;padding:12px;z-index:100;font-weight:700}
 .skip:focus{top:12px}
 .g span:nth-child(1),.g span:nth-child(4){color:var(--g-blue)}

@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router";
 import { faqNode, pageSeo, serviceNode } from "../lib/seo";
 import { Facts, Faq, PageHero, Related, SectionHead, Steps } from "../components/ui";
-import { DRAFT, GROUP_INFO, SERVICE_DETAILS } from "../data/serviceDetails";
+import { GROUP_INFO, SERVICE_DETAILS } from "../data/serviceDetails";
 
 // One page per service item. app/routes.js maps each path in SERVICE_DETAILS to this file.
 
@@ -54,7 +54,6 @@ export default function ServiceDetail() {
           <div>
             <SectionHead label="What’s included" title={<>What you <span className="accent">get</span></>} />
             <ul className="checks detail-checks">{s.included.map((i) => <li key={i}>{i}</li>)}</ul>
-            <p className="draft">{DRAFT}</p>
           </div>
           <aside className="side detail-side">
             <span className="label" style={{ "--lc": "var(--g-yellow)" }}>Free consultation</span>

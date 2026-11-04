@@ -9,8 +9,6 @@ export const GROUP_INFO = {
   grow: { name: "Grow", to: "/services/grow/", accent: "var(--g-green)" },
 };
 
-const DRAFT = "Draft copy. Confirm the details match what the team offers before launch.";
-
 export const SERVICE_DETAILS = {
   // ---------- Get Found ----------
   "/services/search-engine-optimization-seo/": {
@@ -324,6 +322,3 @@ export const SERVICE_DETAILS = {
     ],
   },
 };
-
-
-export { DRAFT };

@@ -86,8 +86,7 @@ export default function Services() {
               </ul>
               <Link className="button" to="/services/bridges-crm/">Explore Bridges CRM</Link>
             </article>
-          </div>
-          <p className="draft">Draft feature lists. Confirm what app development and Bridges CRM include before launch.</p>
+          </div>
         </div>
       </section>
 

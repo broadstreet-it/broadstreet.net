@@ -51,8 +51,7 @@ const page = {
     { id: "automation", color: "var(--gold)", label: "Automatic follow-up", title: "Follow-ups that never forget", text: "When a new lead comes in, Bridges replies right away and keeps following up until they book. Miss a call, and the caller gets a text so they don’t call your competitor next.", listTitle: "Includes", items: ["Instant replies to new leads", "Missed-call text back", "Follow-up texts and emails on a schedule", "Reminders for your team"] },
     { id: "booking", color: "var(--g-green)", label: "Booking & reminders", title: "Fewer no-shows", text: "Customers book from your website or a link you send. Bridges confirms the appointment and sends reminders so they show up.", listTitle: "Includes", items: ["Online booking calendar", "Text and email confirmations", "Automatic reminders"] },
     { id: "reviews-tool", color: "var(--g-blue)", label: "Reviews", title: "More five-star reviews", text: "After a job, Bridges asks happy customers for a Google review with one tap. More reviews help you show up higher in Google Maps.", listTitle: "Includes", items: ["Review requests by text and email", "One-tap link to your Google review page", "See and answer reviews in one place"] },
-  ],
-  blocksNote: "Draft feature list. Confirm which Bridges features are included for clients before launch.",
+  ],
   stepsTitle: <>We set it up <span className="c-yellow">for you</span></>,
   steps: [
     ["Walkthrough", "We learn how leads come in today and how you follow up."],

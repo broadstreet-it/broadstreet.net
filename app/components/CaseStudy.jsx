@@ -53,7 +53,7 @@ export function BrowserShot({ p, size = "large", eager = false }) {
   );
 }
 
-/** Layout for one portfolio entry. `children` is the client story. */
+/** Layout for one portfolio entry. `children` is the client story (the section is hidden until there is one). */
 export default function CaseStudy({ slug, children }) {
   const p = portfolioBySlug[slug];
   const i = PORTFOLIO.findIndex((x) => x.slug === slug);
@@ -108,10 +108,12 @@ export default function CaseStudy({ slug, children }) {
             <p className="showcase-note">Hover over the screenshot to scroll through the site.</p>
             <Link className="button btn-yellow" to="/contact/">Start a project like this</Link>
           </aside>
-          <article className="article-content case-story">
-            <span className="label" style={{ "--lc": "var(--blue)" }}>The story</span>
-            {children}
-          </article>
+          {children && (
+            <article className="article-content case-story">
+              <span className="label" style={{ "--lc": "var(--blue)" }}>The story</span>
+              {children}
+            </article>
+          )}
         </div>
       </section>
 

@@ -41,8 +41,7 @@ const page = {
     { id: "email", color: "var(--g-red)", label: "Email marketing", title: "Your best customers, one click away", text: "We manage your email list and send targeted messages, like specials, reminders and news, to the people most likely to buy again.", items: ["List setup and management", "Branded email templates", "Campaigns written and scheduled", "Open and click reporting"], link: { to: "/services/email-marketing/", text: "More about email marketing" } },
     { id: "video", color: "var(--gold)", label: "Video & content creation", title: "Show customers who you are", text: "Short videos, photos and helpful articles give customers a reason to choose you, and give Google more to show when they search.", items: ["Short videos for social and your website", "Blog posts that answer customer questions", "Photos of your team and work"], link: { to: "/services/video-production/", text: "More about video production" } },
     { id: "ads", color: "var(--g-green)", label: "Social advertising", title: "Reach the right people nearby", text: "Ads on Facebook and Instagram put your offer in front of people in your area who match your best customers.", items: ["Audience targeting by area and interest", "Ad design and copy", "Budget management and reporting"], link: { to: "/services/social-advertising/", text: "More about social ads" } },
-  ],
-  blocksNote: "Checklist items are suggestions. Confirm they match what the team offers before launch.",
+  ],
   stepsTitle: "How we get you posting",
   steps: [
     ["Free review", "We look at your accounts, your customers and what your competitors are doing."],

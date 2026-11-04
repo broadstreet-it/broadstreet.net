@@ -72,8 +72,7 @@ export default function ServiceArea() {
             <span className="label">Why {a.city} businesses call us</span>
             <h2>Local know-how, <span className="accent">{a.city} results</span></h2>
             <p>{a.local}</p>
-            <p>We’re a certified Google Partner based in Camden, and we’ve helped Carolina businesses get found online since 2010. We can meet in person or work with you by phone and video, whichever suits you.</p>
-            <p className="draft">Draft local copy. Add a {a.city} client example or photo here before launch.</p>
+            <p>We’re a certified Google Partner based in Camden, and we’ve helped Carolina businesses get found online since 2010. We can meet in person or work with you by phone and video, whichever suits you.</p>
           </div>
           <aside className="searches" aria-label="Example searches">
             <h3>Searches we help you win</h3>
