@@ -14,7 +14,7 @@ export const TEAM = [
     about: [
       "Tom Sliker serves as the ringleader for the Broadstreet team and has built a diverse, talented, multi-faceted team that has taken on a wide range of projects. With over 30 years of software development and integration experience, Tom brings a wealth of technical and business knowledge to his customers and his team.",
       "Tom graduated with a B.S. in Computer Science from the University of South Carolina. For ten years, he developed financial software for corporations such as BellSouth and Westinghouse. In the mid-1990s, Tom began working as a consultant and software project manager throughout South Carolina and served as a manager in two high-tech startups. From 2001 to 2013, he worked in various roles for AgFirst Farm Credit Bank in Columbia, SC, and along the way earned an MBA from the University of South Carolina with a focus on international business.",
-      "In May 2013, Tom left his day job to focus full-time on Broadstreet Consulting. Besides the work of Broadstreet, Tom stays busy promoting Drupal and building the local Drupal community through meetups and camps.",
+      "In May 2013, Tom left his day job to focus full-time on Broadstreet Consulting, aka Broadstreet.net. Besides the work of Broadstreet, Tom stays busy promoting Drupal and building the local Drupal community through meetups and camps.",
       "When he’s not on his computer, Tom can be found hiking nearby or somewhere in the mountains.",
     ],
     more: { to: "/tom-sliker-technical-expert-digital-marketing-social-media-google-seo-search-marketing/", text: "Podcasts and videos featuring Tom" },
